@@ -1,0 +1,107 @@
+{
+ "kelp_km2": {
+  "tas_se": 1000.0,
+  "tas_e": 1000.0,
+  "bass": 1000.0,
+  "bonney": 0.0,
+  "sa_gulfs": 0.0,
+  "sa_shelf": 0.0,
+  "wa_south": 0.0,
+  "wa_west": 0.0,
+  "nsw_south": 0.0
+ },
+ "ers_twh": {
+  "Hume (Sydney-Melbourne)": 5.151152714295552,
+  "Pacific (Sydney-Brisbane)": 4.708110941870698,
+  "Bruce (Brisbane-Cairns)": 3.5184121758005853,
+  "Inland (Melbourne-Brisbane via Newell)": 4.518981217590467,
+  "Western (Melbourne-Adelaide)": 2.0433910620754028,
+  "Eyre (Adelaide-Perth)": 0.0,
+  "Stuart (Port Augusta-Darwin)": 0.0,
+  "Great Northern (Perth-Port Hedland)": -0.0
+ },
+ "sites": {
+  "Port Augusta": {
+   "npv_bn": -6.556149725434895,
+   "breakeven_bn": 1.7983162687914955,
+   "lon": 137.74,
+   "lat": -32.53
+  },
+  "Muja": {
+   "npv_bn": -3.135393870885772,
+   "breakeven_bn": 3.3673010707616413,
+   "lon": 116.3,
+   "lat": -33.44
+  },
+  "Loy Yang": {
+   "npv_bn": -4.803880610319613,
+   "breakeven_bn": 2.60202273820596,
+   "lon": 146.58,
+   "lat": -38.25
+  },
+  "Liddell": {
+   "npv_bn": -6.411316184421657,
+   "breakeven_bn": 1.8647465065305369,
+   "lon": 150.98,
+   "lat": -32.37
+  },
+  "Mount Piper": {
+   "npv_bn": -6.448501395656518,
+   "breakeven_bn": 1.8476909101218553,
+   "lon": 150.03,
+   "lat": -33.36
+  },
+  "Tarong": {
+   "npv_bn": -6.021965795111057,
+   "breakeven_bn": 2.0433283373995437,
+   "lon": 151.92,
+   "lat": -26.78
+  },
+  "Callide": {
+   "npv_bn": -5.995800247364107,
+   "breakeven_bn": 2.0553295875606636,
+   "lon": 150.62,
+   "lat": -24.35
+  },
+  "Gladstone (test)": {
+   "npv_bn": -2.9284764277895605,
+   "breakeven_bn": 2.1190141814849994,
+   "lon": 151.25,
+   "lat": -23.85
+  }
+ },
+ "corridors": {
+  "Hume (Sydney-Melbourne)": {
+   "km": 804.4093269763787,
+   "chosen_twh": 5.151152714295552
+  },
+  "Pacific (Sydney-Brisbane)": {
+   "km": 857.760710691329,
+   "chosen_twh": 4.708110941870698
+  },
+  "Bruce (Brisbane-Cairns)": {
+   "km": 1602.530062312314,
+   "chosen_twh": 3.5184121758005853
+  },
+  "Inland (Melbourne-Brisbane via Newell)": {
+   "km": 1617.203438736269,
+   "chosen_twh": 4.518981217590467
+  },
+  "Western (Melbourne-Adelaide)": {
+   "km": 744.5621359677142,
+   "chosen_twh": 2.0433910620754028
+  },
+  "Eyre (Adelaide-Perth)": {
+   "km": 2779.2616136619263,
+   "chosen_twh": 0.0
+  },
+  "Stuart (Port Augusta-Darwin)": {
+   "km": 2728.5740977831583,
+   "chosen_twh": 0.0
+  },
+  "Great Northern (Perth-Port Hedland)": {
+   "km": 1543.9323970767693,
+   "chosen_twh": -0.0
+  }
+ }
+}

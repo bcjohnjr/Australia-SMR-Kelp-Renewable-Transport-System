@@ -20,6 +20,7 @@ Contents of observed_data/
   isp_2026.json        AEMO Draft 2026 ISP IASR: REZ capacity factors, 2050 build costs (Step Change), battery
                        properties, connection costs and REZ augmentation costs per MW
 """
+import layout  # noqa: F401  (rebuilds the folder layout if the files arrived flat)
 import argparse
 import csv
 import gzip

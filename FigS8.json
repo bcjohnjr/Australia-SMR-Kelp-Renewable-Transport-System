@@ -1,0 +1,114 @@
+{
+ "wild_kt": {
+  "no swap": 21.49344881436159,
+  "cross-species swap": 15.130550494618529,
+  "swap, own species allowed": 0.0,
+  "fish-free, no swap": 0.0,
+  "fish-free, cross-species swap": 0.0
+ },
+ "cost_aud_m": {
+  "no swap": 341.4166112932495,
+  "cross-species swap": 337.40590278270497,
+  "swap, own species allowed": 333.6320043470887,
+  "fish-free, no swap": 342.0076811356444,
+  "fish-free, cross-species swap": 337.821992921307
+ },
+ "cropland_kha": {
+  "cross-species swap": {
+   "lupin": 49.078521504021026,
+   "canola (meal and oil)": 35.64648047967285,
+   "faba protein concentrate": 48.786095679443896,
+   "wheat gluten": 3.8657304694917247,
+   "wheat": 13.627843271903632,
+   "DHA canola oil": 0.0
+  },
+  "fish-free, cross-species swap": {
+   "lupin": 49.078521504021026,
+   "canola (meal and oil)": 35.64648047967285,
+   "faba protein concentrate": 48.786095679443896,
+   "wheat gluten": 3.8657304694917207,
+   "wheat": 13.627843271903632,
+   "DHA canola oil": 5.34973035345441
+  },
+  "no swap": {
+   "lupin": 50.53100656420882,
+   "canola (meal and oil)": 41.72981190584073,
+   "faba protein concentrate": 53.39864005814213,
+   "wheat gluten": 18.158862845534287,
+   "wheat": 13.627843271903632,
+   "DHA canola oil": 0.0
+  }
+ },
+ "swap_kt": [
+  [
+   0.0,
+   0.0,
+   2.6174220374220374,
+   6.682577962577963
+  ],
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  [
+   3.6,
+   0.0,
+   0.0,
+   0.0
+  ],
+  [
+   1.5,
+   0.0,
+   0.0,
+   0.0
+  ]
+ ],
+ "margins": [
+  [
+   "QLD pond prawns",
+   5.326820157813943
+  ],
+  [
+   "RAS prawns, cascade heat",
+   4.913706906322389
+  ],
+  [
+   "RAS prawns, heat pump",
+   4.659706906322391
+  ],
+  [
+   "RAS prawns, gas",
+   4.348426906322388
+  ],
+  [
+   "RAS barramundi, cascade heat",
+   2.3259513003533208
+  ],
+  [
+   "RAS barramundi, gas",
+   1.9019913003533198
+  ],
+  [
+   "Tas salmon + robots, AUD 10/kg",
+   1.6591770087718316
+  ],
+  [
+   "Tas salmon + robots, AUD 12/kg",
+   3.659177008771832
+  ],
+  [
+   "Tas salmon + robots, AUD 14/kg",
+   5.659177008771832
+  ],
+  [
+   "Kingfish + robots, AUD 14/kg",
+   0.8252864033264018
+  ],
+  [
+   "Kingfish + robots, AUD 16/kg",
+   2.825286403326402
+  ]
+ ]
+}

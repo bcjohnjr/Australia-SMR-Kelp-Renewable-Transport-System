@@ -13,6 +13,7 @@ and the avoided-SWRO water cost; the fossil-free variant replaces power and heat
 model's shadow values (firm power AUD 96/MWh; heat from heat pumps). NPV at 4% real over 40 years of operation,
 discounted to first operation; capital includes 4.4 years of construction interest.
 """
+import layout  # noqa: F401  (rebuilds the folder layout if the files arrived flat)
 import copy
 import json
 from pathlib import Path

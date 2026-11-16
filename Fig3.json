@@ -1,0 +1,108 @@
+{
+ "sites": {
+  "Port Augusta": {
+   "el_twh": 4.39341,
+   "steam_twh": 0.1173,
+   "low_twh": 2.9127,
+   "reject_twh": 0.096,
+   "water_ml_day": 113.99999999999999
+  },
+  "Muja": {
+   "el_twh": 3.9279456,
+   "steam_twh": 3.11856,
+   "low_twh": 0.016,
+   "reject_twh": 0.0,
+   "water_ml_day": 0.0
+  },
+  "Loy Yang": {
+   "el_twh": 4.396173,
+   "steam_twh": 1.4673,
+   "low_twh": 0.032,
+   "reject_twh": 0.0,
+   "water_ml_day": 0.0
+  },
+  "Liddell": {
+   "el_twh": 4.6341495,
+   "steam_twh": 0.0,
+   "low_twh": 0.48545,
+   "reject_twh": 0.032,
+   "water_ml_day": 18.999999999999996
+  },
+  "Mount Piper": {
+   "el_twh": 4.65599475,
+   "steam_twh": 0.0,
+   "low_twh": 0.242725,
+   "reject_twh": 0.016,
+   "water_ml_day": 9.499999999999998
+  },
+  "Tarong": {
+   "el_twh": 4.607525,
+   "steam_twh": 0.3625,
+   "low_twh": 0.016,
+   "reject_twh": 0.0,
+   "water_ml_day": 0.0
+  },
+  "Callide": {
+   "el_twh": 4.59945,
+   "steam_twh": 0.405,
+   "low_twh": 0.016,
+   "reject_twh": 0.0,
+   "water_ml_day": 0.0
+  },
+  "Gladstone (test)": {
+   "el_twh": 1.76190975,
+   "steam_twh": 1.55928,
+   "low_twh": 1.213625,
+   "reject_twh": 0.0,
+   "water_ml_day": 47.5
+  }
+ },
+ "water": {
+  "SWRO (grid electricity)": {
+   "energy": 0.3325,
+   "capital": 0.46151379081798555,
+   "om": 0.3,
+   "intake": 0.6,
+   "heat": 0.0,
+   "reject_credit": 0.0,
+   "total": 1.6940137908179858
+  },
+  "MED, SMR 75 C heat": {
+   "energy": 0.171,
+   "capital": 0.5538165489815826,
+   "om": 0.2,
+   "intake": 0.6,
+   "heat": 0.5984999999999999,
+   "reject_credit": -0.0,
+   "total": 2.1233165489815824
+  },
+  "MED, SMR heat + reject heat sold (Port Augusta hub)": {
+   "energy": 0.171,
+   "capital": 0.5538165489815826,
+   "om": 0.2,
+   "intake": 0.6,
+   "heat": 0.5984999999999999,
+   "reject_credit": -0.15487123287671234,
+   "total": 1.96844531610487
+  },
+  "MED, solar-thermal heat (Sundrop-type)": {
+   "energy": 0.171,
+   "capital": 0.5538165489815826,
+   "om": 0.2,
+   "intake": 0.6,
+   "heat": 2.8,
+   "reject_credit": -0.0,
+   "total": 4.324816548981582
+  },
+  "MED, gas boiler heat": {
+   "energy": 0.171,
+   "capital": 0.5538165489815826,
+   "om": 0.2,
+   "intake": 0.6,
+   "heat": 4.9462,
+   "reject_credit": -0.0,
+   "total": 6.4710165489815825
+  }
+ },
+ "breakeven_reject_share": 0.19316209591162953
+}

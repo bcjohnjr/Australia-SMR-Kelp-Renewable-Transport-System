@@ -1,35 +1,143 @@
 {
- "objective_annual_bn": 80.16833032422154,
- "annual_electricity_bn": 37.565639004489206,
+ "objective_annual_bn": 80.17614448039264,
+ "annual_electricity_bn": 37.563871238805575,
  "annual_electricity_parts_bn": {
-  "supply": 30.740910327891896,
+  "supply": 30.73914256220826,
   "electrolysers_h2": 6.824728676597311
  },
- "hourly_electricity_bn": 42.697603272303326,
+ "hourly_electricity_bn": 42.88104330400771,
  "hourly_parts_bn": {
   "capacity": 34.01631869203576,
   "links": 0.8639412394597568,
-  "turbine_vom_and_methane_store": 0.06277529313379751,
+  "turbine_vom_and_methane_store": 0.24621532483818231,
   "networks": 7.754568047674014
  },
  "methane": {
   "turbine_need_twh": 6.4611397660030185,
-  "assigned_in_annual_model_twh": 6.43275987083805,
-  "store_twh": 14.377809415049446,
+  "assigned_in_annual_model_twh": 6.462,
+  "store_twh": 34.43866584788673,
+  "opening_twh": 17.897954896637575,
+  "inventory": {
+   "opening_twh": 17.897954896637575,
+   "capacity_twh": 34.43866584788673,
+   "closing_twh": 17.90655723660739,
+   "production_twh": 6.462,
+   "use_mean_twh": 6.461139766003018,
+   "years": [
+    {
+     "year": "2015",
+     "opening": 17.897954896637575,
+     "production": 6.462,
+     "use": 4.770359342777119,
+     "lowest": 13.127595553860456,
+     "highest": 24.359954896637575,
+     "closing": 19.589595553860455
+    },
+    {
+     "year": "2016",
+     "opening": 19.589595553860455,
+     "production": 6.462,
+     "use": 5.212646372807993,
+     "lowest": 14.376949181052463,
+     "highest": 26.051595553860455,
+     "closing": 20.838949181052463
+    },
+    {
+     "year": "2017",
+     "opening": 20.838949181052463,
+     "production": 6.462,
+     "use": 20.838949181052463,
+     "lowest": 0.0,
+     "highest": 27.300949181052463,
+     "closing": 6.462
+    },
+    {
+     "year": "2018",
+     "opening": 6.462,
+     "production": 6.462,
+     "use": 2.242008639397415,
+     "lowest": 4.2199913606025845,
+     "highest": 12.924,
+     "closing": 10.681991360602584
+    },
+    {
+     "year": "2019",
+     "opening": 10.681991360602584,
+     "production": 6.462,
+     "use": 0.8440656176620859,
+     "lowest": 9.837925742940499,
+     "highest": 17.143991360602584,
+     "closing": 16.2999257429405
+    },
+    {
+     "year": "2020",
+     "opening": 16.2999257429405,
+     "production": 6.462,
+     "use": 2.9231386526426575,
+     "lowest": 13.37678709029784,
+     "highest": 22.761925742940498,
+     "closing": 19.838787090297842
+    },
+    {
+     "year": "2021",
+     "opening": 19.838787090297842,
+     "production": 6.462,
+     "use": 1.4623629916627654,
+     "lowest": 18.376424098635077,
+     "highest": 26.300787090297842,
+     "closing": 24.838424098635077
+    },
+    {
+     "year": "2022",
+     "opening": 24.838424098635077,
+     "production": 6.462,
+     "use": 3.332360590718159,
+     "lowest": 21.506063507916917,
+     "highest": 31.300424098635077,
+     "closing": 27.968063507916916
+    },
+    {
+     "year": "2023",
+     "opening": 27.968063507916916,
+     "production": 6.462,
+     "use": 7.994840442815888,
+     "lowest": 19.973223065101028,
+     "highest": 34.43006350791691,
+     "closing": 26.435223065101024
+    },
+    {
+     "year": "2024",
+     "opening": 26.435223065101024,
+     "production": 6.462,
+     "use": 14.990665828493634,
+     "lowest": 11.44455723660739,
+     "highest": 32.897223065101024,
+     "closing": 17.90655723660739
+    }
+   ],
+   "surplus_10yr_twh": 0.00860233996982629
+  },
   "balance": {
    "waste_biomethane": 15.0,
-   "kelp_methane": 0.8936149999999998,
+   "kelp_methane": 0.89605907429931,
    "e_methane": 0.0,
    "transport": 4.336707433289067,
-   "bio_methanol": 5.124147695872883,
-   "turbines": 6.43275987083805,
+   "bio_methanol": 5.097351641010243,
+   "turbines": 6.462,
    "reserve": 0.0
   },
-  "shortfall_twh": 0.02837989516496897
+  "shortfall_twh": 0.0,
+  "cost_bn": {
+   "turbine_vom": 0.019641864888649177,
+   "store": 0.10331599754366019,
+   "initial_fill": 0.12325746240587294
+  },
+  "methane_price_aud_mwh": 119.0846751367202,
+  "fill_life_yr": 30
  },
- "reconciled_cost_bn": 85.30029459203567,
- "difference_bn": 5.131964267814126,
- "difference_pct": 6.401485782551708,
+ "reconciled_cost_bn": 85.49331654559478,
+ "difference_bn": 5.3171720652021435,
+ "difference_pct": 6.631863005712968,
  "turbine_twh_mean": 2.455233111081147,
  "turbine_source": "1-hour verification of the final fleet",
  "portfolio_hourly": {
@@ -47,18 +155,18 @@
   "wind_share_potential": 0.7285513580532953
  },
  "portfolio_annual": {
-  "wind_gw": 93.72716390832994,
-  "pv_gw": 45.84517540790803,
-  "wind_twh": 330.068483659679,
-  "pv_twh": 120.48112097198229,
+  "wind_gw": 93.72288291896123,
+  "pv_gw": 45.84324815122534,
+  "wind_twh": 330.0546081169372,
+  "pv_twh": 120.47605614142017,
   "electrolyser_gw": 39.805244760818816
  },
- "residual_wtw_mt": 15.966637639274204,
+ "residual_wtw_mt": 15.984859733526218,
  "residual_range_mt": {
-  "lo": 9.625060989860403,
-  "hi": 26.322264104355472
+  "lo": 9.639995777479955,
+  "hi": 26.37129391284367
  },
- "wtw_reduction_pct": 91.80652972059919,
- "residual_wtw_annual_mt": 15.507688504155793,
+ "wtw_reduction_pct": 91.79717883589475,
+ "residual_wtw_annual_mt": 15.508002963086662,
  "rule": "hourly final fleet replaces the annual model's electricity supply; transport choices from the annual model"
 }

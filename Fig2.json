@@ -1,0 +1,127 @@
+{
+ "segments": {
+  "ldv_petrol": {
+   "el": 152.0252888888889,
+   "ers": 0.0,
+   "dropin": 0.0,
+   "jet": 0.0,
+   "ethanol": 0.0,
+   "methane": 0.0,
+   "methanol": 0.0,
+   "ammonia": 0.0
+  },
+  "ldv_diesel": {
+   "el": 64.93000355555557,
+   "ers": 0.0,
+   "dropin": 0.0,
+   "jet": 0.0,
+   "ethanol": 0.0,
+   "methane": 0.0,
+   "methanol": 0.0,
+   "ammonia": 0.0
+  },
+  "hdv": {
+   "el": 117.27981892222223,
+   "ers": 19.940048111632706,
+   "dropin": 0.0,
+   "jet": 0.0,
+   "ethanol": 0.0,
+   "methane": 0.7563905217006379,
+   "methanol": 0.0,
+   "ammonia": 0.0
+  },
+  "rail": {
+   "el": 6.433333333333334,
+   "ers": 0.0,
+   "dropin": 6.433333333333334,
+   "jet": 0.0,
+   "ethanol": 0.0,
+   "methane": 0.0,
+   "methanol": 0.0,
+   "ammonia": 0.0
+  },
+  "mining": {
+   "el": 55.97,
+   "ers": 0.0,
+   "dropin": 37.31333333333333,
+   "jet": 0.0,
+   "ethanol": 0.0,
+   "methane": 0.0,
+   "methanol": 0.0,
+   "ammonia": 0.0
+  },
+  "farm": {
+   "el": 7.398333333333333,
+   "ers": 0.0,
+   "dropin": 17.262777777777778,
+   "jet": 0.0,
+   "ethanol": 0.0,
+   "methane": 0.0,
+   "methanol": 0.0,
+   "ammonia": 0.0
+  },
+  "construction": {
+   "el": 6.4333333333333345,
+   "ers": 0.0,
+   "dropin": 9.650000000000002,
+   "jet": 0.0,
+   "ethanol": 0.0,
+   "methane": 0.0,
+   "methanol": 0.0,
+   "ammonia": 0.0
+  },
+  "aviation": {
+   "el": 0.0,
+   "ers": 0.0,
+   "dropin": 0.0,
+   "jet": 103.65149999999997,
+   "ethanol": 0.0,
+   "methane": 0.0,
+   "methanol": 0.0,
+   "ammonia": 0.0
+  },
+  "shipping": {
+   "el": 0.0,
+   "ers": 0.0,
+   "dropin": 2.983055555555538,
+   "jet": 0.0,
+   "ethanol": 0.0,
+   "methane": 3.466858333333334,
+   "methanol": 3.416098463915255,
+   "ammonia": 1.6901820916403203
+  }
+ },
+ "demand": {
+  "ldv_petrol": 152.0252888888889,
+  "ldv_diesel": 64.93000355555557,
+  "hdv": 137.97625755555558,
+  "rail": 12.866666666666667,
+  "mining": 93.28333333333333,
+  "farm": 24.66111111111111,
+  "construction": 16.083333333333336,
+  "aviation": 103.65149999999997,
+  "shipping": 11.556194444444447
+ },
+ "fuels": {
+  "e-Ammonia": 1.7746911962223364,
+  "Bio- and e-methanol": 3.416098463915255,
+  "Tallow and UCO HEFA": 6.0,
+  "Tasmanian kelp": 6.318114999999999,
+  "Sorghum and cane ethanol": 8.0,
+  "Canola HVO": 12.0,
+  "Waste biomethane": 15.0,
+  "Forest and cane residue HTL": 18.799999999999997,
+  "Cereal straw FT": 26.400000000000002,
+  "Electrofuels (FT)": 101.26949999999992
+ },
+ "generation": {
+  "wind": 344.9051212493698,
+  "pv": 128.50710623032856
+ },
+ "uses": {
+  "Vehicles, rail, catenary": 158.02825681019823,
+  "Electrolysers": 246.15250959338888,
+  "Air capture": 20.932649999999967,
+  "Refineries and heat": 3.981445150375939
+ }
+}

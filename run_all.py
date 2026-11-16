@@ -9,6 +9,7 @@
 Measured step times are printed and written to outputs/runtime.json. The build stops if any test in test_model.py
 fails. Observed data are read from observed_data/ (built from the raw downloads by observed.py).
 """
+import layout  # noqa: F401  (rebuilds the folder layout if the files arrived flat)
 import json
 import shutil
 import subprocess
@@ -17,7 +18,7 @@ import time
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
-PKG = HERE.parent.parent
+PKG = layout.PKG
 
 
 def step(times, *cmd):
@@ -54,6 +55,7 @@ def main():
     step(times, "adequacy.py")
     step(times, "montecarlo.py")
     step(times, "transition.py")
+    step(times, "biofuel_costs.py")
     step(times, "accounts.py")
     step(times, "provenance.py")
     r = subprocess.run([sys.executable, "test_model.py"], cwd=HERE)

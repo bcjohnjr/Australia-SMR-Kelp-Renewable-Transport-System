@@ -1,6 +1,7 @@
 """Monte Carlo analysis of the national LP (1,000 draws of cost, yield, conversion, resource and finance inputs).
 SMR parameters are tested separately (scenarios.py, cascade.py). Each draw also samples a Brent-equivalent oil price
 (lognormal, inputs.BRENT_DIST) for the fossil comparison; the break-even Brent price of each draw is reported."""
+import layout  # noqa: F401  (rebuilds the folder layout if the files arrived flat)
 import copy
 import json
 

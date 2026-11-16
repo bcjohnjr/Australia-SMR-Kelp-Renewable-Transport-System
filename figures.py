@@ -1,4 +1,5 @@
 """Figures 1-6 and Supplementary Figures (PNG at 300 dpi and vector PDF). Each function returns its source data."""
+import layout  # noqa: F401  (rebuilds the folder layout if the files arrived flat)
 import json
 import math
 from pathlib import Path
@@ -91,12 +92,12 @@ def fig1():
     forced = R["kelp_forced"]
     for z, (x, y) in geo.KELP_CENTROIDS.items():
         a = kc.get(z, 0.0)
-        if a > 1:
+        if a >= 50:
             ax.scatter(x, y, s=60 + a / 8, color=SERIES[2], alpha=0.8, edgecolor="white", lw=1.2, zorder=4)
         else:
             ax.scatter(x, y, s=70, facecolor="none", edgecolor=SERIES[2], lw=1.0, ls=(0, (2, 1.5)), zorder=4)
-    _n = sum(1 for v in kc.values() if v > 1)
-    ax.annotate(f"Kelp, {sum(kc.values()):,.0f} km²\n({_n} zones, capped;\nhypothetical)", (148.05, -43.55), (150.2, -47.9),
+    _n = sum(1 for v in kc.values() if v >= 50)
+    ax.annotate(f"Kelp, {sum(v for v in kc.values() if v >= 50):,.0f} km²\n({_n} zones, capped;\nhypothetical)", (148.05, -43.55), (150.2, -47.9),
                 fontsize=6.3, color=INK, arrowprops=dict(arrowstyle="-", color=MUTED, lw=0.5), zorder=6, path_effects=HALO)
     ax.text(108.8, -43.7, "Dashed: kelp zones not chosen; forcing 1,000 km²\ninto one adds AUD "
             f"{min(v['extra_bn'] for v in forced.values()):.2f}-{max(v['extra_bn'] for v in forced.values()):.2f} bn yr⁻¹",
@@ -551,7 +552,7 @@ def sfig_kelp():
     zt = C["kelp_zone_table"]
     fig, ax = plt.subplots(figsize=(7.2, 3.0))
     zs = sorted(zt, key=lambda z: zt[z]["aud_per_mwh_fuel"])
-    ax.bar(range(len(zs)), [zt[z]["aud_per_mwh_fuel"] for z in zs], color=[SERIES[2] if C["kelp_km2"][z] > 1 else "#b9b8b2"
+    ax.bar(range(len(zs)), [zt[z]["aud_per_mwh_fuel"] for z in zs], color=[SERIES[2] if C["kelp_km2"][z] >= 50 else "#b9b8b2"
                                                                          for z in zs], width=0.6)
     for i, z in enumerate(zs):
         ax.text(i, zt[z]["aud_per_mwh_fuel"] + 8, f"{zt[z]['yield_eff']:.1f} t/ha", ha="center", fontsize=6)
@@ -676,6 +677,46 @@ def sfig_ocean():
     save(fig, "FigS11_kelp_ocean_data")
 
 
+def sfig_fuel_costs():
+    """Fig. S13: production cost by pathway, today -> 2050, per litre of diesel equivalent."""
+    B = L("biofuel_costs.json")
+    P = B["pathways"]
+    names = sorted(P, key=lambda k: P[k]["aud_l_diesel_eq"]["2050"])
+    short = lambda k: k.replace(" (air-captured CO2)", "").replace(", best zone", "").replace(" (hydrothermal liquefaction)", " (HTL)") \
+        .replace(" (gasification, Fischer-Tropsch)", " (FT)").replace("Fischer-Tropsch electrofuel", "e-Fischer–Tropsch") \
+        .replace(" (sorghum, cane, molasses)", "").replace(" (from biomethane)", "")
+    fig, (ax, ax2) = plt.subplots(1, 2, figsize=(7.2, 3.6), gridspec_kw=dict(width_ratios=[2.4, 1], wspace=0.06), sharey=True)
+    ys = np.arange(len(names))
+    for y_, k in zip(ys, names):
+        a, b = P[k]["aud_l_diesel_eq"]["2026"], P[k]["aud_l_diesel_eq"]["2050"]
+        ax.plot([a, b], [y_, y_], color="#b9b8b2", lw=1.6, zorder=2, solid_capstyle="round")
+        ax.scatter([a], [y_], s=26, facecolor="white", edgecolor=SERIES[0], lw=1.4, zorder=3)
+        ax.scatter([b], [y_], s=30, color=SERIES[0], edgecolor="white", lw=0.8, zorder=4)
+        ax.text(max(a, b) + 0.24, y_, f"{b:.2f}", fontsize=5.8, va="center", color=INK2, zorder=5, bbox=dict(facecolor="white", edgecolor="none", pad=0.6))
+    k = B["litre_basis_kwh"] / 1000
+    for v, lab, ha, dx in ((B["fossil_pretax_aud_mwh"]["diesel_2025"] * k, "fossil diesel\n2025", "right", -0.08),
+                           (B["fossil_pretax_aud_mwh"]["diesel_oct2026"] * k, "fossil diesel\nOct 2026", "left", 0.08)):
+        ax.axvline(v, color=SERIES[7], lw=0.9, ls=(0, (3, 2)), zorder=1)
+        ax.text(v + dx, len(names) - 0.25, lab, fontsize=5.4, color=SERIES[7], ha=ha, va="bottom", linespacing=1.0)
+    ax.set_yticks(ys, [short(n) for n in names], fontsize=6.2)
+    ax.set_ylim(-0.6, len(names) + 0.5)
+    ax.set_xlim(0, 8.6)
+    ax.set_xlabel("Production cost, AUD per litre of diesel equivalent")
+    ax.scatter([], [], s=26, facecolor="white", edgecolor=SERIES[0], lw=1.4, label="Today's costs")
+    ax.scatter([], [], s=30, color=SERIES[0], label="2050 learning case (value shown)")
+    ax.legend(fontsize=5.8, frameon=False, loc="lower right")
+    panel(ax, "a", "Cost by pathway")
+    ax2.barh(ys, [P[n]["twh_2050"] for n in names], height=0.55, color="#b9b8b2")
+    for y_, n in zip(ys, names):
+        ax2.text(P[n]["twh_2050"] + 2, y_, f"{P[n]['twh_2050']:.0f}" if P[n]["twh_2050"] >= 1 else f"{P[n]['twh_2050']:.1f}",
+                 fontsize=5.8, va="center", color=INK2)
+    ax2.set_xlim(0, 125)
+    ax2.set_xlabel("2050 output, TWh")
+    ax2.tick_params(axis="y", length=0)
+    panel(ax2, "b", "Output")
+    save(fig, "FigS13_fuel_costs")
+
+
 def sfig_hourly():
     D = L("dispatch.json")
     sysd = D["design"]["systems"]
@@ -736,6 +777,7 @@ def all_figures():
     sfig_capacity_factors()
     sfig_ocean()
     sfig_hourly()
+    sfig_fuel_costs()
     sfig_illustrations()
     sfig_levers()
     sfig_transition()

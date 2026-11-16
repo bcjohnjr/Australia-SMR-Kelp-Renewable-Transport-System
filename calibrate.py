@@ -11,6 +11,7 @@ Fixed-point procedure (about 30-60 minutes):
 It also solves the hourly model for the direct loads alone (no electrolysers), the like-for-like comparison with
 CSIRO GenCost's 2050 system cost. Writes calibration.json and outputs/dispatch.json.
 """
+import layout  # noqa: F401  (rebuilds the folder layout if the files arrived flat)
 import json
 from pathlib import Path
 
@@ -133,6 +134,7 @@ def stage_iterate(max_it=4, start=None):
     S0 = O.solve(base)
     a0 = annual_prices(S0, base)
     cal0 = json.loads(O.CALIBRATION.read_text()) if O.CALIBRATION.exists() else {}
+    cal0.pop("el_load_fixed", None)     # loads are free while the two models are iterated
     hist = cal0.get("iteration_history", [])
     R = json.loads(Path(start).read_text()) if start else None
     prev = None
@@ -237,18 +239,24 @@ def stage_verify():
 
 
 def stage_methane():
-    """Set the turbine methane demand of the annual model to the ten-year mean of the one-hour verification."""
+    """Close the methane balance: the annual model must supply at least the ten-year mean turbine fuel of the one-hour
+    verification (rounded up to 0.001 TWh), with the flexible and heat electricity loads held at the values the hourly
+    fleet was designed and verified on, so that closing the balance leaves the hourly results valid."""
+    import math
     V = json.loads((OUT / "verify_hourly.json").read_text())
     R = json.loads((OUT / "dispatch.json").read_text())
-    eff = R["params"]["turb_eff"]
-    need = float(np.mean([v["turbine_twh"] for v in V["years"].values()])) / eff
+    need = float(np.mean([v["turbine_twh"] for v in V["years"].values()])) / R["params"]["turb_eff"]
+    alloc = math.ceil(need * 1000) / 1000
     cal = json.loads(O.CALIBRATION.read_text())
     old = cal.get("turbine_methane_twh", 0.0)
-    cal.update(turbine_methane_twh=need, turbine_methane_source="ten-year mean of the one-hour verification / turbine "
-                                                                 "efficiency")
+    L = R["loads"]
+    cal.update(turbine_methane_twh=alloc, turbine_methane_need_twh=need,
+               turbine_methane_source="ten-year mean of the one-hour verification / turbine efficiency, rounded up",
+               el_load_fixed=dict(efuels=L["efuels"], dac=L["dac"], refineries_heat=L["heat"],
+                                  heat_storage=L["heat_storage"]))
     O.CALIBRATION.write_text(json.dumps(cal, indent=1, default=float))
-    print(f"turbine methane {old:.3f} -> {need:.3f} TWh/yr", flush=True)
-    return old, need
+    print(f"turbine methane {old:.4f} -> {alloc:.4f} TWh/yr (need {need:.4f})", flush=True)
+    return old, alloc
 
 
 H2_COSTS = (5.0, 10.0, 15.0)    # AUD per kWh of hydrogen stored (central 1.5)

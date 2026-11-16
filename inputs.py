@@ -11,6 +11,7 @@ construction machinery, rail and coastal shipping. Outside scope: diesel burnt i
 0.5 GL, screening), non-automotive LPG, lubricants and other products (observed_data/aps_2025.json; reconciliation
 in accounts.py).
 """
+import layout  # noqa: F401  (rebuilds the folder layout if the files arrived flat)
 import json
 from pathlib import Path
 

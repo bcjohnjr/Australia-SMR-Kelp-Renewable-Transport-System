@@ -7,6 +7,7 @@ with seaweed bioremediation ponds, and southern recirculating (RAS) prawn and ba
 reject heat, by heat pumps or by gas. Feed prices come from feed.py (cross-species swap case). No food revenue is used
 to lower the cost of transport energy. Canadian per-site parameters are converted at 1.09 AUD/CAD.
 """
+import layout  # noqa: F401  (rebuilds the folder layout if the files arrived flat)
 import json
 from pathlib import Path
 

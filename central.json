@@ -1,6 +1,6 @@
 {
  "params_r": 0.04,
- "objective_bn": 80.16833032422154,
+ "objective_bn": 80.17614448039264,
  "reserve_cost_bn": 0.0,
  "shortfall_twh": {
   "dropin": 0.0,
@@ -36,7 +36,7 @@
  "demand_total_twh": 617.033688888889,
  "end_use_twh": {
   "ldv_petrol|bev": 152.0252888888889,
-  "ldv_petrol|liq": 0.0,
+  "ldv_petrol|liq": -0.0,
   "ldv_petrol|e100": 0.0,
   "ldv_diesel|bev": 64.93000355555557,
   "ldv_diesel|liq": -0.0,
@@ -53,10 +53,10 @@
   "construction|el": 6.4333333333333345,
   "construction|liq": 9.650000000000002,
   "aviation|jet": 103.65149999999997,
-  "shipping|meoh": 3.416098463915255,
-  "shipping|nh3": 1.6901820916403203,
+  "shipping|meoh": 3.3982344273401615,
+  "shipping|nh3": 1.703100716960145,
   "shipping|lng": 3.466858333333334,
-  "shipping|liq": 2.983055555555538
+  "shipping|liq": 2.9880009668108065
  },
  "ers_twh": {
   "Hume (Sydney-Melbourne)": 5.151152714295552,
@@ -64,7 +64,7 @@
   "Bruce (Brisbane-Cairns)": 3.5184121758005853,
   "Inland (Melbourne-Brisbane via Newell)": 4.518981217590467,
   "Western (Melbourne-Adelaide)": 2.0433910620754028,
-  "Eyre (Adelaide-Perth)": 0.0,
+  "Eyre (Adelaide-Perth)": -0.0,
   "Stuart (Port Augusta-Darwin)": 0.0,
   "Great Northern (Perth-Port Hedland)": -0.0
  },
@@ -148,36 +148,36 @@
   "Great Northern (Perth-Port Hedland)": 0.0
  },
  "ers_cost_bn": 1.6391042114375145,
- "vehicle_premium_bn": 6.447654979065141,
+ "vehicle_premium_bn": 6.447670118079187,
  "wind_twh": [
   220.75199999999998,
-  109.31648365967898,
+  109.30260811693717,
   0.0
  ],
  "pv_twh": [
-  120.48112097198229,
+  120.47605614142017,
   0.0,
   0.0
  ],
- "wind_gw": 93.72716390832994,
- "pv_gw": 45.84517540790803,
- "electricity_supply_cost_bn": 30.740910327891896,
+ "wind_gw": 93.72288291896123,
+ "pv_gw": 45.84324815122534,
+ "electricity_supply_cost_bn": 30.73914256220826,
  "el_flows_twh": {
-  "wind_direct": 109.41257853546028,
-  "wind_flex": 220.6559051242187,
-  "pv_direct": 58.91446536524785,
+  "wind_direct": 109.39363816215638,
+  "wind_flex": 220.66096995478077,
+  "pv_direct": 58.91446536524786,
   "pv_shifted": 0.0,
   "pv_flex_solar_led": 23.762425657894703,
-  "pv_flex_wind_led": 37.80422994883973
+  "pv_flex_wind_led": 37.799165118277614
  },
  "smr": {
   "east": {
-   "gw": 0.0,
-   "modules": 0.0,
-   "el_twh": -0.0,
+   "gw": 0.002781726225942281,
+   "modules": 0.009272420753140937,
+   "el_twh": 0.018940373303864458,
    "steam_twh": {
     "VIC": 0.0,
-    "INLAND": -0.0
+    "INLAND": 0.014458300231957598
    }
   },
   "sa": {
@@ -197,7 +197,7 @@
    }
   }
  },
- "smr_gw_total": 0.0,
+ "smr_gw_total": 0.002781726225942281,
  "heat_by_pool": {
   "SA": {
    "demand": 0.0,
@@ -228,41 +228,41 @@
    "smr": 0
   },
   "SE": {
-   "demand": 0.0,
-   "hp": 0.0,
-   "tes": 0.0,
+   "demand": 0.003591930280136298,
+   "hp": 0.0021551581680817784,
+   "tes": 0.0014367721120543521,
    "eb": 0.0,
    "smr": 0
   },
   "INLAND": {
    "demand": 2.72,
-   "hp": 1.6320000000000001,
-   "tes": 1.088,
+   "hp": 1.618978471880097,
+   "tes": 1.0865632278879456,
    "eb": 0.0,
-   "smr": 0.0
+   "smr": 0.014458300231957598
   }
  },
  "kelp_km2": {
   "tas_se": 1000.0,
   "tas_e": 1000.0,
   "bass": 1000.0,
-  "bonney": 0.0,
+  "bonney": 8.6521264124685,
   "sa_gulfs": 0.0,
   "sa_shelf": 0.0,
   "wa_south": 0.0,
   "wa_west": 0.0,
   "nsw_south": 0.0
  },
- "kelp_total_km2": 3000.0,
- "kelp_dry_mt": 2.8549999999999995,
- "kelp_wet_mt": 23.791666666666664,
- "kelp_n_kt": 34.25999999999999,
+ "kelp_total_km2": 3008.6521264124685,
+ "kelp_dry_mt": 2.8628085440872524,
+ "kelp_wet_mt": 23.856737867393772,
+ "kelp_n_kt": 34.35370252904703,
  "kelp_n_supply_kt": {
-  "natural": 25.984999999999996,
+  "natural": 26.055276896785273,
   "fish_farms": 1.0925620948586727,
-  "depth_cycling": 7.182437905141324
+  "depth_cycling": 7.205863537403083
  },
- "kelp_cost_bn": 2.1418820016130184,
+ "kelp_cost_bn": 2.1487274418005513,
  "kelp_zone_table": {
   "tas_se": {
    "name": "South-east Tasmania (Storm Bay, D'Entrecasteaux)",
@@ -383,41 +383,41 @@
   }
  },
  "fuels_twh": {
-  "kelp_hc": 5.424499999999999,
+  "kelp_hc": 5.439336233765779,
   "straw_ft": 26.400000000000002,
   "cane_htl": 9.2,
   "forest_htl": 9.6,
   "hefa": 6.0,
   "canola_hvo": 12.0,
   "efuel_ft_solar": 0.0,
-  "efuel_ft_wind": 101.26949999999992,
+  "efuel_ft_wind": 101.25960917748942,
   "ethanol": 8.0,
   "alcohol_to_jet": 7.400000000000001,
   "waste_biomethane": 15.0,
-  "kelp_methane": 0.8936149999999998,
+  "kelp_methane": 0.89605907429931,
   "e_methanol": 0.0,
-  "bio_methanol": 3.416098463915255,
-  "e_ammonia": 1.7746911962223364,
+  "bio_methanol": 3.398234427340162,
+  "e_ammonia": 1.7882557528081524,
   "e_methane": 0.0
  },
  "methane_balance_twh": {
   "waste_biomethane": 15.0,
-  "kelp_methane": 0.8936149999999998,
+  "kelp_methane": 0.89605907429931,
   "e_methane": 0.0,
   "transport": 4.336707433289067,
-  "bio_methanol": 5.124147695872883,
-  "turbines": 6.43275987083805,
+  "bio_methanol": 5.097351641010243,
+  "turbines": 6.462,
   "reserve": 0.0
  },
  "jet_by_source_twh": {
-  "kelp": 2.1697999999999995,
+  "kelp": 2.1757344935063117,
   "straw": 13.200000000000001,
   "cane": 3.6799999999999997,
   "forest": 3.84,
   "hefa": 4.199999999999999,
   "canola": 8.399999999999999,
   "eft_s": -0.0,
-  "eft_w": 60.761699999999955,
+  "eft_w": 60.75576550649365,
   "atj": 7.400000000000001
  },
  "residues_mt": {
@@ -426,8 +426,8 @@
   "forest": 4.0
  },
  "co2_mt": {
-  "biogenic": 16.42575,
-  "dac": 13.955099999999977
+  "biogenic": 16.42278275324685,
+  "dac": 13.955099999999979
  },
  "electrolyser_gw": 39.805244760818816,
  "electrolyser_cost_bn": 6.824728676597311,
@@ -440,19 +440,19 @@
   "heat_storage": 1.6982315789473683
  },
  "generation_twh": {
-  "wind": 330.068483659679,
-  "pv": 120.48112097198229,
-  "smr": 0.0
+  "wind": 330.0546081169372,
+  "pv": 120.47605614142017,
+  "smr": 0.018940373303864458
  },
- "generation_total_twh": 450.5496046316613,
+ "generation_total_twh": 450.5496046316612,
  "carrier_twh": {
   "el": 158.02825681019823,
-  "dropin": 73.64249999999998,
+  "dropin": 73.64744541125525,
   "ethanol": 0.0,
   "methane": 4.336707433289067,
   "jet": 103.65149999999997,
-  "methanol": 3.416098463915255,
-  "ammonia": 1.7746911962223364
+  "methanol": 3.3982344273401615,
+  "ammonia": 1.7882557528081524
  },
  "fossil_cost_bn": {
   "avg2025": 64.7313635195102,
@@ -484,21 +484,25 @@
   "u|construction|el": 6.4333333333333345,
   "u|construction|liq": 9.650000000000002,
   "u|aviation|jet": 103.65149999999997,
-  "u|shipping|meoh": 3.416098463915255,
-  "u|shipping|nh3": 1.6901820916403203,
+  "u|shipping|meoh": 3.3982344273401615,
+  "u|shipping|nh3": 1.703100716960145,
   "u|shipping|lng": 3.466858333333334,
-  "u|shipping|liq": 2.983055555555538,
+  "u|shipping|liq": 2.9880009668108065,
   "wind0": 220.75199999999998,
-  "wind1": 109.31648365967898,
-  "pv0": 120.48112097198229,
-  "w_dir": 109.41257853546028,
-  "w_flex": 220.6559051242187,
-  "p_dir": 58.91446536524785,
+  "wind1": 109.30260811693717,
+  "pv0": 120.47605614142017,
+  "w_dir": 109.39363816215638,
+  "w_flex": 220.66096995478077,
+  "p_dir": 58.91446536524786,
   "p_flex_s": 23.762425657894703,
-  "p_flex_w": 37.80422994883973,
+  "p_flex_w": 37.799165118277614,
+  "smr_gw|east": 0.002781726225942281,
+  "smr_el|east": 0.018940373303864458,
+  "steam|east|INLAND": 0.014458300231957598,
   "kelp|tas_se": 1000.0,
   "kelp|tas_e": 1000.0,
   "kelp|bass": 1000.0,
+  "kelp|bonney": 8.6521264124685,
   "res|straw": 12.0,
   "res|cane": 4.0,
   "res|forest": 4.0,
@@ -507,63 +511,84 @@
   "etoh": 8.0,
   "atj": 7.400000000000001,
   "wch4": 15.0,
-  "biomeoh": 3.416098463915255,
-  "eft_w": 101.26949999999992,
-  "enh3": 1.7746911962223364,
-  "dac": 13.955099999999977,
-  "bio_co2": 16.42575,
-  "jet|kelp": 2.1697999999999995,
+  "biomeoh": 3.398234427340162,
+  "eft_w": 101.25960917748942,
+  "enh3": 1.7882557528081524,
+  "dac": 13.955099999999979,
+  "bio_co2": 16.42278275324685,
+  "jet|kelp": 2.1757344935063117,
   "jet|straw": 13.200000000000001,
   "jet|cane": 3.6799999999999997,
   "jet|forest": 3.84,
   "jet|hefa": 4.199999999999999,
   "jet|canola": 8.399999999999999,
-  "jet|eft_w": 60.761699999999955,
+  "jet|eft_w": 60.75576550649365,
   "hp|VIC": 0.23597999999999997,
   "tes|VIC": 0.15732000000000002,
   "hp|TAS": 0.5519999999999999,
   "tes|TAS": 0.368,
-  "hp|INLAND": 1.6320000000000001,
-  "tes|INLAND": 1.088
+  "hp|SE": 0.0021551581680817784,
+  "tes|SE": 0.0014367721120543521,
+  "hp|INLAND": 1.618978471880097,
+  "tes|INLAND": 1.0865632278879456
  },
- "dual_note": "objective in AUD bn includes vehicle premia and any winter reserve",
+ "dual_note": "objective in AUD bn includes vehicle premia and any winter reserve Shadow prices are from the same case solved with electricity loads free; the reported solution holds them at the hourly-verified values.",
  "lca_params": {
   "iluc_mult": 1.0,
   "ch4_leak": 0.01,
   "bound": "core"
  },
- "residual_wtw_mt": 15.507688504155793,
+ "residual_wtw_mt": 15.508002963086662,
  "residual_parts_mt": {
-  "wind": 3.9608218039161476,
-  "pv": 4.216839234019381,
-  "smr": 0.0,
-  "kelp_hc": 0.18985749999999998,
+  "wind": 3.960655297403246,
+  "pv": 4.216661964949706,
+  "smr": 0.0002272844796463735,
+  "kelp_hc": 0.1903767681818023,
   "straw_ft": 0.7318080000000001,
   "cane_htl": 0.255024,
   "forest_htl": 0.286848,
   "hefa": 0.39311999999999997,
   "canola_hvo": 3.1708799999999995,
   "efuel_ft_solar": 0.0,
-  "efuel_ft_wind": 0.5063474999999996,
+  "efuel_ft_wind": 0.5062980458874471,
   "ethanol": 1.152,
   "alcohol_to_jet": 0.1332,
   "waste_biomethane": 0.15,
-  "kelp_methane": 0.008936149999999999,
+  "kelp_methane": 0.0089605907429931,
   "e_methanol": 0.0,
-  "bio_methanol": 0.03416098463915255,
-  "e_ammonia": 0.008873455981111682,
+  "bio_methanol": 0.03398234427340162,
+  "e_ammonia": 0.008941278764040762,
   "e_methane": 0.0,
-  "methane_leakage": 0.3089718756
+  "methane_leakage": 0.3090193884043786
  },
  "residual_range_mt": {
-  "lo": 9.360684821565641,
-  "hi": 25.62423208964434
+  "lo": 9.360840316518964,
+  "hi": 25.62600555149944
  },
  "efuel_intensity": {
-  "grid_t_mwh": 0.018150412194060248,
-  "ft": 0.04856098926574459,
-  "methanol": 0.03948578316871447,
-  "ammonia": 0.03676322133960543
+  "grid_t_mwh": 0.018150153640725093,
+  "ft": 0.04856036873774022,
+  "methanol": 0.03948529191737767,
+  "ammonia": 0.03676276887126891
  },
- "wtw_reduction_pct": 92.04204493571872
+ "wtw_reduction_pct": 92.0418835673729,
+ "shadow_fixed_loads_aud_mwh": {
+  "dropin": 449.86123394594347,
+  "jet": 691.9537002448943,
+  "methane": 267.24082263062894,
+  "heat|SA": 0.0,
+  "heat|WA": 0.0,
+  "heat|VIC": 141.72172686249814,
+  "heat|TAS": 141.72172686249814,
+  "heat|SE": 141.72172686249814,
+  "heat|INLAND": 141.72172686249814,
+  "wind_share": -20.045718656915433,
+  "el_direct": 93.33320179424892,
+  "el_flex_solar": 59.64688195594836,
+  "el_flex_wind": 59.64688195594836,
+  "el_load_efuels": 120.94379387257862,
+  "el_load_dac": -355.96255938707907,
+  "el_load_refineries_heat": 268.5982375122486,
+  "el_load_heat_storage": 54.90641446562748
+ }
 }

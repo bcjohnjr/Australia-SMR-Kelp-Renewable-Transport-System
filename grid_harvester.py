@@ -7,6 +7,7 @@ reference 1.44-ha cycle reported in the engineering design, then concentration s
 computed explicitly from slurry flow and hose diameter scaling.
 """
 from __future__ import annotations
+import layout  # noqa: F401  (rebuilds the folder layout if the files arrived flat)
 import json, math
 from pathlib import Path
 

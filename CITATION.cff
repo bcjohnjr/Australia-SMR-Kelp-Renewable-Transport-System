@@ -13,5 +13,6 @@ authors:
     given-names: Patricia
     affiliation: "University of Málaga, Málaga, Spain"
 license: MIT
-date-released: "2026-11-15"
+date-released: "2026-11-16"
 keywords: [energy systems, transport, small modular reactors, kelp, aquaculture feed, desalination, mixed-integer programming, Australia]
+repository-code: "https://github.com/bcjohnjr/Australia-SMR-Kelp-Renewable-Transport-System"

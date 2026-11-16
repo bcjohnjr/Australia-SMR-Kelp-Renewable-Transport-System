@@ -10,7 +10,7 @@ python run_all.py              # or --no-pdf without LibreOffice; --recalibrate 
 python test_model.py           # the tests alone
 ```
 
-Measured: 45 s for the full build with PDFs using the shipped calibration; the hourly recalibration took 283 min. Step times are written to `outputs/runtime.json` on every run.
+Measured: 34 s for the full build with PDFs using the shipped calibration; the hourly recalibration took 283 min. Step times are written to `outputs/runtime.json` on every run.
 
 ## Observed data
 
@@ -29,10 +29,12 @@ Measured: 45 s for the full build with PDFs using the shipped calibration; the h
 | `optimise.py` | Annual national mixed-integer programme (binary highway corridors), shadow prices, life-cycle emissions; reads calibration.json |
 | `dispatch.py` | Hourly capacity expansion and dispatch over 2015-2024 weather: five grids, wind/PV groups, batteries (power and energy), turbines, electrolysers, hydrogen storage, links |
 | `calibrate.py` | Iterates the annual and hourly models to one portfolio (prices, electrolyser use, wind share), runs the final hourly pass with yearly checks, the one-hour adequacy pass and verification of the fixed fleet, and the mechanism tests (daily-flexible and flat industrial demand, direct loads only) |
-| `reconcile.py` | Replaces the annual model's stylised electricity supply by the hourly final fleet: reported cost, portfolio and emissions |
+| `layout.py` | Imported first by every script: if the files arrived as one flat folder (GitHub web upload), rebuilds `outputs/`, `observed_data/` and `illustrations/`; documents then go to `./package/` |
+| `reconcile.py` | Replaces the annual model's stylised electricity supply by the hourly final fleet: reported cost, portfolio, emissions and the ten-year turbine-methane inventory |
+| `biofuel_costs.py` | Projected production cost of each fuel pathway, today to 2050 (table S24, fig. S13) |
 | `kelp.py` | Kelp zones with area, nitrogen, heatwave loss and exposure from ocean data; deployment cap |
 | `scenarios.py`, `cascade.py`, `water.py`, `feed.py`, `coproduction.py`, `adequacy.py`, `montecarlo.py`, `transition.py`, `accounts.py` | Scenarios, SMR site screen, water, aquafeed, co-products, screening lulls, Monte Carlo, transition, accounts and reconciliations |
-| `test_model.py` | Consistency, observed-data, hourly-reliability, regional-balance, verification, reconciliation, calibration and regression tests |
+| `test_model.py` | Consistency, observed-data, hourly-reliability, regional-balance, verification, reconciliation, methane-balance and inventory, load-consistency, calibration and regression tests |
 | `figures.py`, `source_data.py`, `provenance.py`, `build_documents.py`, `write_readme.py`, `run_all.py` | Figures, Source Data, provenance, documents, READMEs, build |
 
 ## Limits

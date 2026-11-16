@@ -2,6 +2,7 @@
 central solution; cumulative well-to-wheel emissions against an electrification-only path in which every remaining
 litre stays fossil. Logistic paths (midpoint year, steepness) are screening assumptions consistent with vehicle
 lifetimes of 12-20 years; 2025 renewable liquids (about 0.3 GL of ethanol and biodiesel) are taken as zero."""
+import layout  # noqa: F401  (rebuilds the folder layout if the files arrived flat)
 import json
 import math
 

@@ -7,6 +7,7 @@ its heat at ~38 C, which greenhouses (Sundrop's 20 ha) and warm-water aquacultur
 can use; only the share actually sold earns a credit. Heat from an SMR at 70-80 C costs 0.09 MWh of electricity per
 MWh (raised condenser pressure); solar-thermal heat is costed at AUD 40/MWh_th (screening).
 """
+import layout  # noqa: F401  (rebuilds the folder layout if the files arrived flat)
 import json
 from pathlib import Path
 

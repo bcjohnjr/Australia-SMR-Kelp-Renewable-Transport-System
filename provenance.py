@@ -1,4 +1,5 @@
 """Machine-readable provenance table of the principal inputs (outputs/input_provenance.csv)."""
+import layout  # noqa: F401  (rebuilds the folder layout if the files arrived flat)
 import csv
 from pathlib import Path
 

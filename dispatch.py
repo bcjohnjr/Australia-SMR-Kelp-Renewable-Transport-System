@@ -20,6 +20,7 @@ Capacities are chosen jointly over design years (the weakest-resource year and a
 hourly balance give the cost of electricity to direct and flexible loads (in a linear programme with constant returns
 these revenues recover all costs), which calibrate the annual model's adders (calibration.json).
 """
+import layout  # noqa: F401  (rebuilds the folder layout if the files arrived flat)
 import json
 import time
 from pathlib import Path

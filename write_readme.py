@@ -1,9 +1,10 @@
 """Write the package README and the code README from the model outputs (run by run_all.py after the documents)."""
+import layout  # noqa: F401  (rebuilds the folder layout if the files arrived flat)
 import json
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
-PKG = HERE.parent.parent
+PKG = layout.PKG
 L = lambda f: json.loads((HERE / "outputs" / f).read_text())
 
 
@@ -19,15 +20,15 @@ def main():
     batt_gwh = sum(v["battery_gwh"] for v in sysd.values())
     top = f"""# {T}
 
-Science submission package (Research Article). Authors: Jonathan Karl Bily (corresponding), Christoph Pahl, Patricia Valdés Bacallao. Prepared 15 November 2026.
+Science submission package (Research Article). Authors: Jonathan Karl Bily (corresponding), Christoph Pahl, Patricia Valdés Bacallao. Prepared 16 November 2026.
 
 - Submission/: manuscript (DOCX for upload; PDF reference copy with figures), a single PDF of manuscript and Supplementary Materials, and the cover letter.
-- Supplementary/: Supplementary Materials (DOCX and PDF): Materials and Methods (with the AI-use disclosure and prompts), Supplementary Text, Figs. S1 to S12, Tables S1 to S23 and the references cited only there.
+- Supplementary/: Supplementary Materials (DOCX and PDF): Materials and Methods (with the AI-use disclosure and prompts), Supplementary Text, Figs. S1 to S13, Tables S1 to S24 and the references cited only there.
 - Figures/: Figures 1 to 5 and the supplementary figures as PNG (300 dpi) and vector PDF.
 - Data/: model outputs (JSON), Source Data (Data/source_data/), the provenance table (`input_provenance.csv`), processed observations (Data/observed/: hourly capacity factors, demand, ocean, prices, fuel sales, AEMO ISP extract, raw-file manifest with SHA-256) and `runtime.json`.
 - Code/model/: complete model, download scripts and README; LICENSE (MIT), CITATION.cff, .zenodo.json.
-- Review/: response to the third informal review (not for submission).
-- Repository/: steps to publish the code and data on GitHub with a Zenodo DOI.
+- Review/: response to the latest informal review (not for submission).
+- Repository/: `flat_upload/` holds every code and data file in one folder, ready to drop into the public repository (https://github.com/bcjohnjr/Australia-SMR-Kelp-Renewable-Transport-System); the code rebuilds its sub-folders by itself.
 
 Format: title {st['title_chars']} characters (Science limit 96), one-sentence summary {st['summary_chars']} characters, abstract {st['abstract_words']} words, main text {st['main_words']:,} words, {st['display_items']} figures, {st['main_references']} references in the main text ({st['references']} with those cited only in the supplementary materials).
 
@@ -67,10 +68,12 @@ Measured: {rt.get('total', 0):.0f} s for the full build with PDFs using the ship
 | `optimise.py` | Annual national mixed-integer programme (binary highway corridors), shadow prices, life-cycle emissions; reads calibration.json |
 | `dispatch.py` | Hourly capacity expansion and dispatch over 2015-2024 weather: five grids, wind/PV groups, batteries (power and energy), turbines, electrolysers, hydrogen storage, links |
 | `calibrate.py` | Iterates the annual and hourly models to one portfolio (prices, electrolyser use, wind share), runs the final hourly pass with yearly checks, the one-hour adequacy pass and verification of the fixed fleet, and the mechanism tests (daily-flexible and flat industrial demand, direct loads only) |
-| `reconcile.py` | Replaces the annual model's stylised electricity supply by the hourly final fleet: reported cost, portfolio and emissions |
+| `layout.py` | Imported first by every script: if the files arrived as one flat folder (GitHub web upload), rebuilds `outputs/`, `observed_data/` and `illustrations/`; documents then go to `./package/` |
+| `reconcile.py` | Replaces the annual model's stylised electricity supply by the hourly final fleet: reported cost, portfolio, emissions and the ten-year turbine-methane inventory |
+| `biofuel_costs.py` | Projected production cost of each fuel pathway, today to 2050 (table S24, fig. S13) |
 | `kelp.py` | Kelp zones with area, nitrogen, heatwave loss and exposure from ocean data; deployment cap |
 | `scenarios.py`, `cascade.py`, `water.py`, `feed.py`, `coproduction.py`, `adequacy.py`, `montecarlo.py`, `transition.py`, `accounts.py` | Scenarios, SMR site screen, water, aquafeed, co-products, screening lulls, Monte Carlo, transition, accounts and reconciliations |
-| `test_model.py` | Consistency, observed-data, hourly-reliability, regional-balance, verification, reconciliation, calibration and regression tests |
+| `test_model.py` | Consistency, observed-data, hourly-reliability, regional-balance, verification, reconciliation, methane-balance and inventory, load-consistency, calibration and regression tests |
 | `figures.py`, `source_data.py`, `provenance.py`, `build_documents.py`, `write_readme.py`, `run_all.py` | Figures, Source Data, provenance, documents, READMEs, build |
 
 ## Limits

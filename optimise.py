@@ -26,6 +26,7 @@ Fuels: native kelp (kelp.py; Great Southern Reef zones), cereal straw and sugarc
   alcohol-to-jet, landfill, manure and food-waste biomethane, electrofuels (Fischer-Tropsch, methanol, ammonia)
   with biogenic CO2 or direct air capture. No fossil energy is used.
 """
+import layout  # noqa: F401  (rebuilds the folder layout if the files arrived flat)
 import copy
 import json
 from pathlib import Path
@@ -86,6 +87,7 @@ def base_params(calibrated=True):
         p["h2_storage_aud_mwh_el"] = cal.get("h2_storage_aud_mwh_el", 0.0)
         p["wind_share"] = json.loads(CALIBRATION.read_text()).get("wind_share") if CALIBRATION.exists() else None
         p["turbine_ch4_twh"] = json.loads(CALIBRATION.read_text()).get("turbine_methane_twh", 0.0) if CALIBRATION.exists() else 0.0
+
     else:
         p["h2_storage_aud_mwh_el"] = 0.0
     return p
@@ -133,6 +135,16 @@ def _base_params():
                      storage_cost=3.0, eff=0.38),
         demand_mult={},
     )
+
+
+def central_params():
+    """Calibrated central case with the flexible and heat electricity loads held at the values the hourly fleet was
+    verified on (calibration.json: el_load_fixed), so the reported annual solution and the hourly results use
+    identical loads. Scenarios and sensitivity runs use base_params(), which leaves these loads free."""
+    p = base_params()
+    if CALIBRATION.exists():
+        p["el_load_fixed"] = json.loads(CALIBRATION.read_text()).get("el_load_fixed")
+    return p
 
 
 def today_params():
@@ -468,6 +480,17 @@ def solve(p=None):
           emch4: p["emch4"]["el"] * loss}
     lp.eq({w_flex: -1.0, p_flex_w: -1.0, **wl}, 0.0, "el_flex_wind")
     lp.le({p_flex_w: 1.0, **{j: -a["flex_pv_share_wind_led"] * c for j, c in wl.items()}}, 0.0)
+
+    # hold the flexible and heat electricity loads at the values the hourly fleet was verified on (set after the last
+    # hourly run), so that closing the methane balance cannot alter the hourly model's loads
+    lc = p.get("el_load_fixed")
+    if lc:
+        ef = {eft_s: p["eft"]["el"], eft_w: p["eft"]["el"], emeoh: p["emeoh"]["el"], enh3: p["enh3"]["el"],
+              emch4: p["emch4"]["el"]}
+        for nm, terms in (("efuels", ef), ("dac", {dac: p["dac"]["el"]}), ("refineries_heat", dict(el_dir_extra)),
+                          ("heat_storage", dict(el_flex_s_extra))):
+            if nm in lc and terms:
+                lp.eq(terms, lc[nm], "el_load_" + nm)
 
     # winter reserve turbines (fixed capacity cost; fuel balance in the methane constraint)
     rs = p["reserve"]

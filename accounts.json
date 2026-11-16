@@ -120,8 +120,8 @@
   "scope1_international_mt": 17.122595692458457,
   "territorial_mt": 137.53634859154155,
   "wtw_fossil_mt": 194.87026979784002,
-  "wtw_residual_mt": 15.507688504155793,
-  "wtw_reduction_pct": 92.04204493571872,
+  "wtw_residual_mt": 15.508002963086662,
+  "wtw_reduction_pct": 92.0418835673729,
   "inventory_transport_2025_mt": 100.9,
   "national_2025_mt": 458.9,
   "note": "territorial scope-1 total includes mining, farm and construction diesel, which the inventory counts under stationary energy; international aviation and bunkers are memo items"
@@ -148,7 +148,7 @@
    "avg2025": 64.7313635195102,
    "oct2026": 109.52697141908826
   },
-  "system_cost_bn": 80.16833032422154,
-  "renewable_liquids_twh": 186.82149709342661
+  "system_cost_bn": 80.17614448039264,
+  "renewable_liquids_twh": 186.8221430246926
  }
 }

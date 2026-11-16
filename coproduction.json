@@ -85,42 +85,42 @@
   }
  },
  "grid_harvester": {
-  "units": 52.500000005249994,
-  "area_pass_km2": 7000.0,
-  "energy_gwh": 4.577546296296296,
-  "conventional_gwh": 12.274305555555557,
-  "capex_bn": 0.34335000003433497,
+  "units": 52.56489095335,
+  "area_pass_km2": 7008.6521264124685,
+  "energy_gwh": 4.58320422618408,
+  "conventional_gwh": 12.289476818882976,
+  "capex_bn": 0.3437743868349091,
   "fleet": {
    "hours_per_year": 4000.0,
    "head_coverage_ha_h": 3.333333333,
    "pacific_passes_per_year": 3.0,
    "other_passes_per_year": 1.0,
    "throughput_t_wet_h": 266.688,
-   "biomass_throughput_units": 22.30290326773858,
-   "area_pass_km2_per_year": 7000.0,
+   "biomass_throughput_units": 22.363902638470584,
+   "area_pass_km2_per_year": 7008.6521264124685,
    "coverage_km2_per_unit_year": 133.33333332,
-   "area_duty_units": 52.500000005249994,
-   "engineering_units": 52.500000005249994
+   "area_duty_units": 52.56489095335,
+   "engineering_units": 52.56489095335
   }
  },
  "shellfish": {
-  "sites": 96.0,
-  "mussel_t": 4608.0,
-  "oyster_t": 2304.0,
+  "sites": 96.276868045199,
+  "mussel_t": 4621.289666169552,
+  "oyster_t": 2310.644833084776,
   "margins_aud_m": {
-   "Manual": 1.25568,
-   "ROV harvest": -2.93494272,
-   "ROV + shared kelp lease": 3.343457280000001,
-   "Manual + shared kelp lease": 7.53408
+   "Manual": 1.259301434031203,
+   "ROV harvest": -2.943407218475598,
+   "ROV + shared kelp lease": 3.3530999516804165,
+   "Manual + shared kelp lease": 7.5558086041872174
   }
  },
  "drones": {
-  "drones": 6000.0,
-  "pv_gwh": 0.876,
-  "annual_aud_m": 21.19189908270979,
-  "share_of_farm_cost_pct": 0.9894055352606024,
-  "reseed_km2": 127.5,
-  "reseed_aud_m": 34.74375
+  "drones": 6017.304252824937,
+  "pv_gwh": 0.8785264209124407,
+  "annual_aud_m": 21.253017412637753,
+  "share_of_farm_cost_pct": 0.9890978724983631,
+  "reseed_km2": 127.8677153725299,
+  "reseed_aud_m": 34.843952439014394
  },
  "salmon": {
   "cost_aud_m": 417.0411495614084,
@@ -141,7 +141,7 @@
     "net_aud_m": 282.9588504385916
    }
   ],
-  "n_share_of_kelp_need_pct": 1.2084063047285465
+  "n_share_of_kelp_need_pct": 1.2051102778512774
  },
  "kingfish": {
   "cost_aud_kg": 13.174713596673598,

@@ -11,6 +11,7 @@ the turbine capacity and the energy gap, at 38% efficiency, a reserve of renewab
 store each year (storage AUD 3/MWh-yr). Iterated until the cost changes by less than AUD 0.01 bn. AEMO's May 2024
 eight-day low-wind event averaged a 9.4% wind capacity factor.
 """
+import layout  # noqa: F401  (rebuilds the folder layout if the files arrived flat)
 import copy
 import json
 

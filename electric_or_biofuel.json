@@ -1,6 +1,6 @@
 {
  "params_r": 0.04,
- "objective_bn": 45.42196227128079,
+ "objective_bn": 45.4244476822596,
  "reserve_cost_bn": 0.0,
  "shortfall_twh": {
   "dropin": 7.675805907485376,
@@ -389,7 +389,7 @@
   "efuel_ft_wind": 0.0,
   "ethanol": 8.0,
   "alcohol_to_jet": 7.400000000000001,
-  "waste_biomethane": 4.564671595480524,
+  "waste_biomethane": 4.593911724642474,
   "kelp_methane": 1.8680882753575248,
   "e_methanol": -0.0,
   "bio_methanol": 0.0,
@@ -397,12 +397,12 @@
   "e_methane": 0.0
  },
  "methane_balance_twh": {
-  "waste_biomethane": 4.564671595480524,
+  "waste_biomethane": 4.593911724642474,
   "kelp_methane": 1.8680882753575248,
   "e_methane": 0.0,
   "transport": 0,
   "bio_methanol": 0.0,
-  "turbines": 6.43275987083805,
+  "turbines": 6.462,
   "reserve": 0.0
  },
  "jet_by_source_twh": {
@@ -498,7 +498,7 @@
   "canola": 12.0,
   "etoh": 8.0,
   "atj": 7.400000000000001,
-  "wch4": 4.564671595480524,
+  "wch4": 4.593911724642474,
   "shortfall|dropin": 7.675805907485376,
   "shortfall|jet": 96.25149999999996,
   "hp|SA": 0.30753300000000006,
@@ -520,7 +520,7 @@
   "ch4_leak": 0.01,
   "bound": "core"
  },
- "residual_wtw_mt": 9.848034985763006,
+ "residual_wtw_mt": 9.848895815165534,
  "residual_parts_mt": {
   "wind": 1.5203058422877471,
   "pv": 1.618574538528665,
@@ -535,17 +535,17 @@
   "efuel_ft_wind": 0.0,
   "ethanol": 1.152,
   "alcohol_to_jet": 0.1332,
-  "waste_biomethane": 0.04564671595480524,
+  "waste_biomethane": 0.04593911724642474,
   "kelp_methane": 0.018680882753575247,
   "e_methanol": -0.0,
   "bio_methanol": 0.0,
   "e_ammonia": 0.0,
   "e_methane": 0.0,
-  "methane_leakage": 0.12505285188909168
+  "methane_leakage": 0.12562127999999997
  },
  "residual_range_mt": {
-  "lo": 6.013198121841299,
-  "hi": 16.389652802831133
+  "lo": 6.013912750598016,
+  "hi": 16.391942889747096
  },
  "efuel_intensity": {
   "grid_t_mwh": 0.018150412194060248,
@@ -553,5 +553,5 @@
   "methanol": 0.03948578316871447,
   "ammonia": 0.03676322133960543
  },
- "wtw_reduction_pct": 94.94636354946321
+ "wtw_reduction_pct": 94.94592180460218
 }

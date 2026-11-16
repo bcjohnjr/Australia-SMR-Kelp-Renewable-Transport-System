@@ -5,6 +5,7 @@ public atlases; they are used only to draw the maps and to measure highway corri
 come from the zone table in kelp.py, not from these polygons. Highway lengths are great-circle lengths along the
 listed waypoints multiplied by a road-winding factor of 1.10.
 """
+import layout  # noqa: F401  (rebuilds the folder layout if the files arrived flat)
 import math
 
 MAINLAND = [

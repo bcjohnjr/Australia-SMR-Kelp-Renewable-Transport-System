@@ -1,5 +1,6 @@
 """Downstream accounts: territorial (inventory-boundary) and well-to-wheel emissions, fuel excise and fuel tax credits,
 and liquid-fuel import dependence. Screening accounts at constant 2026 tax rates; not a general-equilibrium forecast."""
+import layout  # noqa: F401  (rebuilds the folder layout if the files arrived flat)
 import json
 
 import inputs as I

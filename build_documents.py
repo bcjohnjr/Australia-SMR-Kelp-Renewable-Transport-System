@@ -1,5 +1,6 @@
 """Build the manuscript, Supplementary Information and cover letter (DOCX, then PDF with LibreOffice) from outputs/.
 Every number in the text is read from the model outputs at build time."""
+import layout  # noqa: F401  (rebuilds the folder layout if the files arrived flat)
 import json
 
 import numpy as np
@@ -19,7 +20,7 @@ import feed as FD
 HERE = Path(__file__).resolve().parent
 OUT = HERE / "outputs"
 FIG = HERE / "paper_figures"
-PKG = HERE.parent.parent
+PKG = layout.PKG
 L = lambda f: json.load(open(OUT / f))
 
 C, R, CA, F, CP = L("central.json"), L("scenarios.json"), L("cascade.json"), L("feed.json"), L("coproduction.json")
@@ -230,12 +231,16 @@ N["kc300"], N["k_none"] = f2(SC["area cap 300 km2 per zone"]["extra_bn"]), f2(SC
 N["k_nat"] = f2(SC["natural nitrogen halved"]["extra_bn"])
 hyp = SC["hypothetical: ocean bounds without the deployment cap"]
 N["k_hyp_km2"], N["k_hyp_bn"] = f0(hyp["kelp_km2"]), f2(-hyp["extra_bn"])
-_kz = [z for z, a in C["kelp_km2"].items() if a > 1]
+_kz = [z for z, a in C["kelp_km2"].items() if a >= 50]
+_ksm = {z: a for z, a in C["kelp_km2"].items() if 1 < a < 50}
 _nm = {"tas_se": "southeast Tasmania", "tas_e": "east Tasmania", "bass": "Bass Strait", "bonney": "the Bonney Coast",
        "sa_gulfs": "the South Australian gulfs", "sa_shelf": "the Eyre shelf", "wa_south": "WA's south coast",
        "wa_west": "WA's west coast", "nsw_south": "the NSW south coast"}
 N["kelp_where"] = (", ".join(_nm[z] for z in _kz[:-1]) + (" and " if len(_kz) > 1 else "") + _nm[_kz[-1]]) if _kz else "no zone"
 N["kelp_nz"] = str(len(_kz))
+N["kelp"] = f0(sum(C["kelp_km2"][z] for z in _kz))
+N["kelp_small"] = ("; a further " + " and ".join(f"{a:,.0f} km² on {_nm[z]}" for z, a in _ksm.items())
+                   + " supplies the last of the turbines' methane") if _ksm else ""
 oc = OCEAN["tas_se"]
 N["tas_no3m"] = str(oc["months_surface_no3_ge_1"])
 N["tas_mhw0"], N["tas_mhw1"] = f0(oc["mhw_days_mean_1983_2012"]), f0(oc["mhw_days_mean_2015_2024"])
@@ -349,7 +354,31 @@ N["ch4_cost"] = f2(R["no_turbine_methane"]["extra_bn"])
 N["h_h2_h2"] = f1(float(N["h_h2"].replace(",", "")) * DSP["params"]["h2_eff"])
 _dk = C["ers_km_electrified"] - R["no_turbine_methane"]["ers_km"]
 N["ch4_ers"] = (f"partly by adding {_dk:,.0f} km of catenary, and " if _dk > 1 else "and ")
-N["ch4_trans0"], N["ch4_meoh0"] = "8.4", "7.5"    # version 5, without turbine fuel in the balance
+N["ch4_trans0"], N["ch4_meoh0"] = "8.4", "7.5"
+INV = REC["methane"]["inventory"]
+BF = L("biofuel_costs.json")
+N["ch4_open"], N["ch4_cap"] = f0(INV["opening_twh"]), f0(INV["capacity_twh"])
+N["ch4_cap_pj"] = f0(INV["capacity_twh"] * 3.6)
+N["ch4_low"] = f1(min(r["lowest"] for r in INV["years"]))
+N["ch4_fill_bn"] = f2(REC["methane"]["cost_bn"]["initial_fill"] + REC["methane"]["cost_bn"]["store"])
+N["ch4_turb3"], N["ch4_need3"] = f"{MB['turbines']:.3f}", f"{REC['methane']['turbine_need_twh']:.4f}"
+N["ch4_surplus"] = f"{INV['surplus_10yr_twh']:.3f}"
+_bp = BF["pathways"]
+N["bf_twh"], N["bf_bn"] = f0(BF["biofuel_twh_2050"]), f1(BF["biofuel_spend_2050_bn"])
+N["bf_l"] = f2(BF["biofuel_spend_2050_bn"] / BF["biofuel_twh_2050"] * BF["litre_basis_kwh"])
+N["ef_twh"], N["ef_bn"] = f0(BF["efuel_twh_2050"]), f1(BF["efuel_spend_2050_bn"])
+_ft = _bp["Fischer-Tropsch electrofuel (air-captured CO2)"]["aud_l_diesel_eq"]
+N["ft_l26"], N["ft_l50"] = f2(_ft["2026"]), f2(_ft["2050"])
+_lo = min(v["aud_l_diesel_eq"]["2050"] for k, v in _bp.items() if not k.startswith(("e-", "Fischer", "Kelp")))
+_hi = max(v["aud_l_diesel_eq"]["2050"] for k, v in _bp.items() if not k.startswith(("e-", "Fischer", "Kelp")))
+N["bf_lo"], N["bf_hi"] = f2(_lo), f2(_hi)
+_fp = BF["fossil_pretax_aud_mwh"]
+N["dsl_l25"], N["dsl_l26"] = f2(_fp["diesel_2025"] * BF["litre_basis_kwh"] / 1000), f2(_fp["diesel_oct2026"] * BF["litre_basis_kwh"] / 1000)
+_APS = json.load(open(HERE / "observed_data" / "aps_2025.json"))
+_rb = DSP["robust"]
+_adq = (VER["turbine_gw"] - VER["turbine_gw_3h"]) * _rb["extra_turbine_cost_bn"] / _rb["extra_turbine_gw"]
+N["h_direct_adq"] = f0(CAL["hourly_pass2"]["direct"] + _adq * 1e3 / DSP["design"]["direct_twh"])
+N["ch4_turb2"], N["ch4_need2"] = f"{MB['turbines']:.3f}", f"{REC['methane']['turbine_need_twh']:.3f}"    # version 5, without turbine fuel in the balance
 N["h_h2_el"] = N["h_h2"]
 GRIDS = list(_vy[next(iter(_vy))]["unserved_mwh_by_node"])
 REG = {}
@@ -470,13 +499,14 @@ RESULTS = [
         f"this article and runs {N['n_tests']} consistency tests on each build.",
     ]),
     ("Every segment replaced, but not by electricity and biofuels alone", [
-        f"The least-cost system replaces all {N['dem']} TWh (Fig. 1 and Fig. 2A). Cars, utes and vans become "
+        f"The least-cost system replaces all {N['dem']} TWh (Fig. 1 and Fig. 2A): every litre of petrol, diesel, jet fuel, "
+        f"aviation gasoline, fuel oil and automotive LPG sold in 2025 except 0.5 GL of stationary diesel (table S23). Cars, utes and vans become "
         f"battery-electric; trucks use batteries for {N['bet']} TWh of their {f0(D['hdv'])} TWh and catenary for "
         f"{N['ers']} TWh; mines electrify {N['mine_el']} TWh and burn {N['mine_liq']} TWh of drop-in diesel; aviation "
-        f"uses {N['jet']} TWh of renewable jet; ships use methanol, ammonia and methane. Liquid and gaseous fuels total "
-        f"{N['liq']} TWh (Fig. 2B): Fischer–Tropsch electrofuels {N['eft']}, cereal straw {N['straw']}, cane and "
+        f"uses {N['jet']} TWh of renewable jet; ships use methanol, ammonia and methane. Transport uses "
+        f"{N['liq']} TWh of liquid and gaseous fuels (Fig. 2B), made mainly from Fischer–Tropsch electrofuels {N['eft']}, cereal straw {N['straw']}, cane and "
         f"forest residues {N['res2']}, tallow, used cooking oil and canola {N['lip']}, waste biomethane {N['ch4']} and "
-        f"kelp {N['kelpf']} TWh. The electricity fleet has {N['wind']} GW of wind and {N['pv']} GW of solar, able to "
+        f"kelp {N['kelpf']} TWh; part of the biomethane fuels the firming turbines. The electricity fleet has {N['wind']} GW of wind and {N['pv']} GW of solar, able to "
         f"generate {N['gen']} TWh a year, {N['h_share']}% of it from wind (Fig. 2C); the annual programme, given that "
         f"wind share, chooses {N['a_wind']} GW and {N['a_pv']} GW.",
         f"Aviation sets the price of liquid fuel. Each source can turn only part of its output into jet, so the last MWh of "
@@ -484,6 +514,13 @@ RESULTS = [
         f"electrofuels and methanol, ammonia or methane vehicles, Australia's residues, oils and wastes yield at most "
         f"{N['eb_bio']} TWh of liquids and leave {N['eb_short']} TWh of jet and diesel unmet. Unlike forest-rich countries, "
         f"Australia cannot decarbonize transport with electricity and biofuels alone.",
+        f"Producing the {N['bf_twh']} TWh of biofuels and biomethane costs A${N['bf_bn']} billion a year: A${N['bf_lo']} to "
+        f"{N['bf_hi']} per litre of diesel equivalent by pathway, A${N['bf_l']} on average, against A${N['dsl_l25']} and "
+        f"{N['dsl_l26']} for fossil diesel before tax in 2025 and October 2026. We hold these mature pathways at today's "
+        f"costs. Fischer–Tropsch electrofuel falls from A${N['ft_l26']} per litre today to A${N['ft_l50']} in 2050 as "
+        f"electricity, electrolysers and air capture learn, and the {N['ef_twh']} TWh of electrofuels cost A${N['ef_bn']} "
+        f"billion a year (fig. S13 and table S24). Biofuels are the cheap part of the system; they are limited by "
+        f"feedstock, not cost.",
     ]),
     ("Seasonal flexibility firms the system", [
         f"The chronological model serves the system's loads in five grids (three in the National Electricity Market, the "
@@ -498,12 +535,16 @@ RESULTS = [
         f"S20). Turbines generate {N['v_turb_twh']} TWh in an average year and {N['v_turb_twh_max']} TWh in the worst. "
         f"Their methane, {N['ch4_turb']} TWh a year, is a demand in the national methane balance, not an extra supply: "
         f"the national programme frees it by moving trucks and ships from {N['ch4_trans0']} to {N['ch4_trans']} TWh of "
-        f"methane, {N['ch4_ers']}making less bio-methanol, for A${N['ch4_cost']} billion a year, and a store of {N['ch4_store']} TWh "
-        f"carries the worst year's draw. {N['rel_sent']} Only {N['coin_firm']}% of battery and turbine output falls in the tenth of hours with "
+        f"methane, {N['ch4_ers']}making less bio-methanol, for A${N['ch4_cost']} billion a year. A ten-year inventory "
+        f"of production and withdrawals (table S20) shows that a store of {N['ch4_cap']} TWh, opened with {N['ch4_open']} "
+        f"TWh, never runs out and ends the decade no lower than it began; that is under half of Australia's existing "
+        f"underground gas storage [[gas_storage]], and the store and its first fill cost A${N['ch4_fill_bn']} billion a "
+        f"year. {N['rel_sent']} Only {N['coin_firm']}% of battery and turbine output falls in the tenth of hours with "
         f"the highest existing grid demand [[aemo_demand]], so the transport system adds little to the existing system's "
         f"peak.",
         f"Direct loads (vehicles, catenary, mines and heat pumps) pay A${N['h_direct']} per MWh at marginal prices, "
-        f"including new transmission of about A${N['trans']}; the same loads served alone cost A${N['h_inflex']}, or "
+        f"including new transmission of about A${N['trans']} (A${N['h_direct_adq']} with the turbines added by the "
+        f"one-hour adequacy pass); the same loads served alone cost A${N['h_inflex']} on the same basis, or "
         f"A${N['h_inflex7']} at the 7% discount rate typical of grid planning (Fig. 5C). To find what lowers the cost, we "
         f"replaced the electrolysers with an industrial demand of the same energy and the same plant that can shift "
         f"its use only within a day (24 hours of storage) or not at all. The daily-flexible demand raises the "
@@ -554,8 +595,7 @@ RESULTS = [
         f"in 1983–2012 to {N['tas_mhw1']} in 2015–2024 [[oisst,hobday]]. Elsewhere nitrate is scarce or heat stress "
         f"frequent: expected heatwave losses reach {N['warm_loss_lo']} to {N['warm_loss_hi']}% in {N['warm_zones']} "
         f"(fig. S11). In a hypothetical deployment the model grows kelp on {N['kelp']} km² in {N['kelp_where']}, each at a "
-        f"deployment cap of 1,000 km² "
-        f"that is set in every run and lies within the shelf 10–100 m deep after half is set aside for other uses "
+        f"deployment cap of 1,000 km²{N['kelp_small']}. The cap is set in every run and lies within the shelf 10–100 m deep after half is set aside for other uses "
         f"[[etopo]]. The farms yield {N['kelp_mt']} Mt of dry biomass and need {N['kn']} kt of nitrogen a year, "
         f"{N['kn_fish_pct']}% of it from nearby salmon farms. Kelp saves only A${N['k_none']} billion a year, and the "
         f"conclusions above hold without it. Giant kelp forests of southeast Australia are a listed endangered ecological "
@@ -669,8 +709,8 @@ SM_METHODS = [
         "year; each year 2015–2024 is then solved in three-hour steps with capacities fixed except turbines, and the "
         "largest turbine requirement at each node is kept. A one-hour adequacy pass repeats this for every year at one-hour "
         "resolution, pricing shortfalls at A$300,000 per MWh instead of the A$20,000 used in planning, so that turbines "
-        "are added in any grid that would otherwise be short (reliability sizing; an earlier version sized them at "
-        "A$20,000 and left South Australia–Tasmania above the 0.002% standard). The final fleet, the larger turbine requirement of the two passes and every other capacity, is then "
+        "are added in any grid that would otherwise be short (reliability sizing; sized at A$20,000 they leave South "
+        "Australia–Tasmania above the 0.002% standard). The final fleet, the larger turbine requirement of the two passes and every other capacity, is then "
         "fixed, identical in every year with nothing allowed to expand, and dispatched hour by hour for each of the ten "
         "years; this verification is what the reliability statements refer to. Marginal prices of the hourly balance "
         "allocate total cost to direct and flexible loads.",
@@ -682,9 +722,9 @@ SM_METHODS = [
         "until direct and flexible prices change by less than A$1 per MWh, the wind share by less than one percentage point "
         "and electrofuel load by less than 1%. Reported system cost then replaces the annual model's electricity supply "
         "(generation and firming adders, electrolysers and hydrogen storage) by the annualized cost of the chronological "
-        "model's final fleet, including new links and the turbines of the verification, the ten-year mean turbine fuel cost "
-        "and the distribution and flexible network adders; reported emissions use that fleet's wind and PV output and the "
-        "methane its turbines burn (reconcile.py).",
+        "model's final fleet, including new links and the turbines of the verification, turbine operating cost, a methane "
+        "store and the distribution and flexible network adders; the turbines' methane is supplied and costed inside the "
+        "annual model (below). Reported emissions use that fleet's wind and PV output (reconcile.py).",
         "Mechanism test. To ask whether electrolysers or flexibility as such firm the system, the electrofuel and "
         "air-capture electricity is re-solved as an equally large industrial demand with the same plant but a store "
         "limited to 24 hours of synthesis demand (daily flexibility) or no store (flat demand), with all other inputs "
@@ -692,13 +732,26 @@ SM_METHODS = [
         "hydrogen (central 1.5). Store sizes are given as the electrolyser input whose hydrogen they hold (MWh of "
         "electricity; hydrogen energy is 70% of it).",
         "Methane balance. The turbines burn renewable methane. Their ten-year mean fuel in the one-hour verification "
-        "(turbine output / 38% efficiency) enters the annual model as a fixed demand in its methane balance, which "
-        "waste biomethane (capped at 15 TWh), kelp methane or synthetic methane (electrolysis and methanation, 1.85 MWh "
-        "of electricity, 0.198 t CO₂ and A$40 per MWh of methane in 2050) must meet, so the methane's supply, cost and "
-        "life-cycle emissions are counted in the annual model; the electricity for any synthetic methane is a flexible "
-        "load of the hourly model. A methane store (A$3 per MWh-yr) carries the worst year's draw above the mean. A test "
-        "checks that the methane assigned in the annual model covers the verified turbine fuel to within 2% (after the "
-        "last iteration it is 0.4% short).",
+        "(turbine output / 38% efficiency), rounded up to 0.001 TWh, is a fixed demand in the annual model's methane "
+        "balance, which waste biomethane (capped at 15 TWh), kelp methane or synthetic methane (electrolysis and "
+        "methanation, 1.85 MWh of electricity, 0.198 t CO₂ and A$40 per MWh of methane in 2050) must meet, so the "
+        "methane's supply, cost and life-cycle emissions are counted in the annual model. For this final solve the "
+        "electrofuel, air-capture and process-heat electricity loads are held at the values the hourly fleet was designed "
+        "and verified on, so closing the balance does not alter the hourly results; shadow prices and scenario "
+        "differences come from the same case with those loads free. A ten-year inventory then tracks the methane store "
+        "year by year over 2015–2024, repeated twice in sequence: constant annual production, each year's turbine "
+        "withdrawals, and conservative ordering (all of a year's withdrawals before any of its production for the "
+        "minimum, the reverse for the maximum). It gives the smallest opening inventory that never runs out and the "
+        "capacity needed (table S20). The store costs A$3 per MWh-yr of capacity; its opening fill is valued at the "
+        "methane shadow price and, with its supply-chain emissions, spread over 30 years; it would be filled from waste "
+        "biomethane before the system is complete. Tests assert that the methane assigned covers the verified turbine "
+        "fuel, that the inventory never falls below zero or exceeds capacity, and that it ends no lower than it began.",
+        "Fuel production costs. Table S24 gives screening levelised costs of each fuel pathway from the model's inputs: "
+        "feedstock, conversion and process heat, and for electrofuels electricity at the calibrated flexible price with "
+        "electrolyser and hydrogen-storage costs and CO₂ from air capture. Today's costs use 7% finance and the 2050 case "
+        "4%; 2030 and 2040 are linear interpolations. Only wind, solar, electrolysers, synthesis, air capture, kelp and "
+        "finance learn; residue, lipid, ethanol and biomethane pathways keep today's costs. Costs exclude distribution, "
+        "margins and taxes; litres are diesel-equivalent (10.7 kWh).",
         "Regional reliability. Unserved energy is reported for each modelled grid against the 0.002% expected-unserved-"
         "energy standards of the National Electricity Market (per region) [[aemc_rs]] and the Western Australian market "
         "[[wem_pc]]; the Northern Territory has no equivalent standard. The model's eastern grids merge New South Wales "
@@ -764,8 +817,9 @@ SM_METHODS = [
         "drones, the Grid Harvester, SMR reactors, wind and solar, seafood and shrimp farms, greenhouses, and heat cascades. "
         "Use the Canadian package as guidance. Use inland Australia to grow food for the fish, swap meals for cross species "
         "feeding, distill water, electrify Australia's major highways, and produce an entirely new package”; (ii) a "
-        "request to fix overlapping text in the figures; (iii) requests to “fix what you agree with” in two "
-        "informal pre-submission reviews; and (iv) requests to write download scripts for weather, ocean, demand and price "
+        "request to fix overlapping text in the figures; (iii) requests to “fix what you agree with” in successive "
+        "informal pre-submission reviews, to review the documents, to project the cost of producing the biofuels and to "
+        "make the code run from a flat folder; and (iv) requests to write download scripts for weather, ocean, demand and price "
         "data and to use the downloaded files. The authors ran the downloads, checked the model, results and text, and take "
         "full responsibility for them.",
     ]),
@@ -787,6 +841,7 @@ REFDB = {
     "coalition_sites": "Liberal–National Coalition, Seven proposed nuclear sites (19 June 2024), as reported by SBS News and The Conversation.",
     "aemc_rs": "Australian Energy Market Commission, National Electricity Rules, clause 3.9.3C, Reliability standard (0.002% expected unserved energy per region per financial year).",
     "wem_pc": "Australian Energy Market Operator, 2023 Wholesale Electricity Market Electricity Statement of Opportunities (August 2023), Planning Criterion (WEM Rule 4.5.9).",
+    "gas_storage": "Department of Industry, Science and Resources, Future Gas Strategy, chap. 5, table of gas storage facilities (Australian Government, 2024).",
     "hybrit": "HYBRIT Development, Fossil-free hydrogen storage in lined rock caverns ready for industrialization (SSAB, LKAB and Vattenfall, February 2025).",
     "bradshaw_salt": "M. Bradshaw et al., Australian salt basins: options for underground hydrogen storage. APPEA J. 63, 285-304 (2023).",
     "gencost": "P. Graham, J. Hayward, J. Foster, GenCost 2025-26: Final Report (CSIRO and AEMO, July 2026).",
@@ -867,8 +922,9 @@ DATA_AV = ("Model inputs (with a machine-readable provenance table), processed o
            "in the supplementary materials. Raw downloads (ERA5, OISST, World Ocean Atlas, ETOPO, AEMO, EIA, RBA, AIP and "
            "government workbooks) are not redistributed; a manifest lists each with URL, size and SHA-256 hash, and the "
            "supplied scripts download and process them. The code (Python, MIT licence) reproduces every number, figure and document with one command "
-           "and runs automated tests on each build. Code and data will be deposited in a public GitHub repository archived "
-           "on Zenodo with a DOI before publication; the archived release will be cited here.")
+           "and runs automated tests on each build. All code and data are publicly available at "
+           "https://github.com/bcjohnjr/Australia-SMR-Kelp-Renewable-Transport-System; a versioned snapshot will be archived with a DOI "
+           "before publication.")
 
 LEGENDS = [
     ("Fig. 1. Australia's fossil-free transport system in 2050 and the proposed SMR sites.",
@@ -1023,7 +1079,7 @@ def manuscript():
         p.add_run(lab).bold = True
         rich(p, txt)
     head(doc, "Supplementary Materials", 10.5)
-    para(doc, "Materials and Methods; Supplementary Text; Figs. S1 to S12; Tables S1 to S23; References "
+    para(doc, "Materials and Methods; Supplementary Text; Figs. S1 to S13; Tables S1 to S24; References "
               f"({N_MAIN_REFS + 1} to {len(REFS)}); Data S1 (input provenance table, model outputs and Source Data); "
               "Code S1 (model and document code).")
     head(doc, "Figure legends")
@@ -1052,7 +1108,7 @@ def si():
     para(doc, TITLE, bold=True, size=13)
     para(doc, AUTHORS, size=9)
     para(doc, "Corresponding author: jonathan@cloudwashlaundry.com", size=9)
-    para(doc, "This PDF file includes: Materials and Methods; Supplementary Text; Figs. S1 to S12; Tables S1 to S23; "
+    para(doc, "This PDF file includes: Materials and Methods; Supplementary Text; Figs. S1 to S13; Tables S1 to S24; "
               f"References {N_MAIN_REFS + 1} to {len(REFS)}. Other Supplementary Materials: Data S1 (input_provenance.csv, "
               "outputs and Source Data), Code S1.", size=8.5, italic=True)
     head(doc, "Materials and Methods")
@@ -1063,7 +1119,7 @@ def si():
     para(doc, "Table S1. Automated tests run on every build (test_model.py).", bold=True)
     import test_model as TM
     table(doc, ["Test", "What it asserts"],
-          [(n, (f.__doc__ or "").strip().split("\n")[0] or n.replace("test_", "").replace("_", " "))
+          [(n, re.sub(r"\s+", " ", f.__doc__ or "").strip() or n.replace("test_", "").replace("_", " "))
            for n, f in vars(TM).items() if n.startswith("test_")])
     head(doc, "Supplementary Text")
     head(doc, "S1. Inputs and learning levers", 10)
@@ -1254,8 +1310,15 @@ def si():
               "per NEM region and in the WEM; NSW/VIC and SA/TAS each merge two NEM regions; no outages modelled).",
          size=8.5)
     table(doc, ["Grid", "Ten-year mean MWh", "Mean, % of direct demand", "Worst year MWh", "Worst year, %"],
-          [(g.replace("_", "/"), f0(r["mean"]), f"{r['mean_pct']:.4f}", f0(r["worst"]), f"{r['worst_pct']:.4f}")
+          [(g.replace("_", "/"), f0(r["mean"]), f"{abs(r['mean_pct']):.4f}", f0(r["worst"]), f"{abs(r['worst_pct']):.4f}")
            for g, r in REG.items()], size=7)
+    para(doc, "Turbine-methane inventory over the verification years (TWh): constant production of "
+              + f"{INV['production_twh']:.3f} TWh a year against a ten-year mean use of {INV['use_mean_twh']:.3f}; opening "
+              + f"inventory {INV['opening_twh']:.1f} TWh, capacity {INV['capacity_twh']:.1f} TWh. Lowest assumes all of the "
+              "year's withdrawals precede its production; highest the reverse.", size=8.5)
+    table(doc, ["Year", "Opening", "Production", "Turbine use", "Lowest", "Highest", "Closing"],
+          [(r["year"], f2(r["opening"]), f2(r["production"]), f2(r["use"]), f2(abs(r["lowest"])), f2(r["highest"]),
+            f2(r["closing"])) for r in INV["years"]], size=7)
     para(doc, "Table S21. Calibration of the annual model against the hourly model (AUD per MWh).", bold=True)
     ca = CAL
     table(doc, ["Quantity", "Value"], [
@@ -1282,10 +1345,13 @@ def si():
         *[(f"H2 store at A${c_}/kWh: hourly cost seasonal / daily, AUD bn/yr; store TWh(el)",
            f"{H2C[c_]['seasonal']['cost']:.1f} / {H2C[c_]['daily']['cost']:.1f}; {H2C[c_]['seasonal']['h2']:.1f}")
           for c_ in (5, 10, 15)],
-        ("Turbine methane in the annual methane balance / verified need, TWh/yr", f"{N['ch4_turb']} / {N['ch4_need']}"),
+        ("Turbine methane in the annual methane balance / verified need, TWh/yr", f"{N['ch4_turb2']} / {N['ch4_need2']}"),
+        ("Direct loads incl. turbines of the one-hour adequacy pass", N["h_direct_adq"]),
         ("Methane supply: waste / kelp / synthetic, TWh/yr", f"{N['ch4_waste']} / {N['ch4_kelp']} / {N['ch4_e']}"),
         ("Methane use: transport / bio-methanol / turbines, TWh/yr", f"{N['ch4_trans']} / {N['ch4_meoh']} / {N['ch4_turb']}"),
         ("Cost of supplying turbine methane within the annual model, AUD bn/yr", N["ch4_cost"]),
+        ("Methane store: opening inventory / capacity, TWh; store and first fill, AUD bn/yr",
+         f"{N['ch4_open']} / {N['ch4_cap']}; {N['ch4_fill_bn']}"),
         ("Hourly model, direct loads only (no electrolysers)", f1(ca["inflexible"]["price_direct_aud_mwh"])),
         ("Hourly model, direct loads only, 7% real discount rate", N["h_inflex7"]),
         ("GenCost 2025-26, 2050 net-zero system incl. transmission / excl.", "141–152 / 120–130"),
@@ -1309,6 +1375,20 @@ def si():
     table(doc, ["Product", "ML", "Treatment"], [(a, f"{b:,.1f}", c) for a, b, c in ACC["fuel_reconciliation"]]
           + [("Included in the study", f"{ACC['fuel_included_ml']:,.1f}", f"{N['dem']} TWh")])
 
+    para(doc, "Table S24. Projected production cost of each fuel pathway (screening levelised costs; AUD per litre of "
+              "diesel equivalent, 10.7 kWh; 2030 and 2040 interpolated) and 2050 output and spend. Fossil diesel before "
+              "tax: A$" + N["dsl_l25"] + " per litre in 2025, " + N["dsl_l26"] + " in October 2026.", bold=True)
+    table(doc, ["Pathway", "2026", "2030", "2040", "2050", "2050 AUD/MWh", "2050 output TWh", "2050 spend AUD bn/yr"],
+          [(k, *[f2(v["aud_l_diesel_eq"][y]) for y in ("2026", "2030", "2040", "2050")], f0(v["aud_mwh"]["2050"]),
+            f1(v["twh_2050"]), f2(v["spend_2050_bn"]) + (" *" if v["note"] else "")) for k, v in BF["pathways"].items()]
+          + [("Biofuels and biomethane, total", "", "", "", N["bf_l"], "", N["bf_twh"], N["bf_bn"]),
+             ("Electrofuels, total", "", "", "", "", "", N["ef_twh"], N["ef_bn"])], size=7)
+    para(doc, "* Intermediate: most ethanol is converted to jet, and biomethane is partly burnt in the firming turbines "
+              "and partly converted to methanol; totals count each feedstock once plus conversion. Drivers in 2050 "
+              f"(today): electrolyser electricity A${BF['drivers']['y2050']['electrolyser_electricity_aud_mwh']:.0f} "
+              f"({BF['drivers']['today']['electrolyser_electricity_aud_mwh']:.0f}) per MWh, air-captured CO₂ "
+              f"A${BF['drivers']['y2050']['co2_aud_t']:.0f} ({BF['drivers']['today']['co2_aud_t']:.0f}) per tonne.", size=8.5)
+
     head(doc, "Supplementary Figures")
     sfig = [("FigS1_grid_harvester_top", "Fig. S1. Grid Harvester, plan view (from the authors' engineering design)."),
             ("FigS2_grid_harvester_side", "Fig. S2. Grid Harvester, side view."),
@@ -1328,7 +1408,10 @@ def si():
              "area from the screening values and from bathymetry with the deployment cap."),
             ("FigS12_hourly_system", "Fig. S12. Hourly model: (A) final fleet by grid (turbines after the three-hour checks "
              "and the one-hour adequacy pass), (B) turbine output and curtailment in each weather year 2015-2024, with "
-             "the final fleet fixed and dispatched at one-hour resolution.")]
+             "the final fleet fixed and dispatched at one-hour resolution."),
+            ("FigS13_fuel_costs", "Fig. S13. Projected production cost of each fuel pathway, today (7% finance) and in "
+             "the 2050 learning case (4%), per litre of diesel equivalent, with the pre-tax price of fossil diesel in 2025 "
+             "and October 2026. Bars give 2050 output. Screening levelised costs from model inputs (table S24).")]
     for n, cap in sfig:
         doc.add_picture(str(FIG / f"{n}.png"), width=Cm(15.5 if "S7" not in n else 10))
         if n.startswith("FigS8"):
@@ -1347,7 +1430,7 @@ def si():
 def cover(wc_main, wc_abs, wc_meth):
     doc = Document()
     style(doc, 10.5)
-    for x in ("15 November 2026", "The Editors", "Science", "Dear Editors,"):
+    for x in ("16 November 2026", "The Editors", "Science", "Dear Editors,"):
         para(doc, x)
     paras = [
         f"We submit our Research Article \u201c{TITLE}\u201d for consideration in Science.",
@@ -1360,15 +1443,16 @@ def cover(wc_main, wc_abs, wc_meth):
         f"a Brent-equivalent price of about US${N['be_brent']} per barrel, with supply-chain emissions "
         f"{N['wtwp'].split('.')[0]}% lower. An hourly model of its electricity supply over ten years of reanalysis "
         f"weather, iterated with the national model to one consistent portfolio and verified hour by hour, shows that the "
-        f"flexible demand of the electrolysers needed for aviation fuel makes firming cheap: direct loads pay "
-        f"A${N['h_direct']} per MWh, against A${N['h_inflex']} for the same loads without them (CSIRO's whole-grid "
+        f"electrolysers needed for aviation fuel, because they can wait weeks for wind and sun against stored hydrogen, "
+        f"make firming cheap: direct loads pay A${N['h_direct']} per MWh, against A${N['h_inflex']} for the same loads "
+        f"without them, and the advantage survives a tenfold higher storage cost (CSIRO's whole-grid "
         f"estimates are not a like-for-like comparison). Reactors do not enter the long-run optimum unless "
         f"modules cost below about A${N['be_e']} billion. Kelp and fish-free aquafeed are presented as conditional findings "
         f"that need demonstration.",
         f"The main text has about {f0(round(wc_main, -1))} words, five figures and {N_MAIN_REFS} references; the abstract "
-        f"has {wc_abs} words. Materials and Methods, twelve supplementary figures, 23 supplementary tables, processed "
-        "observational data and code are provided; one command reproduces every number and runs automated tests. Code and "
-        "data will be archived on Zenodo with a DOI before publication.",
+        f"has {wc_abs} words. Materials and Methods, thirteen supplementary figures, 24 supplementary tables, processed "
+        "observational data and code are provided; one command reproduces every number and runs automated tests. All "
+        "code and data are public at https://github.com/bcjohnjr/Australia-SMR-Kelp-Renewable-Transport-System.",
         "Related work by the same authors: a Spanish study (SSRN preprint, https://doi.org/10.2139/ssrn.7648876, cited); a "
         "Canadian study using the same framework, under review at Nature Energy and not cited because it is not publicly "
         "available (we can provide it to the editors); a UK study under review at Energy & Environmental Science; and a "
@@ -1394,60 +1478,55 @@ def cover(wc_main, wc_abs, wc_meth):
 
 
 def response():
-    """Point-by-point record of the fourth informal review (of version 5) and what version 6 changed. Kept in Review/,
-    not part of the submission."""
+    """Point-by-point record of the informal review of version 7 and what version 7.1 changed. Kept in Review/, not
+    part of the submission."""
     doc = Document()
     style(doc, 10)
-    para(doc, "Response to the informal review of version 5", bold=True, size=14)
+    para(doc, "Response to the informal review of version 7", bold=True, size=14)
     para(doc, TITLE, italic=True)
-    para(doc, "Not for submission. Numbers are generated from the version 6 outputs.", size=9)
+    para(doc, "Not for submission. Numbers are generated from the version 7.1 outputs.", size=9)
     rows = [
-        ("2. Turbine methane not in the national methane balance (6.43 TWh/yr)", "Agreed; fixed",
-         f"The turbines' fuel (ten-year mean of the one-hour verification / 38% efficiency, now {N['ch4_need']} TWh/yr) "
-         f"is a fixed demand in the annual model's methane balance. A synthetic-methane pathway (electrolysis and "
-         f"methanation: 1.85 MWh electricity, 0.198 t CO2, A$40/MWh in 2050, A$55 today; electricity as a flexible hourly "
-         f"load; plant emissions in the LCA; leakage counted) was added. The optimum meets the demand by moving trucks "
-         f"and ships from {N['ch4_trans0']} to {N['ch4_trans']} TWh of methane and making less bio-methanol "
-         f"({N['ch4_meoh0']} to {N['ch4_meoh']} TWh) and electrifies one more highway corridor (catenary {N['ers_km']} km, "
-         f"was 4,024); synthetic methane {N['ch4_e']} TWh (more expensive than shifting these uses). Cost A${N['ch4_cost']} bn/yr, "
-         f"inside the annual objective. A methane store ({N['ch4_store']} TWh) carries the worst year. The iteration, "
-         f"final hourly pass, one-hour adequacy pass and verification were re-run. reconcile.py no longer adds turbine "
-         f"methane as waste biomethane, nor charges turbine fuel twice. New test: methane supply covers all uses within "
-         f"the waste cap, and the methane assigned covers the verified turbine fuel."),
-        ("3. Reliability standard is regional", "Agreed",
-         f"verify_hourly.json now records unserved energy and direct demand by grid; table S20 adds a by-grid table. "
-         f"The regional check found a real problem: with turbines sized at the planning VOLL (A$20,000/MWh), SA/TAS "
-         f"had {N['reg_econ_satas']}% expected unserved energy, above 0.002%. The one-hour adequacy pass now sizes "
-         f"turbines at A$300,000/MWh of shortfall (turbines {N['reg_econ_turb']} -> {N['v_turb_gw']} GW, costed in the "
-         f"reconciled total) and the fixed fleet was verified again. "
-         f"Ten-year mean by grid: {N['reg_list']}. Main text compares these with the 0.002% expected-unserved-energy "
-         f"standards of the NEM (per region) and WEM, and states that the model's merged NSW/VIC and SA/TAS grids and "
-         f"absence of outages cannot establish compliance in each NEM region. New test: grid values sum to the total "
-         f"and each grid's mean is within 0.002%."),
-        ("4. Seasonal storage advantage at higher storage costs", "Agreed; done",
-         f"Seasonal and daily cases re-optimised with the store at A$5, 10 and 15/kWh H2. Daily minus seasonal cost: "
-         f"{N['h2c_adv']} bn/yr (central A$1.5: {N['h2c_adv0']}). Store sizes now described as electrolyser-input "
-         f"equivalent with the hydrogen energy (70%) given."),
-        ("5a. One-sentence summary > 125 characters", "Agreed",
-         f"Now {len(SUMMARY)} characters: '{SUMMARY}' (emphasises the generalisable finding, as suggested)."),
-        ("5b. Manuscript layout", "Agreed",
-         "Manuscript DOCX now 12-point Times New Roman, double-spaced, one-inch margins."),
-        ("5c. Table S17 vs reported emissions", "Agreed",
-         "Table S17 now labelled as annual-model accounting, with the reported hourly-fleet total stated in its title."),
-        ("5d. Competing interests", "For the authors",
-         "Declaration unchanged ('no competing interests'). Please confirm whether any author holds or has applied for "
-         "patents, licences or commercial interests in the Grid Harvester, the utility drones or other designs in the "
-         "supplement; if so, declare them before submission."),
-        ("5e. Repository DOI", "For the authors",
-         "Requires the authors' GitHub/Zenodo accounts (Repository/UPLOAD_INSTRUCTIONS.md); the data-availability "
-         "statement should then cite the URL and DOI."),
-        ("Full rebuild not completed in the referee's window", "Noted",
-         "The standard rebuild (shipped hourly results) takes under a minute here; the hourly recalibration takes "
-         "several hours and is optional (--recalibrate). Measured times are in Data/runtime.json and the README."),
+        ("1. Methane allocation 0.44% below the verified turbine fuel", "Agreed; closed exactly",
+         f"The annual model now supplies {N['ch4_turb3']} TWh/yr against a verified need of {N['ch4_need3']} (the need "
+         f"rounded up to 0.001 TWh). To keep the hourly results valid, the final annual solve holds the electrofuel, "
+         f"air-capture and process-heat electricity loads at the values the hourly fleet was designed and verified on; a "
+         f"new test checks that annual and hourly loads are identical. The extra methane comes from slightly less "
+         f"bio-methanol, a little more e-ammonia and 9 km² more kelp. test_methane_balance now requires allocation >= need (no "
+         f"2% tolerance)."),
+        ("2. Ten-year methane inventory not demonstrated", "Agreed; added",
+         f"reconcile.py tracks the store year by year over 2015-2024, repeated twice in sequence, with conservative "
+         f"within-year ordering. Opening inventory {N['ch4_open']} TWh, capacity {N['ch4_cap']} TWh "
+         f"({N['ch4_cap_pj']} PJ, under half of Australia's existing underground gas storage), lowest level "
+         f"{N['ch4_low']} TWh (2017, by construction of the smallest sufficient opening stock), ten-year surplus {N['ch4_surplus']} TWh. Store capacity and the opening fill "
+         f"(valued at the methane shadow price, spread over 30 years, with its emissions) cost A${N['ch4_fill_bn']} "
+         f"bn/yr. Table S20 gives the year-by-year table; a new test asserts the inventory never falls below zero or "
+         f"exceeds capacity and ends no lower than it began."),
+        ("Recalculate affected outputs", "Done",
+         f"Reconciled cost A${N['cost']} bn/yr (was 85.30), emissions reduction {N['wtwp']}% (was 91.81), break-even "
+         f"US${N['be_brent']}/bbl (was 94), Monte Carlo median US${N['mc_be']}; catenary and fleet unchanged. The "
+         f"hourly dispatch did not need re-running because its loads are unchanged."),
+        ("3. Public repository is flat and not executable", "Fixed in the code",
+         "A new module (layout.py), imported first by every script, rebuilds outputs/, observed_data/ and "
+         "illustrations/ from a flat folder on first run, and writes documents to ./package when run outside the "
+         "submission package. A fresh flat copy was rebuilt and passed all tests. The authors only need to upload the "
+         "files of Code/model flat (Repository/flat_upload/ holds them ready). A Zenodo DOI is still to be minted."),
+        ("4a. 'All' transport fuel", "Partly disagree; clarified",
+         "Automotive LPG is included (table S23: 241.7 ML, light vehicles). Excluded are non-automotive LPG, lubricants "
+         "and other products, which are not transport fuels, and 0.5 GL of stationary diesel. The main text now states "
+         "this scope in one sentence."),
+        ("4b. Competing interests", "For the authors",
+         "Unchanged ('no competing interests'); all three authors must confirm, in particular any patent or commercial "
+         "interest in the Grid Harvester or the utility drones."),
+        ("Rebuild did not finish in the referee's 125 s", "Noted",
+         "The standard rebuild takes under a minute here; first runs are slower while matplotlib builds its font cache."),
+        ("Authors' request: projected fuel production costs", "Added",
+         f"New script biofuel_costs.py, table S24 and fig. S13: production cost of each pathway today, 2030, 2040 and "
+         f"2050. Biofuels and biomethane: {N['bf_twh']} TWh for A${N['bf_bn']} bn/yr (A${N['bf_l']} per litre of "
+         f"diesel equivalent); electrofuels: {N['ef_twh']} TWh for A${N['ef_bn']} bn/yr."),
     ]
-    table(doc, ["Referee point", "Response", "Change in version 6"], rows, size=8, widths=[4, 2.5, 10.5])
+    table(doc, ["Referee point", "Response", "Change in version 7.1"], rows, size=8, widths=[4, 2.5, 10.5])
     (PKG / "Review").mkdir(exist_ok=True)
-    path = PKG / "Review" / "Response_to_review_of_v5.docx"
+    path = PKG / "Review" / "Response_to_review_of_v7.docx"
     doc.save(path)
     return path
 

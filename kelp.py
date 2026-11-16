@@ -36,6 +36,7 @@ Refining: whole-kelp hydrothermal liquefaction with hydrotreating (route H of th
 hydrocarbon (at most 40% jet), 0.31 MWh of methane, 0.50 MWh of electricity and 0.46 MWh of heat at 150 C per dry
 tonne, AUD 230 per dry tonne (learning; 330 today), and recovered N, P and K (12, 2.4, 36 kg per dry tonne).
 """
+import layout  # noqa: F401  (rebuilds the folder layout if the files arrived flat)
 from dataclasses import dataclass
 
 CRF = lambda r, n: r * (1 + r) ** n / ((1 + r) ** n - 1)

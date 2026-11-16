@@ -19,6 +19,7 @@ fleet's wind and PV output (curtailed energy included, since panels and turbines
 is used).
 Output: outputs/reconciled.json.
 """
+import layout  # noqa: F401  (rebuilds the folder layout if the files arrived flat)
 import copy
 import json
 from pathlib import Path
@@ -54,6 +55,35 @@ def potential_generation(R, obs=None):
     return w * 8.766 / 1000, pv * 8.766 / 1000
 
 
+FILL_LIFE = 30      # years over which the store's initial fill is annualised (cost and emissions)
+
+
+def methane_inventory(use, production, cycles=2):
+    """Turbine-methane store over the verification years, repeated `cycles` times in sequence. Conservative ordering:
+    within each year all withdrawals come before any of that year's production counts towards the minimum, and all
+    production before any withdrawal towards the maximum. Returns the smallest opening inventory that never runs
+    out, the capacity needed, and the year-by-year table (TWh). Surplus production (rounding of the allocation)
+    accumulates in the store."""
+    ys = list(use)
+    seq = ys * cycles
+    cum, low = 0.0, 0.0
+    for y in seq:                       # lowest point relative to the opening inventory
+        low = min(low, cum - use[y])
+        cum += production - use[y]
+    opening = -low
+    rows, s, cap = [], opening, opening
+    for k, y in enumerate(seq):
+        lo, hi = s - use[y], s + production
+        cap = max(cap, hi)
+        s = s + production - use[y]
+        if k < len(ys):
+            rows.append(dict(year=y, opening=lo + use[y], production=production, use=use[y], lowest=lo, highest=hi,
+                             closing=s))
+    return dict(opening_twh=opening, capacity_twh=cap, closing_twh=rows[-1]["closing"] if rows else opening,
+                production_twh=production, use_mean_twh=sum(use.values()) / max(len(use), 1), years=rows,
+                surplus_10yr_twh=production * len(ys) - sum(use.values()))
+
+
 def reconcile(S=None, R=None, V=None):
     S = S or json.loads((OUT / "central.json").read_text())
     R = R or json.loads((OUT / "dispatch.json").read_text())
@@ -72,14 +102,18 @@ def reconcile(S=None, R=None, V=None):
     else:
         turb_twh = R["robust"]["turbine_twh_mean_10yr"]
         src = "three-hour yearly checks"
-    # turbine methane is produced in the annual model (fixed demand in its methane balance, priced there); here only
-    # turbine variable O&M and a methane store that carries the worst year's draw above the mean
-    turb_max = max(v["turbine_twh"] for v in V["years"].values()) if V else R["robust"]["turbine_twh_max"]
+    # turbine methane is produced in the annual model (fixed demand in its methane balance, priced there); here turbine
+    # variable O&M, the methane store and its initial fill, from a ten-year inventory of production and withdrawals
     ch4_need = turb_twh / p["turb_eff"]
-    ch4_store = max(turb_max - turb_twh, 0.0) / p["turb_eff"]
-    store_cost = O._base_params()["reserve"]["storage_cost"]
-    fuel_bn = (turb_twh * 1e6 * p["turb_vom"] + ch4_store * 1e6 * store_cost) / 1e9
     ch4_assigned = S.get("methane_balance_twh", {}).get("turbines", 0.0)
+    years = V["years"] if V else {}
+    inv = methane_inventory({y: v["turbine_twh"] / p["turb_eff"] for y, v in years.items()}, ch4_assigned)
+    store_cost = O._base_params()["reserve"]["storage_cost"]
+    ch4_price = S["shadow_aud_mwh"]["methane"]
+    fill_bn = inv["opening_twh"] * 1e6 * ch4_price * D.crf(S["params_r"], FILL_LIFE) / 1e9
+    store_bn = inv["capacity_twh"] * 1e6 * store_cost / 1e9
+    vom_bn = turb_twh * 1e6 * p["turb_vom"] / 1e9
+    fuel_bn = vom_bn + store_bn + fill_bn
     dist = cal.get("distribution_aud_mwh", a["net_dir"] - D_trans(R))
     net_bn = (max(dist, 0.0) * d["direct_twh"] + a["net_flex"] * d["flexible_twh"]) * 1e6 / 1e9
     hourly_el_bn = f["capacity_bn"] + f["links_bn"] + fuel_bn + net_bn
@@ -89,7 +123,8 @@ def reconcile(S=None, R=None, V=None):
     # emissions with the hourly fleet
     S2 = copy.deepcopy(S)
     S2["generation_twh"] = dict(S["generation_twh"], wind=w, pv=pv)
-    # turbine methane is already in the annual fuel supply (waste biomethane, kelp methane or e-methane)
+    # turbine methane is already in the annual fuel supply; the store's initial fill is added, spread over FILL_LIFE
+    S2["fuels_twh"]["waste_biomethane"] = S2["fuels_twh"].get("waste_biomethane", 0.0) + inv["opening_twh"] / FILL_LIFE
     em = O.residual_emissions(S2)
     em_lo = O.residual_emissions(S2, bound="lo")
     em_hi = O.residual_emissions(S2, bound="hi", ch4_leak=0.03)
@@ -108,9 +143,11 @@ def reconcile(S=None, R=None, V=None):
         hourly_electricity_bn=hourly_el_bn,
         hourly_parts_bn=dict(capacity=f["capacity_bn"], links=f["links_bn"], turbine_vom_and_methane_store=fuel_bn,
                              networks=net_bn),
-        methane=dict(turbine_need_twh=ch4_need, assigned_in_annual_model_twh=ch4_assigned, store_twh=ch4_store,
-                     balance=S.get("methane_balance_twh", {}),
-                     shortfall_twh=max(ch4_need - ch4_assigned, 0.0)),
+        methane=dict(turbine_need_twh=ch4_need, assigned_in_annual_model_twh=ch4_assigned,
+                     store_twh=inv["capacity_twh"], opening_twh=inv["opening_twh"], inventory=inv,
+                     balance=S.get("methane_balance_twh", {}), shortfall_twh=max(ch4_need - ch4_assigned, 0.0),
+                     cost_bn=dict(turbine_vom=vom_bn, store=store_bn, initial_fill=fill_bn),
+                     methane_price_aud_mwh=ch4_price, fill_life_yr=FILL_LIFE),
         reconciled_cost_bn=total, difference_bn=total - S["objective_bn"],
         difference_pct=100 * (total / S["objective_bn"] - 1),
         turbine_twh_mean=turb_twh, turbine_source=src,

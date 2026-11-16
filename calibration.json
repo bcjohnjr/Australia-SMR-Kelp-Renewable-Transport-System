@@ -107,8 +107,8 @@
   "electrolyser_cf": 0.7059385665170925,
   "flex_with_electrolyser": 81.62126984903517
  },
- "turbine_methane_twh": 6.43275987083805,
- "turbine_methane_source": "ten-year mean of the one-hour verification / turbine efficiency, from the verification of the previous iteration; the final verification needs 6.461 TWh (0.4% more, within the 2% tolerance of the iteration)",
+ "turbine_methane_twh": 6.462,
+ "turbine_methane_source": "ten-year mean of the one-hour verification / turbine efficiency, rounded up",
  "rule": "annual el_direct dual = hourly direct design price + distribution; annual flexible price incl. electrolyser = hourly flexible price + electrolyser + H2 store + flexible network adder; electrolyser utilisation and wind share of generation from the hourly design; iterated",
  "hourly_pass2": {
   "direct": 77.11422647600996,
@@ -287,5 +287,12 @@
    }
   }
  },
- "runtime_s": 17000.0
+ "runtime_s": 17000.0,
+ "turbine_methane_need_twh": 6.4611397660030185,
+ "el_load_fixed": {
+  "efuels": 246.15250959338888,
+  "dac": 20.932649999999967,
+  "refineries_heat": 2.283213571428571,
+  "heat_storage": 1.6982315789473683
+ }
 }

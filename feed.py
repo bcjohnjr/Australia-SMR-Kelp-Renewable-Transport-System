@@ -25,6 +25,7 @@ Land: hectares implied by each crop ingredient at average Australian yields (lup
 canola 1.6 t seed/ha giving 0.67 t oil and 0.93 t meal; DHA canola 0.60 t oil/ha; faba 2.0 t/ha and 33% protein
 concentrate; wheat 2.5 t/ha and 10% gluten). All parameters are screening values (table S12).
 """
+import layout  # noqa: F401  (rebuilds the folder layout if the files arrived flat)
 import json
 from pathlib import Path
 
