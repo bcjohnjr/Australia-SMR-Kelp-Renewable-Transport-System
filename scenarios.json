@@ -1,0 +1,1890 @@
+{
+ "central": {
+  "cost_bn": 80.16833032422154,
+  "kelp_km2": 3000.0,
+  "kelp_dry_mt": 2.8549999999999995,
+  "smr_gw": 0.0,
+  "smr_modules": {
+   "east": 0.0,
+   "sa": 0.0,
+   "wa": 0.0
+  },
+  "wind_gw": 93.72716390832994,
+  "pv_gw": 45.84517540790803,
+  "generation_twh": 450.5496046316613,
+  "efuels_twh": 103.04419119622226,
+  "ers_km": 5626.465674684005,
+  "wtw_reduction_pct": 92.04204493571872,
+  "dac_mt": 13.955099999999977,
+  "electrolyser_gw": 39.805244760818816,
+  "shortfall_twh": 0.0,
+  "liquid_biogenic_twh": 76.0245
+ },
+ "today": {
+  "cost_bn": 107.95828162417499,
+  "kelp_km2": 0.0,
+  "kelp_dry_mt": 0.0,
+  "smr_gw": 0.0,
+  "smr_modules": {
+   "east": 0.0,
+   "sa": 0.0,
+   "wa": 0.0
+  },
+  "wind_gw": 96.94080052644414,
+  "pv_gw": 47.29192103481557,
+  "generation_twh": 464.767691145806,
+  "efuels_twh": 109.18463002955562,
+  "ers_km": 5626.465674684005,
+  "wtw_reduction_pct": 92.00784609864368,
+  "dac_mt": 15.753749999999982,
+  "electrolyser_gw": 41.923056991703966,
+  "shortfall_twh": 0.0,
+  "liquid_biogenic_twh": 70.60000000000001
+ },
+ "electric_or_biofuel": {
+  "cost_bn": 45.42196227128079,
+  "kelp_km2": 8710.661787319497,
+  "kelp_dry_mt": 5.968333148107107,
+  "smr_gw": 0.0,
+  "smr_modules": {
+   "east": 0.0,
+   "sa": 0.0,
+   "wa": 0.0
+  },
+  "wind_gw": 34.434701436176056,
+  "pv_gw": 17.59702694638688,
+  "generation_twh": 172.93714033908364,
+  "efuels_twh": 0.0,
+  "ers_km": 6425.83593579306,
+  "wtw_reduction_pct": 94.94636354946321,
+  "dac_mt": 0.0,
+  "electrolyser_gw": 0.0,
+  "shortfall_twh": 103.92730590748533,
+  "liquid_biogenic_twh": 81.93983298140351
+ },
+ "levers": [
+  {
+   "step": "Today's costs, 7% finance",
+   "cost_bn": 107.95828162417499,
+   "kelp_km2": 0.0,
+   "kelp_dry_mt": 0.0,
+   "smr_gw": 0.0,
+   "smr_modules": {
+    "east": 0.0,
+    "sa": 0.0,
+    "wa": 0.0
+   },
+   "wind_gw": 96.94080052644414,
+   "pv_gw": 47.29192103481557,
+   "generation_twh": 464.767691145806,
+   "efuels_twh": 109.18463002955562,
+   "ers_km": 5626.465674684005,
+   "wtw_reduction_pct": 92.00784609864368,
+   "dac_mt": 15.753749999999982,
+   "electrolyser_gw": 41.923056991703966,
+   "shortfall_twh": 0.0,
+   "liquid_biogenic_twh": 70.60000000000001
+  },
+  {
+   "step": "Finance at 4% real",
+   "cost_bn": 96.61738349053294,
+   "kelp_km2": 0.0,
+   "kelp_dry_mt": 0.0,
+   "smr_gw": 0.0,
+   "smr_modules": {
+    "east": 0.0,
+    "sa": 0.0,
+    "wa": 0.0
+   },
+   "wind_gw": 96.94080052644414,
+   "pv_gw": 47.29192103481557,
+   "generation_twh": 464.767691145806,
+   "efuels_twh": 109.18463002955562,
+   "ers_km": 5626.465674684005,
+   "wtw_reduction_pct": 92.00784609864368,
+   "dac_mt": 15.753749999999982,
+   "electrolyser_gw": 41.923056991703966,
+   "shortfall_twh": 0.0,
+   "liquid_biogenic_twh": 70.60000000000001
+  },
+  {
+   "step": "GenCost 2050 wind, solar, batteries and electrolysers",
+   "cost_bn": 87.80559200808119,
+   "kelp_km2": 0.0,
+   "kelp_dry_mt": 0.0,
+   "smr_gw": 0.0,
+   "smr_modules": {
+    "east": 0.0,
+    "sa": 0.0,
+    "wa": 0.0
+   },
+   "wind_gw": 96.94080052644414,
+   "pv_gw": 47.29192103481557,
+   "generation_twh": 464.767691145806,
+   "efuels_twh": 109.18463002955562,
+   "ers_km": 5626.465674684005,
+   "wtw_reduction_pct": 92.00784609864368,
+   "dac_mt": 15.753749999999982,
+   "electrolyser_gw": 41.923056991703966,
+   "shortfall_twh": 0.0,
+   "liquid_biogenic_twh": 70.60000000000001
+  },
+  {
+   "step": "Electrofuel synthesis and air capture learning",
+   "cost_bn": 80.39283922430452,
+   "kelp_km2": 0.0,
+   "kelp_dry_mt": 0.0,
+   "smr_gw": 0.0,
+   "smr_modules": {
+    "east": 0.0,
+    "sa": 0.0,
+    "wa": 0.0
+   },
+   "wind_gw": 96.94080052644414,
+   "pv_gw": 47.29192103481557,
+   "generation_twh": 464.767691145806,
+   "efuels_twh": 109.18463002955562,
+   "ers_km": 5626.465674684005,
+   "wtw_reduction_pct": 92.00784609864368,
+   "dac_mt": 15.753749999999982,
+   "electrolyser_gw": 41.923056991703966,
+   "shortfall_twh": 0.0,
+   "liquid_biogenic_twh": 70.60000000000001
+  },
+  {
+   "step": "Cheaper kelp farming and structures",
+   "cost_bn": 80.39283922430452,
+   "kelp_km2": 0.0,
+   "kelp_dry_mt": 0.0,
+   "smr_gw": 0.0,
+   "smr_modules": {
+    "east": 0.0,
+    "sa": 0.0,
+    "wa": 0.0
+   },
+   "wind_gw": 96.94080052644414,
+   "pv_gw": 47.29192103481557,
+   "generation_twh": 464.767691145806,
+   "efuels_twh": 109.18463002955562,
+   "ers_km": 5626.465674684005,
+   "wtw_reduction_pct": 92.00784609864368,
+   "dac_mt": 15.753749999999982,
+   "electrolyser_gw": 41.923056991703966,
+   "shortfall_twh": 0.0,
+   "liquid_biogenic_twh": 70.60000000000001
+  },
+  {
+   "step": "Kelp learning-target yields",
+   "cost_bn": 80.3333078243364,
+   "kelp_km2": 1000.0,
+   "kelp_dry_mt": 1.1399999999999997,
+   "smr_gw": 0.0,
+   "smr_modules": {
+    "east": 0.0,
+    "sa": 0.0,
+    "wa": 0.0
+   },
+   "wind_gw": 95.65759711325667,
+   "pv_gw": 46.71423626610293,
+   "generation_twh": 459.09041667080595,
+   "efuels_twh": 106.73275602955562,
+   "ers_km": 5626.465674684005,
+   "wtw_reduction_pct": 92.02150167631989,
+   "dac_mt": 15.035549999999983,
+   "electrolyser_gw": 41.07741568059747,
+   "shortfall_twh": 0.0,
+   "liquid_biogenic_twh": 72.766
+  },
+  {
+   "step": "Kelp refinery learning (= central case)",
+   "cost_bn": 80.16833032422154,
+   "kelp_km2": 3000.0,
+   "kelp_dry_mt": 2.8549999999999995,
+   "smr_gw": 0.0,
+   "smr_modules": {
+    "east": 0.0,
+    "sa": 0.0,
+    "wa": 0.0
+   },
+   "wind_gw": 93.72716390832994,
+   "pv_gw": 45.84517540790803,
+   "generation_twh": 450.5496046316613,
+   "efuels_twh": 103.04419119622226,
+   "ers_km": 5626.465674684005,
+   "wtw_reduction_pct": 92.04204493571872,
+   "dac_mt": 13.955099999999977,
+   "electrolyser_gw": 39.805244760818816,
+   "shortfall_twh": 0.0,
+   "liquid_biogenic_twh": 76.0245
+  }
+ ],
+ "kelp_yield": {
+  "demonstrated x1.0": {
+   "cost_bn": 80.39283922430452,
+   "kelp_km2": 0.0,
+   "kelp_dry_mt": 0.0,
+   "smr_gw": 0.0,
+   "smr_modules": {
+    "east": 0.0,
+    "sa": 0.0,
+    "wa": 0.0
+   },
+   "wind_gw": 96.94080052644414,
+   "pv_gw": 47.29192103481557,
+   "generation_twh": 464.767691145806,
+   "efuels_twh": 109.18463002955562,
+   "ers_km": 5626.465674684005,
+   "wtw_reduction_pct": 92.00784609864368,
+   "dac_mt": 15.753749999999982,
+   "electrolyser_gw": 41.923056991703966,
+   "shortfall_twh": 0.0,
+   "liquid_biogenic_twh": 70.60000000000001
+  },
+  "design x1.0": {
+   "cost_bn": 80.39283922430452,
+   "kelp_km2": 0.0,
+   "kelp_dry_mt": 0.0,
+   "smr_gw": 0.0,
+   "smr_modules": {
+    "east": 0.0,
+    "sa": 0.0,
+    "wa": 0.0
+   },
+   "wind_gw": 96.94080052644414,
+   "pv_gw": 47.29192103481557,
+   "generation_twh": 464.767691145806,
+   "efuels_twh": 109.18463002955562,
+   "ers_km": 5626.465674684005,
+   "wtw_reduction_pct": 92.00784609864368,
+   "dac_mt": 15.753749999999982,
+   "electrolyser_gw": 41.923056991703966,
+   "shortfall_twh": 0.0,
+   "liquid_biogenic_twh": 70.60000000000001
+  },
+  "learning x1.0": {
+   "cost_bn": 80.16833032422154,
+   "kelp_km2": 3000.0,
+   "kelp_dry_mt": 2.8549999999999995,
+   "smr_gw": 0.0,
+   "smr_modules": {
+    "east": 0.0,
+    "sa": 0.0,
+    "wa": 0.0
+   },
+   "wind_gw": 93.72716390832994,
+   "pv_gw": 45.84517540790803,
+   "generation_twh": 450.5496046316613,
+   "efuels_twh": 103.04419119622226,
+   "ers_km": 5626.465674684005,
+   "wtw_reduction_pct": 92.04204493571872,
+   "dac_mt": 13.955099999999977,
+   "electrolyser_gw": 39.805244760818816,
+   "shortfall_twh": 0.0,
+   "liquid_biogenic_twh": 76.0245
+  },
+  "learning x1.25": {
+   "cost_bn": 79.73824020108363,
+   "kelp_km2": 3939.780181013798,
+   "kelp_dry_mt": 4.6289395167061915,
+   "smr_gw": 0.0,
+   "smr_modules": {
+    "east": 0.0,
+    "sa": 0.0,
+    "wa": 0.0
+   },
+   "wind_gw": 91.73038737971108,
+   "pv_gw": 44.946247478593435,
+   "generation_twh": 441.71526994886307,
+   "efuels_twh": 99.22886121500783,
+   "ers_km": 5626.465674684005,
+   "wtw_reduction_pct": 92.06329420665142,
+   "dac_mt": 12.837518104475077,
+   "electrolyser_gw": 38.48935306017755,
+   "shortfall_twh": 0.0,
+   "liquid_biogenic_twh": 79.39498508174177
+  },
+  "learning x1.5": {
+   "cost_bn": 79.35277340318255,
+   "kelp_km2": 3618.4889163232274,
+   "kelp_dry_mt": 5.1197793704725685,
+   "smr_gw": 0.0,
+   "smr_modules": {
+    "east": 0.0,
+    "sa": 0.0,
+    "wa": 0.0
+   },
+   "wind_gw": 91.24691868579221,
+   "pv_gw": 44.728594924246984,
+   "generation_twh": 439.5762603053107,
+   "efuels_twh": 98.40077946406802,
+   "ers_km": 5567.86800944846,
+   "wtw_reduction_pct": 92.06685755964935,
+   "dac_mt": 12.528288996602264,
+   "electrolyser_gw": 38.189661695761444,
+   "shortfall_twh": 0.0,
+   "liquid_biogenic_twh": 80.32758080389789
+  }
+ },
+ "kelp_forced": {
+  "bonney": {
+   "area_km2": 939.780181013798,
+   "extra_bn": 0.04054316316536699,
+   "name": "Bonney Coast upwelling (Portland-Robe)"
+  },
+  "sa_gulfs": {
+   "area_km2": 1000.0,
+   "extra_bn": 0.3371356397005627,
+   "name": "Spencer Gulf and Gulf St Vincent"
+  },
+  "sa_shelf": {
+   "area_km2": 1000.0,
+   "extra_bn": 0.21488650809911292,
+   "name": "Eyre Peninsula and Kangaroo Island shelf"
+  },
+  "wa_south": {
+   "area_km2": 1000.0,
+   "extra_bn": 0.17981423057364054,
+   "name": "WA south coast (Albany-Esperance)"
+  },
+  "wa_west": {
+   "area_km2": 1000.0,
+   "extra_bn": 0.4539026739533085,
+   "name": "WA west coast (Perth-Geraldton)"
+  },
+  "nsw_south": {
+   "area_km2": 770.8816063056989,
+   "extra_bn": 0.2101420744546516,
+   "name": "NSW south coast (Eden-Jervis Bay)"
+  }
+ },
+ "kelp_sens": {
+  "area cap 300 km2 per zone": {
+   "cost_bn": 80.32548655427965,
+   "kelp_km2": 900.0,
+   "kelp_dry_mt": 0.8564999999999998,
+   "smr_gw": 0.0,
+   "smr_modules": {
+    "east": 0.0,
+    "sa": 0.0,
+    "wa": 0.0
+   },
+   "wind_gw": 95.97670954100985,
+   "pv_gw": 46.85789734674331,
+   "generation_twh": 460.5022651915625,
+   "efuels_twh": 107.34249837955561,
+   "ers_km": 5626.465674684005,
+   "wtw_reduction_pct": 92.01810574976619,
+   "dac_mt": 15.214154999999973,
+   "electrolyser_gw": 41.287713322438414,
+   "shortfall_twh": 0.0,
+   "liquid_biogenic_twh": 72.22735,
+   "extra_bn": 0.15715623005810642,
+   "n_kt": 10.277999999999999
+  },
+  "area cap 100 km2 per zone": {
+   "cost_bn": 80.37038833429624,
+   "kelp_km2": 300.0,
+   "kelp_dry_mt": 0.2855,
+   "smr_gw": 0.0,
+   "smr_modules": {
+    "east": 0.0,
+    "sa": 0.0,
+    "wa": 0.0
+   },
+   "wind_gw": 96.61943686463272,
+   "pv_gw": 47.14724647212481,
+   "generation_twh": 463.3458824943915,
+   "efuels_twh": 108.57058614622228,
+   "ers_km": 5626.465674684005,
+   "wtw_reduction_pct": 92.01126598235119,
+   "dac_mt": 15.57388499999998,
+   "electrolyser_gw": 41.71127576861545,
+   "shortfall_twh": 0.0,
+   "liquid_biogenic_twh": 71.14245,
+   "extra_bn": 0.20205801007469404,
+   "n_kt": 3.4259999999999993
+  },
+  "natural nitrogen halved": {
+   "cost_bn": 80.28816147322088,
+   "kelp_km2": 1000.0,
+   "kelp_dry_mt": 1.1399999999999997,
+   "smr_gw": 0.0,
+   "smr_modules": {
+    "east": 0.0,
+    "sa": 0.0,
+    "wa": 0.0
+   },
+   "wind_gw": 95.65759711325667,
+   "pv_gw": 46.71423626610293,
+   "generation_twh": 459.09041667080595,
+   "efuels_twh": 106.73275602955562,
+   "ers_km": 5626.465674684005,
+   "wtw_reduction_pct": 92.02150167631989,
+   "dac_mt": 15.035549999999983,
+   "electrolyser_gw": 41.07741568059747,
+   "shortfall_twh": 0.0,
+   "liquid_biogenic_twh": 72.766,
+   "extra_bn": 0.11983114899933867,
+   "n_kt": 13.679999999999996
+  },
+  "no fish-farm nitrogen": {
+   "cost_bn": 80.18152802367136,
+   "kelp_km2": 3000.0,
+   "kelp_dry_mt": 2.8549999999999995,
+   "smr_gw": 0.0,
+   "smr_modules": {
+    "east": 0.0,
+    "sa": 0.0,
+    "wa": 0.0
+   },
+   "wind_gw": 93.72716390832994,
+   "pv_gw": 45.84517540790803,
+   "generation_twh": 450.5496046316613,
+   "efuels_twh": 103.04419119622226,
+   "ers_km": 5626.465674684005,
+   "wtw_reduction_pct": 92.04204493571872,
+   "dac_mt": 13.955099999999977,
+   "electrolyser_gw": 39.805244760818816,
+   "shortfall_twh": 0.0,
+   "liquid_biogenic_twh": 76.0245,
+   "extra_bn": 0.013197699449818856,
+   "n_kt": 34.25999999999999
+  },
+  "demonstrated yield (1.2 t/ha)": {
+   "cost_bn": 80.39283922430452,
+   "kelp_km2": 0.0,
+   "kelp_dry_mt": 0.0,
+   "smr_gw": 0.0,
+   "smr_modules": {
+    "east": 0.0,
+    "sa": 0.0,
+    "wa": 0.0
+   },
+   "wind_gw": 96.94080052644414,
+   "pv_gw": 47.29192103481557,
+   "generation_twh": 464.767691145806,
+   "efuels_twh": 109.18463002955562,
+   "ers_km": 5626.465674684005,
+   "wtw_reduction_pct": 92.00784609864368,
+   "dac_mt": 15.753749999999982,
+   "electrolyser_gw": 41.923056991703966,
+   "shortfall_twh": 0.0,
+   "liquid_biogenic_twh": 70.60000000000001,
+   "extra_bn": 0.22450890008298074,
+   "n_kt": 0.0
+  },
+  "no kelp": {
+   "cost_bn": 80.39283922430452,
+   "kelp_km2": 0,
+   "kelp_dry_mt": 0,
+   "smr_gw": 0.0,
+   "smr_modules": {
+    "east": 0.0,
+    "sa": -0.0,
+    "wa": -0.0
+   },
+   "wind_gw": 96.94080052644414,
+   "pv_gw": 47.29192103481557,
+   "generation_twh": 464.767691145806,
+   "efuels_twh": 109.18463002955562,
+   "ers_km": 5626.465674684005,
+   "wtw_reduction_pct": 92.00784609864368,
+   "dac_mt": 15.753749999999982,
+   "electrolyser_gw": 41.923056991703966,
+   "shortfall_twh": 0.0,
+   "liquid_biogenic_twh": 70.60000000000001,
+   "extra_bn": 0.22450890008298074,
+   "n_kt": 0.0
+  },
+  "hypothetical: ocean bounds without the deployment cap": {
+   "cost_bn": 80.13633866699345,
+   "kelp_km2": 5343.66179070713,
+   "kelp_dry_mt": 4.862342151591825,
+   "smr_gw": 0.0,
+   "smr_modules": {
+    "east": 0.0,
+    "sa": 0.0,
+    "wa": 0.0
+   },
+   "wind_gw": 91.46766539924425,
+   "pv_gw": 44.82797278811026,
+   "generation_twh": 440.5529095791842,
+   "efuels_twh": 98.72686660798364,
+   "ers_km": 5626.465674684005,
+   "wtw_reduction_pct": 92.06609003806415,
+   "dac_mt": 12.69047444449713,
+   "electrolyser_gw": 38.316217174054394,
+   "shortfall_twh": 0.0,
+   "liquid_biogenic_twh": 79.83845008802447,
+   "extra_bn": -0.031991657228090276,
+   "n_kt": 58.3481058191019
+  }
+ },
+ "firming_sens": {
+  "firming and network adders x1.5": {
+   "cost_bn": 86.56038341871515,
+   "kelp_km2": 3000.0,
+   "kelp_dry_mt": 2.8549999999999995,
+   "smr_gw": 0.0,
+   "smr_modules": {
+    "east": 0.0,
+    "sa": 0.0,
+    "wa": 0.0
+   },
+   "wind_gw": 93.72716390832994,
+   "pv_gw": 45.84517540790803,
+   "generation_twh": 450.5496046316613,
+   "efuels_twh": 103.04419119622226,
+   "ers_km": 5626.465674684005,
+   "wtw_reduction_pct": 92.04204493571872,
+   "dac_mt": 13.955099999999977,
+   "electrolyser_gw": 39.805244760818816,
+   "shortfall_twh": 0.0,
+   "liquid_biogenic_twh": 76.0245,
+   "extra_bn": 6.392053094493605,
+   "breakeven_brent": 95.82051507929233
+  },
+  "firming and network adders x2.0": {
+   "cost_bn": 92.937374012872,
+   "kelp_km2": 3939.780181013798,
+   "kelp_dry_mt": 3.7031516133649522,
+   "smr_gw": 0.0,
+   "smr_modules": {
+    "east": 0.0,
+    "sa": 0.0,
+    "wa": 0.0
+   },
+   "wind_gw": 92.77247000905771,
+   "pv_gw": 45.41538218983787,
+   "generation_twh": 446.3257541882518,
+   "efuels_twh": 101.22001497791742,
+   "ers_km": 5626.465674684005,
+   "wtw_reduction_pct": 92.05220458504986,
+   "dac_mt": 13.420764483580065,
+   "electrolyser_gw": 39.17609384648284,
+   "shortfall_twh": 0.0,
+   "liquid_biogenic_twh": 77.6359880653934,
+   "extra_bn": 12.769043688650456,
+   "breakeven_brent": 103.62550208663686
+  }
+ },
+ "lca_sens": {
+  "central": 15.507688504155793,
+  "lo": 9.360684821565641,
+  "hi": 25.62423208964434,
+  "fossil_wtw": 194.87026979784002,
+  "iluc": {
+   "0.0": 13.952488504155792,
+   "1.0": 15.507688504155793,
+   "2.0": 17.062888504155794
+  },
+  "ch4_leak": {
+   "0.0": 15.198716628555792,
+   "0.01": 15.507688504155793,
+   "0.03": 16.125632255355793,
+   "0.05": 16.74357600655579
+  },
+  "parts": {
+   "wind": 3.9608218039161476,
+   "pv": 4.216839234019381,
+   "smr": 0.0,
+   "kelp_hc": 0.18985749999999998,
+   "straw_ft": 0.7318080000000001,
+   "cane_htl": 0.255024,
+   "forest_htl": 0.286848,
+   "hefa": 0.39311999999999997,
+   "canola_hvo": 3.1708799999999995,
+   "efuel_ft_solar": 0.0,
+   "efuel_ft_wind": 0.5063474999999996,
+   "ethanol": 1.152,
+   "alcohol_to_jet": 0.1332,
+   "waste_biomethane": 0.15,
+   "kelp_methane": 0.008936149999999999,
+   "e_methanol": 0.0,
+   "bio_methanol": 0.03416098463915255,
+   "e_ammonia": 0.008873455981111682,
+   "e_methane": 0.0,
+   "methane_leakage": 0.3089718756
+  },
+  "efuel_intensity": {
+   "grid_t_mwh": 0.018150412194060248,
+   "ft": 0.04856098926574459,
+   "methanol": 0.03948578316871447,
+   "ammonia": 0.03676322133960543
+  },
+  "reduction_pct": {
+   "central": 92.04204493571872,
+   "lo": 95.1964530909325,
+   "hi": 86.85062009909099
+  }
+ },
+ "fossil_breakeven": {
+  "brent_usd": 87.99709263321057,
+  "cost_2025_bn": 64.7313635195102,
+  "cost_oct2026_bn": 109.52697141908826,
+  "system_bn": 80.16833032422154,
+  "today_brent_usd": 122.01003425956586,
+  "reconciled_bn": 85.30029459203567,
+  "reconciled_brent_usd": 94.27825517234736
+ },
+ "no_turbine_methane": {
+  "cost_bn": 79.50098986170995,
+  "kelp_km2": 3000.0,
+  "kelp_dry_mt": 2.8549999999999995,
+  "smr_gw": 0.0,
+  "smr_modules": {
+   "east": 0.0,
+   "sa": 0.0,
+   "wa": 0.0
+  },
+  "wind_gw": 92.71602216572282,
+  "pv_gw": 45.38996996057935,
+  "generation_twh": 446.0760120999433,
+  "efuels_twh": 101.37358108815508,
+  "ers_km": 4023.9356123716907,
+  "wtw_reduction_pct": 92.079834192437,
+  "dac_mt": 13.955099999999977,
+  "electrolyser_gw": 39.33247555106191,
+  "shortfall_twh": 0.0,
+  "liquid_biogenic_twh": 76.0245,
+  "extra_bn": 0.6673404625115893
+ },
+ "ers_none": {
+  "cost_bn": 85.02815268654835,
+  "kelp_km2": 3939.780181013798,
+  "kelp_dry_mt": 3.7031516133649522,
+  "smr_gw": 0.0,
+  "smr_modules": {
+   "east": 0.0,
+   "sa": 0.0,
+   "wa": 0.0
+  },
+  "wind_gw": 101.19148376901452,
+  "pv_gw": 49.20553421618595,
+  "generation_twh": 483.57398111226655,
+  "efuels_twh": 108.57341559529324,
+  "ers_km": 0,
+  "wtw_reduction_pct": 91.5356145848548,
+  "dac_mt": 16.670224874788193,
+  "electrolyser_gw": 45.34977011627121,
+  "shortfall_twh": 0.0,
+  "liquid_biogenic_twh": 77.6359880653934
+ },
+ "ers_all": {
+  "cost_bn": 81.83138990203366,
+  "kelp_km2": 3000.0,
+  "kelp_dry_mt": 2.8549999999999995,
+  "smr_gw": 0.0,
+  "smr_modules": {
+   "east": 0.0,
+   "sa": 0.0,
+   "wa": 0.0
+  },
+  "wind_gw": 93.3189335962447,
+  "pv_gw": 45.66139438691413,
+  "generation_twh": 448.7434720209586,
+  "efuels_twh": 102.43529682625325,
+  "ers_km": 12678.233783205858,
+  "wtw_reduction_pct": 92.05745391998434,
+  "dac_mt": 13.955099999999977,
+  "electrolyser_gw": 39.632932556597375,
+  "shortfall_twh": 0.0,
+  "liquid_biogenic_twh": 76.0245
+ },
+ "ers_corridors": {
+  "Hume (Sydney-Melbourne)": {
+   "km": 804.4093269763787,
+   "aadt": 3500,
+   "twh_diesel": 5.151152714295552,
+   "ann_aud_m": 234.34084411092576,
+   "aud_per_mwh": 45.49289394208402,
+   "chosen_twh": 5.151152714295552,
+   "built": 1
+  },
+  "Pacific (Sydney-Brisbane)": {
+   "km": 857.760710691329,
+   "aadt": 3000,
+   "twh_diesel": 4.708110941870698,
+   "ann_aud_m": 249.8831903704371,
+   "aud_per_mwh": 53.075042932431344,
+   "chosen_twh": 4.708110941870698,
+   "built": 1
+  },
+  "Bruce (Brisbane-Cairns)": {
+   "km": 1602.530062312314,
+   "aadt": 1200,
+   "twh_diesel": 3.5184121758005853,
+   "ann_aud_m": 466.84969321151306,
+   "aud_per_mwh": 132.68760733107834,
+   "chosen_twh": 3.5184121758005853,
+   "built": 1
+  },
+  "Inland (Melbourne-Brisbane via Newell)": {
+   "km": 1617.203438736269,
+   "aadt": 1400,
+   "twh_diesel": 4.518981217590467,
+   "ann_aud_m": 471.12434704984173,
+   "aud_per_mwh": 104.25454861727584,
+   "chosen_twh": 4.518981217590467,
+   "built": 1
+  },
+  "Western (Melbourne-Adelaide)": {
+   "km": 744.5621359677142,
+   "aadt": 1500,
+   "twh_diesel": 2.0433910620754028,
+   "ann_aud_m": 216.90613669479694,
+   "aud_per_mwh": 106.15008586486267,
+   "chosen_twh": 2.0433910620754028,
+   "built": 1
+  },
+  "Eyre (Adelaide-Perth)": {
+   "km": 2779.2616136619263,
+   "aadt": 450,
+   "twh_diesel": 3.328346434365045,
+   "ann_aud_m": 809.6555953655104,
+   "aud_per_mwh": 243.26061344031032,
+   "chosen_twh": 0.0,
+   "built": 0
+  },
+  "Stuart (Port Augusta-Darwin)": {
+   "km": 2728.5740977831583,
+   "aadt": 250,
+   "twh_diesel": 2.042278024632305,
+   "ann_aud_m": 794.8892881403516,
+   "aud_per_mwh": 389.2169815044965,
+   "chosen_twh": 0.0,
+   "built": 0
+  },
+  "Great Northern (Perth-Port Hedland)": {
+   "km": 1543.9323970767693,
+   "aadt": 700,
+   "twh_diesel": 3.2356789519341724,
+   "ann_aud_m": 449.7789981390898,
+   "aud_per_mwh": 139.00606482303448,
+   "chosen_twh": -0.0,
+   "built": 0
+  }
+ },
+ "smr_capex_sweep": [
+  {
+   "module_bn": 0.6,
+   "saving_bn": 0.4200493032088417,
+   "gw": 8.4,
+   "steam_twh": 1.2093,
+   "by_fleet": {
+    "east": 6.0,
+    "sa": 1.2,
+    "wa": 1.2
+   }
+  },
+  {
+   "module_bn": 0.8,
+   "saving_bn": 0.13711776299206235,
+   "gw": 8.4,
+   "steam_twh": 1.2093,
+   "by_fleet": {
+    "east": 6.0,
+    "sa": 1.2,
+    "wa": 1.2
+   }
+  },
+  {
+   "module_bn": 1.0,
+   "saving_bn": 0.059277612502398824,
+   "gw": 0.23266507618901033,
+   "steam_twh": 1.2093,
+   "by_fleet": {
+    "east": 0.23266507618901033,
+    "sa": 0.0,
+    "wa": 0.0
+   }
+  },
+  {
+   "module_bn": 1.2,
+   "saving_bn": 0.051440911507071974,
+   "gw": 0.23266507618901033,
+   "steam_twh": 1.2093,
+   "by_fleet": {
+    "east": 0.23266507618901033,
+    "sa": 0.0,
+    "wa": 0.0
+   }
+  },
+  {
+   "module_bn": 1.5,
+   "saving_bn": 0.040457922649451916,
+   "gw": 0.18726335231645377,
+   "steam_twh": 0.9733200000000001,
+   "by_fleet": {
+    "east": 0.18726335231645377,
+    "sa": 0.0,
+    "wa": 0.0
+   }
+  },
+  {
+   "module_bn": 2.0,
+   "saving_bn": 0.024689259346757808,
+   "gw": 0.18726335231645377,
+   "steam_twh": 0.9733200000000001,
+   "by_fleet": {
+    "east": 0.18726335231645377,
+    "sa": 0.0,
+    "wa": 0.0
+   }
+  },
+  {
+   "module_bn": 2.5,
+   "saving_bn": 0.0089205960440637,
+   "gw": 0.18726335231645377,
+   "steam_twh": 0.9733200000000001,
+   "by_fleet": {
+    "east": 0.18726335231645377,
+    "sa": 0.0,
+    "wa": 0.0
+   }
+  },
+  {
+   "module_bn": 3.0,
+   "saving_bn": 0.0,
+   "gw": 0.0,
+   "steam_twh": 0.0,
+   "by_fleet": {
+    "east": 0.0,
+    "sa": 0.0,
+    "wa": 0.0
+   }
+  },
+  {
+   "module_bn": 4.6,
+   "saving_bn": 0.0,
+   "gw": 0.0,
+   "steam_twh": 0.0,
+   "by_fleet": {
+    "east": 0.0,
+    "sa": 0.0,
+    "wa": 0.0
+   }
+  }
+ ],
+ "smr_breakeven_module_bn": {
+  "east": 2.8227653498761356,
+  "sa": 0.8508940479718149,
+  "wa": 0.8508940479718149
+ },
+ "smr_whole_modules": {
+  "4.6": {
+   "module_bn": 4.6,
+   "site_bn": 1.75,
+   "base_bn": 80.16833032422154,
+   "rows": [
+    {
+     "sa": 0,
+     "wa": 0,
+     "east": 0,
+     "sites": 0,
+     "cost_bn": 80.16833032422157,
+     "saving_bn": -2.842170943040401e-14,
+     "steam_twh": 0.0
+    },
+    {
+     "sa": 0,
+     "wa": 0,
+     "east": 1,
+     "sites": 1,
+     "cost_bn": 80.38104423876884,
+     "saving_bn": -0.21271391454729383,
+     "steam_twh": 1.2093
+    },
+    {
+     "sa": 0,
+     "wa": 1,
+     "east": 0,
+     "sites": 1,
+     "cost_bn": 80.44616434509102,
+     "saving_bn": -0.27783402086947717,
+     "steam_twh": 0.0
+    },
+    {
+     "sa": 1,
+     "wa": 0,
+     "east": 0,
+     "sites": 1,
+     "cost_bn": 80.44616434509102,
+     "saving_bn": -0.27783402086947717,
+     "steam_twh": 0.0
+    },
+    {
+     "sa": 0,
+     "wa": 0,
+     "east": 2,
+     "sites": 1,
+     "cost_bn": 80.57046215332058,
+     "saving_bn": -0.40213182909903367,
+     "steam_twh": 1.2093
+    },
+    {
+     "sa": 0,
+     "wa": 2,
+     "east": 0,
+     "sites": 1,
+     "cost_bn": 80.63558225964277,
+     "saving_bn": -0.4672519354212312,
+     "steam_twh": 0.0
+    },
+    {
+     "sa": 2,
+     "wa": 0,
+     "east": 0,
+     "sites": 1,
+     "cost_bn": 80.63558225964277,
+     "saving_bn": -0.4672519354212312,
+     "steam_twh": 0.0
+    },
+    {
+     "sa": 0,
+     "wa": 1,
+     "east": 1,
+     "sites": 2,
+     "cost_bn": 80.6588782596383,
+     "saving_bn": -0.4905479354167568,
+     "steam_twh": 1.2093
+    },
+    {
+     "sa": 1,
+     "wa": 0,
+     "east": 1,
+     "sites": 2,
+     "cost_bn": 80.6588782596383,
+     "saving_bn": -0.4905479354167568,
+     "steam_twh": 1.2093
+    },
+    {
+     "sa": 1,
+     "wa": 1,
+     "east": 0,
+     "sites": 2,
+     "cost_bn": 80.72399836596051,
+     "saving_bn": -0.5556680417389686,
+     "steam_twh": 0.0
+    },
+    {
+     "sa": 0,
+     "wa": 1,
+     "east": 2,
+     "sites": 2,
+     "cost_bn": 80.84829617419003,
+     "saving_bn": -0.6799658499684824,
+     "steam_twh": 1.2093
+    },
+    {
+     "sa": 0,
+     "wa": 2,
+     "east": 1,
+     "sites": 2,
+     "cost_bn": 80.84829617419003,
+     "saving_bn": -0.6799658499684824,
+     "steam_twh": 1.2093
+    },
+    {
+     "sa": 1,
+     "wa": 0,
+     "east": 2,
+     "sites": 2,
+     "cost_bn": 80.84829617419003,
+     "saving_bn": -0.6799658499684824,
+     "steam_twh": 1.2093
+    },
+    {
+     "sa": 2,
+     "wa": 0,
+     "east": 1,
+     "sites": 2,
+     "cost_bn": 80.84829617419003,
+     "saving_bn": -0.6799658499684824,
+     "steam_twh": 1.2093
+    },
+    {
+     "sa": 1,
+     "wa": 2,
+     "east": 0,
+     "sites": 2,
+     "cost_bn": 80.91341628051224,
+     "saving_bn": -0.7450859562906942,
+     "steam_twh": 0.0
+    },
+    {
+     "sa": 2,
+     "wa": 1,
+     "east": 0,
+     "sites": 2,
+     "cost_bn": 80.91341628051224,
+     "saving_bn": -0.7450859562906942,
+     "steam_twh": 0.0
+    },
+    {
+     "sa": 1,
+     "wa": 1,
+     "east": 1,
+     "sites": 3,
+     "cost_bn": 80.93671228050776,
+     "saving_bn": -0.7683819562862197,
+     "steam_twh": 1.2093
+    },
+    {
+     "sa": 0,
+     "wa": 0,
+     "east": 4,
+     "sites": 2,
+     "cost_bn": 81.03771408874178,
+     "saving_bn": -0.8693837645202365,
+     "steam_twh": 1.2093
+    },
+    {
+     "sa": 0,
+     "wa": 2,
+     "east": 2,
+     "sites": 2,
+     "cost_bn": 81.03771408874178,
+     "saving_bn": -0.8693837645202365,
+     "steam_twh": 1.2093
+    },
+    {
+     "sa": 2,
+     "wa": 0,
+     "east": 2,
+     "sites": 2,
+     "cost_bn": 81.03771408874178,
+     "saving_bn": -0.8693837645202365,
+     "steam_twh": 1.2093
+    },
+    {
+     "sa": 2,
+     "wa": 2,
+     "east": 0,
+     "sites": 2,
+     "cost_bn": 81.10283419506398,
+     "saving_bn": -0.934503870842434,
+     "steam_twh": 0.0
+    },
+    {
+     "sa": 1,
+     "wa": 1,
+     "east": 2,
+     "sites": 3,
+     "cost_bn": 81.12613019505952,
+     "saving_bn": -0.9577998708379738,
+     "steam_twh": 1.2093
+    },
+    {
+     "sa": 1,
+     "wa": 2,
+     "east": 1,
+     "sites": 3,
+     "cost_bn": 81.12613019505952,
+     "saving_bn": -0.9577998708379738,
+     "steam_twh": 1.2093
+    },
+    {
+     "sa": 2,
+     "wa": 1,
+     "east": 1,
+     "sites": 3,
+     "cost_bn": 81.12613019505952,
+     "saving_bn": -0.9577998708379738,
+     "steam_twh": 1.2093
+    },
+    {
+     "sa": 0,
+     "wa": 1,
+     "east": 4,
+     "sites": 3,
+     "cost_bn": 81.31554810961126,
+     "saving_bn": -1.1472177853897136,
+     "steam_twh": 1.2093
+    },
+    {
+     "sa": 1,
+     "wa": 0,
+     "east": 4,
+     "sites": 3,
+     "cost_bn": 81.31554810961126,
+     "saving_bn": -1.1472177853897136,
+     "steam_twh": 1.2093
+    },
+    {
+     "sa": 1,
+     "wa": 2,
+     "east": 2,
+     "sites": 3,
+     "cost_bn": 81.31554810961126,
+     "saving_bn": -1.1472177853897136,
+     "steam_twh": 1.2093
+    },
+    {
+     "sa": 2,
+     "wa": 1,
+     "east": 2,
+     "sites": 3,
+     "cost_bn": 81.31554810961126,
+     "saving_bn": -1.1472177853897136,
+     "steam_twh": 1.2093
+    },
+    {
+     "sa": 2,
+     "wa": 2,
+     "east": 1,
+     "sites": 3,
+     "cost_bn": 81.31554810961126,
+     "saving_bn": -1.1472177853897136,
+     "steam_twh": 1.2093
+    },
+    {
+     "sa": 0,
+     "wa": 2,
+     "east": 4,
+     "sites": 3,
+     "cost_bn": 81.50496602416298,
+     "saving_bn": -1.3366356999414393,
+     "steam_twh": 1.2093
+    },
+    {
+     "sa": 2,
+     "wa": 0,
+     "east": 4,
+     "sites": 3,
+     "cost_bn": 81.50496602416298,
+     "saving_bn": -1.3366356999414393,
+     "steam_twh": 1.2093
+    },
+    {
+     "sa": 2,
+     "wa": 2,
+     "east": 2,
+     "sites": 3,
+     "cost_bn": 81.50496602416298,
+     "saving_bn": -1.3366356999414393,
+     "steam_twh": 1.2093
+    },
+    {
+     "sa": 1,
+     "wa": 1,
+     "east": 4,
+     "sites": 4,
+     "cost_bn": 81.59338213048072,
+     "saving_bn": -1.4250518062591766,
+     "steam_twh": 1.2093
+    },
+    {
+     "sa": 1,
+     "wa": 2,
+     "east": 4,
+     "sites": 4,
+     "cost_bn": 81.78280004503247,
+     "saving_bn": -1.6144697208109307,
+     "steam_twh": 1.2093
+    },
+    {
+     "sa": 2,
+     "wa": 1,
+     "east": 4,
+     "sites": 4,
+     "cost_bn": 81.78280004503247,
+     "saving_bn": -1.6144697208109307,
+     "steam_twh": 1.2093
+    },
+    {
+     "sa": 2,
+     "wa": 2,
+     "east": 4,
+     "sites": 4,
+     "cost_bn": 81.97221795958419,
+     "saving_bn": -1.803887635362642,
+     "steam_twh": 1.2093
+    }
+   ]
+  },
+  "2.5": {
+   "module_bn": 2.5,
+   "site_bn": 1.75,
+   "base_bn": 80.16833032422154,
+   "rows": [
+    {
+     "sa": 0,
+     "wa": 0,
+     "east": 0,
+     "sites": 0,
+     "cost_bn": 80.16833032422157,
+     "saving_bn": -2.842170943040401e-14,
+     "steam_twh": 0.0
+    },
+    {
+     "sa": 0,
+     "wa": 0,
+     "east": 1,
+     "sites": 1,
+     "cost_bn": 80.27494491118755,
+     "saving_bn": -0.10661458696600334,
+     "steam_twh": 1.2093
+    },
+    {
+     "sa": 0,
+     "wa": 1,
+     "east": 0,
+     "sites": 1,
+     "cost_bn": 80.34006501750973,
+     "saving_bn": -0.1717346932881867,
+     "steam_twh": 0.0
+    },
+    {
+     "sa": 1,
+     "wa": 0,
+     "east": 0,
+     "sites": 1,
+     "cost_bn": 80.34006501750973,
+     "saving_bn": -0.1717346932881867,
+     "steam_twh": 0.0
+    },
+    {
+     "sa": 0,
+     "wa": 0,
+     "east": 2,
+     "sites": 1,
+     "cost_bn": 80.358263498158,
+     "saving_bn": -0.1899331739364527,
+     "steam_twh": 1.2093
+    },
+    {
+     "sa": 0,
+     "wa": 2,
+     "east": 0,
+     "sites": 1,
+     "cost_bn": 80.4233836044802,
+     "saving_bn": -0.25505328025865026,
+     "steam_twh": 0.0
+    },
+    {
+     "sa": 2,
+     "wa": 0,
+     "east": 0,
+     "sites": 1,
+     "cost_bn": 80.4233836044802,
+     "saving_bn": -0.25505328025865026,
+     "steam_twh": 0.0
+    },
+    {
+     "sa": 0,
+     "wa": 1,
+     "east": 1,
+     "sites": 2,
+     "cost_bn": 80.44667960447572,
+     "saving_bn": -0.2783492802541758,
+     "steam_twh": 1.2093
+    },
+    {
+     "sa": 1,
+     "wa": 0,
+     "east": 1,
+     "sites": 2,
+     "cost_bn": 80.44667960447572,
+     "saving_bn": -0.2783492802541758,
+     "steam_twh": 1.2093
+    },
+    {
+     "sa": 1,
+     "wa": 1,
+     "east": 0,
+     "sites": 2,
+     "cost_bn": 80.51179971079793,
+     "saving_bn": -0.3434693865763876,
+     "steam_twh": 0.0
+    },
+    {
+     "sa": 0,
+     "wa": 1,
+     "east": 2,
+     "sites": 2,
+     "cost_bn": 80.52999819144617,
+     "saving_bn": -0.3616678672246252,
+     "steam_twh": 1.2093
+    },
+    {
+     "sa": 0,
+     "wa": 2,
+     "east": 1,
+     "sites": 2,
+     "cost_bn": 80.52999819144617,
+     "saving_bn": -0.3616678672246252,
+     "steam_twh": 1.2093
+    },
+    {
+     "sa": 1,
+     "wa": 0,
+     "east": 2,
+     "sites": 2,
+     "cost_bn": 80.52999819144617,
+     "saving_bn": -0.3616678672246252,
+     "steam_twh": 1.2093
+    },
+    {
+     "sa": 2,
+     "wa": 0,
+     "east": 1,
+     "sites": 2,
+     "cost_bn": 80.52999819144617,
+     "saving_bn": -0.3616678672246252,
+     "steam_twh": 1.2093
+    },
+    {
+     "sa": 1,
+     "wa": 2,
+     "east": 0,
+     "sites": 2,
+     "cost_bn": 80.59511829776837,
+     "saving_bn": -0.42678797354682274,
+     "steam_twh": 0.0
+    },
+    {
+     "sa": 2,
+     "wa": 1,
+     "east": 0,
+     "sites": 2,
+     "cost_bn": 80.59511829776837,
+     "saving_bn": -0.42678797354682274,
+     "steam_twh": 0.0
+    },
+    {
+     "sa": 0,
+     "wa": 0,
+     "east": 4,
+     "sites": 2,
+     "cost_bn": 80.61331677841663,
+     "saving_bn": -0.44498645419508875,
+     "steam_twh": 1.2093
+    },
+    {
+     "sa": 0,
+     "wa": 2,
+     "east": 2,
+     "sites": 2,
+     "cost_bn": 80.61331677841663,
+     "saving_bn": -0.44498645419508875,
+     "steam_twh": 1.2093
+    },
+    {
+     "sa": 2,
+     "wa": 0,
+     "east": 2,
+     "sites": 2,
+     "cost_bn": 80.61331677841663,
+     "saving_bn": -0.44498645419508875,
+     "steam_twh": 1.2093
+    },
+    {
+     "sa": 1,
+     "wa": 1,
+     "east": 1,
+     "sites": 3,
+     "cost_bn": 80.6184142977639,
+     "saving_bn": -0.4500839735423625,
+     "steam_twh": 1.2093
+    },
+    {
+     "sa": 2,
+     "wa": 2,
+     "east": 0,
+     "sites": 2,
+     "cost_bn": 80.67843688473883,
+     "saving_bn": -0.5101065605172863,
+     "steam_twh": 0.0
+    },
+    {
+     "sa": 1,
+     "wa": 1,
+     "east": 2,
+     "sites": 3,
+     "cost_bn": 80.70173288473437,
+     "saving_bn": -0.5334025605128261,
+     "steam_twh": 1.2093
+    },
+    {
+     "sa": 1,
+     "wa": 2,
+     "east": 1,
+     "sites": 3,
+     "cost_bn": 80.70173288473437,
+     "saving_bn": -0.5334025605128261,
+     "steam_twh": 1.2093
+    },
+    {
+     "sa": 2,
+     "wa": 1,
+     "east": 1,
+     "sites": 3,
+     "cost_bn": 80.70173288473437,
+     "saving_bn": -0.5334025605128261,
+     "steam_twh": 1.2093
+    },
+    {
+     "sa": 1,
+     "wa": 2,
+     "east": 2,
+     "sites": 3,
+     "cost_bn": 80.78505147170483,
+     "saving_bn": -0.6167211474832897,
+     "steam_twh": 1.2093
+    },
+    {
+     "sa": 2,
+     "wa": 1,
+     "east": 2,
+     "sites": 3,
+     "cost_bn": 80.78505147170483,
+     "saving_bn": -0.6167211474832897,
+     "steam_twh": 1.2093
+    },
+    {
+     "sa": 2,
+     "wa": 2,
+     "east": 1,
+     "sites": 3,
+     "cost_bn": 80.78505147170483,
+     "saving_bn": -0.6167211474832897,
+     "steam_twh": 1.2093
+    },
+    {
+     "sa": 0,
+     "wa": 1,
+     "east": 4,
+     "sites": 3,
+     "cost_bn": 80.78505147170485,
+     "saving_bn": -0.6167211474833039,
+     "steam_twh": 1.2093
+    },
+    {
+     "sa": 1,
+     "wa": 0,
+     "east": 4,
+     "sites": 3,
+     "cost_bn": 80.78505147170485,
+     "saving_bn": -0.6167211474833039,
+     "steam_twh": 1.2093
+    },
+    {
+     "sa": 2,
+     "wa": 2,
+     "east": 2,
+     "sites": 3,
+     "cost_bn": 80.86837005867525,
+     "saving_bn": -0.7000397344537106,
+     "steam_twh": 1.2093
+    },
+    {
+     "sa": 0,
+     "wa": 2,
+     "east": 4,
+     "sites": 3,
+     "cost_bn": 80.86837005867527,
+     "saving_bn": -0.7000397344537248,
+     "steam_twh": 1.2093
+    },
+    {
+     "sa": 2,
+     "wa": 0,
+     "east": 4,
+     "sites": 3,
+     "cost_bn": 80.86837005867527,
+     "saving_bn": -0.7000397344537248,
+     "steam_twh": 1.2093
+    },
+    {
+     "sa": 1,
+     "wa": 1,
+     "east": 4,
+     "sites": 4,
+     "cost_bn": 80.956786164993,
+     "saving_bn": -0.7884558407714621,
+     "steam_twh": 1.2093
+    },
+    {
+     "sa": 1,
+     "wa": 2,
+     "east": 4,
+     "sites": 4,
+     "cost_bn": 81.04010475196347,
+     "saving_bn": -0.8717744277419257,
+     "steam_twh": 1.2093
+    },
+    {
+     "sa": 2,
+     "wa": 1,
+     "east": 4,
+     "sites": 4,
+     "cost_bn": 81.04010475196347,
+     "saving_bn": -0.8717744277419257,
+     "steam_twh": 1.2093
+    },
+    {
+     "sa": 2,
+     "wa": 2,
+     "east": 4,
+     "sites": 4,
+     "cost_bn": 81.12342333893389,
+     "saving_bn": -0.9550930147123466,
+     "steam_twh": 1.2093
+    }
+   ]
+  }
+ },
+ "smr_whole_modules_brownfield": {
+  "module_bn": 2.5,
+  "site_bn": 0.9,
+  "base_bn": 80.16833032422154,
+  "rows": [
+   {
+    "sa": 0,
+    "wa": 0,
+    "east": 0,
+    "sites": 0,
+    "cost_bn": 80.16833032422157,
+    "saving_bn": -2.842170943040401e-14,
+    "steam_twh": 0.0
+   },
+   {
+    "sa": 0,
+    "wa": 0,
+    "east": 1,
+    "sites": 1,
+    "cost_bn": 80.23199994526179,
+    "saving_bn": -0.06366962104024765,
+    "steam_twh": 1.2093
+   },
+   {
+    "sa": 0,
+    "wa": 1,
+    "east": 0,
+    "sites": 1,
+    "cost_bn": 80.29712005158397,
+    "saving_bn": -0.128789727362431,
+    "steam_twh": 0.0
+   },
+   {
+    "sa": 1,
+    "wa": 0,
+    "east": 0,
+    "sites": 1,
+    "cost_bn": 80.29712005158397,
+    "saving_bn": -0.128789727362431,
+    "steam_twh": 0.0
+   },
+   {
+    "sa": 0,
+    "wa": 0,
+    "east": 2,
+    "sites": 1,
+    "cost_bn": 80.31531853223224,
+    "saving_bn": -0.146988208010697,
+    "steam_twh": 1.2093
+   },
+   {
+    "sa": 0,
+    "wa": 1,
+    "east": 1,
+    "sites": 2,
+    "cost_bn": 80.36078967262421,
+    "saving_bn": -0.19245934840266443,
+    "steam_twh": 1.2093
+   },
+   {
+    "sa": 1,
+    "wa": 0,
+    "east": 1,
+    "sites": 2,
+    "cost_bn": 80.36078967262421,
+    "saving_bn": -0.19245934840266443,
+    "steam_twh": 1.2093
+   },
+   {
+    "sa": 0,
+    "wa": 2,
+    "east": 0,
+    "sites": 1,
+    "cost_bn": 80.38043863855444,
+    "saving_bn": -0.21210831433289457,
+    "steam_twh": 0.0
+   },
+   {
+    "sa": 2,
+    "wa": 0,
+    "east": 0,
+    "sites": 1,
+    "cost_bn": 80.38043863855444,
+    "saving_bn": -0.21210831433289457,
+    "steam_twh": 0.0
+   },
+   {
+    "sa": 1,
+    "wa": 1,
+    "east": 0,
+    "sites": 2,
+    "cost_bn": 80.42590977894642,
+    "saving_bn": -0.2575794547248762,
+    "steam_twh": 0.0
+   },
+   {
+    "sa": 0,
+    "wa": 1,
+    "east": 2,
+    "sites": 2,
+    "cost_bn": 80.44410825959466,
+    "saving_bn": -0.2757779353731138,
+    "steam_twh": 1.2093
+   },
+   {
+    "sa": 0,
+    "wa": 2,
+    "east": 1,
+    "sites": 2,
+    "cost_bn": 80.44410825959466,
+    "saving_bn": -0.2757779353731138,
+    "steam_twh": 1.2093
+   },
+   {
+    "sa": 1,
+    "wa": 0,
+    "east": 2,
+    "sites": 2,
+    "cost_bn": 80.44410825959466,
+    "saving_bn": -0.2757779353731138,
+    "steam_twh": 1.2093
+   },
+   {
+    "sa": 2,
+    "wa": 0,
+    "east": 1,
+    "sites": 2,
+    "cost_bn": 80.44410825959466,
+    "saving_bn": -0.2757779353731138,
+    "steam_twh": 1.2093
+   },
+   {
+    "sa": 1,
+    "wa": 1,
+    "east": 1,
+    "sites": 3,
+    "cost_bn": 80.48957939998664,
+    "saving_bn": -0.3212490757650954,
+    "steam_twh": 1.2093
+   },
+   {
+    "sa": 1,
+    "wa": 2,
+    "east": 0,
+    "sites": 2,
+    "cost_bn": 80.50922836591685,
+    "saving_bn": -0.34089804169531135,
+    "steam_twh": 0.0
+   },
+   {
+    "sa": 2,
+    "wa": 1,
+    "east": 0,
+    "sites": 2,
+    "cost_bn": 80.50922836591685,
+    "saving_bn": -0.34089804169531135,
+    "steam_twh": 0.0
+   },
+   {
+    "sa": 0,
+    "wa": 0,
+    "east": 4,
+    "sites": 2,
+    "cost_bn": 80.52742684656512,
+    "saving_bn": -0.35909652234357736,
+    "steam_twh": 1.2093
+   },
+   {
+    "sa": 0,
+    "wa": 2,
+    "east": 2,
+    "sites": 2,
+    "cost_bn": 80.52742684656512,
+    "saving_bn": -0.35909652234357736,
+    "steam_twh": 1.2093
+   },
+   {
+    "sa": 2,
+    "wa": 0,
+    "east": 2,
+    "sites": 2,
+    "cost_bn": 80.52742684656512,
+    "saving_bn": -0.35909652234357736,
+    "steam_twh": 1.2093
+   },
+   {
+    "sa": 1,
+    "wa": 1,
+    "east": 2,
+    "sites": 3,
+    "cost_bn": 80.5728979869571,
+    "saving_bn": -0.404567662735559,
+    "steam_twh": 1.2093
+   },
+   {
+    "sa": 1,
+    "wa": 2,
+    "east": 1,
+    "sites": 3,
+    "cost_bn": 80.5728979869571,
+    "saving_bn": -0.404567662735559,
+    "steam_twh": 1.2093
+   },
+   {
+    "sa": 2,
+    "wa": 1,
+    "east": 1,
+    "sites": 3,
+    "cost_bn": 80.5728979869571,
+    "saving_bn": -0.404567662735559,
+    "steam_twh": 1.2093
+   },
+   {
+    "sa": 2,
+    "wa": 2,
+    "east": 0,
+    "sites": 2,
+    "cost_bn": 80.59254695288732,
+    "saving_bn": -0.4242166286657749,
+    "steam_twh": 0.0
+   },
+   {
+    "sa": 1,
+    "wa": 2,
+    "east": 2,
+    "sites": 3,
+    "cost_bn": 80.65621657392757,
+    "saving_bn": -0.48788624970602257,
+    "steam_twh": 1.2093
+   },
+   {
+    "sa": 2,
+    "wa": 1,
+    "east": 2,
+    "sites": 3,
+    "cost_bn": 80.65621657392757,
+    "saving_bn": -0.48788624970602257,
+    "steam_twh": 1.2093
+   },
+   {
+    "sa": 2,
+    "wa": 2,
+    "east": 1,
+    "sites": 3,
+    "cost_bn": 80.65621657392757,
+    "saving_bn": -0.48788624970602257,
+    "steam_twh": 1.2093
+   },
+   {
+    "sa": 0,
+    "wa": 1,
+    "east": 4,
+    "sites": 3,
+    "cost_bn": 80.65621657392758,
+    "saving_bn": -0.4878862497060368,
+    "steam_twh": 1.2093
+   },
+   {
+    "sa": 1,
+    "wa": 0,
+    "east": 4,
+    "sites": 3,
+    "cost_bn": 80.65621657392758,
+    "saving_bn": -0.4878862497060368,
+    "steam_twh": 1.2093
+   },
+   {
+    "sa": 2,
+    "wa": 2,
+    "east": 2,
+    "sites": 3,
+    "cost_bn": 80.73953516089799,
+    "saving_bn": -0.5712048366764435,
+    "steam_twh": 1.2093
+   },
+   {
+    "sa": 0,
+    "wa": 2,
+    "east": 4,
+    "sites": 3,
+    "cost_bn": 80.739535160898,
+    "saving_bn": -0.5712048366764577,
+    "steam_twh": 1.2093
+   },
+   {
+    "sa": 2,
+    "wa": 0,
+    "east": 4,
+    "sites": 3,
+    "cost_bn": 80.739535160898,
+    "saving_bn": -0.5712048366764577,
+    "steam_twh": 1.2093
+   },
+   {
+    "sa": 1,
+    "wa": 1,
+    "east": 4,
+    "sites": 4,
+    "cost_bn": 80.78500630128998,
+    "saving_bn": -0.6166759770684394,
+    "steam_twh": 1.2093
+   },
+   {
+    "sa": 1,
+    "wa": 2,
+    "east": 4,
+    "sites": 4,
+    "cost_bn": 80.86832488826045,
+    "saving_bn": -0.6999945640389029,
+    "steam_twh": 1.2093
+   },
+   {
+    "sa": 2,
+    "wa": 1,
+    "east": 4,
+    "sites": 4,
+    "cost_bn": 80.86832488826045,
+    "saving_bn": -0.6999945640389029,
+    "steam_twh": 1.2093
+   },
+   {
+    "sa": 2,
+    "wa": 2,
+    "east": 4,
+    "sites": 4,
+    "cost_bn": 80.95164347523087,
+    "saving_bn": -0.7833131510093239,
+    "steam_twh": 1.2093
+   }
+  ]
+ },
+ "less_demand": {
+  "cost_bn": 66.04736936979879,
+  "kelp_km2": 3939.780181013798,
+  "kelp_dry_mt": 3.7031516133649522,
+  "smr_gw": 0.0,
+  "smr_modules": {
+   "east": 0.0,
+   "sa": 0.0,
+   "wa": 0.0
+  },
+  "wind_gw": 72.86882757563106,
+  "pv_gw": 36.45497033500005,
+  "generation_twh": 358.2661059785155,
+  "efuels_twh": 73.97666551511843,
+  "ers_km": 5626.465674684005,
+  "wtw_reduction_pct": 92.50112234121043,
+  "dac_mt": 4.466509010374072,
+  "electrolyser_gw": 28.329133996391533,
+  "shortfall_twh": 0.0,
+  "liquid_biogenic_twh": 77.6359880653934
+ }
+}

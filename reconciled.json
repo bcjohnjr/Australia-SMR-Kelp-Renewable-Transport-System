@@ -1,0 +1,64 @@
+{
+ "objective_annual_bn": 80.16833032422154,
+ "annual_electricity_bn": 37.565639004489206,
+ "annual_electricity_parts_bn": {
+  "supply": 30.740910327891896,
+  "electrolysers_h2": 6.824728676597311
+ },
+ "hourly_electricity_bn": 42.697603272303326,
+ "hourly_parts_bn": {
+  "capacity": 34.01631869203576,
+  "links": 0.8639412394597568,
+  "turbine_vom_and_methane_store": 0.06277529313379751,
+  "networks": 7.754568047674014
+ },
+ "methane": {
+  "turbine_need_twh": 6.4611397660030185,
+  "assigned_in_annual_model_twh": 6.43275987083805,
+  "store_twh": 14.377809415049446,
+  "balance": {
+   "waste_biomethane": 15.0,
+   "kelp_methane": 0.8936149999999998,
+   "e_methane": 0.0,
+   "transport": 4.336707433289067,
+   "bio_methanol": 5.124147695872883,
+   "turbines": 6.43275987083805,
+   "reserve": 0.0
+  },
+  "shortfall_twh": 0.02837989516496897
+ },
+ "reconciled_cost_bn": 85.30029459203567,
+ "difference_bn": 5.131964267814126,
+ "difference_pct": 6.401485782551708,
+ "turbine_twh_mean": 2.455233111081147,
+ "turbine_source": "1-hour verification of the final fleet",
+ "portfolio_hourly": {
+  "wind_gw": 93.42938851450837,
+  "pv_gw": 50.86650792590966,
+  "battery_gw": 7.205394598719238,
+  "battery_gwh": 45.647505765754964,
+  "turbine_gw": 14.92859629080105,
+  "turbine_gw_3h": 10.259298125804138,
+  "electrolyser_gw": 40.573559546756485,
+  "h2_store_twh_el": 11.883373414973788,
+  "links_gw": 6.537931967596688,
+  "wind_twh_potential": 344.9051212493698,
+  "pv_twh_potential": 128.50710623032856,
+  "wind_share_potential": 0.7285513580532953
+ },
+ "portfolio_annual": {
+  "wind_gw": 93.72716390832994,
+  "pv_gw": 45.84517540790803,
+  "wind_twh": 330.068483659679,
+  "pv_twh": 120.48112097198229,
+  "electrolyser_gw": 39.805244760818816
+ },
+ "residual_wtw_mt": 15.966637639274204,
+ "residual_range_mt": {
+  "lo": 9.625060989860403,
+  "hi": 26.322264104355472
+ },
+ "wtw_reduction_pct": 91.80652972059919,
+ "residual_wtw_annual_mt": 15.507688504155793,
+ "rule": "hourly final fleet replaces the annual model's electricity supply; transport choices from the annual model"
+}

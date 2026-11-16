@@ -1,0 +1,3077 @@
+{
+ "tas_se": {
+  "sst_mean_2015_2024": 15.05714202792289,
+  "sst_max_month_clim": 16.62098639455782,
+  "sst_trend_c_per_decade": 0.4003585429081489,
+  "mhw": {
+   "1982": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "1983": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "1984": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "1985": {
+    "mhw_days": 21,
+    "events": 3,
+    "cum_intensity": 27.93420829751111
+   },
+   "1986": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "1987": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "1988": {
+    "mhw_days": 70,
+    "events": 5,
+    "cum_intensity": 88.48912410456789
+   },
+   "1989": {
+    "mhw_days": 12,
+    "events": 1,
+    "cum_intensity": 13.62579629072623
+   },
+   "1990": {
+    "mhw_days": 10,
+    "events": 2,
+    "cum_intensity": 12.345227820795936
+   },
+   "1991": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "1992": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "1993": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "1994": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "1995": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "1996": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "1997": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "1998": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "1999": {
+    "mhw_days": 23,
+    "events": 4,
+    "cum_intensity": 34.86053868799837
+   },
+   "2000": {
+    "mhw_days": 26,
+    "events": 4,
+    "cum_intensity": 35.20183613952411
+   },
+   "2001": {
+    "mhw_days": 140,
+    "events": 9,
+    "cum_intensity": 214.82063845352872
+   },
+   "2002": {
+    "mhw_days": 28,
+    "events": 1,
+    "cum_intensity": 46.850647795034774
+   },
+   "2003": {
+    "mhw_days": 26,
+    "events": 3,
+    "cum_intensity": 50.738542963826404
+   },
+   "2004": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "2005": {
+    "mhw_days": 5,
+    "events": 1,
+    "cum_intensity": 6.192035972424659
+   },
+   "2006": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "2007": {
+    "mhw_days": 89,
+    "events": 9,
+    "cum_intensity": 120.7564646174362
+   },
+   "2008": {
+    "mhw_days": 6,
+    "events": 1,
+    "cum_intensity": 10.822906630981496
+   },
+   "2009": {
+    "mhw_days": 7,
+    "events": 1,
+    "cum_intensity": 10.435276203031808
+   },
+   "2010": {
+    "mhw_days": 82,
+    "events": 6,
+    "cum_intensity": 154.78526587055387
+   },
+   "2011": {
+    "mhw_days": 66,
+    "events": 7,
+    "cum_intensity": 93.43804949301106
+   },
+   "2012": {
+    "mhw_days": 37,
+    "events": 5,
+    "cum_intensity": 60.19184225080521
+   },
+   "2013": {
+    "mhw_days": 93,
+    "events": 7,
+    "cum_intensity": 153.26603609209656
+   },
+   "2014": {
+    "mhw_days": 91,
+    "events": 4,
+    "cum_intensity": 142.55340908036175
+   },
+   "2015": {
+    "mhw_days": 112,
+    "events": 5,
+    "cum_intensity": 212.6767533789265
+   },
+   "2016": {
+    "mhw_days": 176,
+    "events": 4,
+    "cum_intensity": 421.36555882623645
+   },
+   "2017": {
+    "mhw_days": 100,
+    "events": 10,
+    "cum_intensity": 174.34117983211934
+   },
+   "2018": {
+    "mhw_days": 109,
+    "events": 8,
+    "cum_intensity": 189.7211506475164
+   },
+   "2019": {
+    "mhw_days": 66,
+    "events": 7,
+    "cum_intensity": 97.01691476079218
+   },
+   "2020": {
+    "mhw_days": 47,
+    "events": 4,
+    "cum_intensity": 62.757535182914786
+   },
+   "2021": {
+    "mhw_days": 121,
+    "events": 11,
+    "cum_intensity": 207.37894004248585
+   },
+   "2022": {
+    "mhw_days": 179,
+    "events": 5,
+    "cum_intensity": 320.8885116701384
+   },
+   "2023": {
+    "mhw_days": 236,
+    "events": 8,
+    "cum_intensity": 376.75240368230527
+   },
+   "2024": {
+    "mhw_days": 225,
+    "events": 6,
+    "cum_intensity": 499.81596510832173
+   },
+   "2025": {
+    "mhw_days": 268,
+    "events": 3,
+    "cum_intensity": 451.2328315770818
+   },
+   "2026": {
+    "mhw_days": 214,
+    "events": 3,
+    "cum_intensity": 419.2965016206499
+   }
+  },
+  "species_limit_c": 20.0,
+  "stress_days": {
+   "1982": 0,
+   "1983": 0,
+   "1984": 0,
+   "1985": 0,
+   "1986": 0,
+   "1987": 0,
+   "1988": 0,
+   "1989": 0,
+   "1990": 0,
+   "1991": 0,
+   "1992": 0,
+   "1993": 0,
+   "1994": 0,
+   "1995": 0,
+   "1996": 0,
+   "1997": 0,
+   "1998": 0,
+   "1999": 0,
+   "2000": 0,
+   "2001": 0,
+   "2002": 0,
+   "2003": 0,
+   "2004": 0,
+   "2005": 0,
+   "2006": 0,
+   "2007": 0,
+   "2008": 0,
+   "2009": 0,
+   "2010": 3,
+   "2011": 0,
+   "2012": 0,
+   "2013": 0,
+   "2014": 0,
+   "2015": 0,
+   "2016": 0,
+   "2017": 0,
+   "2018": 0,
+   "2019": 0,
+   "2020": 0,
+   "2021": 0,
+   "2022": 0,
+   "2023": 0,
+   "2024": 0,
+   "2025": 0,
+   "2026": 0
+  },
+  "mhw_days_mean_1983_2012": 21.6,
+  "mhw_days_mean_2015_2024": 137.1,
+  "damaging_year_share_2005_2024": 0.0,
+  "sst_first": "1982-01-01",
+  "sst_last": "2026-10-29",
+  "hs_max_p50": 2.9,
+  "hs_max_p99": 6.3592,
+  "days_hs_over_6m_per_yr": 6.09916506980564,
+  "nitrate_0_30m": [
+   2.995,
+   0.566,
+   0.714,
+   2.02,
+   4.47,
+   3.853,
+   5.298,
+   6.873,
+   8.064,
+   3.08,
+   3.229,
+   1.456
+  ],
+  "nitrate_30_60m": [
+   3.014,
+   1.563,
+   1.866,
+   1.516,
+   4.665,
+   3.855,
+   5.472,
+   7.208,
+   8.025,
+   3.493,
+   3.592,
+   1.957
+  ],
+  "nitrate_points": [
+   [
+    -43.5,
+    148.5
+   ],
+   [
+    -44.5,
+    148.5
+   ],
+   [
+    -44.5,
+    147.5
+   ],
+   [
+    -43.5,
+    149.5
+   ]
+  ],
+  "months_surface_no3_ge_1": 10,
+  "months_any_no3_ge_1_within_60m": 12,
+  "centre_depth_m": 1167.0,
+  "area_10_60m_within_50km_km2": 97.32063335596193,
+  "area_10_100m_within_50km_km2": 517.8336554939956,
+  "area_10_150m_within_50km_km2": 2286.879043318556,
+  "area_10_60m_within_75km_km2": 920.5351850689458,
+  "area_10_100m_within_75km_km2": 2013.6155284469928,
+  "area_10_150m_within_75km_km2": 4460.93640731547
+ },
+ "tas_e": {
+  "sst_mean_2015_2024": 16.185334983044637,
+  "sst_max_month_clim": 18.16743993993994,
+  "sst_trend_c_per_decade": 0.3529630627822412,
+  "mhw": {
+   "1982": {
+    "mhw_days": 5,
+    "events": 1,
+    "cum_intensity": 5.996980984216625
+   },
+   "1983": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "1984": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "1985": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "1986": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "1987": {
+    "mhw_days": 27,
+    "events": 3,
+    "cum_intensity": 34.10966563366176
+   },
+   "1988": {
+    "mhw_days": 59,
+    "events": 2,
+    "cum_intensity": 104.14134858176244
+   },
+   "1989": {
+    "mhw_days": 9,
+    "events": 1,
+    "cum_intensity": 15.94530720107224
+   },
+   "1990": {
+    "mhw_days": 32,
+    "events": 3,
+    "cum_intensity": 47.215375760744536
+   },
+   "1991": {
+    "mhw_days": 12,
+    "events": 2,
+    "cum_intensity": 17.45797024704634
+   },
+   "1992": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "1993": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "1994": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "1995": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "1996": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "1997": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "1998": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "1999": {
+    "mhw_days": 19,
+    "events": 1,
+    "cum_intensity": 24.57431813369358
+   },
+   "2000": {
+    "mhw_days": 76,
+    "events": 4,
+    "cum_intensity": 121.60229641677563
+   },
+   "2001": {
+    "mhw_days": 86,
+    "events": 6,
+    "cum_intensity": 132.2576864463305
+   },
+   "2002": {
+    "mhw_days": 12,
+    "events": 2,
+    "cum_intensity": 18.456726779186617
+   },
+   "2003": {
+    "mhw_days": 69,
+    "events": 2,
+    "cum_intensity": 136.4885113056351
+   },
+   "2004": {
+    "mhw_days": 7,
+    "events": 1,
+    "cum_intensity": 6.9420777732371235
+   },
+   "2005": {
+    "mhw_days": 33,
+    "events": 4,
+    "cum_intensity": 44.44805047706184
+   },
+   "2006": {
+    "mhw_days": 5,
+    "events": 1,
+    "cum_intensity": 5.536843252666266
+   },
+   "2007": {
+    "mhw_days": 164,
+    "events": 9,
+    "cum_intensity": 268.35538377020544
+   },
+   "2008": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "2009": {
+    "mhw_days": 11,
+    "events": 1,
+    "cum_intensity": 20.947221057514273
+   },
+   "2010": {
+    "mhw_days": 66,
+    "events": 4,
+    "cum_intensity": 120.31291121929762
+   },
+   "2011": {
+    "mhw_days": 28,
+    "events": 3,
+    "cum_intensity": 38.76077918100512
+   },
+   "2012": {
+    "mhw_days": 36,
+    "events": 2,
+    "cum_intensity": 74.11050691905537
+   },
+   "2013": {
+    "mhw_days": 54,
+    "events": 1,
+    "cum_intensity": 101.38549362976902
+   },
+   "2014": {
+    "mhw_days": 79,
+    "events": 8,
+    "cum_intensity": 118.30842524537385
+   },
+   "2015": {
+    "mhw_days": 130,
+    "events": 4,
+    "cum_intensity": 251.03855892926515
+   },
+   "2016": {
+    "mhw_days": 146,
+    "events": 8,
+    "cum_intensity": 302.6890223944533
+   },
+   "2017": {
+    "mhw_days": 117,
+    "events": 6,
+    "cum_intensity": 223.26770096879636
+   },
+   "2018": {
+    "mhw_days": 70,
+    "events": 6,
+    "cum_intensity": 138.03485459235742
+   },
+   "2019": {
+    "mhw_days": 41,
+    "events": 2,
+    "cum_intensity": 90.1583682836334
+   },
+   "2020": {
+    "mhw_days": 48,
+    "events": 6,
+    "cum_intensity": 59.82725863375886
+   },
+   "2021": {
+    "mhw_days": 51,
+    "events": 5,
+    "cum_intensity": 76.01852756067994
+   },
+   "2022": {
+    "mhw_days": 54,
+    "events": 7,
+    "cum_intensity": 73.73036953410114
+   },
+   "2023": {
+    "mhw_days": 169,
+    "events": 7,
+    "cum_intensity": 279.24588356510736
+   },
+   "2024": {
+    "mhw_days": 251,
+    "events": 7,
+    "cum_intensity": 468.03224166572886
+   },
+   "2025": {
+    "mhw_days": 182,
+    "events": 10,
+    "cum_intensity": 271.2271923945983
+   },
+   "2026": {
+    "mhw_days": 225,
+    "events": 2,
+    "cum_intensity": 458.80116406141946
+   }
+  },
+  "species_limit_c": 20.0,
+  "stress_days": {
+   "1982": 0,
+   "1983": 0,
+   "1984": 0,
+   "1985": 0,
+   "1986": 0,
+   "1987": 0,
+   "1988": 0,
+   "1989": 2,
+   "1990": 0,
+   "1991": 0,
+   "1992": 0,
+   "1993": 0,
+   "1994": 0,
+   "1995": 0,
+   "1996": 0,
+   "1997": 0,
+   "1998": 0,
+   "1999": 0,
+   "2000": 0,
+   "2001": 3,
+   "2002": 0,
+   "2003": 20,
+   "2004": 0,
+   "2005": 0,
+   "2006": 0,
+   "2007": 3,
+   "2008": 2,
+   "2009": 0,
+   "2010": 16,
+   "2011": 0,
+   "2012": 5,
+   "2013": 7,
+   "2014": 0,
+   "2015": 0,
+   "2016": 39,
+   "2017": 1,
+   "2018": 21,
+   "2019": 7,
+   "2020": 0,
+   "2021": 0,
+   "2022": 0,
+   "2023": 0,
+   "2024": 41,
+   "2025": 7,
+   "2026": 7
+  },
+  "mhw_days_mean_1983_2012": 25.033333333333335,
+  "mhw_days_mean_2015_2024": 107.7,
+  "damaging_year_share_2005_2024": 0.2,
+  "sst_first": "1982-01-01",
+  "sst_last": "2026-10-29",
+  "hs_max_p50": 2.34,
+  "hs_max_p99": 5.52,
+  "days_hs_over_6m_per_yr": 2.0997125650150563,
+  "nitrate_0_30m": [
+   2.296,
+   0.131,
+   0.313,
+   1.436,
+   3.201,
+   3.338,
+   5.913,
+   7.269,
+   8.533,
+   2.604,
+   2.888,
+   1.061
+  ],
+  "nitrate_30_60m": [
+   2.614,
+   0.789,
+   1.247,
+   0.741,
+   3.3,
+   3.224,
+   5.725,
+   7.265,
+   9.068,
+   2.961,
+   2.987,
+   1.376
+  ],
+  "nitrate_points": [
+   [
+    -42.5,
+    149.5
+   ],
+   [
+    -41.5,
+    149.5
+   ],
+   [
+    -43.5,
+    148.5
+   ],
+   [
+    -42.5,
+    150.5
+   ]
+  ],
+  "months_surface_no3_ge_1": 10,
+  "months_any_no3_ge_1_within_60m": 11,
+  "centre_depth_m": 1848.0,
+  "area_10_60m_within_50km_km2": 421.7016479610154,
+  "area_10_100m_within_50km_km2": 1281.467578766693,
+  "area_10_150m_within_50km_km2": 1831.816181634837,
+  "area_10_60m_within_75km_km2": 1190.0563801251783,
+  "area_10_100m_within_75km_km2": 2628.44309341309,
+  "area_10_150m_within_75km_km2": 3650.9851140447686
+ },
+ "bass": {
+  "sst_mean_2015_2024": 15.593319585739161,
+  "sst_max_month_clim": 18.28951528709918,
+  "sst_trend_c_per_decade": 0.16613051707933574,
+  "mhw": {
+   "1982": {
+    "mhw_days": 30,
+    "events": 2,
+    "cum_intensity": 39.083177347937124
+   },
+   "1983": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "1984": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "1985": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "1986": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "1987": {
+    "mhw_days": 5,
+    "events": 1,
+    "cum_intensity": 6.349156836635487
+   },
+   "1988": {
+    "mhw_days": 88,
+    "events": 8,
+    "cum_intensity": 90.33801765943284
+   },
+   "1989": {
+    "mhw_days": 17,
+    "events": 2,
+    "cum_intensity": 25.63503762956693
+   },
+   "1990": {
+    "mhw_days": 6,
+    "events": 1,
+    "cum_intensity": 10.400982485840608
+   },
+   "1991": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "1992": {
+    "mhw_days": 7,
+    "events": 1,
+    "cum_intensity": 5.482172222731842
+   },
+   "1993": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "1994": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "1995": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "1996": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "1997": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "1998": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "1999": {
+    "mhw_days": 24,
+    "events": 1,
+    "cum_intensity": 28.501960514137167
+   },
+   "2000": {
+    "mhw_days": 104,
+    "events": 6,
+    "cum_intensity": 130.43988465282217
+   },
+   "2001": {
+    "mhw_days": 58,
+    "events": 6,
+    "cum_intensity": 67.82802723325365
+   },
+   "2002": {
+    "mhw_days": 24,
+    "events": 2,
+    "cum_intensity": 23.749401979538582
+   },
+   "2003": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "2004": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "2005": {
+    "mhw_days": 57,
+    "events": 4,
+    "cum_intensity": 57.92343490866156
+   },
+   "2006": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "2007": {
+    "mhw_days": 41,
+    "events": 6,
+    "cum_intensity": 63.41392159758803
+   },
+   "2008": {
+    "mhw_days": 19,
+    "events": 1,
+    "cum_intensity": 30.904015609479945
+   },
+   "2009": {
+    "mhw_days": 49,
+    "events": 5,
+    "cum_intensity": 57.565848096861664
+   },
+   "2010": {
+    "mhw_days": 54,
+    "events": 6,
+    "cum_intensity": 76.70477814998856
+   },
+   "2011": {
+    "mhw_days": 10,
+    "events": 2,
+    "cum_intensity": 10.097019113349289
+   },
+   "2012": {
+    "mhw_days": 19,
+    "events": 2,
+    "cum_intensity": 34.07216793057296
+   },
+   "2013": {
+    "mhw_days": 115,
+    "events": 5,
+    "cum_intensity": 131.31902972596248
+   },
+   "2014": {
+    "mhw_days": 36,
+    "events": 4,
+    "cum_intensity": 31.715520235610754
+   },
+   "2015": {
+    "mhw_days": 4,
+    "events": 1,
+    "cum_intensity": 7.631775618291002
+   },
+   "2016": {
+    "mhw_days": 33,
+    "events": 4,
+    "cum_intensity": 57.34953108429666
+   },
+   "2017": {
+    "mhw_days": 61,
+    "events": 4,
+    "cum_intensity": 91.79364553855218
+   },
+   "2018": {
+    "mhw_days": 49,
+    "events": 5,
+    "cum_intensity": 84.01273133267239
+   },
+   "2019": {
+    "mhw_days": 47,
+    "events": 3,
+    "cum_intensity": 80.32362031396993
+   },
+   "2020": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "2021": {
+    "mhw_days": 9,
+    "events": 2,
+    "cum_intensity": 14.777760796791252
+   },
+   "2022": {
+    "mhw_days": 23,
+    "events": 3,
+    "cum_intensity": 33.83144404097517
+   },
+   "2023": {
+    "mhw_days": 119,
+    "events": 5,
+    "cum_intensity": 126.16309217016178
+   },
+   "2024": {
+    "mhw_days": 197,
+    "events": 9,
+    "cum_intensity": 204.8838979029847
+   },
+   "2025": {
+    "mhw_days": 179,
+    "events": 6,
+    "cum_intensity": 220.42750859833703
+   },
+   "2026": {
+    "mhw_days": 136,
+    "events": 3,
+    "cum_intensity": 137.92229848473278
+   }
+  },
+  "species_limit_c": 23.0,
+  "stress_days": {
+   "1982": 0,
+   "1983": 0,
+   "1984": 0,
+   "1985": 0,
+   "1986": 0,
+   "1987": 0,
+   "1988": 0,
+   "1989": 0,
+   "1990": 0,
+   "1991": 0,
+   "1992": 0,
+   "1993": 0,
+   "1994": 0,
+   "1995": 0,
+   "1996": 0,
+   "1997": 0,
+   "1998": 0,
+   "1999": 0,
+   "2000": 0,
+   "2001": 0,
+   "2002": 0,
+   "2003": 0,
+   "2004": 0,
+   "2005": 0,
+   "2006": 0,
+   "2007": 0,
+   "2008": 0,
+   "2009": 0,
+   "2010": 0,
+   "2011": 0,
+   "2012": 0,
+   "2013": 0,
+   "2014": 0,
+   "2015": 0,
+   "2016": 0,
+   "2017": 0,
+   "2018": 0,
+   "2019": 0,
+   "2020": 0,
+   "2021": 0,
+   "2022": 0,
+   "2023": 0,
+   "2024": 0,
+   "2025": 0,
+   "2026": 0
+  },
+  "mhw_days_mean_1983_2012": 19.4,
+  "mhw_days_mean_2015_2024": 54.2,
+  "damaging_year_share_2005_2024": 0.0,
+  "sst_first": "1982-01-01",
+  "sst_last": "2026-10-29",
+  "hs_max_p50": 1.98,
+  "hs_max_p99": 5.28,
+  "days_hs_over_6m_per_yr": 0.5999178757185875,
+  "nitrate_0_30m": [
+   0.196,
+   0.008,
+   0.453,
+   1.112,
+   0.545,
+   1.913,
+   2.091,
+   2.664,
+   3.073,
+   1.524,
+   1.327,
+   0.535
+  ],
+  "nitrate_30_60m": [
+   0.857,
+   0.086,
+   0.841,
+   0.848,
+   0.766,
+   2.18,
+   2.138,
+   3.414,
+   6.792,
+   2.315,
+   1.408,
+   1.525
+  ],
+  "nitrate_points": [
+   [
+    -39.5,
+    146.5
+   ],
+   [
+    -39.5,
+    147.5
+   ],
+   [
+    -40.5,
+    146.5
+   ],
+   [
+    -39.5,
+    145.5
+   ]
+  ],
+  "months_surface_no3_ge_1": 7,
+  "months_any_no3_ge_1_within_60m": 8,
+  "centre_depth_m": 49.0,
+  "area_10_60m_within_50km_km2": 3719.116882933997,
+  "area_10_100m_within_50km_km2": 7591.569344072876,
+  "area_10_150m_within_50km_km2": 7599.47423903129,
+  "area_10_60m_within_75km_km2": 8389.305355332559,
+  "area_10_100m_within_75km_km2": 15251.574727432071,
+  "area_10_150m_within_75km_km2": 16319.790924343493
+ },
+ "bonney": {
+  "sst_mean_2015_2024": 15.694659212415605,
+  "sst_max_month_clim": 17.34841647770219,
+  "sst_trend_c_per_decade": 0.22614863351127795,
+  "mhw": {
+   "1982": {
+    "mhw_days": 7,
+    "events": 1,
+    "cum_intensity": 13.882168042238039
+   },
+   "1983": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "1984": {
+    "mhw_days": 11,
+    "events": 2,
+    "cum_intensity": 9.728978478006908
+   },
+   "1985": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "1986": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "1987": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "1988": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "1989": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "1990": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "1991": {
+    "mhw_days": 10,
+    "events": 2,
+    "cum_intensity": 9.44629287297893
+   },
+   "1992": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "1993": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "1994": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "1995": {
+    "mhw_days": 5,
+    "events": 1,
+    "cum_intensity": 6.077294780802614
+   },
+   "1996": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "1997": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "1998": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "1999": {
+    "mhw_days": 34,
+    "events": 2,
+    "cum_intensity": 41.83110346750142
+   },
+   "2000": {
+    "mhw_days": 99,
+    "events": 6,
+    "cum_intensity": 124.63660428366673
+   },
+   "2001": {
+    "mhw_days": 46,
+    "events": 5,
+    "cum_intensity": 52.92657200038835
+   },
+   "2002": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "2003": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "2004": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "2005": {
+    "mhw_days": 68,
+    "events": 6,
+    "cum_intensity": 69.40756594494792
+   },
+   "2006": {
+    "mhw_days": 16,
+    "events": 2,
+    "cum_intensity": 21.074277142198344
+   },
+   "2007": {
+    "mhw_days": 54,
+    "events": 4,
+    "cum_intensity": 71.69273726356676
+   },
+   "2008": {
+    "mhw_days": 18,
+    "events": 4,
+    "cum_intensity": 21.12218381566139
+   },
+   "2009": {
+    "mhw_days": 68,
+    "events": 8,
+    "cum_intensity": 98.8384263954258
+   },
+   "2010": {
+    "mhw_days": 42,
+    "events": 6,
+    "cum_intensity": 60.57818134912813
+   },
+   "2011": {
+    "mhw_days": 41,
+    "events": 6,
+    "cum_intensity": 46.997456030487584
+   },
+   "2012": {
+    "mhw_days": 37,
+    "events": 4,
+    "cum_intensity": 51.5010389482187
+   },
+   "2013": {
+    "mhw_days": 261,
+    "events": 7,
+    "cum_intensity": 382.7303985485353
+   },
+   "2014": {
+    "mhw_days": 40,
+    "events": 4,
+    "cum_intensity": 48.638760095979094
+   },
+   "2015": {
+    "mhw_days": 5,
+    "events": 1,
+    "cum_intensity": 9.604716385102158
+   },
+   "2016": {
+    "mhw_days": 141,
+    "events": 8,
+    "cum_intensity": 185.98739708030564
+   },
+   "2017": {
+    "mhw_days": 78,
+    "events": 7,
+    "cum_intensity": 108.06580162559277
+   },
+   "2018": {
+    "mhw_days": 86,
+    "events": 9,
+    "cum_intensity": 125.31433296909817
+   },
+   "2019": {
+    "mhw_days": 47,
+    "events": 2,
+    "cum_intensity": 75.44889851618252
+   },
+   "2020": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "2021": {
+    "mhw_days": 28,
+    "events": 3,
+    "cum_intensity": 27.874492842144825
+   },
+   "2022": {
+    "mhw_days": 46,
+    "events": 4,
+    "cum_intensity": 51.08692630612789
+   },
+   "2023": {
+    "mhw_days": 114,
+    "events": 8,
+    "cum_intensity": 110.55368668218112
+   },
+   "2024": {
+    "mhw_days": 144,
+    "events": 10,
+    "cum_intensity": 172.9770525458701
+   },
+   "2025": {
+    "mhw_days": 253,
+    "events": 1,
+    "cum_intensity": 393.5559815735623
+   },
+   "2026": {
+    "mhw_days": 93,
+    "events": 5,
+    "cum_intensity": 103.98035601717073
+   }
+  },
+  "species_limit_c": 23.0,
+  "stress_days": {
+   "1982": 0,
+   "1983": 0,
+   "1984": 0,
+   "1985": 0,
+   "1986": 0,
+   "1987": 0,
+   "1988": 0,
+   "1989": 0,
+   "1990": 0,
+   "1991": 0,
+   "1992": 0,
+   "1993": 0,
+   "1994": 0,
+   "1995": 0,
+   "1996": 0,
+   "1997": 0,
+   "1998": 0,
+   "1999": 0,
+   "2000": 0,
+   "2001": 0,
+   "2002": 0,
+   "2003": 0,
+   "2004": 0,
+   "2005": 0,
+   "2006": 0,
+   "2007": 0,
+   "2008": 0,
+   "2009": 0,
+   "2010": 0,
+   "2011": 0,
+   "2012": 0,
+   "2013": 0,
+   "2014": 0,
+   "2015": 0,
+   "2016": 0,
+   "2017": 0,
+   "2018": 0,
+   "2019": 0,
+   "2020": 0,
+   "2021": 0,
+   "2022": 0,
+   "2023": 0,
+   "2024": 0,
+   "2025": 0,
+   "2026": 0
+  },
+  "mhw_days_mean_1983_2012": 18.3,
+  "mhw_days_mean_2015_2024": 68.9,
+  "damaging_year_share_2005_2024": 0.0,
+  "sst_first": "1982-01-01",
+  "sst_last": "2026-10-29",
+  "hs_max_p50": 3.24,
+  "hs_max_p99": 7.0296,
+  "days_hs_over_6m_per_yr": 13.29817957842869,
+  "nitrate_0_30m": [
+   0.223,
+   1.253,
+   1.272,
+   1.858,
+   0.331,
+   1.99,
+   2.012,
+   1.608,
+   2.849,
+   2.721,
+   0.634,
+   1.046
+  ],
+  "nitrate_30_60m": [
+   1.772,
+   2.759,
+   2.188,
+   1.793,
+   0.315,
+   2.094,
+   2.424,
+   2.294,
+   3.486,
+   3.288,
+   1.205,
+   2.14
+  ],
+  "nitrate_points": [
+   [
+    -38.5,
+    140.5
+   ],
+   [
+    -39.5,
+    140.5
+   ],
+   [
+    -38.5,
+    139.5
+   ],
+   [
+    -39.5,
+    141.5
+   ]
+  ],
+  "months_surface_no3_ge_1": 9,
+  "months_any_no3_ge_1_within_60m": 11,
+  "centre_depth_m": 1693.0,
+  "area_10_60m_within_50km_km2": 123.7281273850217,
+  "area_10_100m_within_50km_km2": 381.6961938423775,
+  "area_10_150m_within_50km_km2": 1060.9365214724012,
+  "area_10_60m_within_75km_km2": 1226.5975786804793,
+  "area_10_100m_within_75km_km2": 1879.560362027596,
+  "area_10_150m_within_75km_km2": 3044.149341149907
+ },
+ "sa_gulfs": {
+  "sst_mean_2015_2024": 17.91880631603755,
+  "sst_max_month_clim": 21.670892247684055,
+  "sst_trend_c_per_decade": 0.23634418469572696,
+  "mhw": {
+   "1982": {
+    "mhw_days": 9,
+    "events": 1,
+    "cum_intensity": 9.927366508435409
+   },
+   "1983": {
+    "mhw_days": 6,
+    "events": 1,
+    "cum_intensity": 10.795225381737819
+   },
+   "1984": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "1985": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "1986": {
+    "mhw_days": 44,
+    "events": 2,
+    "cum_intensity": 57.159990082489614
+   },
+   "1987": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "1988": {
+    "mhw_days": 25,
+    "events": 3,
+    "cum_intensity": 22.173287649179567
+   },
+   "1989": {
+    "mhw_days": 33,
+    "events": 2,
+    "cum_intensity": 43.431189420792954
+   },
+   "1990": {
+    "mhw_days": 10,
+    "events": 2,
+    "cum_intensity": 8.09501226138422
+   },
+   "1991": {
+    "mhw_days": 5,
+    "events": 1,
+    "cum_intensity": 3.8320301835736554
+   },
+   "1992": {
+    "mhw_days": 7,
+    "events": 1,
+    "cum_intensity": 5.816195271850116
+   },
+   "1993": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "1994": {
+    "mhw_days": 7,
+    "events": 1,
+    "cum_intensity": 7.890368289104673
+   },
+   "1995": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "1996": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "1997": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "1998": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "1999": {
+    "mhw_days": 21,
+    "events": 1,
+    "cum_intensity": 23.134533638598455
+   },
+   "2000": {
+    "mhw_days": 57,
+    "events": 4,
+    "cum_intensity": 91.75883647964967
+   },
+   "2001": {
+    "mhw_days": 27,
+    "events": 3,
+    "cum_intensity": 39.602924998894075
+   },
+   "2002": {
+    "mhw_days": 19,
+    "events": 1,
+    "cum_intensity": 26.269985134907873
+   },
+   "2003": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "2004": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "2005": {
+    "mhw_days": 7,
+    "events": 1,
+    "cum_intensity": 8.685629926796363
+   },
+   "2006": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "2007": {
+    "mhw_days": 70,
+    "events": 8,
+    "cum_intensity": 104.33697499158019
+   },
+   "2008": {
+    "mhw_days": 54,
+    "events": 5,
+    "cum_intensity": 85.42922923594126
+   },
+   "2009": {
+    "mhw_days": 89,
+    "events": 8,
+    "cum_intensity": 159.75696819855642
+   },
+   "2010": {
+    "mhw_days": 72,
+    "events": 6,
+    "cum_intensity": 130.7652986498648
+   },
+   "2011": {
+    "mhw_days": 23,
+    "events": 4,
+    "cum_intensity": 35.23975107768177
+   },
+   "2012": {
+    "mhw_days": 25,
+    "events": 4,
+    "cum_intensity": 40.35570660336279
+   },
+   "2013": {
+    "mhw_days": 150,
+    "events": 13,
+    "cum_intensity": 206.02658707623863
+   },
+   "2014": {
+    "mhw_days": 138,
+    "events": 3,
+    "cum_intensity": 212.68502256498363
+   },
+   "2015": {
+    "mhw_days": 75,
+    "events": 7,
+    "cum_intensity": 118.7829070396244
+   },
+   "2016": {
+    "mhw_days": 77,
+    "events": 8,
+    "cum_intensity": 119.61506176794148
+   },
+   "2017": {
+    "mhw_days": 71,
+    "events": 7,
+    "cum_intensity": 93.19465200729059
+   },
+   "2018": {
+    "mhw_days": 50,
+    "events": 5,
+    "cum_intensity": 73.10995030558476
+   },
+   "2019": {
+    "mhw_days": 19,
+    "events": 3,
+    "cum_intensity": 37.33418272565349
+   },
+   "2020": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "2021": {
+    "mhw_days": 18,
+    "events": 2,
+    "cum_intensity": 22.83635871886528
+   },
+   "2022": {
+    "mhw_days": 36,
+    "events": 4,
+    "cum_intensity": 45.67304180154531
+   },
+   "2023": {
+    "mhw_days": 88,
+    "events": 5,
+    "cum_intensity": 130.56811980828593
+   },
+   "2024": {
+    "mhw_days": 142,
+    "events": 5,
+    "cum_intensity": 223.239581791407
+   },
+   "2025": {
+    "mhw_days": 163,
+    "events": 5,
+    "cum_intensity": 277.62876873815895
+   },
+   "2026": {
+    "mhw_days": 148,
+    "events": 6,
+    "cum_intensity": 200.85422459907596
+   }
+  },
+  "species_limit_c": 23.0,
+  "stress_days": {
+   "1982": 3,
+   "1983": 8,
+   "1984": 0,
+   "1985": 0,
+   "1986": 0,
+   "1987": 0,
+   "1988": 0,
+   "1989": 0,
+   "1990": 0,
+   "1991": 0,
+   "1992": 0,
+   "1993": 0,
+   "1994": 0,
+   "1995": 0,
+   "1996": 0,
+   "1997": 6,
+   "1998": 0,
+   "1999": 0,
+   "2000": 8,
+   "2001": 18,
+   "2002": 0,
+   "2003": 0,
+   "2004": 1,
+   "2005": 0,
+   "2006": 0,
+   "2007": 31,
+   "2008": 13,
+   "2009": 22,
+   "2010": 43,
+   "2011": 12,
+   "2012": 9,
+   "2013": 24,
+   "2014": 18,
+   "2015": 7,
+   "2016": 26,
+   "2017": 18,
+   "2018": 23,
+   "2019": 17,
+   "2020": 1,
+   "2021": 0,
+   "2022": 12,
+   "2023": 6,
+   "2024": 27,
+   "2025": 55,
+   "2026": 12
+  },
+  "mhw_days_mean_1983_2012": 20.033333333333335,
+  "mhw_days_mean_2015_2024": 57.6,
+  "damaging_year_share_2005_2024": 0.65,
+  "sst_first": "1982-01-01",
+  "sst_last": "2026-10-29",
+  "hs_max_p50": 0.9,
+  "hs_max_p99": 2.58,
+  "days_hs_over_6m_per_yr": 0.0,
+  "nitrate_0_30m": [
+   0.0,
+   0.268,
+   0.179,
+   0.0,
+   0.0,
+   0.296,
+   0.015,
+   0.395,
+   0.269,
+   0.012,
+   0.0,
+   0.067
+  ],
+  "nitrate_30_60m": [
+   1.126,
+   2.611,
+   1.033,
+   0.198,
+   0.0,
+   0.447,
+   0.394,
+   0.838,
+   0.759,
+   1.479,
+   1.68,
+   0.802
+  ],
+  "nitrate_points": [
+   [
+    -35.5,
+    136.5
+   ]
+  ],
+  "months_surface_no3_ge_1": 0,
+  "months_any_no3_ge_1_within_60m": 5,
+  "centre_depth_m": 15.0,
+  "area_10_60m_within_50km_km2": 4909.822020146545,
+  "area_10_100m_within_50km_km2": 4909.822020146545,
+  "area_10_150m_within_50km_km2": 4909.822020146545,
+  "area_10_60m_within_75km_km2": 9400.315011780536,
+  "area_10_100m_within_75km_km2": 9400.315011780536,
+  "area_10_150m_within_75km_km2": 9400.315011780536
+ },
+ "sa_shelf": {
+  "sst_mean_2015_2024": 17.090834631717225,
+  "sst_max_month_clim": 18.844021164021164,
+  "sst_trend_c_per_decade": 0.22805434529771423,
+  "mhw": {
+   "1982": {
+    "mhw_days": 6,
+    "events": 1,
+    "cum_intensity": 10.749190023382873
+   },
+   "1983": {
+    "mhw_days": 27,
+    "events": 2,
+    "cum_intensity": 46.25768691177229
+   },
+   "1984": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "1985": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "1986": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "1987": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "1988": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "1989": {
+    "mhw_days": 5,
+    "events": 1,
+    "cum_intensity": 3.5940681561014465
+   },
+   "1990": {
+    "mhw_days": 31,
+    "events": 4,
+    "cum_intensity": 28.4597411133569
+   },
+   "1991": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "1992": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "1993": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "1994": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "1995": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "1996": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "1997": {
+    "mhw_days": 5,
+    "events": 1,
+    "cum_intensity": 11.428315076767777
+   },
+   "1998": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "1999": {
+    "mhw_days": 68,
+    "events": 6,
+    "cum_intensity": 82.78153230697663
+   },
+   "2000": {
+    "mhw_days": 29,
+    "events": 1,
+    "cum_intensity": 49.013372709005836
+   },
+   "2001": {
+    "mhw_days": 25,
+    "events": 2,
+    "cum_intensity": 25.05727180905486
+   },
+   "2002": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "2003": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "2004": {
+    "mhw_days": 6,
+    "events": 1,
+    "cum_intensity": 4.3382657713649735
+   },
+   "2005": {
+    "mhw_days": 22,
+    "events": 3,
+    "cum_intensity": 18.518388207286506
+   },
+   "2006": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "2007": {
+    "mhw_days": 57,
+    "events": 6,
+    "cum_intensity": 70.8389089367609
+   },
+   "2008": {
+    "mhw_days": 20,
+    "events": 4,
+    "cum_intensity": 29.35578732242496
+   },
+   "2009": {
+    "mhw_days": 128,
+    "events": 12,
+    "cum_intensity": 182.5556308929751
+   },
+   "2010": {
+    "mhw_days": 35,
+    "events": 5,
+    "cum_intensity": 53.1255065583884
+   },
+   "2011": {
+    "mhw_days": 54,
+    "events": 8,
+    "cum_intensity": 58.40151865317246
+   },
+   "2012": {
+    "mhw_days": 41,
+    "events": 4,
+    "cum_intensity": 55.09506845614864
+   },
+   "2013": {
+    "mhw_days": 288,
+    "events": 7,
+    "cum_intensity": 427.2488735902527
+   },
+   "2014": {
+    "mhw_days": 130,
+    "events": 10,
+    "cum_intensity": 151.59353453608367
+   },
+   "2015": {
+    "mhw_days": 35,
+    "events": 5,
+    "cum_intensity": 51.75343324113064
+   },
+   "2016": {
+    "mhw_days": 75,
+    "events": 7,
+    "cum_intensity": 82.0439968068604
+   },
+   "2017": {
+    "mhw_days": 80,
+    "events": 8,
+    "cum_intensity": 88.57183763252752
+   },
+   "2018": {
+    "mhw_days": 90,
+    "events": 10,
+    "cum_intensity": 119.97431900158037
+   },
+   "2019": {
+    "mhw_days": 36,
+    "events": 4,
+    "cum_intensity": 52.79342655190257
+   },
+   "2020": {
+    "mhw_days": 24,
+    "events": 3,
+    "cum_intensity": 27.355400879138696
+   },
+   "2021": {
+    "mhw_days": 55,
+    "events": 4,
+    "cum_intensity": 52.90828354478416
+   },
+   "2022": {
+    "mhw_days": 36,
+    "events": 3,
+    "cum_intensity": 34.671281461195846
+   },
+   "2023": {
+    "mhw_days": 58,
+    "events": 5,
+    "cum_intensity": 62.880436201631866
+   },
+   "2024": {
+    "mhw_days": 146,
+    "events": 7,
+    "cum_intensity": 179.82355898914247
+   },
+   "2025": {
+    "mhw_days": 202,
+    "events": 4,
+    "cum_intensity": 325.7445026754433
+   },
+   "2026": {
+    "mhw_days": 119,
+    "events": 10,
+    "cum_intensity": 113.04210070502978
+   }
+  },
+  "species_limit_c": 23.0,
+  "stress_days": {
+   "1982": 0,
+   "1983": 0,
+   "1984": 0,
+   "1985": 0,
+   "1986": 0,
+   "1987": 0,
+   "1988": 0,
+   "1989": 0,
+   "1990": 0,
+   "1991": 0,
+   "1992": 0,
+   "1993": 0,
+   "1994": 0,
+   "1995": 0,
+   "1996": 0,
+   "1997": 0,
+   "1998": 0,
+   "1999": 0,
+   "2000": 0,
+   "2001": 0,
+   "2002": 0,
+   "2003": 0,
+   "2004": 0,
+   "2005": 0,
+   "2006": 0,
+   "2007": 0,
+   "2008": 0,
+   "2009": 0,
+   "2010": 0,
+   "2011": 0,
+   "2012": 0,
+   "2013": 0,
+   "2014": 0,
+   "2015": 0,
+   "2016": 0,
+   "2017": 0,
+   "2018": 0,
+   "2019": 0,
+   "2020": 0,
+   "2021": 0,
+   "2022": 0,
+   "2023": 0,
+   "2024": 0,
+   "2025": 0,
+   "2026": 0
+  },
+  "mhw_days_mean_1983_2012": 18.433333333333334,
+  "mhw_days_mean_2015_2024": 63.5,
+  "damaging_year_share_2005_2024": 0.0,
+  "sst_first": "1982-01-01",
+  "sst_last": "2026-10-29",
+  "hs_max_p50": 3.0,
+  "hs_max_p99": 6.648800000000001,
+  "days_hs_over_6m_per_yr": 8.698809197919518,
+  "nitrate_0_30m": [
+   0.005,
+   0.364,
+   0.181,
+   0.022,
+   0.008,
+   0.338,
+   0.264,
+   0.333,
+   0.553,
+   0.233,
+   0.041,
+   0.192
+  ],
+  "nitrate_30_60m": [
+   0.497,
+   1.766,
+   0.633,
+   0.151,
+   0.005,
+   0.389,
+   0.553,
+   0.558,
+   0.869,
+   1.37,
+   1.292,
+   0.701
+  ],
+  "nitrate_points": [
+   [
+    -35.5,
+    135.5
+   ],
+   [
+    -35.5,
+    134.5
+   ],
+   [
+    -36.5,
+    135.5
+   ],
+   [
+    -35.5,
+    136.5
+   ]
+  ],
+  "months_surface_no3_ge_1": 0,
+  "months_any_no3_ge_1_within_60m": 3,
+  "centre_depth_m": 96.0,
+  "area_10_60m_within_50km_km2": 281.9145303972043,
+  "area_10_100m_within_50km_km2": 893.6400596022843,
+  "area_10_150m_within_50km_km2": 3048.651670778042,
+  "area_10_60m_within_75km_km2": 1478.3347382669886,
+  "area_10_100m_within_75km_km2": 3071.8111515442765,
+  "area_10_150m_within_75km_km2": 7421.880087959777
+ },
+ "wa_south": {
+  "sst_mean_2015_2024": 18.269912320899397,
+  "sst_max_month_clim": 20.055220338983055,
+  "sst_trend_c_per_decade": 0.10394659439595412,
+  "mhw": {
+   "1982": {
+    "mhw_days": 13,
+    "events": 2,
+    "cum_intensity": 17.432318525759175
+   },
+   "1983": {
+    "mhw_days": 12,
+    "events": 2,
+    "cum_intensity": 14.73807831111964
+   },
+   "1984": {
+    "mhw_days": 36,
+    "events": 5,
+    "cum_intensity": 46.915417922708464
+   },
+   "1985": {
+    "mhw_days": 11,
+    "events": 2,
+    "cum_intensity": 13.184940688291096
+   },
+   "1986": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "1987": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "1988": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "1989": {
+    "mhw_days": 23,
+    "events": 3,
+    "cum_intensity": 29.902777501151032
+   },
+   "1990": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "1991": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "1992": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "1993": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "1994": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "1995": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "1996": {
+    "mhw_days": 13,
+    "events": 2,
+    "cum_intensity": 18.759932689746083
+   },
+   "1997": {
+    "mhw_days": 6,
+    "events": 1,
+    "cum_intensity": 8.122065289851395
+   },
+   "1998": {
+    "mhw_days": 18,
+    "events": 2,
+    "cum_intensity": 25.190760991353176
+   },
+   "1999": {
+    "mhw_days": 109,
+    "events": 11,
+    "cum_intensity": 154.7239208475027
+   },
+   "2000": {
+    "mhw_days": 71,
+    "events": 7,
+    "cum_intensity": 107.10629968384778
+   },
+   "2001": {
+    "mhw_days": 24,
+    "events": 2,
+    "cum_intensity": 38.805440007331406
+   },
+   "2002": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "2003": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "2004": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "2005": {
+    "mhw_days": 6,
+    "events": 1,
+    "cum_intensity": 6.292410493860107
+   },
+   "2006": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "2007": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "2008": {
+    "mhw_days": 36,
+    "events": 5,
+    "cum_intensity": 59.070792461863064
+   },
+   "2009": {
+    "mhw_days": 20,
+    "events": 3,
+    "cum_intensity": 24.061913147621038
+   },
+   "2010": {
+    "mhw_days": 16,
+    "events": 2,
+    "cum_intensity": 19.31068296061756
+   },
+   "2011": {
+    "mhw_days": 100,
+    "events": 10,
+    "cum_intensity": 150.25545620461116
+   },
+   "2012": {
+    "mhw_days": 64,
+    "events": 6,
+    "cum_intensity": 93.87602409508855
+   },
+   "2013": {
+    "mhw_days": 36,
+    "events": 3,
+    "cum_intensity": 41.75084861608691
+   },
+   "2014": {
+    "mhw_days": 75,
+    "events": 7,
+    "cum_intensity": 101.35162493717056
+   },
+   "2015": {
+    "mhw_days": 5,
+    "events": 1,
+    "cum_intensity": 5.95906521886528
+   },
+   "2016": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "2017": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "2018": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "2019": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "2020": {
+    "mhw_days": 11,
+    "events": 2,
+    "cum_intensity": 12.222012610018968
+   },
+   "2021": {
+    "mhw_days": 21,
+    "events": 2,
+    "cum_intensity": 28.058388320357132
+   },
+   "2022": {
+    "mhw_days": 61,
+    "events": 3,
+    "cum_intensity": 79.75149509666855
+   },
+   "2023": {
+    "mhw_days": 14,
+    "events": 2,
+    "cum_intensity": 15.415984437182086
+   },
+   "2024": {
+    "mhw_days": 42,
+    "events": 2,
+    "cum_intensity": 55.213161482582265
+   },
+   "2025": {
+    "mhw_days": 224,
+    "events": 5,
+    "cum_intensity": 362.73360536441703
+   },
+   "2026": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   }
+  },
+  "species_limit_c": 23.0,
+  "stress_days": {
+   "1982": 0,
+   "1983": 0,
+   "1984": 0,
+   "1985": 0,
+   "1986": 0,
+   "1987": 0,
+   "1988": 0,
+   "1989": 0,
+   "1990": 0,
+   "1991": 0,
+   "1992": 0,
+   "1993": 0,
+   "1994": 0,
+   "1995": 0,
+   "1996": 0,
+   "1997": 0,
+   "1998": 0,
+   "1999": 0,
+   "2000": 0,
+   "2001": 0,
+   "2002": 0,
+   "2003": 0,
+   "2004": 0,
+   "2005": 0,
+   "2006": 0,
+   "2007": 0,
+   "2008": 0,
+   "2009": 0,
+   "2010": 0,
+   "2011": 0,
+   "2012": 0,
+   "2013": 0,
+   "2014": 0,
+   "2015": 0,
+   "2016": 0,
+   "2017": 0,
+   "2018": 0,
+   "2019": 0,
+   "2020": 0,
+   "2021": 0,
+   "2022": 0,
+   "2023": 0,
+   "2024": 0,
+   "2025": 0,
+   "2026": 0
+  },
+  "mhw_days_mean_1983_2012": 18.833333333333332,
+  "mhw_days_mean_2015_2024": 15.4,
+  "damaging_year_share_2005_2024": 0.0,
+  "sst_first": "1982-01-01",
+  "sst_last": "2026-10-29",
+  "hs_max_p50": 2.72,
+  "hs_max_p99": 5.74,
+  "days_hs_over_6m_per_yr": 2.599644128113879,
+  "nitrate_0_30m": [
+   0.019,
+   0.003,
+   0.168,
+   0.155,
+   0.058,
+   0.109,
+   0.556,
+   0.347,
+   0.66,
+   0.864,
+   0.027,
+   0.304
+  ],
+  "nitrate_30_60m": [
+   0.05,
+   0.001,
+   0.159,
+   0.217,
+   0.03,
+   0.071,
+   0.627,
+   0.529,
+   1.069,
+   0.934,
+   0.039,
+   0.564
+  ],
+  "nitrate_points": [
+   [
+    -35.5,
+    118.5
+   ],
+   [
+    -35.5,
+    119.5
+   ],
+   [
+    -35.5,
+    117.5
+   ],
+   [
+    -35.5,
+    120.5
+   ]
+  ],
+  "months_surface_no3_ge_1": 0,
+  "months_any_no3_ge_1_within_60m": 1,
+  "centre_depth_m": 890.0,
+  "area_10_60m_within_50km_km2": 1857.2597136603251,
+  "area_10_100m_within_50km_km2": 3036.00139926832,
+  "area_10_150m_within_50km_km2": 3142.5433230436533,
+  "area_10_60m_within_75km_km2": 3401.9617314783404,
+  "area_10_100m_within_75km_km2": 5186.983278798612,
+  "area_10_150m_within_75km_km2": 5464.408693584604
+ },
+ "wa_west": {
+  "sst_mean_2015_2024": 21.48807900284117,
+  "sst_max_month_clim": 23.34888507063765,
+  "sst_trend_c_per_decade": 0.10886427298950319,
+  "mhw": {
+   "1982": {
+    "mhw_days": 6,
+    "events": 1,
+    "cum_intensity": 5.281123159204082
+   },
+   "1983": {
+    "mhw_days": 6,
+    "events": 1,
+    "cum_intensity": 9.25993573440908
+   },
+   "1984": {
+    "mhw_days": 22,
+    "events": 3,
+    "cum_intensity": 29.74816553568971
+   },
+   "1985": {
+    "mhw_days": 10,
+    "events": 2,
+    "cum_intensity": 11.911920994823294
+   },
+   "1986": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "1987": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "1988": {
+    "mhw_days": 22,
+    "events": 3,
+    "cum_intensity": 27.403003433214
+   },
+   "1989": {
+    "mhw_days": 27,
+    "events": 3,
+    "cum_intensity": 41.67743337474789
+   },
+   "1990": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "1991": {
+    "mhw_days": 8,
+    "events": 1,
+    "cum_intensity": 10.417589306896424
+   },
+   "1992": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "1993": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "1994": {
+    "mhw_days": 7,
+    "events": 1,
+    "cum_intensity": 5.88725883172614
+   },
+   "1995": {
+    "mhw_days": 7,
+    "events": 1,
+    "cum_intensity": 8.535662366152494
+   },
+   "1996": {
+    "mhw_days": 41,
+    "events": 6,
+    "cum_intensity": 54.653332648748815
+   },
+   "1997": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "1998": {
+    "mhw_days": 15,
+    "events": 2,
+    "cum_intensity": 17.483416512625023
+   },
+   "1999": {
+    "mhw_days": 160,
+    "events": 10,
+    "cum_intensity": 278.9554439033212
+   },
+   "2000": {
+    "mhw_days": 30,
+    "events": 3,
+    "cum_intensity": 43.67771523793175
+   },
+   "2001": {
+    "mhw_days": 11,
+    "events": 1,
+    "cum_intensity": 12.989315858342518
+   },
+   "2002": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "2003": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "2004": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "2005": {
+    "mhw_days": 11,
+    "events": 2,
+    "cum_intensity": 14.300104745194773
+   },
+   "2006": {
+    "mhw_days": 8,
+    "events": 1,
+    "cum_intensity": 7.841220469673125
+   },
+   "2007": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "2008": {
+    "mhw_days": 36,
+    "events": 4,
+    "cum_intensity": 64.64966134491614
+   },
+   "2009": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "2010": {
+    "mhw_days": 49,
+    "events": 5,
+    "cum_intensity": 68.71585923178857
+   },
+   "2011": {
+    "mhw_days": 124,
+    "events": 7,
+    "cum_intensity": 260.6203123124761
+   },
+   "2012": {
+    "mhw_days": 54,
+    "events": 6,
+    "cum_intensity": 102.6256826562005
+   },
+   "2013": {
+    "mhw_days": 36,
+    "events": 4,
+    "cum_intensity": 49.79902155773566
+   },
+   "2014": {
+    "mhw_days": 33,
+    "events": 3,
+    "cum_intensity": 40.80928282873372
+   },
+   "2015": {
+    "mhw_days": 14,
+    "events": 2,
+    "cum_intensity": 18.119385101251613
+   },
+   "2016": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "2017": {
+    "mhw_days": 6,
+    "events": 1,
+    "cum_intensity": 6.187263205043568
+   },
+   "2018": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "2019": {
+    "mhw_days": 6,
+    "events": 1,
+    "cum_intensity": 7.797151517079488
+   },
+   "2020": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "2021": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "2022": {
+    "mhw_days": 38,
+    "events": 5,
+    "cum_intensity": 50.03517111816102
+   },
+   "2023": {
+    "mhw_days": 16,
+    "events": 1,
+    "cum_intensity": 22.295565113190026
+   },
+   "2024": {
+    "mhw_days": 68,
+    "events": 4,
+    "cum_intensity": 104.1078340671387
+   },
+   "2025": {
+    "mhw_days": 162,
+    "events": 9,
+    "cum_intensity": 282.42170747370045
+   },
+   "2026": {
+    "mhw_days": 20,
+    "events": 2,
+    "cum_intensity": 18.827219771268055
+   }
+  },
+  "species_limit_c": 23.0,
+  "stress_days": {
+   "1982": 1,
+   "1983": 82,
+   "1984": 25,
+   "1985": 65,
+   "1986": 4,
+   "1987": 21,
+   "1988": 75,
+   "1989": 120,
+   "1990": 44,
+   "1991": 9,
+   "1992": 19,
+   "1993": 0,
+   "1994": 22,
+   "1995": 34,
+   "1996": 47,
+   "1997": 32,
+   "1998": 24,
+   "1999": 145,
+   "2000": 130,
+   "2001": 49,
+   "2002": 17,
+   "2003": 71,
+   "2004": 19,
+   "2005": 50,
+   "2006": 57,
+   "2007": 38,
+   "2008": 123,
+   "2009": 46,
+   "2010": 27,
+   "2011": 158,
+   "2012": 120,
+   "2013": 122,
+   "2014": 28,
+   "2015": 85,
+   "2016": 15,
+   "2017": 34,
+   "2018": 13,
+   "2019": 2,
+   "2020": 88,
+   "2021": 104,
+   "2022": 117,
+   "2023": 68,
+   "2024": 99,
+   "2025": 171,
+   "2026": 29
+  },
+  "mhw_days_mean_1983_2012": 21.6,
+  "mhw_days_mean_2015_2024": 14.8,
+  "damaging_year_share_2005_2024": 0.95,
+  "sst_first": "1982-01-01",
+  "sst_last": "2026-10-29",
+  "hs_max_p50": 2.98,
+  "hs_max_p99": 6.22,
+  "days_hs_over_6m_per_yr": 4.6993566931289354,
+  "nitrate_0_30m": [
+   0.948,
+   0.301,
+   0.3,
+   0.107,
+   0.206,
+   0.548,
+   0.172,
+   0.077,
+   0.031,
+   0.23,
+   0.161,
+   0.104
+  ],
+  "nitrate_30_60m": [
+   1.076,
+   0.355,
+   0.379,
+   0.297,
+   0.25,
+   0.7,
+   0.191,
+   0.16,
+   0.12,
+   0.198,
+   0.24,
+   0.223
+  ],
+  "nitrate_points": [
+   [
+    -30.5,
+    114.5
+   ],
+   [
+    -31.5,
+    114.5
+   ],
+   [
+    -30.5,
+    113.5
+   ],
+   [
+    -29.5,
+    114.5
+   ]
+  ],
+  "months_surface_no3_ge_1": 0,
+  "months_any_no3_ge_1_within_60m": 1,
+  "centre_depth_m": 827.0,
+  "area_10_60m_within_50km_km2": 1592.2259777601876,
+  "area_10_100m_within_50km_km2": 2001.7112285803578,
+  "area_10_150m_within_50km_km2": 2246.3391744724618,
+  "area_10_60m_within_75km_km2": 3335.579354434619,
+  "area_10_100m_within_75km_km2": 3927.6473246063806,
+  "area_10_150m_within_75km_km2": 4328.092315739943
+ },
+ "nsw_south": {
+  "sst_mean_2015_2024": 19.79074970213546,
+  "sst_max_month_clim": 22.25784159159159,
+  "sst_trend_c_per_decade": 0.3469489465657322,
+  "mhw": {
+   "1982": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "1983": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "1984": {
+    "mhw_days": 19,
+    "events": 2,
+    "cum_intensity": 30.11189469020599
+   },
+   "1985": {
+    "mhw_days": 21,
+    "events": 2,
+    "cum_intensity": 37.395393987859435
+   },
+   "1986": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "1987": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "1988": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "1989": {
+    "mhw_days": 40,
+    "events": 3,
+    "cum_intensity": 70.70922190249794
+   },
+   "1990": {
+    "mhw_days": 21,
+    "events": 2,
+    "cum_intensity": 32.73617624096215
+   },
+   "1991": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "1992": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "1993": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "1994": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "1995": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "1996": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "1997": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "1998": {
+    "mhw_days": 84,
+    "events": 4,
+    "cum_intensity": 190.329910881969
+   },
+   "1999": {
+    "mhw_days": 24,
+    "events": 1,
+    "cum_intensity": 49.792683746345105
+   },
+   "2000": {
+    "mhw_days": 43,
+    "events": 3,
+    "cum_intensity": 109.62788360867515
+   },
+   "2001": {
+    "mhw_days": 81,
+    "events": 7,
+    "cum_intensity": 190.68261270644388
+   },
+   "2002": {
+    "mhw_days": 7,
+    "events": 1,
+    "cum_intensity": 11.597534167938598
+   },
+   "2003": {
+    "mhw_days": 33,
+    "events": 5,
+    "cum_intensity": 50.91183044763746
+   },
+   "2004": {
+    "mhw_days": 16,
+    "events": 2,
+    "cum_intensity": 28.32837442720684
+   },
+   "2005": {
+    "mhw_days": 61,
+    "events": 4,
+    "cum_intensity": 107.10907258096742
+   },
+   "2006": {
+    "mhw_days": 14,
+    "events": 2,
+    "cum_intensity": 23.650813465533364
+   },
+   "2007": {
+    "mhw_days": 55,
+    "events": 2,
+    "cum_intensity": 120.39151308689753
+   },
+   "2008": {
+    "mhw_days": 6,
+    "events": 1,
+    "cum_intensity": 7.692094110158134
+   },
+   "2009": {
+    "mhw_days": 54,
+    "events": 4,
+    "cum_intensity": 89.39634230142815
+   },
+   "2010": {
+    "mhw_days": 59,
+    "events": 6,
+    "cum_intensity": 107.98709066209832
+   },
+   "2011": {
+    "mhw_days": 39,
+    "events": 2,
+    "cum_intensity": 80.61720447053187
+   },
+   "2012": {
+    "mhw_days": 0,
+    "events": 0,
+    "cum_intensity": 0.0
+   },
+   "2013": {
+    "mhw_days": 69,
+    "events": 7,
+    "cum_intensity": 129.3537511027294
+   },
+   "2014": {
+    "mhw_days": 98,
+    "events": 3,
+    "cum_intensity": 236.7585545609947
+   },
+   "2015": {
+    "mhw_days": 128,
+    "events": 4,
+    "cum_intensity": 273.416704194531
+   },
+   "2016": {
+    "mhw_days": 160,
+    "events": 9,
+    "cum_intensity": 326.9136152803979
+   },
+   "2017": {
+    "mhw_days": 94,
+    "events": 9,
+    "cum_intensity": 182.81578078294976
+   },
+   "2018": {
+    "mhw_days": 17,
+    "events": 2,
+    "cum_intensity": 35.89472350253935
+   },
+   "2019": {
+    "mhw_days": 93,
+    "events": 8,
+    "cum_intensity": 195.51988242633442
+   },
+   "2020": {
+    "mhw_days": 19,
+    "events": 3,
+    "cum_intensity": 31.070525647613326
+   },
+   "2021": {
+    "mhw_days": 67,
+    "events": 7,
+    "cum_intensity": 133.99467815202684
+   },
+   "2022": {
+    "mhw_days": 118,
+    "events": 6,
+    "cum_intensity": 222.4562870115657
+   },
+   "2023": {
+    "mhw_days": 203,
+    "events": 5,
+    "cum_intensity": 412.4025919039137
+   },
+   "2024": {
+    "mhw_days": 80,
+    "events": 8,
+    "cum_intensity": 137.78574955603096
+   },
+   "2025": {
+    "mhw_days": 92,
+    "events": 7,
+    "cum_intensity": 147.13562746211548
+   },
+   "2026": {
+    "mhw_days": 137,
+    "events": 5,
+    "cum_intensity": 292.9061907614748
+   }
+  },
+  "species_limit_c": 23.0,
+  "stress_days": {
+   "1982": 0,
+   "1983": 7,
+   "1984": 10,
+   "1985": 0,
+   "1986": 0,
+   "1987": 0,
+   "1988": 2,
+   "1989": 7,
+   "1990": 13,
+   "1991": 15,
+   "1992": 0,
+   "1993": 0,
+   "1994": 0,
+   "1995": 0,
+   "1996": 0,
+   "1997": 2,
+   "1998": 24,
+   "1999": 20,
+   "2000": 13,
+   "2001": 23,
+   "2002": 0,
+   "2003": 25,
+   "2004": 0,
+   "2005": 10,
+   "2006": 16,
+   "2007": 49,
+   "2008": 3,
+   "2009": 1,
+   "2010": 29,
+   "2011": 11,
+   "2012": 0,
+   "2013": 13,
+   "2014": 40,
+   "2015": 12,
+   "2016": 42,
+   "2017": 45,
+   "2018": 3,
+   "2019": 20,
+   "2020": 17,
+   "2021": 32,
+   "2022": 46,
+   "2023": 71,
+   "2024": 31,
+   "2025": 28,
+   "2026": 21
+  },
+  "mhw_days_mean_1983_2012": 22.566666666666666,
+  "mhw_days_mean_2015_2024": 97.9,
+  "damaging_year_share_2005_2024": 0.8,
+  "sst_first": "1982-01-01",
+  "sst_last": "2026-10-29",
+  "hs_max_p50": 1.96,
+  "hs_max_p99": 4.719200000000001,
+  "days_hs_over_6m_per_yr": 0.4999315630988229,
+  "nitrate_0_30m": [
+   0.808,
+   0.267,
+   0.27,
+   1.125,
+   1.036,
+   1.569,
+   2.521,
+   2.638,
+   2.326,
+   1.229,
+   0.553,
+   0.077
+  ],
+  "nitrate_30_60m": [
+   4.405,
+   2.596,
+   2.334,
+   1.637,
+   2.09,
+   2.746,
+   1.39,
+   7.604,
+   4.497,
+   1.551,
+   1.291,
+   0.668
+  ],
+  "nitrate_points": [
+   [
+    -37.5,
+    150.5
+   ],
+   [
+    -36.5,
+    151.5
+   ],
+   [
+    -37.5,
+    151.5
+   ],
+   [
+    -35.5,
+    151.5
+   ]
+  ],
+  "months_surface_no3_ge_1": 7,
+  "months_any_no3_ge_1_within_60m": 11,
+  "centre_depth_m": 2627.0,
+  "area_10_60m_within_50km_km2": 332.70284634621567,
+  "area_10_100m_within_50km_km2": 780.1528560147758,
+  "area_10_150m_within_50km_km2": 1804.537739871339,
+  "area_10_60m_within_75km_km2": 653.7963959478379,
+  "area_10_100m_within_75km_km2": 1541.7632126113979,
+  "area_10_150m_within_75km_km2": 3335.9373401279845
+ }
+}

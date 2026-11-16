@@ -1,0 +1,17 @@
+{
+ "-c import grid_harvester as g; g.main()": 0.04448294639587402,
+ "water.py": 0.03781247138977051,
+ "scenarios.py": 5.652090072631836,
+ "cascade.py": 0.3342463970184326,
+ "feed.py": 0.4136497974395752,
+ "coproduction.py": 0.03050541877746582,
+ "adequacy.py": 0.8757834434509277,
+ "montecarlo.py": 17.829840421676636,
+ "transition.py": 0.4241316318511963,
+ "accounts.py": 0.45412516593933105,
+ "provenance.py": 0.3732137680053711,
+ "figures.py": 8.383827924728394,
+ "source_data.py": 0.20476317405700684,
+ "build_documents.py": 9.238006591796875,
+ "total": 44.818883657455444
+}

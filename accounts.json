@@ -1,0 +1,154 @@
+{
+ "emissions": {
+  "reconciliation": [
+   [
+    "Study boundary, well-to-wheel (all fuel sold)",
+    194.87026979784002
+   ],
+   [
+    "less upstream (well-to-tank) emissions",
+    -40.21132551384002
+   ],
+   [
+    "= combustion (scope 1), all fuel sold",
+    154.658944284
+   ],
+   [
+    "less international aviation and bunkers (inventory memo items)",
+    -17.122595692458457
+   ],
+   [
+    "less mining, farm and construction diesel (inventory: stationary energy and agriculture)",
+    -33.8715
+   ],
+   [
+    "= liquid-fuel combustion in the inventory transport sector (study estimate)",
+    103.66484859154156
+   ],
+   [
+    "Inventory transport sector, 2025 (includes LPG, natural gas, lubricants, non-CO2)",
+    100.9
+   ],
+   [
+    "Difference (outside the study, or volume-split error)",
+    -2.7648485915415506
+   ]
+  ],
+  "fuel_reconciliation": [
+   [
+    "Automotive gasoline (incl. ethanol blends)",
+    15817.5,
+    "included: light vehicles"
+   ],
+   [
+    "Diesel oil",
+    33523.9,
+    "included, less 0.5 GL other stationary use (screening)"
+   ],
+   [
+    "Aviation turbine fuel, domestic",
+    4228.2,
+    "included"
+   ],
+   [
+    "Aviation turbine fuel, international",
+    5846.6,
+    "included"
+   ],
+   [
+    "Aviation gasoline",
+    72.4,
+    "included: aviation"
+   ],
+   [
+    "Fuel oil",
+    659.0,
+    "included: shipping"
+   ],
+   [
+    "LPG, automotive",
+    241.70000000000002,
+    "included: light vehicles"
+   ],
+   [
+    "LPG, non-automotive",
+    1288.8000000000002,
+    "excluded: not transport"
+   ],
+   [
+    "Lubricating oils and greases",
+    326.6,
+    "excluded: not fuel"
+   ],
+   [
+    "Other products",
+    588.5999999999999,
+    "excluded: not transport fuel"
+   ],
+   [
+    "Total, APS 2025",
+    62592.700000000004,
+    ""
+   ]
+  ],
+  "fuel_included_ml": 59889.3,
+  "demand_twh_by_segment": {
+   "ldv_petrol": 152.0252888888889,
+   "ldv_diesel": 64.93000355555557,
+   "hdv": 137.97625755555558,
+   "rail": 12.866666666666667,
+   "mining": 93.28333333333333,
+   "farm": 24.66111111111111,
+   "construction": 16.083333333333336,
+   "aviation": 103.65149999999997,
+   "shipping": 11.556194444444447
+  },
+  "demand_twh_total": 617.033688888889,
+  "transport_sector_mt": 103.66484859154156,
+  "scope1_by_segment_mt": {
+   "ldv_petrol": 37.060738224000005,
+   "ldv_diesel": 16.409110498560004,
+   "hdv": 34.869359809440006,
+   "rail": 3.2516640000000003,
+   "mining": 23.574564,
+   "farm": 6.232356,
+   "construction": 4.06458,
+   "aviation": 26.187138471999997,
+   "shipping": 3.0094332800000005
+  },
+  "scope1_all_mt": 154.658944284,
+  "scope1_international_mt": 17.122595692458457,
+  "territorial_mt": 137.53634859154155,
+  "wtw_fossil_mt": 194.87026979784002,
+  "wtw_residual_mt": 15.507688504155793,
+  "wtw_reduction_pct": 92.04204493571872,
+  "inventory_transport_2025_mt": 100.9,
+  "national_2025_mt": 458.9,
+  "note": "territorial scope-1 total includes mining, farm and construction diesel, which the inventory counts under stationary energy; international aviation and bunkers are memo items"
+ },
+ "fiscal": {
+  "excise_gross_bn": 26.496331800000007,
+  "ftc_offroad_bn": 7.571700000000001,
+  "ftc_heavy_bn": 2.466843908400001,
+  "excise_net_bn": 16.457787891600006,
+  "road_electricity_twh": 126.74295681019822,
+  "ruc_aud_per_mwh_to_replace": 129.85169595061672,
+  "note": "net excise kept if renewable liquids pay excise at the fossil rate per litre-equivalent is not assumed; the road-user charge per MWh of road electricity that would replace net excise is shown"
+ },
+ "security": {
+  "liquid_fuel_2025_gl": 60.3892,
+  "refined_imports_ml_day_2025": 143.0,
+  "domestic_refining_share": 0.2,
+  "mso_days_oct2026": {
+   "petrol": 41,
+   "diesel": 33,
+   "jet": 28
+  },
+  "fossil_cost_bn": {
+   "avg2025": 64.7313635195102,
+   "oct2026": 109.52697141908826
+  },
+  "system_cost_bn": 80.16833032422154,
+  "renewable_liquids_twh": 186.82149709342661
+ }
+}

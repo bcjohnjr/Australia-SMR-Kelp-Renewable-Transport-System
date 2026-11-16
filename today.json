@@ -1,0 +1,561 @@
+{
+ "params_r": 0.07,
+ "objective_bn": 107.95828162417499,
+ "reserve_cost_bn": 0.0,
+ "shortfall_twh": {
+  "dropin": 0.0,
+  "jet": 0.0
+ },
+ "shadow_aud_mwh": {
+  "dropin": 335.5184586470767,
+  "jet": 973.1963105054897,
+  "methane": 191.0123057647178,
+  "heat|SA": 0.0,
+  "heat|WA": 0.0,
+  "heat|VIC": 0.0,
+  "heat|TAS": 60.99506468905137,
+  "heat|SE": 0.0,
+  "heat|INLAND": 125.42818784729401,
+  "wind_share": -34.359788912920706,
+  "el_direct": 135.478168953492,
+  "el_flex_solar": 97.19693186183746,
+  "el_flex_wind": 97.19693186183746
+ },
+ "shortfall_total_twh": 0.0,
+ "demand_twh": {
+  "ldv_petrol": 152.0252888888889,
+  "ldv_diesel": 64.93000355555557,
+  "hdv": 137.97625755555558,
+  "rail": 12.866666666666667,
+  "mining": 93.28333333333333,
+  "farm": 24.66111111111111,
+  "construction": 16.083333333333336,
+  "aviation": 103.65149999999997,
+  "shipping": 11.556194444444447
+ },
+ "demand_total_twh": 617.033688888889,
+ "end_use_twh": {
+  "ldv_petrol|bev": 152.0252888888889,
+  "ldv_petrol|liq": 0.0,
+  "ldv_petrol|e100": 0.0,
+  "ldv_diesel|bev": 64.93000355555557,
+  "ldv_diesel|liq": -0.0,
+  "hdv|bet": 117.27981892222223,
+  "hdv|liq": 0.0,
+  "hdv|ed95": 0.0,
+  "hdv|lng": 0.7563905217006379,
+  "rail|el": 6.433333333333334,
+  "rail|liq": 6.433333333333334,
+  "mining|el": 55.97,
+  "mining|liq": 37.31333333333333,
+  "farm|el": 7.398333333333333,
+  "farm|liq": 17.262777777777778,
+  "construction|el": 6.4333333333333345,
+  "construction|liq": 9.650000000000002,
+  "aviation|jet": 103.65149999999997,
+  "shipping|meoh": 2.8203551305819214,
+  "shipping|nh3": 4.094092091640318,
+  "shipping|lng": 3.466858333333334,
+  "shipping|liq": 1.1748888888888729
+ },
+ "ers_twh": {
+  "Hume (Sydney-Melbourne)": 5.151152714295552,
+  "Pacific (Sydney-Brisbane)": 4.708110941870698,
+  "Bruce (Brisbane-Cairns)": 3.5184121758005853,
+  "Inland (Melbourne-Brisbane via Newell)": 4.518981217590467,
+  "Western (Melbourne-Adelaide)": 2.0433910620754028,
+  "Eyre (Adelaide-Perth)": 0.0,
+  "Stuart (Port Augusta-Darwin)": 0.0,
+  "Great Northern (Perth-Port Hedland)": -0.0
+ },
+ "ers_corridors": {
+  "Hume (Sydney-Melbourne)": {
+   "km": 804.4093269763787,
+   "aadt": 3500,
+   "twh_diesel": 5.151152714295552,
+   "ann_aud_m": 307.56237806586205,
+   "aud_per_mwh": 59.707485901613936
+  },
+  "Pacific (Sydney-Brisbane)": {
+   "km": 857.760710691329,
+   "aadt": 3000,
+   "twh_diesel": 4.708110941870698,
+   "ann_aud_m": 327.9610456324755,
+   "aud_per_mwh": 69.65873355188292
+  },
+  "Bruce (Brisbane-Cairns)": {
+   "km": 1602.530062312314,
+   "aadt": 1200,
+   "twh_diesel": 3.5184121758005853,
+   "ann_aud_m": 612.7203406994839,
+   "aud_per_mwh": 174.14683387970726
+  },
+  "Inland (Melbourne-Brisbane via Newell)": {
+   "km": 1617.203438736269,
+   "aadt": 1400,
+   "twh_diesel": 4.518981217590467,
+   "ann_aud_m": 618.3306418184063,
+   "aud_per_mwh": 136.82965519119858
+  },
+  "Western (Melbourne-Adelaide)": {
+   "km": 744.5621359677142,
+   "aadt": 1500,
+   "twh_diesel": 2.0433910620754028,
+   "ann_aud_m": 284.680067070819,
+   "aud_per_mwh": 139.3174671037658
+  },
+  "Eyre (Adelaide-Perth)": {
+   "km": 2779.2616136619263,
+   "aadt": 450,
+   "twh_diesel": 3.328346434365045,
+   "ann_aud_m": 1062.6384882657235,
+   "aud_per_mwh": 319.26919544613
+  },
+  "Stuart (Port Augusta-Darwin)": {
+   "km": 2728.5740977831583,
+   "aadt": 250,
+   "twh_diesel": 2.042278024632305,
+   "ann_aud_m": 1043.2583388826683,
+   "aud_per_mwh": 510.830712713808
+  },
+  "Great Northern (Perth-Port Hedland)": {
+   "km": 1543.9323970767693,
+   "aadt": 700,
+   "twh_diesel": 3.2356789519341724,
+   "ann_aud_m": 590.3157804034288,
+   "aud_per_mwh": 182.43954025493142
+  }
+ },
+ "ers_built": {
+  "Hume (Sydney-Melbourne)": 1,
+  "Pacific (Sydney-Brisbane)": 1,
+  "Bruce (Brisbane-Cairns)": 1,
+  "Inland (Melbourne-Brisbane via Newell)": 1,
+  "Western (Melbourne-Adelaide)": 1,
+  "Eyre (Adelaide-Perth)": 0,
+  "Stuart (Port Augusta-Darwin)": 0,
+  "Great Northern (Perth-Port Hedland)": 0
+ },
+ "ers_km_electrified": 5626.465674684005,
+ "ers_utilisation": {
+  "Hume (Sydney-Melbourne)": 1.0,
+  "Pacific (Sydney-Brisbane)": 1.0,
+  "Bruce (Brisbane-Cairns)": 1.0,
+  "Inland (Melbourne-Brisbane via Newell)": 1.0,
+  "Western (Melbourne-Adelaide)": 1.0,
+  "Eyre (Adelaide-Perth)": 0.0,
+  "Stuart (Port Augusta-Darwin)": 0.0,
+  "Great Northern (Perth-Port Hedland)": 0.0
+ },
+ "ers_cost_bn": 2.151254473287047,
+ "vehicle_premium_bn": 6.477756195731808,
+ "wind_twh": [
+  220.75199999999998,
+  119.73252266631073,
+  0.0
+ ],
+ "pv_twh": [
+  124.28316847949532,
+  0.0,
+  0.0
+ ],
+ "wind_gw": 96.94080052644414,
+ "pv_gw": 47.29192103481557,
+ "electricity_supply_cost_bn": 48.39662644503008,
+ "el_flows_twh": {
+  "wind_direct": 108.2520852729603,
+  "wind_flex": 232.2324373933504,
+  "pv_direct": 58.28958437774784,
+  "pv_shifted": 0.0,
+  "pv_flex_solar_led": 26.01468256578945,
+  "pv_flex_wind_led": 39.978901535958016
+ },
+ "smr": {
+  "east": {
+   "gw": 0.0,
+   "modules": 0.0,
+   "el_twh": -0.0,
+   "steam_twh": {
+    "VIC": 0.0,
+    "INLAND": -0.0
+   }
+  },
+  "sa": {
+   "gw": 0.0,
+   "modules": 0.0,
+   "el_twh": -0.0,
+   "steam_twh": {
+    "SA": 0.0
+   }
+  },
+  "wa": {
+   "gw": 0.0,
+   "modules": 0.0,
+   "el_twh": -0.0,
+   "steam_twh": {
+    "WA": 0.0
+   }
+  }
+ },
+ "smr_gw_total": 0.0,
+ "heat_by_pool": {
+  "SA": {
+   "demand": 0.0,
+   "hp": 0.0,
+   "tes": 0.0,
+   "eb": 0.0,
+   "smr": 0.0
+  },
+  "WA": {
+   "demand": 0.0,
+   "hp": 0.0,
+   "tes": 0.0,
+   "eb": 0.0,
+   "smr": 0.0
+  },
+  "VIC": {
+   "demand": 0.0,
+   "hp": 0.0,
+   "tes": 0.0,
+   "eb": 0.0,
+   "smr": 0.0
+  },
+  "TAS": {
+   "demand": 0.0,
+   "hp": -0.0,
+   "tes": 0.0,
+   "eb": 0.0,
+   "smr": 0
+  },
+  "SE": {
+   "demand": 0.0,
+   "hp": 0.0,
+   "tes": 0.0,
+   "eb": 0.0,
+   "smr": 0
+  },
+  "INLAND": {
+   "demand": 2.72,
+   "hp": 1.6320000000000001,
+   "tes": 1.088,
+   "eb": 0.0,
+   "smr": 0.0
+  }
+ },
+ "kelp_km2": {
+  "tas_se": 0.0,
+  "tas_e": 0.0,
+  "bass": 0.0,
+  "bonney": 0.0,
+  "sa_gulfs": 0.0,
+  "sa_shelf": 0.0,
+  "wa_south": 0.0,
+  "wa_west": 0.0,
+  "nsw_south": 0.0
+ },
+ "kelp_total_km2": 0.0,
+ "kelp_dry_mt": 0.0,
+ "kelp_wet_mt": 0.0,
+ "kelp_n_kt": 0.0,
+ "kelp_n_supply_kt": {
+  "natural": 0.0,
+  "fish_farms": 0.0,
+  "depth_cycling": 0.0
+ },
+ "kelp_cost_bn": 0.0,
+ "kelp_zone_table": {
+  "tas_se": {
+   "name": "South-east Tasmania (Storm Bay, D'Entrecasteaux)",
+   "species": "Macrocystis pyrifera (giant kelp)",
+   "pool": "TAS",
+   "area_km2": 1006.8077642234964,
+   "yield_eff": 7.6,
+   "dry_t_km2": 760.0,
+   "cost_aud_t": 1397.0765344452618,
+   "aud_per_mwh_fuel": 631.3043535676736,
+   "n_kg_km2": 9120.0,
+   "imta_share": 0.11979847531345096,
+   "natural_share": 0.8333333333333334
+  },
+  "tas_e": {
+   "name": "East Tasmania",
+   "species": "Macrocystis pyrifera (giant kelp)",
+   "pool": "TAS",
+   "area_km2": 1314.221546706545,
+   "yield_eff": 5.733333333333333,
+   "dry_t_km2": 573.3333333333334,
+   "cost_aud_t": 1612.401967356582,
+   "aud_per_mwh_fuel": 728.6045943771269,
+   "n_kg_km2": 6880.0,
+   "imta_share": 0.0,
+   "natural_share": 0.8333333333333334
+  },
+  "bass": {
+   "name": "Bass Strait and Gippsland",
+   "species": "Ecklonia radiata (golden kelp)",
+   "pool": "VIC",
+   "area_km2": 7625.7873637160355,
+   "yield_eff": 5.699999999999999,
+   "dry_t_km2": 569.9999999999999,
+   "cost_aud_t": 1690.992967829726,
+   "aud_per_mwh_fuel": 764.1179249117605,
+   "n_kg_km2": 6839.999999999998,
+   "imta_share": 0.0,
+   "natural_share": 0.5833333333333334
+  },
+  "bonney": {
+   "name": "Bonney Coast upwelling (Portland-Robe)",
+   "species": "Ecklonia radiata (golden kelp)",
+   "pool": "SE",
+   "area_km2": 939.780181013798,
+   "yield_eff": 6.016666666666666,
+   "dry_t_km2": 601.6666666666665,
+   "cost_aud_t": 1976.026199615196,
+   "aud_per_mwh_fuel": 892.9173970244898,
+   "n_kg_km2": 7219.999999999998,
+   "imta_share": 0.0,
+   "natural_share": 0.75
+  },
+  "sa_gulfs": {
+   "name": "Spencer Gulf and Gulf St Vincent",
+   "species": "Ecklonia radiata (golden kelp)",
+   "pool": "SA",
+   "area_km2": 4700.157505890268,
+   "yield_eff": 2.361666666666667,
+   "dry_t_km2": 236.16666666666669,
+   "cost_aud_t": 3974.250128778996,
+   "aud_per_mwh_fuel": 1795.8653993578832,
+   "n_kg_km2": 2834.0,
+   "imta_share": 0.05630526486310583,
+   "natural_share": 0.0
+  },
+  "sa_shelf": {
+   "name": "Eyre Peninsula and Kangaroo Island shelf",
+   "species": "Ecklonia radiata (golden kelp)",
+   "pool": "SA",
+   "area_km2": 1535.9055757721383,
+   "yield_eff": 5.066666666666666,
+   "dry_t_km2": 506.66666666666663,
+   "cost_aud_t": 2495.3572653171836,
+   "aud_per_mwh_fuel": 1127.5902690091204,
+   "n_kg_km2": 6080.0,
+   "imta_share": 0.0,
+   "natural_share": 0.0
+  },
+  "wa_south": {
+   "name": "WA south coast (Albany-Esperance)",
+   "species": "Ecklonia radiata (golden kelp)",
+   "pool": "WA",
+   "area_km2": 2593.491639399306,
+   "yield_eff": 4.75,
+   "dry_t_km2": 475.0,
+   "cost_aud_t": 2360.6541750862457,
+   "aud_per_mwh_fuel": 1066.7212720678922,
+   "n_kg_km2": 5700.0,
+   "imta_share": 0.0,
+   "natural_share": 0.0
+  },
+  "wa_west": {
+   "name": "WA west coast (Perth-Geraldton)",
+   "species": "Ecklonia radiata (golden kelp)",
+   "pool": "WA",
+   "area_km2": 1963.8236623031903,
+   "yield_eff": 1.3400000000000003,
+   "dry_t_km2": 134.00000000000003,
+   "cost_aud_t": 7364.260415358076,
+   "aud_per_mwh_fuel": 3327.727255019465,
+   "n_kg_km2": 1608.0000000000005,
+   "imta_share": 0.0,
+   "natural_share": 0.0
+  },
+  "nsw_south": {
+   "name": "NSW south coast (Eden-Jervis Bay)",
+   "species": "Ecklonia radiata (golden kelp)",
+   "pool": "SE",
+   "area_km2": 770.8816063056989,
+   "yield_eff": 2.0533333333333337,
+   "dry_t_km2": 205.33333333333337,
+   "cost_aud_t": 3819.8719300980147,
+   "aud_per_mwh_fuel": 1726.1057072291073,
+   "n_kg_km2": 2464.0000000000005,
+   "imta_share": 0.0,
+   "natural_share": 0.5833333333333334
+  }
+ },
+ "fuels_twh": {
+  "kelp_hc": 0.0,
+  "straw_ft": 26.400000000000002,
+  "cane_htl": 9.2,
+  "forest_htl": 9.6,
+  "hefa": 6.0,
+  "canola_hvo": 12.0,
+  "efuel_ft_solar": 0.0,
+  "efuel_ft_wind": 104.88583333333328,
+  "ethanol": 8.0,
+  "alcohol_to_jet": 7.400000000000001,
+  "waste_biomethane": 15.0,
+  "kelp_methane": 0.0,
+  "e_methanol": 0.0,
+  "bio_methanol": 2.8203551305819214,
+  "e_ammonia": 4.298796696222334,
+  "e_methane": 0.0
+ },
+ "methane_balance_twh": {
+  "waste_biomethane": 15.0,
+  "kelp_methane": 0.0,
+  "e_methane": 0.0,
+  "transport": 4.336707433289067,
+  "bio_methanol": 4.230532695872882,
+  "turbines": 6.43275987083805,
+  "reserve": 0.0
+ },
+ "jet_by_source_twh": {
+  "kelp": -0.0,
+  "straw": 13.200000000000001,
+  "cane": 3.6799999999999997,
+  "forest": 3.84,
+  "hefa": 4.199999999999999,
+  "canola": 8.399999999999999,
+  "eft_s": -0.0,
+  "eft_w": 62.931499999999964,
+  "atj": 7.400000000000001
+ },
+ "residues_mt": {
+  "straw": 12.0,
+  "cane": 4.0,
+  "forest": 4.0
+ },
+ "co2_mt": {
+  "biogenic": 15.712,
+  "dac": 15.753749999999982
+ },
+ "electrolyser_gw": 41.923056991703966,
+ "electrolyser_cost_bn": 9.966321569399357,
+ "h2_mt": 4.985555658045941,
+ "electricity_twh": {
+  "vehicles_rail": 158.02825681019823,
+  "refineries_heat": 0.582857142857143,
+  "efuels": 259.24889421838895,
+  "dac": 23.630624999999974,
+  "heat_storage": 1.1452631578947368
+ },
+ "generation_twh": {
+  "wind": 340.4845226663107,
+  "pv": 124.28316847949532,
+  "smr": 0.0
+ },
+ "generation_total_twh": 464.767691145806,
+ "carrier_twh": {
+  "el": 158.02825681019823,
+  "dropin": 71.83433333333332,
+  "ethanol": 0.0,
+  "methane": 4.336707433289067,
+  "jet": 103.65149999999997,
+  "methanol": 2.8203551305819214,
+  "ammonia": 4.298796696222334
+ },
+ "fossil_cost_bn": {
+  "avg2025": 64.7313635195102,
+  "oct2026": 109.52697141908826
+ },
+ "fossil_wtw_mt": 194.87026979784002,
+ "fossil_scope1_mt": 154.658944284,
+ "names": {
+  "u|ldv_petrol|bev": 152.0252888888889,
+  "u|ldv_diesel|bev": 64.93000355555557,
+  "u|hdv|bet": 117.27981892222223,
+  "u|hdv|lng": 0.7563905217006379,
+  "ers_build|Hume (Sydney-Melbourne)": 1.0,
+  "ers|Hume (Sydney-Melbourne)": 5.151152714295552,
+  "ers_build|Pacific (Sydney-Brisbane)": 1.0,
+  "ers|Pacific (Sydney-Brisbane)": 4.708110941870698,
+  "ers_build|Bruce (Brisbane-Cairns)": 1.0,
+  "ers|Bruce (Brisbane-Cairns)": 3.5184121758005853,
+  "ers_build|Inland (Melbourne-Brisbane via Newell)": 1.0,
+  "ers|Inland (Melbourne-Brisbane via Newell)": 4.518981217590467,
+  "ers_build|Western (Melbourne-Adelaide)": 1.0,
+  "ers|Western (Melbourne-Adelaide)": 2.0433910620754028,
+  "u|rail|el": 6.433333333333334,
+  "u|rail|liq": 6.433333333333334,
+  "u|mining|el": 55.97,
+  "u|mining|liq": 37.31333333333333,
+  "u|farm|el": 7.398333333333333,
+  "u|farm|liq": 17.262777777777778,
+  "u|construction|el": 6.4333333333333345,
+  "u|construction|liq": 9.650000000000002,
+  "u|aviation|jet": 103.65149999999997,
+  "u|shipping|meoh": 2.8203551305819214,
+  "u|shipping|nh3": 4.094092091640318,
+  "u|shipping|lng": 3.466858333333334,
+  "u|shipping|liq": 1.1748888888888729,
+  "wind0": 220.75199999999998,
+  "wind1": 119.73252266631073,
+  "pv0": 124.28316847949532,
+  "w_dir": 108.2520852729603,
+  "w_flex": 232.2324373933504,
+  "p_dir": 58.28958437774784,
+  "p_flex_s": 26.01468256578945,
+  "p_flex_w": 39.978901535958016,
+  "res|straw": 12.0,
+  "res|cane": 4.0,
+  "res|forest": 4.0,
+  "hefa": 6.0,
+  "canola": 12.0,
+  "etoh": 8.0,
+  "atj": 7.400000000000001,
+  "wch4": 15.0,
+  "biomeoh": 2.8203551305819214,
+  "eft_w": 104.88583333333328,
+  "enh3": 4.298796696222334,
+  "dac": 15.753749999999982,
+  "bio_co2": 15.712,
+  "jet|straw": 13.200000000000001,
+  "jet|cane": 3.6799999999999997,
+  "jet|forest": 3.84,
+  "jet|hefa": 4.199999999999999,
+  "jet|canola": 8.399999999999999,
+  "jet|eft_w": 62.931499999999964,
+  "hp|INLAND": 1.6320000000000001,
+  "tes|INLAND": 1.088
+ },
+ "dual_note": "objective in AUD bn includes vehicle premia and any winter reserve",
+ "lca_params": {
+  "iluc_mult": 1.0,
+  "ch4_leak": 0.01,
+  "bound": "core"
+ },
+ "residual_wtw_mt": 15.574331870231662,
+ "residual_parts_mt": {
+  "wind": 4.085814271995728,
+  "pv": 4.349910896782337,
+  "smr": 0.0,
+  "kelp_hc": 0.0,
+  "straw_ft": 0.7318080000000001,
+  "cane_htl": 0.255024,
+  "forest_htl": 0.286848,
+  "hefa": 0.39311999999999997,
+  "canola_hvo": 3.1708799999999995,
+  "efuel_ft_solar": 0.0,
+  "efuel_ft_wind": 0.5244291666666664,
+  "ethanol": 1.152,
+  "alcohol_to_jet": 0.1332,
+  "waste_biomethane": 0.15,
+  "kelp_methane": 0.0,
+  "e_methanol": 0.0,
+  "bio_methanol": 0.028203551305819214,
+  "e_ammonia": 0.021493983481111673,
+  "e_methane": 0.0,
+  "methane_leakage": 0.29159999999999997
+ },
+ "residual_range_mt": {
+  "lo": 9.394750693995658,
+  "hi": 25.69440211501929
+ },
+ "efuel_intensity": {
+  "grid_t_mwh": 0.018150412194060248,
+  "ft": 0.04856098926574459,
+  "methanol": 0.03948578316871447,
+  "ammonia": 0.03676322133960543
+ },
+ "wtw_reduction_pct": 92.00784609864368
+}

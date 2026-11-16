@@ -1,0 +1,3415 @@
+{
+"n_files": 682,
+"files": [
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201501_NSW1.csv",
+"bytes": 71237,
+"sha256": "144d1be369edd61fbb15d510d0449738ae4a6205bf7f48949396e2aa3938e0c9"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201501_QLD1.csv",
+"bytes": 71239,
+"sha256": "ac5594c5747e8ac3c9ccaf4ce2d6884452767cfa79b1f29fa80f6c9bc6f18cd8"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201501_SA1.csv",
+"bytes": 69506,
+"sha256": "0c03e6be23ce5c4c14637476ac9bc3a9fb7010fa160edd5b58e8e2c678f848c1"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201501_TAS1.csv",
+"bytes": 70517,
+"sha256": "e6d74c81c6da6a0128c931bb511d0f328ba56a5746fe6f6a5c044069f394b458"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201501_VIC1.csv",
+"bytes": 71007,
+"sha256": "876ea277d87a87e3b8a007398099c3809b07c4a027d2232a2885b242cd55afdb"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201502_NSW1.csv",
+"bytes": 64265,
+"sha256": "d2736ecc3107156f07ee17fd0031cce912a276102afe17ed464f8f980f6e3ed7"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201502_QLD1.csv",
+"bytes": 64239,
+"sha256": "f242b33159f10fa67be90b6ead8978224101861660af7703f4faf13875e26121"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201502_SA1.csv",
+"bytes": 62896,
+"sha256": "86b8a360cead2a23cbec98ef5543744dd199af393b3c103fb8a3ef40cb9d1146"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201502_TAS1.csv",
+"bytes": 63819,
+"sha256": "b34e72c42e4b571db7146568b97093cea7ba229cbc5647be688d4fe4fb19efd7"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201502_VIC1.csv",
+"bytes": 64102,
+"sha256": "6c8c16185c1c6e61520f87c026838c3f3d3df5775912d61f90959d17514b0791"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201503_NSW1.csv",
+"bytes": 71124,
+"sha256": "275360ab68a12bb96b5a256bd0afdccda0ae05456246b7d721bf070330f840e3"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201503_QLD1.csv",
+"bytes": 71292,
+"sha256": "079eb8eadf305539281d64755a62e54df79f75d51fd3120f29a83b3a8430fc7b"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201503_SA1.csv",
+"bytes": 69484,
+"sha256": "43ef0df159ab34381678bec221511296566480ec7ad449ad3d2c12e8019433b8"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201503_TAS1.csv",
+"bytes": 70683,
+"sha256": "b29e95fcd2485bca037b1c7de968fcdd1ba07bf93319a2c18eef1939c8a5afec"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201503_VIC1.csv",
+"bytes": 70994,
+"sha256": "4a32a0caaebe9923901e991602929aabbc9551251619a40d7d5193c15ca6cd11"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201504_NSW1.csv",
+"bytes": 68822,
+"sha256": "09415b4e7779adf6379ba702a842d304d220b4bd87d39077d2e981ee69aa45ff"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201504_QLD1.csv",
+"bytes": 68872,
+"sha256": "f82cd2a7a995ab0eca5b62c7bbb708b07f8a9f042b0e19d107ba856138c1ef3b"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201504_SA1.csv",
+"bytes": 67221,
+"sha256": "302bd241455de329a4616ef35eaa5bb0566ff463d956948290060e887ea6e483"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201504_TAS1.csv",
+"bytes": 68574,
+"sha256": "118267b8efe7bb327d77d88c0265e4512b5cf020bef9a555db94ab6ea4952f7b"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201504_VIC1.csv",
+"bytes": 68699,
+"sha256": "502177511cc885bd1eb6d5791d61e72adf62fc93bf613967eb4263d288209f85"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201505_NSW1.csv",
+"bytes": 71159,
+"sha256": "53588c58d83ea87284081b37308f70b8dbd68eb8ea9f3bd638098fbefe8bd5b3"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201505_QLD1.csv",
+"bytes": 71135,
+"sha256": "c02011ac50703f6b9ce3a493f45faaa729122e02c055d6815d185ae1b49d489b"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201505_SA1.csv",
+"bytes": 69404,
+"sha256": "b3b97c551034a080afa1531e122a60f56eb18e9e6ecc8d3f154ced0dc7cea0c4"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201505_TAS1.csv",
+"bytes": 70878,
+"sha256": "1e623e265bea34e097333fe38ba7f79661ebbf1136a9e321e22c2e97d61f2815"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201505_VIC1.csv",
+"bytes": 71104,
+"sha256": "94e327643d63df935d57b9f3ddffbcdd7ac4b65803c5e473e4522c806638b82c"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201506_NSW1.csv",
+"bytes": 68992,
+"sha256": "0ffccbaac84a1c5169b627ba1fafe3c170e5984a7b16dcaa83f9fe149054b2c7"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201506_QLD1.csv",
+"bytes": 68814,
+"sha256": "95394126a9b6ee6cc38aac741393d830ac7aa1f63c6cd45c961a253837dd776a"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201506_SA1.csv",
+"bytes": 67402,
+"sha256": "7b855428fd9093054f220cadad835d989b75a03b806e79b26ed1c9481bc53684"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201506_TAS1.csv",
+"bytes": 68708,
+"sha256": "1ad226da8fb1e96cd2155c723ca0ffa421fd7f736b13647ee8732d2dbfdd76ea"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201506_VIC1.csv",
+"bytes": 68841,
+"sha256": "228e333d49dec85b2bcff452bd818a027f5b6a971911422d0226d8c1f3ea8dd5"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201507_NSW1.csv",
+"bytes": 71469,
+"sha256": "77c3f11add34113340065379570e99e171f1cd8c71f6b021eda0b02c68a04d68"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201507_QLD1.csv",
+"bytes": 71157,
+"sha256": "91fa9cc607a21e7859c09dbcfeb926804fa783d368805fbf05abf9186d1fc7a7"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201507_SA1.csv",
+"bytes": 69752,
+"sha256": "6ee1e3cf5bbc72ba770af3b875ac4bc51544d137e187b35b1e3c44f4db522f64"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201507_TAS1.csv",
+"bytes": 70965,
+"sha256": "9fc78735abce7bb9da990beff6edb295d0c7d5d890e64b9e2620d0231fc21dd8"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201507_VIC1.csv",
+"bytes": 71073,
+"sha256": "121866965afe940c42cda334374b9b5dc43343dc3e5cbe960f5770e4b0777347"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201508_NSW1.csv",
+"bytes": 71249,
+"sha256": "a273ef5d55a7abd34909ac63c63335ac24565ac5495462fcc2bf9160db61adfc"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201508_QLD1.csv",
+"bytes": 71136,
+"sha256": "d3fc814c55fa147e71838d905d3d0b89a25bbdb1a137b37b2cda11feb960f9b8"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201508_SA1.csv",
+"bytes": 69603,
+"sha256": "2377f9ec045dbdfdc0587ec5db2c0e1e6a8584052d0c876d73ba2f0e1bf7361a"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201508_TAS1.csv",
+"bytes": 70993,
+"sha256": "a32dcc5576ae4722728fcf4f4cea886dac638fc9f48d2eea6a3dd7860ed4bc4b"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201508_VIC1.csv",
+"bytes": 71081,
+"sha256": "452aeaf5ceb254590368c39291dbbe810275c095d032569ededb6f6a20e13eee"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201509_NSW1.csv",
+"bytes": 68845,
+"sha256": "a0b3fc1a184488d205a2c332d761a9c44290774520eefa5f279ecdf979ab1329"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201509_QLD1.csv",
+"bytes": 68887,
+"sha256": "f1b45edb3fbafa6786d6437eb2519cbd67aca835b98c62c70eb8dfa4e3f7b81a"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201509_SA1.csv",
+"bytes": 67337,
+"sha256": "ddb254b6863a6fbc1ea281d7e18798b1d1ae22e6ed81950fdef897cb0324e58c"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201509_TAS1.csv",
+"bytes": 68784,
+"sha256": "853975c3c2735183f058d37289dcc009cc20370bb20ec18692865bc55726daaf"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201509_VIC1.csv",
+"bytes": 68802,
+"sha256": "8791a591106f20baadc5d13533da96e71a9bb37080caba5a3442f1f54e91de95"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201510_NSW1.csv",
+"bytes": 71148,
+"sha256": "8efacf9e54893415173a3ed54ed18901b288768d00d0481b84848458a1ab4632"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201510_QLD1.csv",
+"bytes": 71096,
+"sha256": "783e47e5ad05410146ee418a76d26f9970d02076b4c56007d16126f03e0d3363"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201510_SA1.csv",
+"bytes": 69637,
+"sha256": "08893c2854590c74b38321aed6271bce0b520cb2e967fbff348886cb3baefd29"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201510_TAS1.csv",
+"bytes": 71041,
+"sha256": "717f66106baa7be78fb7b3fb045e729dd7715d65ef25119f6dac957a456a207b"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201510_VIC1.csv",
+"bytes": 70961,
+"sha256": "b696d67579ca532765f76112d4c442e2dfcd5776eccd4a9050fc881b7e84b69a"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201511_NSW1.csv",
+"bytes": 68912,
+"sha256": "557626b99a571285967cf56e7fde63098144ba867ea034013b501a797dfb0c28"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201511_QLD1.csv",
+"bytes": 68890,
+"sha256": "03e64a59d6950a636dbeb2491e4eec13777410f758f7c2372289cd88c08f73f9"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201511_SA1.csv",
+"bytes": 67344,
+"sha256": "7bc7343df10d3b876798d026b0e2c787df07b264888631932c096d4b1fe2fd82"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201511_TAS1.csv",
+"bytes": 68871,
+"sha256": "a971929cee4a189cac7dc08dbed76cf9ab08ff1e47061a877d4a935a0cf017d5"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201511_VIC1.csv",
+"bytes": 68642,
+"sha256": "755c97f18c86ea51e24aa8758ee0bc8c10cc0ccfdad64ab78d30fec043f14349"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201512_NSW1.csv",
+"bytes": 71244,
+"sha256": "6a051c10ace648244e4709519dc8f63fd2ba265a0102fb52a1e9ec9091e65c44"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201512_QLD1.csv",
+"bytes": 71164,
+"sha256": "0f322539fae28becda432548798185821a9967eaa71b1256abea62d57f934b4c"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201512_SA1.csv",
+"bytes": 69742,
+"sha256": "d05c9fa8ad5ddd0580f8421d7305794bdd5e4822f8555094c453aac7d0a95e6b"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201512_TAS1.csv",
+"bytes": 71379,
+"sha256": "ec4baac31e8add96e90220507426e226c2bb006226b940e12133e784fa1c0891"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201512_VIC1.csv",
+"bytes": 71070,
+"sha256": "d921536d9af5f1e79d39d16b297722ca02184ef9f58de23ff578d019778b7c1d"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201601_NSW1.csv",
+"bytes": 71295,
+"sha256": "3f92c38712bf71a3d74360c58bf67ef61a39044e14d97fe344c6e756ffef8ade"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201601_QLD1.csv",
+"bytes": 71186,
+"sha256": "a99f850d7bc4bea83e9860a5ff898d1175df9582ad5b3849be1a557b558c0e9c"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201601_SA1.csv",
+"bytes": 69656,
+"sha256": "9b8ace705424158d5f02972c1681ca2c268a15952f1936cf316b2ffaab531274"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201601_TAS1.csv",
+"bytes": 71712,
+"sha256": "08f07db7089c97b7ef945904b2740fd70b166a64620d8139fa29af6641a3c89c"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201601_VIC1.csv",
+"bytes": 71090,
+"sha256": "1df8f3bd790ede441322118164724f9fd7e1b5e69a7cd8b3e435324fa675f5f0"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201602_NSW1.csv",
+"bytes": 66726,
+"sha256": "3067848ec37f1c58beed63f6537c8c3f0f8cb9ecea228e99a005ddf84059bc32"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201602_QLD1.csv",
+"bytes": 66727,
+"sha256": "8a734832da7d48bb3fb5cad369bb6fb596a9aeb87e4bf19b77da02ff5bfc3904"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201602_SA1.csv",
+"bytes": 65133,
+"sha256": "78a927dc3a31d8f70f1282bc23aa2cbf1f52b93a9d5c7b1498ff92950355ff0a"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201602_TAS1.csv",
+"bytes": 67208,
+"sha256": "c7fa0597fa3a3e6fc8d54cf29e8c2a83cf900dc6df81b30ded9308e1ff61fc08"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201602_VIC1.csv",
+"bytes": 66405,
+"sha256": "7fec70bf62025f9b59e43dad6e09a6284de5678d30c12511cb306f9f7f117a8b"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201603_NSW1.csv",
+"bytes": 71273,
+"sha256": "c9966f23fa09a5f4770fdb652e6d6c3687d6c168f047e0cb6ef51c0f4b5b97ed"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201603_QLD1.csv",
+"bytes": 71208,
+"sha256": "91d4217add633904a3b13e30369621951d29ee6dbff5187c90c0868fa1cb1cbc"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201603_SA1.csv",
+"bytes": 69653,
+"sha256": "22cdc16845a5cfb64791e61920a458327e0d8a4524feece2ca8c0bb4b2123353"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201603_TAS1.csv",
+"bytes": 71360,
+"sha256": "bf4b110d6b0478390e194cf2a1a563620987578e75a116659904528e79251f5b"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201603_VIC1.csv",
+"bytes": 71043,
+"sha256": "5061a8eb7d116908dd8aeb9cadbb7ece52b15733b00e43363bffe23535d59ca6"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201604_NSW1.csv",
+"bytes": 69049,
+"sha256": "fb77218d25b7dc775d939e12b033213863a6ea1dcab92b65b61dd76f579e26c8"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201604_QLD1.csv",
+"bytes": 68992,
+"sha256": "6c721777c1043253da94f3f62d73ba75d0d4dc66db1fd88421ba5fd6eb17dcf2"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201604_SA1.csv",
+"bytes": 67378,
+"sha256": "892bad7398cd4c7434ff6ee265d894250b680c793a2a91de9a4a24643351164f"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201604_TAS1.csv",
+"bytes": 69103,
+"sha256": "16301792a7f160c5f6326a8a8fdeb222fd327e20470147c0dac40e3366932e58"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201604_VIC1.csv",
+"bytes": 68802,
+"sha256": "c0f34db667666932d94e7f6533f0b91d98edfaa92e188e9daa937115de4e331d"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201605_NSW1.csv",
+"bytes": 71356,
+"sha256": "34e308c858b933e43ebea2373a49c33a3279360516e4e3c6e6c433c472955fcf"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201605_QLD1.csv",
+"bytes": 71286,
+"sha256": "060190f2ee27bcaf470ea87b318d6c699f0f70db729701178b007c94cb9cc5d3"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201605_SA1.csv",
+"bytes": 69717,
+"sha256": "e0314dd390d78d98313629a1162f1ab277cafc7516fbd95c97391c908eb2efc5"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201605_TAS1.csv",
+"bytes": 70268,
+"sha256": "b2758e61456c57c9e31d09ccf7a588e0230800583d47d0eebd92080eeb0c5c32"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201605_VIC1.csv",
+"bytes": 71257,
+"sha256": "97b9b841abe34938b5a048eb0a6fef0bb582018c04fc49fbf863a3d6866fa1d0"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201606_NSW1.csv",
+"bytes": 66740,
+"sha256": "29c55d9743726f65522bdff39573fe6ccfb3c63b04c13f8bf6594619e6435b30"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201606_QLD1.csv",
+"bytes": 66473,
+"sha256": "377c9c3519464dfb5884664e16232d0d7a100e56737fc8d244d83cfcef4741ea"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201606_SA1.csv",
+"bytes": 65320,
+"sha256": "8c2da2af8ee091c2b4b912040616b3b06f7f97508826a4040ae7cd1563ab11af"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201606_TAS1.csv",
+"bytes": 66096,
+"sha256": "961c659b5d7438edd2107fca851dacaf35793ff15221b0c23258955513afd377"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201606_VIC1.csv",
+"bytes": 66504,
+"sha256": "06d214dc0960c1d02935ed8a93a3ddb20a356f30c427450a578044f54cf2196e"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201607_NSW1.csv",
+"bytes": 68681,
+"sha256": "7c7636cce01c96ec75f5fd8dc17d9214928a8aae92b5253d6a9090bf70dc6c9a"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201607_QLD1.csv",
+"bytes": 68499,
+"sha256": "5dbedaaffc58b02f72b3302c5a6d62f9c1a9ad1a461afac823eeb703d2ce962d"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201607_SA1.csv",
+"bytes": 67538,
+"sha256": "9f642e1aa11d81b181560eca280927488835ee4cf6bb4ff3240c0e795f2f1226"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201607_TAS1.csv",
+"bytes": 68348,
+"sha256": "778c81af470ea0005357ff84586405fdb3c123edd1edd1c5b4aea1aead5233c7"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201607_VIC1.csv",
+"bytes": 68512,
+"sha256": "57ca2ba091616d2681c1d234f62b0813c556ac94055561b30cb7002d3beae8ef"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201608_NSW1.csv",
+"bytes": 68512,
+"sha256": "23e1b9ce875aecd33517304f127db2a46e8ff7b96a7a74ba09615382856267a1"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201608_QLD1.csv",
+"bytes": 68332,
+"sha256": "6b964fa7a4d7a95373f4f95f35a7b3edbbf4dfbf64d6e17d6f269b1985a34abb"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201608_SA1.csv",
+"bytes": 66953,
+"sha256": "df3d8b223d40952aa861b6ebf24512f0d11b08d1df3454c8137ec68327839c16"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201608_TAS1.csv",
+"bytes": 68105,
+"sha256": "0e4c569fa40c79fd372353a92d4963beb4e7366d04522f781162e3ce3e15dfcf"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201608_VIC1.csv",
+"bytes": 68238,
+"sha256": "4386955dd626cc9a8f6c241e1e281d03414459a039916884c37425a8cd2a2e1d"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201609_NSW1.csv",
+"bytes": 66120,
+"sha256": "6c77ec8eb48967e58747a6b41f561e27a2f61035794fefd6f428113e5bc9022e"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201609_QLD1.csv",
+"bytes": 66048,
+"sha256": "3dde1fc2d7ecaeb5d8d7efd315dad25ca1076f5ef5d70c9b8b4ee0ed39c7bd72"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201609_SA1.csv",
+"bytes": 64633,
+"sha256": "5f76b57bbaf10510a69bb7f09649122e9491eadd000a1055ffe3aaac7378134e"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201609_TAS1.csv",
+"bytes": 65800,
+"sha256": "d7e09be45bee79c6ead9f289d8c3d1ca89624e2ab57e9962b1d97f14d11af470"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201609_VIC1.csv",
+"bytes": 66113,
+"sha256": "118a8b21a8cdfdb56fa89b2d8c8ad54115b9f87a9d24075d4628618ed8457f3a"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201610_NSW1.csv",
+"bytes": 68327,
+"sha256": "f2a3c2355aa34bbb82811b6fa5f23687b4af677880b61741ecc22a860c644fa6"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201610_QLD1.csv",
+"bytes": 68294,
+"sha256": "af4942d9e5b5010b999fe087af619eb6d5f23f8629a759a7a116170f2ec8b1b3"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201610_SA1.csv",
+"bytes": 66389,
+"sha256": "b1121a3ef9e917eaedab5db1f76334c73a2b863734d19bdca594426a7ba73419"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201610_TAS1.csv",
+"bytes": 67809,
+"sha256": "6275f4ed5281ab6a7ec1abaff820464fc17031e83baa830abb4d0d350fc33641"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201610_VIC1.csv",
+"bytes": 68212,
+"sha256": "a67ebe9179863a9f34fec2322c74aa7f1cdd1fc90a9fd32bda448715f7ebc843"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201611_NSW1.csv",
+"bytes": 66269,
+"sha256": "b530e76861f83143d6cb1e858ef05cba2f50a2840e655132b26977236afe57f8"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201611_QLD1.csv",
+"bytes": 66268,
+"sha256": "1195a5194340d7c59b7c49162b57d167cc3fff0c6a86dd29be941f6e822eea7d"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201611_SA1.csv",
+"bytes": 64552,
+"sha256": "5fdbbce32590c0b5a416e656804c05a693b9fc1674c1b7769b3260cd6ab714e5"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201611_TAS1.csv",
+"bytes": 65705,
+"sha256": "3dba858ba40e91c7cc7021d8cb8b462daa27e117e4c3d2af7268407c818b9e9f"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201611_VIC1.csv",
+"bytes": 66066,
+"sha256": "821a1904d609ff01dc55a2a35d6c3c7c762dbe8155babe0b9d720ebd17114c5d"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201612_NSW1.csv",
+"bytes": 68470,
+"sha256": "a247b0a7eca059d738a7d75340725c8f3e0eec13059fba6bc1524e3e038cf331"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201612_QLD1.csv",
+"bytes": 68437,
+"sha256": "de48deca7e5fbce8568861f1333079abf93b1fae77ce58120eb899cf17d7abe6"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201612_SA1.csv",
+"bytes": 66808,
+"sha256": "e71212b84aea2c1333f8b5fc615e0b30fe2c30a2bd9d284799bed498fcf39f3d"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201612_TAS1.csv",
+"bytes": 67462,
+"sha256": "cf8d889ff02c5ea2515afdebe3343689bebd569d4d7b536e40ad66e44df9cd7d"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201612_VIC1.csv",
+"bytes": 68283,
+"sha256": "d0f6ef821f56c28fa8bb252deefbfe5f59bd8fe4eed6915ea193345b1a808986"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201701_NSW1.csv",
+"bytes": 68850,
+"sha256": "0ec3722a70b3c37d8f203e26602725779c2d7fd70d5e48a3b995900776549427"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201701_QLD1.csv",
+"bytes": 68773,
+"sha256": "46644904ebb99b7d8ae6e97a809692fcc5fb2dcd49f438de3522db6cffbe8350"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201701_SA1.csv",
+"bytes": 66966,
+"sha256": "595395ef50ea6aed8dea10d6dd0a3266219e73c5690d0e716765a657d82f26de"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201701_TAS1.csv",
+"bytes": 67825,
+"sha256": "1709fb83c0f0da9c3a33ab1de85fa8a042819d114d1a79721ac29f88759f1dbd"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201701_VIC1.csv",
+"bytes": 68469,
+"sha256": "3cc084ab0bf4426ffe17d3f2fb3f1d7c83d10d1bae44297ea2f29ab3e0f186d0"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201702_NSW1.csv",
+"bytes": 62545,
+"sha256": "3058ae684a31408126059f518c3d3dd87e41faf4ea0b5cedda586023034129a4"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201702_QLD1.csv",
+"bytes": 62378,
+"sha256": "a7f101d691ee0ec5b74734258d890fe17f9488ef33a8b69a64a1d2622d221726"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201702_SA1.csv",
+"bytes": 60769,
+"sha256": "7c0e7fe8a56f8a808d25bc9c5aa63a3b54cf41c3af2f2dbac04109c8e00feeb6"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201702_TAS1.csv",
+"bytes": 61627,
+"sha256": "08db473ff7c183877b8d2f4f4b38e1451d71cd96d6e025fe03f22c28aabacc28"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201702_VIC1.csv",
+"bytes": 62078,
+"sha256": "369a67d112d76c575b25def6ee88550c1c9d5c3fcea621bfd9aa344c39d2807b"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201703_NSW1.csv",
+"bytes": 68858,
+"sha256": "f1df923b15d4492a253efe515ced4227ef006403a7631a9feba074345895654a"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201703_QLD1.csv",
+"bytes": 68696,
+"sha256": "32e48f1e5ef4721e480a6b10a73c6cbc662378b5d2f0fb73e1ef76f90d9226e7"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201703_SA1.csv",
+"bytes": 67521,
+"sha256": "f0397fa5a33eff46853960c20a5b8a42e6fa152652929f9da8f8e83e597022bc"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201703_TAS1.csv",
+"bytes": 68789,
+"sha256": "26c0ea7a9f273ebccbbb4f7d82aed725f1baa28a42ee9d48bed91bc977ed50c7"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201703_VIC1.csv",
+"bytes": 68804,
+"sha256": "1b13f4b835722f7b25d69d4022101ff8619e8d15a0efc1345c6549f91b404bbe"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201704_NSW1.csv",
+"bytes": 67009,
+"sha256": "018bb0eb70442c4b9919eaff1de32e11c7f155ce4339689fc389a11a1e7f661b"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201704_QLD1.csv",
+"bytes": 66492,
+"sha256": "e828d176f6a8ed9c17aa4ac0d4a811e6c48fea5253abe4e6b89bbf2b1900f03b"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201704_SA1.csv",
+"bytes": 65492,
+"sha256": "881f9ce08e7913244119af1d21984fb667c1836f158d8b7a14565d456fa0b933"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201704_TAS1.csv",
+"bytes": 66861,
+"sha256": "458bf82daaee74385bd83e35673cd30090c3e8fe731310ce4298ab6720a96b49"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201704_VIC1.csv",
+"bytes": 67021,
+"sha256": "39b3ebff21d3a4e083b0202667d99704b1e8c8b55d13fc167cd3e43d2e729ea9"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201705_NSW1.csv",
+"bytes": 68597,
+"sha256": "f774798f0a08297692d60015160b65ace2f4cc1e4de2ce33f0a2f529bdfc3a9c"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201705_QLD1.csv",
+"bytes": 68472,
+"sha256": "b4c78fd7f85394eb1c2e12bfda9267551f85816f17d02c39f69b3738f2ec12bf"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201705_SA1.csv",
+"bytes": 67708,
+"sha256": "2974adc9ed3ac6fdab56fbcec6e753a1ecacf63a3a8b8a39fed2674f95d9f790"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201705_TAS1.csv",
+"bytes": 68926,
+"sha256": "472ec88795915832937225aaa92a2fcce41033d131377e22d2c5965894c4d485"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201705_VIC1.csv",
+"bytes": 69044,
+"sha256": "89eacc398ecce8b4e137d7590cefa9a2513c0c2e2766283e6b48a0fa8c4d13d6"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201706_NSW1.csv",
+"bytes": 66452,
+"sha256": "1e1c4cbcc4863d4d16fa9f96665beac806b6f5dca8f4c8ff0909b07ab554fc92"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201706_QLD1.csv",
+"bytes": 66200,
+"sha256": "0787ad90e30de481d28e34db1717de84939ed9cd13e24f4e9be650ea256a3a64"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201706_SA1.csv",
+"bytes": 65526,
+"sha256": "74d75e0e857e93bd25845b8a33290f3e93438f5049f4015a8d940b403534ded1"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201706_TAS1.csv",
+"bytes": 66503,
+"sha256": "b21fb5bbc2389e5b8fd24c9dfcc1a606e384103bfbc9d62701eee6f0b9a03ac2"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201706_VIC1.csv",
+"bytes": 66602,
+"sha256": "21d02709aa5a2584b19140a0b61878881b81c66082ba3fa1270d2e0f4f0c98ed"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201707_NSW1.csv",
+"bytes": 68884,
+"sha256": "cbff8dd0d49d883cc695e7f24ad854df7a0e5ff6899fb6783c96d88fa89c2074"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201707_QLD1.csv",
+"bytes": 68470,
+"sha256": "0f6227ed58042df83f0f97c3680dc34964fe17fb970bedb9ffaf7db68ef8dab7"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201707_SA1.csv",
+"bytes": 67641,
+"sha256": "e62c18fd932b41902f6f97bd7dc99ed5c02ae0a24d5a7aaae5f81beb5b2a5eca"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201707_TAS1.csv",
+"bytes": 69292,
+"sha256": "edd84069b1d09394c50ab2e4fc5b854cdbd53b2b0a649af8451f5511768db3a5"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201707_VIC1.csv",
+"bytes": 69371,
+"sha256": "55dfde031553539baa04a2aa416649db7b4cf6b4690b223ccf29c85562ba8758"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201708_NSW1.csv",
+"bytes": 69014,
+"sha256": "84e905379fb5b6b15c107c9b0fab50ae26d9bacbc07e79256b0ab75c110b8866"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201708_QLD1.csv",
+"bytes": 68518,
+"sha256": "be12b15f888a5e8739fd4470d666ba4ff6ad59e588285cdcd896e000010c091d"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201708_SA1.csv",
+"bytes": 67412,
+"sha256": "08dd09ac760170a8e8b7bae4ff422b16e70f53f7e2e34b8fd4abe2b18e8a8a0c"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201708_TAS1.csv",
+"bytes": 68829,
+"sha256": "b9745ae656cab0e40554b26f22d09969ef243663ee7350200b7eb9cc68ba1432"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201708_VIC1.csv",
+"bytes": 68933,
+"sha256": "89a69b12497bc50841a5fecc28d84c96fe5530c08df11c4b48ed38cb41bb0073"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201709_NSW1.csv",
+"bytes": 66287,
+"sha256": "c3afa3165427487566918f311d3e63832994e0c3490e1b0de58c1768ac140580"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201709_QLD1.csv",
+"bytes": 66198,
+"sha256": "ed2fdad1210c35d7e68e5df0310b2a3956abce3468843a83b19f5784468649ec"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201709_SA1.csv",
+"bytes": 64490,
+"sha256": "4db799eb53787a3e55b8812fe43123948d140656a391ae11b2531493401f5602"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201709_TAS1.csv",
+"bytes": 66165,
+"sha256": "68c599ea27ba04687a32cc37a73603535dd985a745b76a11e202a83c7a034030"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201709_VIC1.csv",
+"bytes": 66248,
+"sha256": "26f962bbd7b9921edf79425b0b1bb33d1e8dc387358b285c62c04b524f86d05f"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201710_NSW1.csv",
+"bytes": 68398,
+"sha256": "36cfb3c27d0b7173d7a1564e20b8ad77c2f1b27d37714abc60a8bb873c29b4fd"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201710_QLD1.csv",
+"bytes": 68420,
+"sha256": "a0c773aaa9d77a65acdffcee0c27235b0556a568bbd56643039d11e481a4b9ea"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201710_SA1.csv",
+"bytes": 66435,
+"sha256": "900c3985585a0ef43aa32bfb4da0fa7ec11f2f97749b4594df72c01f463fad2a"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201710_TAS1.csv",
+"bytes": 67990,
+"sha256": "8f2415a4a53b6d294775151dbc81f6acb8e90409173ebc289f90670606aa0908"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201710_VIC1.csv",
+"bytes": 68178,
+"sha256": "854d2b994d6c68e7dfef0d9edd31f9017c037ba335747a3676bb7f5cc21ab045"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201711_NSW1.csv",
+"bytes": 66154,
+"sha256": "6a54f197a2013356e3838d17edb1cf8e0b73798637fa678f6cbd1d04612b036a"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201711_QLD1.csv",
+"bytes": 66117,
+"sha256": "25f5967c06b1c8c475bd17e750c80f86a5c34883740398a3cc8eef56303f84cd"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201711_SA1.csv",
+"bytes": 64621,
+"sha256": "f7bdcf8de21cdd8c8a2142c84b1850970c39226f51abfa220cae7f392a88cd72"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201711_TAS1.csv",
+"bytes": 66215,
+"sha256": "efa9d9ef33464b407c8686d0c6698dd5604a3fc5df265292deee14aadfdc019b"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201711_VIC1.csv",
+"bytes": 66412,
+"sha256": "a847a8684bc64342c48144fa76fb45f00fd455aab3f2a3294b21f187cd8e95dd"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201712_NSW1.csv",
+"bytes": 68470,
+"sha256": "fbeed5cd325fc07adfca75fcb060587432273a9b6b55e05dc92de90feb26fe06"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201712_QLD1.csv",
+"bytes": 68346,
+"sha256": "5f24428b0722f40648f3d92e2bf40dff97e0b94ef0946832029ec1a23274fd6f"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201712_SA1.csv",
+"bytes": 66703,
+"sha256": "6becad76c541cfbc1d35cd2d3ea49a456879f25711fad46f2a72bdbd1f32c5f7"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201712_TAS1.csv",
+"bytes": 67908,
+"sha256": "0661f3f3c1e05afacdeff40ed49b79ef149cea70c9a8aed939a55e6d8316f1e6"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201712_VIC1.csv",
+"bytes": 68505,
+"sha256": "bcd5fb749a7be080c2578d83d522050756e7b0ddfd1d1f38e377205a1ee06313"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201801_NSW1.csv",
+"bytes": 68618,
+"sha256": "fe8a15354ddca78b4ec2fa627de789d7248cd2b7c68234edcac6c5106432d683"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201801_QLD1.csv",
+"bytes": 68386,
+"sha256": "228c6201dd0aba7c788110592852a61df8190cfa484c318addfb675000938fc6"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201801_SA1.csv",
+"bytes": 67232,
+"sha256": "22783f57ee1bb691127007959e30908e2abe0f12c3c45c68f52a1fcfe62ea93b"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201801_TAS1.csv",
+"bytes": 68505,
+"sha256": "05575dbb1e7fd3315d208c7ac388f5ea2a87d580b7545bdfa2524107b84debeb"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201801_VIC1.csv",
+"bytes": 68666,
+"sha256": "f9e7706c718b268dd547af5bf50059c8705d1befedca9706e88d404e873b02ef"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201802_NSW1.csv",
+"bytes": 61840,
+"sha256": "8842d7c4b3bb6df82240365c737f3663d6493d15e7fe3ec4c9e40cfba2d4f6ab"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201802_QLD1.csv",
+"bytes": 61764,
+"sha256": "2829ff72bf1a4211badf9f090c77bcdb013ae286f97a0d62f494b66d2643e879"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201802_SA1.csv",
+"bytes": 60606,
+"sha256": "1989483eea61a12eda93904352d5af8789fcdac1488b7753c956d8ad1ec4fd28"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201802_TAS1.csv",
+"bytes": 61613,
+"sha256": "10ca095eb1635fcfdb3dea98a4cc727ff80ac56d3e6070d4e413fe342121c73b"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201802_VIC1.csv",
+"bytes": 61897,
+"sha256": "09d2e47e156b465cb6ff934d9f4b0a8cb10ac510e186d1988742ffd7a64497b2"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201803_NSW1.csv",
+"bytes": 68325,
+"sha256": "3b39ce091c24c7e13d8b66e03002a03311cfac48ad9813286b439603537538d5"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201803_QLD1.csv",
+"bytes": 68250,
+"sha256": "05c40bcf515d30a4d701ce84bffb0fa9cbeabc031941e22f65930d4bd7c4f33e"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201803_SA1.csv",
+"bytes": 66923,
+"sha256": "7abdb286ac8ec5a53cb98a922b4d658f9153cc64d5e631a038312a8af3f37b77"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201803_TAS1.csv",
+"bytes": 67981,
+"sha256": "a80dd348fb786500333b046bd66d2f18f19a1a055880550885deab6fa12efd4e"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201803_VIC1.csv",
+"bytes": 68378,
+"sha256": "af092f32e905de9a678b378ef11a86a8b964488b0656311feb0b3402aea8669d"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201804_NSW1.csv",
+"bytes": 66221,
+"sha256": "72d75d0075327e67e64d44774adcf443a38ddce702a73cb003a2f7df504de69b"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201804_QLD1.csv",
+"bytes": 66069,
+"sha256": "cd62b653b2d93d3cfe28f2fc63c5fa277fcd453a4bb14c941de064e7f7d212e9"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201804_SA1.csv",
+"bytes": 64736,
+"sha256": "63ed7f2b2ce741da997e43f410387ab87fb6e13340b30f26b618954d50788088"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201804_TAS1.csv",
+"bytes": 65986,
+"sha256": "40f3f90ea689e72cb8669d0b047074a7f1ba8c78eb03030ef4e317826541b134"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201804_VIC1.csv",
+"bytes": 66075,
+"sha256": "628d3c2329e899fb0854be551a27547991f55842d2b957400fa2b2d41be481dc"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201805_NSW1.csv",
+"bytes": 68460,
+"sha256": "f136c01cad29ef35132b0d731c15c68864f23e7b8e2d0125ad60a670be9299fd"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201805_QLD1.csv",
+"bytes": 68340,
+"sha256": "e5a6cb6614057f076f182ea25168a87ea39013936cb53e68e287ee4a89a40867"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201805_SA1.csv",
+"bytes": 67043,
+"sha256": "650861a69cab9f768b72f3b795b27d3bb96957ceca793fc0a84de8baa0d046bb"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201805_TAS1.csv",
+"bytes": 68200,
+"sha256": "774fceff9e409161a5f5f576c23b6ad3734b26cf61c501f1c8e3bdc9c775960d"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201805_VIC1.csv",
+"bytes": 68339,
+"sha256": "2aecb544d22737e5390d31e45e91b644dbcb806ccae96650535272292ee460ae"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201806_NSW1.csv",
+"bytes": 66695,
+"sha256": "ad1a864a9f14e949ad3d804e8b0b06cb678e13830ee45f91635334c0a18a2a03"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201806_QLD1.csv",
+"bytes": 66258,
+"sha256": "3ce01ac0ae24275feded53932de0ab83e2019c1c98e7039f65aa9d4194d62b31"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201806_SA1.csv",
+"bytes": 65220,
+"sha256": "6dc6a9dd13e8eba12d36e851dc048cb909f006c90cdd39aa568bf0749eddbba5"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201806_TAS1.csv",
+"bytes": 66134,
+"sha256": "21260b6525ef3161a755895e8250c186b04415de9972cbe1b74eb5a13c50f061"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201806_VIC1.csv",
+"bytes": 66447,
+"sha256": "6da2a4206f2067e918821b00a1110bfc6bd3d481932273e1417bc8d5c81bad93"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201807_NSW1.csv",
+"bytes": 68689,
+"sha256": "8f65542a507b9b451a9602d4b2755579bf30a4ae3378c0ff7238d47c2053f399"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201807_QLD1.csv",
+"bytes": 68408,
+"sha256": "3370be242300443a0b13ba0ff479744a457065c552eb67a5015f69d8a7da656f"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201807_SA1.csv",
+"bytes": 67115,
+"sha256": "be72ab12985143538fa2218800e051f0cc94e7a79eef55485c4f0b92a1d7eef8"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201807_TAS1.csv",
+"bytes": 68197,
+"sha256": "18995b79409fe2d1a9742550449f3d9b43cd61f41ffb6ce881d37413b7b1d934"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201807_VIC1.csv",
+"bytes": 68386,
+"sha256": "37fd041ab5414d08c0e9458b213efef009a1bb1618bf21285f748ae1ec9ead94"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201808_NSW1.csv",
+"bytes": 68827,
+"sha256": "b5a96446528b44095b99aa0e3cf14c63a0e8a7ff64611566e79835438e035bdd"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201808_QLD1.csv",
+"bytes": 68494,
+"sha256": "b5369aba551ded55161dfb75e23d8e76f99e3202d070facd9c81e930bf519fbb"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201808_SA1.csv",
+"bytes": 66861,
+"sha256": "4e7535ebdbefa6ec8273a32e78577af99ab5282bbe71bad3f68bef1c5ec267bf"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201808_TAS1.csv",
+"bytes": 68082,
+"sha256": "a5815d8f16556078149469868efa2b63340ac22863d95b90a1213c2fa28d0313"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201808_VIC1.csv",
+"bytes": 68361,
+"sha256": "1e245b35ec41548663bf3937436f42bfb8aa6af7188c13db31b802f1de5476ff"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201809_NSW1.csv",
+"bytes": 66563,
+"sha256": "8100223bdbe5a7ff9ce3d421e5f6b6687945db591ed098501b0032ff6e79c03a"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201809_QLD1.csv",
+"bytes": 66399,
+"sha256": "b3349cbb9051e02618e4a792e1eab22789136a9360702bd72683268926a78c85"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201809_SA1.csv",
+"bytes": 64835,
+"sha256": "2fbc7bf56e99af0c8bf184c2b90c8735ed696f2ba273a8d5164b1b879e7aa7ca"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201809_TAS1.csv",
+"bytes": 65962,
+"sha256": "5b696ba6d87184b7312b265f752a29566f47ccc124e3c36483277fbc2c91789b"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201809_VIC1.csv",
+"bytes": 66657,
+"sha256": "a42ba034e97a7590d3de73a23a3cdafd34c57a2dfe4b4a96fdf1ef48fabb5fd2"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201810_NSW1.csv",
+"bytes": 68671,
+"sha256": "b4468dd5909b5774316c9d37c646a0190c38887fe9eaceaf8edd3baccf23acc8"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201810_QLD1.csv",
+"bytes": 68571,
+"sha256": "845645f6a5c7e6efb6e57fc4a3606b8fff46568d566fe252eebda96f5ad9c717"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201810_SA1.csv",
+"bytes": 66995,
+"sha256": "d5ff6674202bf2f90ef4a894d9521d135813a7722f1b7f448a4fc4c19b24b7f7"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201810_TAS1.csv",
+"bytes": 68508,
+"sha256": "93f213f66530c269b6e2d563320affddf09f18980e087fdb19bbdbdb683c61ce"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201810_VIC1.csv",
+"bytes": 68886,
+"sha256": "3178173cb29afb2e47142340f96689a6334a487d29c2d0294c68de3303a75be8"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201811_NSW1.csv",
+"bytes": 66458,
+"sha256": "7eade500e86394c2e4eb0fc62cec9318db8064862edb897b18d5844675add367"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201811_QLD1.csv",
+"bytes": 66493,
+"sha256": "3d136355dddfea18387cec8110389f8cbf700241f7b500047f92300866df51d2"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201811_SA1.csv",
+"bytes": 64958,
+"sha256": "08966f4b795f32b176ca9f67de7fc9ee317eeadc800b54401835a980328e4eb5"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201811_TAS1.csv",
+"bytes": 66301,
+"sha256": "a5db6d5e71394edeabd0053407a169b54063dcc951fa08401df4fd03f5e94dc1"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201811_VIC1.csv",
+"bytes": 66710,
+"sha256": "ce75918d6c005a9f069a3d64b547c654b3e481fdb09bcb7682bf6ea88ddaa310"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201812_NSW1.csv",
+"bytes": 68709,
+"sha256": "190bb5d64dc1a74efb57da7f89e23cbbd81948e7ae14e65457adf8d1316cd4a4"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201812_QLD1.csv",
+"bytes": 68488,
+"sha256": "9f3d2b184a62544dc50a2834894c2fd6879a9a84334001833404095d465b8b9b"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201812_SA1.csv",
+"bytes": 67108,
+"sha256": "4bb1eca4621c0f97d1cf8de2f7fa7da7696288298a67c33aa047c0be8be7bd01"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201812_TAS1.csv",
+"bytes": 67997,
+"sha256": "07ed02ce9c40fb040b84167c03d95c3daed82b27715f4e10c76ac4321209758b"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201812_VIC1.csv",
+"bytes": 68741,
+"sha256": "344dea306cfee2d57500b73b98fcdac31b1de762b86a52e3f18967e7f09216d9"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201901_NSW1.csv",
+"bytes": 69323,
+"sha256": "861cdac3220a44e6bc2f883554a976e709091fab8042160b0b9d5c4b54807628"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201901_QLD1.csv",
+"bytes": 68815,
+"sha256": "da4516a476e3cd8ba971f604fc182f7f793c38960790ee1c07af0b3cf6ec59d7"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201901_SA1.csv",
+"bytes": 67407,
+"sha256": "24005aaa58fdd6818bfa396fff1c5397d23a51eb54ab9cd3127efa04c19be5bf"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201901_TAS1.csv",
+"bytes": 69300,
+"sha256": "cd6a12b947a5ed16c316236b7f73cd25d72d48c6dfac7b649cd44e3f6790daa7"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201901_VIC1.csv",
+"bytes": 69039,
+"sha256": "1a80b8d3594b2fd6a8e05eb981f44d28a39ff6ff332501ee9a9b6dc679cd3147"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201902_NSW1.csv",
+"bytes": 62127,
+"sha256": "835da8f599876a0f288b20f0c443a4e6708d0ff335afcc5047ed62ea7f44f2d4"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201902_QLD1.csv",
+"bytes": 62001,
+"sha256": "caf20f044cfc3931081a6791f26e7c1228b59a3e3ff3dae5e71004f852428b90"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201902_SA1.csv",
+"bytes": 60929,
+"sha256": "de76e493a5a9ff21c73aaa7307b9597c50bcb33c7170d1835fc5f633daaaf3d9"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201902_TAS1.csv",
+"bytes": 62168,
+"sha256": "16eed139f34cedad3566d2b1e8fb2fb722dbdbcdc4bf47c7cdb9007533bebf72"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201902_VIC1.csv",
+"bytes": 62367,
+"sha256": "322d12c0ae35eaab20f91f3a174d8af122b5ba61d79b85f7178671798bd5f388"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201903_NSW1.csv",
+"bytes": 68692,
+"sha256": "dc67f92d5283b355da4389a245f02187d5f9087b960aba89cb3211862540e723"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201903_QLD1.csv",
+"bytes": 68526,
+"sha256": "b7b56dac125fcd42e866d8c5547e205454cbd585285571e2e32b2b57baf8c957"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201903_SA1.csv",
+"bytes": 67377,
+"sha256": "958f5eedcf1f14f0c67068c40b409602aefe4c7b5592019f07a22bf1ceb04b29"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201903_TAS1.csv",
+"bytes": 68981,
+"sha256": "402462f588194c2e95002d2f7352b6773c7e34c307fba215aceeddab4818d557"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201903_VIC1.csv",
+"bytes": 69091,
+"sha256": "32bd4fc147a6cd2ad9979c702e8b67871e523db7647ae5597dd875b716c6315d"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201904_NSW1.csv",
+"bytes": 66289,
+"sha256": "1a7ef02c522ec743bd4dad2f3404aa5d3acd868a634c2125c1c3e57f7b0aea7f"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201904_QLD1.csv",
+"bytes": 66172,
+"sha256": "83ba16ceb87571a8a7ad11efad360844e7fce34b1fbbae540714a912fcdf8f46"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201904_SA1.csv",
+"bytes": 64964,
+"sha256": "e8c5793889b2d74ec7543658b6d1a8679535089c53777247fffd10be24337b94"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201904_TAS1.csv",
+"bytes": 66522,
+"sha256": "04374c4cd2b367e2371c6fc3a7c95a14d8f101f242a7929eda6fd140ab815a2c"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201904_VIC1.csv",
+"bytes": 66765,
+"sha256": "712609b9bf49b45bdfc3639214a10d3ddb6ecc5178c2806052fc0a6ea9a797a3"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201905_NSW1.csv",
+"bytes": 68494,
+"sha256": "6b9549a13eba31f77fb1dd5bc4a0fbf74ada74cf4e8fdd7de52eddd7f08e4ab3"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201905_QLD1.csv",
+"bytes": 68389,
+"sha256": "0afe1ce6190c6a48e8310f9c2b774b8c7541d56ed3358998f111558a10629607"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201905_SA1.csv",
+"bytes": 66995,
+"sha256": "ccd4aa41b05da273f1eb28a7e12d10d6a901b58e985d74c76f96bd5c4b8f112a"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201905_TAS1.csv",
+"bytes": 68520,
+"sha256": "90db33550e71ae24a6b96843f71050382c44594c9a5213327629c927897fcf14"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201905_VIC1.csv",
+"bytes": 68746,
+"sha256": "afb28b21e1d06a0ae27514811fc3ac52ba3c957836663f1476c0992cfaa36143"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201906_NSW1.csv",
+"bytes": 66644,
+"sha256": "5941b3e1f57535c4f27eeb6dd9a64f96535262e315e5dc9f02326acbe8217c45"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201906_QLD1.csv",
+"bytes": 66385,
+"sha256": "13588d46af796226124d2bdcac720ce24e303072d23f7dd511c37b7449d7a577"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201906_SA1.csv",
+"bytes": 65065,
+"sha256": "8798deda9c9fc1e53455c0244bef89b76c2c88e52a4d70005486d746387b964f"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201906_TAS1.csv",
+"bytes": 66594,
+"sha256": "cbe262144b0558b5f0d7550553749212400e755c5dd2e3c214631d55d54ea705"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201906_VIC1.csv",
+"bytes": 66693,
+"sha256": "e7b3e0712311ee46a16cb55196793fe124bb48d4962d6bf21f104e5d4760d94c"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201907_NSW1.csv",
+"bytes": 68609,
+"sha256": "f344c8e3a53e56b582d406311b8375989af73922e90bc658b87a12eb3de1cfb8"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201907_QLD1.csv",
+"bytes": 68380,
+"sha256": "0a14184fb9bb4658baee6848408ff404bff13c631a82870b50bc7e2c51c9d53d"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201907_SA1.csv",
+"bytes": 66969,
+"sha256": "b70117b57a264e6c67c12076b21438c6d5f867030c8585ec4720cf323006e36e"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201907_TAS1.csv",
+"bytes": 68259,
+"sha256": "4e11c56e8094e3f5c35d34f3f18966233a77fce4608ebc79b2b42bab92585c71"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201907_VIC1.csv",
+"bytes": 68687,
+"sha256": "277f4a3d8281175b5302546fe733cb31817970ca28fc6c587d4a0915b018b053"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201908_NSW1.csv",
+"bytes": 68683,
+"sha256": "1ad22a86152b3d30053b19a47ba3f4e988732121d6460e1cc38f70564f44c852"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201908_QLD1.csv",
+"bytes": 68385,
+"sha256": "029a30a0f35fcbdcbe885d4b621404958102ec0116802d8de30dbb73632a2885"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201908_SA1.csv",
+"bytes": 67165,
+"sha256": "6cfaebc91db6b19456c9021bb8b438b531de28f98fdb8e898c395b7bc725eafe"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201908_TAS1.csv",
+"bytes": 68299,
+"sha256": "4735b4628440dcb262db97fc9ac96676ff3d85c7a15a2955f88e2ce8bb510f1a"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201908_VIC1.csv",
+"bytes": 68870,
+"sha256": "de6eac08caad4286f4d17caa60bc4f79352c75cd245fe0042641a90188e84c3c"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201909_NSW1.csv",
+"bytes": 66461,
+"sha256": "edf70d81d7576bc2659b81547927d0d0a889a3b963f9c6bec83360bd41d3c2a4"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201909_QLD1.csv",
+"bytes": 66169,
+"sha256": "4de5dc2d04d7d6f97cee4cd169d8912e228b7c61cb8d7d6a52b0587e6b7bbfe3"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201909_SA1.csv",
+"bytes": 64699,
+"sha256": "f86ec398ac323164baea094c259ba61a3c46ef09b2c5545170301310090a916b"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201909_TAS1.csv",
+"bytes": 65690,
+"sha256": "f2c86b7ebe0992868cd54b5fc5da9446b02a049968411d9ffa62fde1c1cce0d6"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201909_VIC1.csv",
+"bytes": 66614,
+"sha256": "6b48d88671d189634b34d5a19001f90fbf54b41093fcee28bf0a51cc2ad75099"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201910_NSW1.csv",
+"bytes": 68741,
+"sha256": "70656ebe38401279841106e7673d54de8962760498e2a2132a49661681a42c89"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201910_QLD1.csv",
+"bytes": 68526,
+"sha256": "f83a382c3792bd70e7cc1b05cbf8b737d180c68aa3a15106d11141025451c4e6"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201910_SA1.csv",
+"bytes": 66879,
+"sha256": "cb991225603acd0e6d5f0604087b47a483f1e2e5fa688a735e7da8b5f0101d97"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201910_TAS1.csv",
+"bytes": 68244,
+"sha256": "b78b300142e54c9865ef341cb18662dfe559d1d58fbc12e259ef6fb0c7fd07a6"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201910_VIC1.csv",
+"bytes": 68834,
+"sha256": "7a0689eae71e7c2f9fc707ab0b5d5672be186387daddcdc1075d2093dfaedeed"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201911_NSW1.csv",
+"bytes": 66178,
+"sha256": "7388b3c7ebfcbed2cc290641c2d0764e08fbd3df542ca51f64cd9d0e92fb2529"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201911_QLD1.csv",
+"bytes": 66185,
+"sha256": "096ec82a48af9c6fd797e69d5b7c3f65d43298c0e9fe84832defc764b1d9b888"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201911_SA1.csv",
+"bytes": 64387,
+"sha256": "a4b6a6b15a46c7bfcd01cec5b823bef2cd9793913f4d7f9bcc5bf9b0fb41cc14"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201911_TAS1.csv",
+"bytes": 65602,
+"sha256": "59db7941ad1866cbca1e7369bae51fa21bf346e0b5107eb2bf8c5842bda07df1"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201911_VIC1.csv",
+"bytes": 66159,
+"sha256": "117c9ff50361b4b374c0bd4a40ae4a8a40b83677dc7f1231a10ec672efc4421a"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201912_NSW1.csv",
+"bytes": 68372,
+"sha256": "38db9651d3c8c976a60f5c85137ee664dc0b34086ca4092aed3b2070b6145e97"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201912_QLD1.csv",
+"bytes": 68290,
+"sha256": "8cbd010644dd72555471a927c16fcb4e5deaa889b80ba4b2419f2b7b3bff0b47"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201912_SA1.csv",
+"bytes": 66541,
+"sha256": "60ffb6516964f8a5c08ceae4e74a3499cfa3d3bb0e5f27c3717f22a72110d496"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201912_TAS1.csv",
+"bytes": 67605,
+"sha256": "bf360c211e17cc130b2225463cab3ed16cfbec28b2dc8246c5385b2c0bb2ace4"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_201912_VIC1.csv",
+"bytes": 68282,
+"sha256": "53ffcdc5e3308c69d1a34f89d37602f5b65854f48ac1d733538075502c54c177"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202001_NSW1.csv",
+"bytes": 68578,
+"sha256": "79252adc274aa5f6d4e424db8e38f00c46d4c0998df9b0bdfe9e9ea6345f9efc"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202001_QLD1.csv",
+"bytes": 68351,
+"sha256": "b7e141176ea133eb587cb243b1914ae1c7d3caa671832ee72bee43f1a8efe7f8"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202001_SA1.csv",
+"bytes": 66520,
+"sha256": "c0b85de87f405e41f162fafb3f435f045e8967febf37c81cf10879b2c6b57a5f"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202001_TAS1.csv",
+"bytes": 67781,
+"sha256": "86cf4f1a5d6fb4778dc73e6bdacc72c1e770926a67937e5176580f81f9001557"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202001_VIC1.csv",
+"bytes": 68362,
+"sha256": "8db67a5685293c29c9989a26b4e6be7aa37131c8be713689cf65c615cf8fd6bc"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202002_NSW1.csv",
+"bytes": 63999,
+"sha256": "eeb3def475fd426c8ece24e3cad541cb71031103e8ac9a8ebc5c7fa5e2d14502"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202002_QLD1.csv",
+"bytes": 63908,
+"sha256": "75deecff83a8a5dfbc404c35efa04cabe04067f6c5dfe828f6cea4b07dcebde2"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202002_SA1.csv",
+"bytes": 62214,
+"sha256": "3d142e7c4ee1724e054866ce04168de4fbb820da81770b6b8868ce7714f0777b"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202002_TAS1.csv",
+"bytes": 63297,
+"sha256": "41a32a314bd72553d625fc62d77ce9c5cc5834ba21cde6f04bbb75d2fa1a1910"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202002_VIC1.csv",
+"bytes": 63830,
+"sha256": "ec1283bc70a23d9b7ff10cdc52797515cb1632b72da1d410690c0d67c8ea8d65"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202003_NSW1.csv",
+"bytes": 68298,
+"sha256": "c792c94bb904095bcb1ce483238d7b5ce7f2ac641117a4cd15c8765881e1f9b4"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202003_QLD1.csv",
+"bytes": 68292,
+"sha256": "df2b34cad8a8660494f91384be9358ab8c7493781c463f6a20af3f325203c8ef"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202003_SA1.csv",
+"bytes": 66453,
+"sha256": "dac76ef4ea891fcade7d16e60b0c0ed104532203d042425aa8e8a57b049848cf"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202003_TAS1.csv",
+"bytes": 67539,
+"sha256": "129c4a4c49dea00ec02e6c993eac03190b4ac24f027bfc7ab7269719b7aff80a"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202003_VIC1.csv",
+"bytes": 68191,
+"sha256": "7ab355e8de760cc79c08dc6f0a9578639a99e382bd207d8252cf8008ca73f262"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202004_NSW1.csv",
+"bytes": 66004,
+"sha256": "3c824a890d25f50c56fecda11bafbfbc42931858512cd3dad7fbe76a4f824069"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202004_QLD1.csv",
+"bytes": 66018,
+"sha256": "51d3b2d3a136986db8fdf077c77413941ef9a79abf2270640606ab9859a51dcf"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202004_SA1.csv",
+"bytes": 64228,
+"sha256": "68216bbf7674676e0c081bea62c4f4ae2443724da8560a76fe5da7dae2f26e9f"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202004_TAS1.csv",
+"bytes": 65571,
+"sha256": "a16e86deefc82ccb649af4eaff27877981f1d3d1755b33d7ab3f8afb754fe479"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202004_VIC1.csv",
+"bytes": 65964,
+"sha256": "8dc34733dcf436b329d02d61a1c155c9c29a89e947ae62b64b528bb85545cc18"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202005_NSW1.csv",
+"bytes": 68293,
+"sha256": "99a9e0f92363539d4e468b2bbd8ce88492fd6656e6fa14c302addb56883fba78"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202005_QLD1.csv",
+"bytes": 68298,
+"sha256": "2012224b2750201e70d717c8e6052da925d53e0d447acd80a9dceedd1eaa8f03"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202005_SA1.csv",
+"bytes": 66582,
+"sha256": "aadb745bcacc39898471bad2406ba14f8a55833fd2a75a1ca022fff78ceb758e"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202005_TAS1.csv",
+"bytes": 68056,
+"sha256": "ba036107530d7277d43fbbfae2f3f64baa2c996a8cc19efdfc95755892340c15"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202005_VIC1.csv",
+"bytes": 68204,
+"sha256": "01f082f8bc0fa9b7c8bfc8a814bf7b0d881d7baf617b7562213d483e2fd45e58"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202006_NSW1.csv",
+"bytes": 66361,
+"sha256": "90f4175e80f120bdd2629cbf01a17720c41ecf841ae8c78d801753cf6c13238a"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202006_QLD1.csv",
+"bytes": 66039,
+"sha256": "d16084be38f5e616a755151386622a2445c9c65e8149a7b3a60a697b20169daf"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202006_SA1.csv",
+"bytes": 64626,
+"sha256": "eb23c8fe234620599fa49236a7127393f9966ecffd48df80b87a73255f624195"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202006_TAS1.csv",
+"bytes": 65935,
+"sha256": "0d81339b401f2d737fe18e6e7d1d1cac08c59a1772c0192e7d18206710da0012"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202006_VIC1.csv",
+"bytes": 66051,
+"sha256": "00fc00a2af8afc762fd965a2b612dbae7ab4ad9b8f17533fb92db88b03403fad"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202007_NSW1.csv",
+"bytes": 68572,
+"sha256": "27dda7e48be145ebae5ccd28dca4df50a9ea7f35b3d376b846f05f96e754efec"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202007_QLD1.csv",
+"bytes": 68263,
+"sha256": "3544617204060e393cee5eaeb4e4169f4169da7c52a4b2e530eef3ee8b4bb4c7"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202007_SA1.csv",
+"bytes": 66650,
+"sha256": "3cc6b527d7f81e1262e401b0d254a61bd4997daaff8d9e6bf00005459309ce9c"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202007_TAS1.csv",
+"bytes": 68294,
+"sha256": "01f8bd73530d199b924515ad380c11b0d639b66293d65be51db1fc18165d06dd"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202007_VIC1.csv",
+"bytes": 68349,
+"sha256": "5d6b4f9d2540e9b4e9709b9aaed6d1f0b47f3e6af08f2750b08e5c5cbe970208"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202008_NSW1.csv",
+"bytes": 68469,
+"sha256": "d0ec350872ebb755c5d102267619c07ca88cce33567d55099efa569d6e65305b"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202008_QLD1.csv",
+"bytes": 68363,
+"sha256": "a14d356cf2daac36e6d755ab02e58d0b358bf4877864100205fb0de7f0242220"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202008_SA1.csv",
+"bytes": 66703,
+"sha256": "ec328520e51afe9626a18cfa3af1d9f53121dc331ebad8b4869b42f505175173"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202008_TAS1.csv",
+"bytes": 68194,
+"sha256": "fc58c6f1b7866ef226548aa9faed57f8a33ddb8aa0d480b2f4230905545e97d7"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202008_VIC1.csv",
+"bytes": 68297,
+"sha256": "d75203c3f030d6eab83476f63e21de31acf5c1fb6a9536071ef9b5a8ba62f6ef"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202009_NSW1.csv",
+"bytes": 66080,
+"sha256": "ef25d19fdcafe6a3891e6649120b6eedf2c6d267ab3e66ebf03ad49df9a01f58"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202009_QLD1.csv",
+"bytes": 66070,
+"sha256": "80a472b1949f9949dc78bc081f1d8e9d82c9c5c1729a60683494ecef4cd6e303"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202009_SA1.csv",
+"bytes": 64535,
+"sha256": "42a4eb91d0749f870709d8263ba681eff577a82e554ec65b2444c1fc178318ee"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202009_TAS1.csv",
+"bytes": 65881,
+"sha256": "5ee4a5b8856118869fc6ada50371cebf402445f76874d336e1618306fdf7c4e7"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202009_VIC1.csv",
+"bytes": 66017,
+"sha256": "6ba75b19c9c876a1868725307b8f90bdb4f0d914a7ab57bff6ec3adb96b89cf8"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202010_NSW1.csv",
+"bytes": 68324,
+"sha256": "ad3f2adbf2efff8f5c2bf0503b869297c092d9608a5fbe48c165983ee033e376"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202010_QLD1.csv",
+"bytes": 68284,
+"sha256": "21f4bc8b2aeb5fd11951a087da7526dafadfc880b62f9452202d29554bbbfe56"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202010_SA1.csv",
+"bytes": 66625,
+"sha256": "62523d61fe08f1fb0be7dadace9305e3cc66fb35bfb056ce44d8e031d01d6986"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202010_TAS1.csv",
+"bytes": 67973,
+"sha256": "835c780f69aa397faeb59e466b65a865759832ef8c4ca4d04befec5b7274da13"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202010_VIC1.csv",
+"bytes": 68378,
+"sha256": "c082fb697858788186c6ad7e39b8640a15cdc3cc0229327802bdef4bade2c482"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202011_NSW1.csv",
+"bytes": 66180,
+"sha256": "eb0429e14d7688ac0129e32c3eb56e4d520b09924b2c27db9f630ed2ccf15c79"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202011_QLD1.csv",
+"bytes": 66083,
+"sha256": "b34d4579b51e5c738a848622c264e4f7724f6aa444430bed592dd7be2f3b6a0c"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202011_SA1.csv",
+"bytes": 64357,
+"sha256": "a0565469ed3a24154f59717ad9e88a1184a8fc6954bdffa61567d9131410ae74"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202011_TAS1.csv",
+"bytes": 65448,
+"sha256": "270053e76ffe2cf8cb78b5df449dc8ed3b6c37bba11bbc8a4f8953acd9b97821"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202011_VIC1.csv",
+"bytes": 66051,
+"sha256": "8c142b0956b4a652e2c04c1eb17589e1c8a0302e64698f267eb6216bf85332f3"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202012_NSW1.csv",
+"bytes": 68390,
+"sha256": "6ccbc18110a154ee92019b3c6c49cc7ef2ca9f73dc10d133709d0801480098de"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202012_QLD1.csv",
+"bytes": 68373,
+"sha256": "49367a049e343f4f4dd72ab2f54da95178a7ad82d1573708ac378ba41d314e45"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202012_SA1.csv",
+"bytes": 66529,
+"sha256": "623e9854581b33bcbb09a2188ae04db16bdf7c498abafd0112165ee024617def"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202012_TAS1.csv",
+"bytes": 67787,
+"sha256": "4c024894b6f52cc251d12cf739215f7874301f54485d90de2911cd7c3f1c4622"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202012_VIC1.csv",
+"bytes": 68267,
+"sha256": "c349f3c8e2e478c8dc9577a55cb5e8769df440e91275798dbfbc0834d43a8270"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202101_NSW1.csv",
+"bytes": 68344,
+"sha256": "d9f011c2032a2bb820594b542c2e032f7900695c65a4683c8fd4ddd9b72f8234"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202101_QLD1.csv",
+"bytes": 68290,
+"sha256": "c936603f9601da2acad6b3946ef76a089d2805eb30156319f9c579cdc7964bee"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202101_SA1.csv",
+"bytes": 66578,
+"sha256": "40f7fe59f713dd3c5d8c6e78cfd5416bc083ccec2a52355f70bef08b95debd0e"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202101_TAS1.csv",
+"bytes": 67780,
+"sha256": "826747468b4df5b2917f44d01e877a5c591dbcdd53050102f75a619fa7be358c"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202101_VIC1.csv",
+"bytes": 68277,
+"sha256": "b028e8d999c03e7f1401c85e55d05e93629ab57ea7a350dc1316946da13b2c60"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202102_NSW1.csv",
+"bytes": 61669,
+"sha256": "be8389a8f2a24cd750af8872535136401cc758c99ae92fdb53bd781a79c60d07"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202102_QLD1.csv",
+"bytes": 61713,
+"sha256": "ac7efb15df2121c60adf48afadfb548bee0821a404b01dd696bd554c0f8b3aac"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202102_SA1.csv",
+"bytes": 60098,
+"sha256": "f4ddcd7414c3ecfcf44abc5daf8b411e060003597c8be649d19f4bf26d805d3a"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202102_TAS1.csv",
+"bytes": 61028,
+"sha256": "3aaffe62ac3e9ef83b6dfc1da984747cafda93b65dde61eaa883f92c838f374d"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202102_VIC1.csv",
+"bytes": 61606,
+"sha256": "3ac58653e42ac1d967da285969d4e4a94e1fca16ef528499b9af5cb493dac728"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202103_NSW1.csv",
+"bytes": 68300,
+"sha256": "9e3e9ba9184afa53afc806b934a1274b195d51e51a3b22445b4f4a1311672471"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202103_QLD1.csv",
+"bytes": 68318,
+"sha256": "6b0383277b7632847534966fe71b2058685616ebbe62fb340597b66472738824"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202103_SA1.csv",
+"bytes": 66538,
+"sha256": "b91c24439761f598d1e792a0cfc23101aa9590ac4bd4129eead10f4b9a5f9941"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202103_TAS1.csv",
+"bytes": 67641,
+"sha256": "ba7d5d09685fbfe668693a67a0afdbd16e53dc72f5102ef433cb946f4e8702e6"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202103_VIC1.csv",
+"bytes": 68180,
+"sha256": "0b3d30bff9bf5a1874b9e3d8113b6376515b1163e9ebe30ce17bfde6698459b7"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202104_NSW1.csv",
+"bytes": 66169,
+"sha256": "14b44f3fe41dbb745b0f8e9c52dccde1162a9143a3cf95242592b06aefe657cb"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202104_QLD1.csv",
+"bytes": 66206,
+"sha256": "fe3340fa3dbebc81a253a21c97279636ef38129bfda1e2f7bc587e3169f05390"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202104_SA1.csv",
+"bytes": 64319,
+"sha256": "35ff7f1a079f313d7e2ffe77d1c07da1fabcb520d4dbd62a3a7de202be3ef8e9"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202104_TAS1.csv",
+"bytes": 65740,
+"sha256": "32dcfd990d02e36893dfa288ecb13125925b9e966463b5980f0dda357c189bca"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202104_VIC1.csv",
+"bytes": 66151,
+"sha256": "79ee30231656ba7e73f9eebea881cefc8b4f07c59f46452be17f31c62adde8f6"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202105_NSW1.csv",
+"bytes": 68565,
+"sha256": "1111075cb01b73b794242eb4d029c6f00ea70699282b9184423b171e7475ba78"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202105_QLD1.csv",
+"bytes": 68550,
+"sha256": "e33f8b574f2037e6140352cfdcafd0617c1688c0940b625ff74089928857f7b8"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202105_SA1.csv",
+"bytes": 66764,
+"sha256": "5349aeb7c477da4d4b5e98785bad7b24d8c04fcd43662059a17e6beb992972aa"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202105_TAS1.csv",
+"bytes": 68252,
+"sha256": "190542688c66b147163fe903216d6e5f86fc823158ebd66d2fd4be740ee511bc"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202105_VIC1.csv",
+"bytes": 68400,
+"sha256": "eb59c0c3223a1a84d29572b9e46c1830ec3da07b1fb099ea5bdd0532e449c36a"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202106_NSW1.csv",
+"bytes": 66885,
+"sha256": "8745ea7143aa682838ae620a7a5bdebe157c247d5d3f1ea9eeb840858e271319"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202106_QLD1.csv",
+"bytes": 66573,
+"sha256": "ba3e02d1f18b80b9279baba1b0f3b26f0b41635e5fa31a67aaa58564c96ab9a2"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202106_SA1.csv",
+"bytes": 65018,
+"sha256": "b079ded7680b9e60e9e2040f2ae406f206544e004df7d08f0d78c811a620986b"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202106_TAS1.csv",
+"bytes": 66334,
+"sha256": "5b22d52263b7e646b1f0ad89d840fd14c2921230fdd4ac3ef08dbe15c875fe52"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202106_VIC1.csv",
+"bytes": 66506,
+"sha256": "d29c029a5cea2d35c9c04b7266e8e850288dba5da771c78ac9c01bb76162f1a1"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202107_NSW1.csv",
+"bytes": 69115,
+"sha256": "cabbc66c454fe69adc94397b88bb52189b6992616b06901c2d4c6dc3c1b335fa"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202107_QLD1.csv",
+"bytes": 68800,
+"sha256": "78691f4aeacab698cf656998faf058d23cae16bbf95ed58a72ee0c1b09de147e"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202107_SA1.csv",
+"bytes": 67443,
+"sha256": "9edf0fd8cd10b8075db75bb4e5a467cfb1b14819134dabee62459f604c652823"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202107_TAS1.csv",
+"bytes": 68394,
+"sha256": "ea528cfa4cdaa5ea2859c6c7e3d4053686843f7c7939822472719f883cbb2128"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202107_VIC1.csv",
+"bytes": 68807,
+"sha256": "02f47267be2ea478b83343145cec9f4e1eb14950b868192e6dc8f0bec8214942"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202108_NSW1.csv",
+"bytes": 68455,
+"sha256": "02ca5830cc7039ad19509e10ff79ca1da6df865a9400d1f53420a780054bfde7"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202108_QLD1.csv",
+"bytes": 68410,
+"sha256": "a85f75f8800ec3c8019c55b96212b87cd99b91968c9b4e68a6ac4ae4275069bc"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202108_SA1.csv",
+"bytes": 66913,
+"sha256": "3c4251c08d6e9d2411be5614295dd5092da1944766f0defcfc11776f2b675304"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202108_TAS1.csv",
+"bytes": 68271,
+"sha256": "e385a38f5cc3d222c811f1b2466e38a42bfe114d49e41dd235cb40f76751684e"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202108_VIC1.csv",
+"bytes": 68443,
+"sha256": "4bb650f63b17b5ca5b4c963826a8d97dcc9c452d5033f90012856f6772ea6761"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202109_NSW1.csv",
+"bytes": 66111,
+"sha256": "5e599ff957044488cf57f66f4c13715ac51c88c87764f82368365aab02a07c4e"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202109_QLD1.csv",
+"bytes": 66327,
+"sha256": "b900f4d71e377d3799c8d3ed575ff4ac50266c47813a1c73845ad629549ae817"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202109_SA1.csv",
+"bytes": 64691,
+"sha256": "749075937b9ab48202acd497af8bac9e2fa433e0066e04fbce212189e7c0e35c"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202109_TAS1.csv",
+"bytes": 66117,
+"sha256": "2fd5ca921b8b62db502474c2e34045cdfbe4318f648e5cb094ca8dfb55433cc8"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202109_VIC1.csv",
+"bytes": 66316,
+"sha256": "6c7958ef2ef1760fd3fd8830225ad1abbb43c826f1d3694cf78f6506c015a8be"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202110_NSW1.csv",
+"bytes": 407906,
+"sha256": "6370f1d8599039dc0376c421b1e56e6fe749ff8aec787bd9b7fe009f786aa0c1"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202110_QLD1.csv",
+"bytes": 408173,
+"sha256": "0c86607d3eadf756e8fd89d3456703218dc6fdc1d545682b060a77c631263873"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202110_SA1.csv",
+"bytes": 395193,
+"sha256": "4de0441daf1116ffbb29f86f1e156e960a2bb5624a718a623d736045cb479af8"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202110_TAS1.csv",
+"bytes": 407354,
+"sha256": "e368e1af595e33a8f4046cb47f059c14e8115ba623f710ef141c40c1e1c4b248"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202110_VIC1.csv",
+"bytes": 407690,
+"sha256": "dfaf95074a8405018b6ff56672219473a8fde5b82b0b6353f143de6a5cdae9cd"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202111_NSW1.csv",
+"bytes": 394835,
+"sha256": "b7980da6d89a0c89f314d5df290d166df06425071206e045713c4410db56a171"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202111_QLD1.csv",
+"bytes": 395198,
+"sha256": "615b3304f4dd02496b3bda781bc13d73d8ae69757e252cc55acc4caf961d28fd"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202111_SA1.csv",
+"bytes": 383210,
+"sha256": "671a94acd43dd9507995fa1aec219f086019d671d4c356b3abcbfe127aaa7d80"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202111_TAS1.csv",
+"bytes": 392989,
+"sha256": "0dae2f259f5835827fad2d79b919ddeabf160720fa32649fb3adbe1977cedcaa"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202111_VIC1.csv",
+"bytes": 391464,
+"sha256": "37ad0f36cbdbb42baa62ff27039297d2d4402bdd3142cc9230eca802bac561f3"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202112_NSW1.csv",
+"bytes": 409440,
+"sha256": "d57464a286a1742d5a4b44d7eea72ff0c498f6fe37ecb7eed038c1da0a2f08b3"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202112_QLD1.csv",
+"bytes": 408767,
+"sha256": "e22358fd1ecacb5a454140c2da36e46f1a887243774ac33b988db7cba50ab5e1"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202112_SA1.csv",
+"bytes": 396853,
+"sha256": "c375555f1ec0c5bd39110236a1b71b36223fc1a6b9381a36078a0b9d071552bb"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202112_TAS1.csv",
+"bytes": 407543,
+"sha256": "f6557c8c55c9338de607ea796cc600f86738820f83f012ba930edc0308d81b16"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202112_VIC1.csv",
+"bytes": 407187,
+"sha256": "0af6898a3e5c004df53aacd4bcbef94765e679402d8a540beeebedc883b99065"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202201_NSW1.csv",
+"bytes": 406863,
+"sha256": "836aae87a56cf2e7a2bb2b6f243d186a8f4826b4f877bffe512d523c10e50750"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202201_QLD1.csv",
+"bytes": 412012,
+"sha256": "f8bf50cf0c0c0de38343074cc21f13ed109441dfd5adc357c5f596aad1a59c9e"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202201_SA1.csv",
+"bytes": 399572,
+"sha256": "f3579d2415f9f7235895a6e678c889c9dfe2a4f9571d8f0ff8b23b839b28cb2b"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202201_TAS1.csv",
+"bytes": 409035,
+"sha256": "bb2adb437bea055866610268d77b09819fad52e44f6b8ba47841d85427a50b73"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202201_VIC1.csv",
+"bytes": 407418,
+"sha256": "e746d193f58799f6d379dadff7a544693ee30614da0ce837d3ba439395d69dcc"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202202_NSW1.csv",
+"bytes": 368739,
+"sha256": "40d46513950e5afbe1666d4c46dd1f9da147f57084f847fb5d9175fbfd307890"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202202_QLD1.csv",
+"bytes": 371734,
+"sha256": "9fb3cd2302982b223bd16ebe45423e00dd10a8a5c5e517159269abd50ac3a538"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202202_SA1.csv",
+"bytes": 360718,
+"sha256": "018fb42b9ba7b49f8fb87e979c72d15876f66f5151d315354adc6f67ca6e66a9"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202202_TAS1.csv",
+"bytes": 370053,
+"sha256": "2a16935ac65dbeadadd8ee3271b516336defe9e2810890a0a81373501c30766d"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202202_VIC1.csv",
+"bytes": 368754,
+"sha256": "15de1eb4e15901a327773c615aede896b61594f1ad526096126face62b3ffcd8"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202203_NSW1.csv",
+"bytes": 410047,
+"sha256": "874f31b4dc56839e82ac0d7fbe7d4e36fcafc30dbafed1d04261409b13c8207f"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202203_QLD1.csv",
+"bytes": 411669,
+"sha256": "e01a3bbfaa212c72e4292e84ef4035d7ad1b05c3879750487411b4db44fdd3b2"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202203_SA1.csv",
+"bytes": 399547,
+"sha256": "c8abeee86e0ce96de3a3b949d6091e06ed35e6f4fe1ab4d25f3817f3564a0757"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202203_TAS1.csv",
+"bytes": 409637,
+"sha256": "a7709f4ba5c471e787a814123146b6dae5c125f6032cec54601fb36cdb43d582"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202203_VIC1.csv",
+"bytes": 410095,
+"sha256": "a5502acbffca867d0c9b0f4dff4a0d23385c380c352d26fc13b2010a575fcd77"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202204_NSW1.csv",
+"bytes": 401457,
+"sha256": "bf90e92774d23d5ad3ba5e2f61e6bfe993147d38666e34ae981bde8b6f222e54"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202204_QLD1.csv",
+"bytes": 402604,
+"sha256": "0c8aba6df035c3b2b94bf8271be9e13f33030718853afd78fe10f30bc790ba13"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202204_SA1.csv",
+"bytes": 391611,
+"sha256": "f07703f1c41456664a4361e3b5b4dfe3a9fdc7b2b392a8a70a169d7c92ecb092"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202204_TAS1.csv",
+"bytes": 401763,
+"sha256": "b7188c5281a1319b8c24ea06a5f095cfaacbb0ffbf78ef99ef8fc3e8ef135ace"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202204_VIC1.csv",
+"bytes": 401178,
+"sha256": "24ef52f7205ea8144474c0fe2add6816fc1227b05b72d31b498168c150937af1"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202205_NSW1.csv",
+"bytes": 416541,
+"sha256": "10916ded676d481add6e2cbcfaf30fa1fa733db4563f59115ad254aff073a7f4"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202205_QLD1.csv",
+"bytes": 416069,
+"sha256": "2de83597aac82e25fbf60aa09e1c1e5a16f6f0b68451ec4c073ae5a4c73d1220"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202205_SA1.csv",
+"bytes": 405903,
+"sha256": "a6f17a819c4ff5101a7fe3ec1390f074f77e7fce86f111f74c0be7386ea0bec0"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202205_TAS1.csv",
+"bytes": 416694,
+"sha256": "e7c5fe9d422293b2214bf84c25071f44e052a687bdf3dfc772672f12ba333ac8"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202205_VIC1.csv",
+"bytes": 414342,
+"sha256": "ffdf289cf1404aa21da8e0f39114beefb7c3dcb05170c4349c52ced538581ab1"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202206_NSW1.csv",
+"bytes": 399545,
+"sha256": "290147dca6c68aa87005b3630322ea5592fd0ea762aab96d22725e6401d652a9"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202206_QLD1.csv",
+"bytes": 400110,
+"sha256": "7417635388c178cf507866a80c3370278764033d6521a4ef9138f8a28ab86038"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202206_SA1.csv",
+"bytes": 391672,
+"sha256": "9f18388b7c2bb6fe991257f1b7a50e864ad5d3df5d944f4725fde1155c0738ab"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202206_TAS1.csv",
+"bytes": 403054,
+"sha256": "966b269b98cc2707cf6736bc8c73a3aeb461b6721e4177a63ab1e832ab591ea9"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202206_VIC1.csv",
+"bytes": 402417,
+"sha256": "9692919669d8a22e33b8ab7fca1178bede303b0b1adf77ff9fd06a56671f58c5"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202207_NSW1.csv",
+"bytes": 415657,
+"sha256": "ba07ffa916d88eedef5661b1f2bf190e6d3013a011c2e015d1d1b8a70178593b"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202207_QLD1.csv",
+"bytes": 410692,
+"sha256": "931d55054eda48adc3e85e857dec3130bd005f7eef4504c91ba3e7e222600827"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202207_SA1.csv",
+"bytes": 406510,
+"sha256": "3018494ab745fdcc4d7e6d29dbe5fcf96c7add53822edc85d4fcb5fc0549eaf8"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202207_TAS1.csv",
+"bytes": 418076,
+"sha256": "499ad1c1349d86b908332af47335b616b12324ecc5703d8f0682a88ddc9e3d82"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202207_VIC1.csv",
+"bytes": 413867,
+"sha256": "8acd33e65654159868be7329bf5887c9a9bca537d7222f872b3e23d2fd45c59c"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202208_NSW1.csv",
+"bytes": 412731,
+"sha256": "a47d71ceaf03091065d16628d77e42cb72ad03593cce75e9c39733759712252e"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202208_QLD1.csv",
+"bytes": 409026,
+"sha256": "56f786227cab8d185f970c674e20831f92cfec7c48a476be5beb84d59599bb91"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202208_SA1.csv",
+"bytes": 404807,
+"sha256": "0486a0fad6fae5769633916f250ad9d14d9b2823101b38ecafae405e1841659c"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202208_TAS1.csv",
+"bytes": 413614,
+"sha256": "21421e10dc8f2e07e58c0fa9700bbbdc9093b2a747094b40ce4ebb9f9ebe7d0e"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202208_VIC1.csv",
+"bytes": 413103,
+"sha256": "656b409c2c2beeeb0a2ebf1a45da72cce6c6eee5a0bd21ba8f1f51e02742ddb3"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202209_NSW1.csv",
+"bytes": 399936,
+"sha256": "492576f3d4e557bea7790ae714167686bf4dc4b68d7f5615854c5fe585e813ca"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202209_QLD1.csv",
+"bytes": 399334,
+"sha256": "0afc8a5eca30cef4e322c577dbc4ab6939c31ec873d2f88a7380cfee1edc4207"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202209_SA1.csv",
+"bytes": 390872,
+"sha256": "8953ab8289060403bf375c3ffee6ae0d3bea84321b28dc302b83e70603122a8b"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202209_TAS1.csv",
+"bytes": 400932,
+"sha256": "1e2b4126cb52d6cc5c2f5723ba4024e63ca777251942d6126ddb2b5e19e5a660"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202209_VIC1.csv",
+"bytes": 398320,
+"sha256": "b76df0d043aa46a0cb2030800f87f204f2714aef3bfcd7f236a4db2949f5f89a"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202210_NSW1.csv",
+"bytes": 413896,
+"sha256": "66bd1a20072d32e737e0ed6aedeceaca5424d1e50747221b634093c8ca6c5b08"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202210_QLD1.csv",
+"bytes": 413824,
+"sha256": "35a4e33ed2ad94a863a23608f86b407ae98757e391328bcb0df0798deb87a415"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202210_SA1.csv",
+"bytes": 403517,
+"sha256": "311413235564a706b41cbd0b09797912d739f407ad60d1f9f23021e4d42d98be"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202210_TAS1.csv",
+"bytes": 413584,
+"sha256": "baef6526a1567c41f2c47a48eeb8ace959cc3a81de28242972cccc45bbd402cd"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202210_VIC1.csv",
+"bytes": 412431,
+"sha256": "df14eef39a8c466534b4bf2f8381c6a5f29f8cd7257b672253b403a8202cd53f"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202211_NSW1.csv",
+"bytes": 399636,
+"sha256": "b184f88e1942a35063731448d8a2e83361d14e09575d4b87a3bf23c82a39497e"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202211_QLD1.csv",
+"bytes": 396964,
+"sha256": "f018409934111fee50c84ed61bb5029b86e29ea39277f5dbc3e7303bb7fcb049"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202211_SA1.csv",
+"bytes": 388936,
+"sha256": "4f8f2ad9fb86bbda366e472f58ce288f815fb9b60c31eccd105861205b52ae05"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202211_TAS1.csv",
+"bytes": 396312,
+"sha256": "4a0d432569be61389fc0664c4173d20cebd8af946d66c0ec88324e879b3bff1d"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202211_VIC1.csv",
+"bytes": 396970,
+"sha256": "7daaf0a1231c707190236f0741eb6aaf0ae35e94fb895db6b0a88ddd96430f73"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202212_NSW1.csv",
+"bytes": 411418,
+"sha256": "6f8449bb3667770de46a62a960657f37573acdc5e9669c14f33ba3ef9c9d72d9"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202212_QLD1.csv",
+"bytes": 408105,
+"sha256": "5add70806c6adca2d0fcbd461cb635f733cdff259355f7bfeda0d2f4ee6263f0"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202212_SA1.csv",
+"bytes": 400322,
+"sha256": "ef1223989d91ce6bfcc22697160b6899b2a2827e077974a99f4cf8c3bfc22321"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202212_TAS1.csv",
+"bytes": 409713,
+"sha256": "14a165559308ade0d15a1e29f5f1be0e279e461a980e2cfbf33e2413cab65abe"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202212_VIC1.csv",
+"bytes": 409022,
+"sha256": "22667a1ea649f2cd8da5d6e28fe5e6a19c6d597e15539567d4077ff2ceac964d"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202301_NSW1.csv",
+"bytes": 411790,
+"sha256": "352682f90a89c9220e17435f060cff68ebeba75c565f0b4365e17c3dd266590e"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202301_QLD1.csv",
+"bytes": 407205,
+"sha256": "ad104826bb1e0fff2b704f5bfbac2494c51e536ab1d5690f375d464cb258e2b2"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202301_SA1.csv",
+"bytes": 402224,
+"sha256": "37848ecc1b4eaaf2caa3f19b2f7ff03b083aa948c301a0d7acc31cea65daf921"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202301_TAS1.csv",
+"bytes": 411437,
+"sha256": "9f0abd575179aca3f82ad03f37fd8b2e5f70aa65ec76b48703036247844dadd3"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202301_VIC1.csv",
+"bytes": 409228,
+"sha256": "30c249d7b6d8fd96d1f7fe012c088c53a45360fffb6d445a240f6b476514daa6"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202302_NSW1.csv",
+"bytes": 370872,
+"sha256": "1061637963c9c803aefb70b1d92bdd1eaf6c20d1be45e8d046bd497bb9d0356f"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202302_QLD1.csv",
+"bytes": 371105,
+"sha256": "4e305fa2c893a21172d6493853440e6915e679cdfb0f3698366682d5268ae204"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202302_SA1.csv",
+"bytes": 363139,
+"sha256": "eb40d7aa55c793a2b5fad20456826095fcf3cde870a11e132b063f8c8cbd09ea"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202302_TAS1.csv",
+"bytes": 372094,
+"sha256": "56db8683b025fb9f732831bd2daf2024427c0ccd6c583d964b5ee36a31a7f6f7"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202302_VIC1.csv",
+"bytes": 370298,
+"sha256": "791bb65a0bf3a6cd2c91413e2589744556c959ca8249aa1c44958f7b631949a3"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202303_NSW1.csv",
+"bytes": 410911,
+"sha256": "e0ba4451c28236fbef544f133a0424ce440a415bf8342da85f1eaa69859e6363"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202303_QLD1.csv",
+"bytes": 412472,
+"sha256": "380efd7697ac85561e50e753d516331e6d045a6d4c46912a2cd14cd5d5ebec5f"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202303_SA1.csv",
+"bytes": 402060,
+"sha256": "b8124bf37fdcee6bc46c595be9252030139701cbaf1693b8c59bbae0ef62f5a2"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202303_TAS1.csv",
+"bytes": 409072,
+"sha256": "cee7dfdf7b9ffa9edd7d197faa56cfa4315da27896c58b8f3c05c1209a613915"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202303_VIC1.csv",
+"bytes": 411649,
+"sha256": "49922ec66eae8ec85267373761d61153825fe0127e9f516d61e83bfdec2e5d30"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202304_NSW1.csv",
+"bytes": 399312,
+"sha256": "b88a9abb9dab57b8c14a3b5ce601e59d53d37160ce966daaa99cdc7e1a3f69a0"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202304_QLD1.csv",
+"bytes": 399681,
+"sha256": "d7b603d79998625f4f91e2b2306bae2d15d70180b5f8f8e75a077e955546552b"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202304_SA1.csv",
+"bytes": 388849,
+"sha256": "4dd522f632a47cb50327a91cb9f36021ede9e94979636dabf5a5f15c99cc186d"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202304_TAS1.csv",
+"bytes": 397246,
+"sha256": "0fad3e67130a43aa1e5a7172c2810e897416f929e97003543cbce07a44a70682"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202304_VIC1.csv",
+"bytes": 396293,
+"sha256": "0257df19c2e9f64dc5d2fd840bfb4c4ec57b631cc96a5f1e3beeaf392e62588a"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202305_NSW1.csv",
+"bytes": 415243,
+"sha256": "4d4add87e1d07e28ed9b281c66f9e33356c304ee280950b4463208fc7f90d450"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202305_QLD1.csv",
+"bytes": 413973,
+"sha256": "5b412dc67716dd184587228027ae1e7d3b68ef7c542800e6f626dedd8bf2c651"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202305_SA1.csv",
+"bytes": 404973,
+"sha256": "22100c61ed1d4f1c557cd328973557f041013ce5e58244b95eab457f53b42217"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202305_TAS1.csv",
+"bytes": 412352,
+"sha256": "5e12cc7d0bcdcafb17aaaaf82bc382f52dcfa1b64ed035da15748a0567aeb7cf"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202305_VIC1.csv",
+"bytes": 413026,
+"sha256": "8f55c02474af6f409cedb26c8aa9db60aa728076d28f126c507cd8823685ca21"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202306_NSW1.csv",
+"bytes": 398198,
+"sha256": "78fb40819ec6ce45a342315a22b7d23b15396204e302fc09734e317e4739dcfc"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202306_QLD1.csv",
+"bytes": 398394,
+"sha256": "c926a8b5b7e6939a9c1196dec76e020c0013604eb015f5e8b7e0ec3e2b48249d"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202306_SA1.csv",
+"bytes": 389308,
+"sha256": "9b1c91d3e243d7a202d5b54b4a242998e16c49e283321ff1b17bfd437a01a118"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202306_TAS1.csv",
+"bytes": 395208,
+"sha256": "ae4b27f7d31c305066c50e3fa2163d6cd1637950d95b5a4f5dbda4ee310e99c1"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202306_VIC1.csv",
+"bytes": 396461,
+"sha256": "fa06672e11df50369626667a6dde414f44c65e4d43a89e0633f4a870c4e398ad"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202307_NSW1.csv",
+"bytes": 410186,
+"sha256": "3b263f2ef0e04366439d028b9526614aeec2ff5c34323aa0cb8ebeaaa6110665"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202307_QLD1.csv",
+"bytes": 411007,
+"sha256": "ad292ea6d41deb3db34e9e60e30e80492f605eb47e6352c84651029255cd137d"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202307_SA1.csv",
+"bytes": 402997,
+"sha256": "339a50f49381a2c8f5f8af85c4392b4f08e19fac317679f5e2edc32ba476e7ea"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202307_TAS1.csv",
+"bytes": 408270,
+"sha256": "024205d61fe7f3d13150d1c768ea51b56fb71cb77e20ac2e0b337785896206b9"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202307_VIC1.csv",
+"bytes": 410115,
+"sha256": "734b5f0d02d1abc3f1e32f99a33cd610f795c1c64dd235b6918a080433005e25"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202308_NSW1.csv",
+"bytes": 410715,
+"sha256": "e9f79f18fff08200c444be2f35a336dd3dce091c63a63bde57da06d8e45c0f18"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202308_QLD1.csv",
+"bytes": 410569,
+"sha256": "7600d7e0b5c1a53ed3620aa3c470c4acb96735074a554d5dadc1882e6ce29460"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202308_SA1.csv",
+"bytes": 402061,
+"sha256": "3f62c0e3fb383dc9120d6e184f7eecdc713ecf475b71c39b5e02c09724d27c0b"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202308_TAS1.csv",
+"bytes": 408798,
+"sha256": "2a6e9a72be90404aefac21c5db3cf006058d41ae9b36216939ec9b6f24ca4b4d"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202308_VIC1.csv",
+"bytes": 409818,
+"sha256": "574cb7ed6e160fcf4c47fa3bf7ecd5634629a376da5940ff1d4c7b519f343060"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202309_NSW1.csv",
+"bytes": 394632,
+"sha256": "9727ad6634f1bdefa26f254adf71c8a2f2d9fbe96a32a43fc9e9222452a7c170"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202309_QLD1.csv",
+"bytes": 398399,
+"sha256": "06448162da7666b4e49d5871c6413c11d066f3b54aa4170f20c04bad573923f9"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202309_SA1.csv",
+"bytes": 386796,
+"sha256": "ed578f521a9bff284752494a36cfc6a2e664c37fcafcd86f8c62aaee5440f7af"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202309_TAS1.csv",
+"bytes": 391778,
+"sha256": "20e50b8559dd232b126fc741f4e6dabc744f6176886e35521b2c6cc69ba12985"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202309_VIC1.csv",
+"bytes": 396015,
+"sha256": "0f95928c4ae89ce9f11b7771afab23d2b777348f1b7d9b8768ef12a14f4005c3"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202310_NSW1.csv",
+"bytes": 406568,
+"sha256": "e9a201071965867e2d85f241dfe19a7b78fe65549ff29f6a52143d4afd1d9d42"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202310_QLD1.csv",
+"bytes": 410980,
+"sha256": "df2d739ea9eaf32c85d1c26b96226736151f56cc479b900d8cf0518054f4a803"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202310_SA1.csv",
+"bytes": 398766,
+"sha256": "d85f7c32355c98805ada0388dcb78818c74611f4762bbd52041d70a7ec0053e9"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202310_TAS1.csv",
+"bytes": 406756,
+"sha256": "cd5b7e8d41d79007048887cda7213c38b8258e4cf0fd90281cebde1d203ee1d7"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202310_VIC1.csv",
+"bytes": 408159,
+"sha256": "4525a0af13862adc8c58657d34f2261eb869f3a7480e9a98c6730574b08f5d2f"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202311_NSW1.csv",
+"bytes": 395418,
+"sha256": "991dd64960edfeafaf246210cb259e7894ea2a6fc07662bf802a62d38cd8fd66"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202311_QLD1.csv",
+"bytes": 397736,
+"sha256": "fd7749914eef04f23caf5292d1cfe722c6544f7c264f2e02e1493add6696a8a0"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202311_SA1.csv",
+"bytes": 386919,
+"sha256": "0aca2d692ab9709ba84adc95618368245fa8ae9b1db1f8832b0d680aef6c8399"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202311_TAS1.csv",
+"bytes": 395946,
+"sha256": "782d5e3d0380ad4362a2afe4459e6c7d465ad9df275110912b6639c0c898ce6f"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202311_VIC1.csv",
+"bytes": 396077,
+"sha256": "5ada5aee8523092f892600da9f254d873fc8a9ae5a7fde3655e9acbe06185b6d"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202312_NSW1.csv",
+"bytes": 408663,
+"sha256": "bf2c620849988a7b5a4b1318a944310540429f033bc3530177b9ef06b7b1846e"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202312_QLD1.csv",
+"bytes": 410980,
+"sha256": "a02e35f3e0c730f6f74b649b52ab17677d653de4f1170efbe6c4501b363649a9"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202312_SA1.csv",
+"bytes": 400658,
+"sha256": "3113efe4395c000df503e415733ed3c0ed9d0de39e01705a4242a44e02255b82"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202312_TAS1.csv",
+"bytes": 408497,
+"sha256": "9badbebf3d8b516908050c991ab119bf8c87f6904cf736886edb387d0248443f"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202312_VIC1.csv",
+"bytes": 410103,
+"sha256": "0112d963693359b92420d248f6c91f8ab9bf35b603a1323e5ef7ac56b2f6fce8"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202401_NSW1.csv",
+"bytes": 407785,
+"sha256": "f2c6b208d9ffd1fcf4b29fbbbcdb221b4747784bc3b079c20e73f071c8a7d2e4"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202401_QLD1.csv",
+"bytes": 411154,
+"sha256": "2d97cce6d441d642271c999864ec20098bda70c657807b7a69f4149495185f16"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202401_SA1.csv",
+"bytes": 400206,
+"sha256": "b0e3a569fe9a83b28f5be9c1f05211659348cefe6f43510df6b0667c9398ee0b"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202401_TAS1.csv",
+"bytes": 407084,
+"sha256": "4aec158e8596e84896fb4e8a11440d123f4446bf71e7a2709c9203e3a8223fae"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202401_VIC1.csv",
+"bytes": 408883,
+"sha256": "2adc1fb2e0c605be8d473a600a9885c9c54f04594e5b711274dcfba9981d25e0"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202402_NSW1.csv",
+"bytes": 382131,
+"sha256": "1dec93ee822657093565d8f6d29d6335782ed394833d92cc880bb4bc2efc2471"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202402_QLD1.csv",
+"bytes": 385181,
+"sha256": "5efb5224048585f4755c4d2f0578b1e757158d9a19b920a3f7ed011795581e44"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202402_SA1.csv",
+"bytes": 374505,
+"sha256": "3d0de2c5498169d1596eb3ca3efa1ad6fd84d31a3f90c43b9c6f2eae96612505"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202402_TAS1.csv",
+"bytes": 382673,
+"sha256": "1cf46dbedad30c72e9bac62fcd84ed99af0a8bc4f15a5fd278ce3ce1764b2f02"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202402_VIC1.csv",
+"bytes": 383585,
+"sha256": "b7023b26373fc1c5b797daf4453aa5db4c68c848eabc750c329b8279ec0aad8e"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202403_NSW1.csv",
+"bytes": 407878,
+"sha256": "b951315bcd7457361de0a91ea7d1f04b4ef35c60f5dbe1934eae9b20cccadc20"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202403_QLD1.csv",
+"bytes": 411162,
+"sha256": "f6318e6db111b1781aedd9c2c14e934749546df05ee4b52730500c944f681174"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202403_SA1.csv",
+"bytes": 400967,
+"sha256": "eefba42b745ceade8fa9358ce64f3006ce8b4b59a462f008aaab8aa8677899f5"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202403_TAS1.csv",
+"bytes": 409859,
+"sha256": "d979b831a72e53b420f517a53c0925dcbe965e054aa0c1c6a79296428a796517"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202403_VIC1.csv",
+"bytes": 409371,
+"sha256": "bff8d50f7ee6360d6b70b2dfed47624c91749b63a47b53046cc09d5bff41217c"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202404_NSW1.csv",
+"bytes": 396511,
+"sha256": "363834f7f4a8d65872dca455197998497981f0b53d39b348f91a13da5acdb2c3"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202404_QLD1.csv",
+"bytes": 399761,
+"sha256": "364aadf36bfc09f899b49e2396d7e6889043ead69404c93e32f1ef3ca7f401cd"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202404_SA1.csv",
+"bytes": 389117,
+"sha256": "fb9543382f94dc276c25674c021fd0fc007db058d4551b578615ce643ddfa725"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202404_TAS1.csv",
+"bytes": 397623,
+"sha256": "f0e13fee785bf359ea260af523764d1a10ebf747bcf524ee91b86be205781a73"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202404_VIC1.csv",
+"bytes": 398651,
+"sha256": "44112fcabce5b55532cfff89a167d4978e8efbcc1f291e0d87a86b7d6a849d09"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202405_NSW1.csv",
+"bytes": 412804,
+"sha256": "06032aec8e949fc4d896563e1e3bc15a51af613e6d7da7cf0f4d72476915e20a"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202405_QLD1.csv",
+"bytes": 414139,
+"sha256": "1bfd4c45b0d576028de012520f9ecab9a0393f412e5309c8cd9fe7980a6714f0"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202405_SA1.csv",
+"bytes": 403687,
+"sha256": "7c85c3a5279ed3d0e140f61ceea2000ebd8ab90cbd9883297d3c256bcbe6763d"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202405_TAS1.csv",
+"bytes": 415648,
+"sha256": "45cb99a9a940f468ba42b8997f479f2e658686a05cf9c4d936aac60d43b9498d"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202405_VIC1.csv",
+"bytes": 413619,
+"sha256": "12d994504c93ae32c14574a2dd767995debb14e78767dadfd034253706280473"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202406_NSW1.csv",
+"bytes": 399787,
+"sha256": "7eb1db210f04e7e0c5e790469ef5c243267e05dacf77e386d6f9ea574e7e2f3f"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202406_QLD1.csv",
+"bytes": 401465,
+"sha256": "2a5e09be48e4eff20db0cc089f050af6506b8b1660e3bc18b5fc313835e1825b"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202406_SA1.csv",
+"bytes": 391688,
+"sha256": "5a276624943d3955d84ddbe4b2a37f8bce780c1ffaed157cc3800e8d50f3d887"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202406_TAS1.csv",
+"bytes": 403334,
+"sha256": "41add72349d425fc0e04fc3552d08f54f5070f6c587f8ac2183ce0c371093ebd"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202406_VIC1.csv",
+"bytes": 400401,
+"sha256": "d3435823af2dc9a0305d08f6f0fdc1908f86e3e79f3785679bc61e5cd775f683"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202407_NSW1.csv",
+"bytes": 412277,
+"sha256": "c5058ee196504d812e7745aabcf60af20d47c25448e02321fbd53462ed4b6bfe"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202407_QLD1.csv",
+"bytes": 413987,
+"sha256": "91e1ba70fbdf8370d1abea97535f5f5474fb4c2e0884ed26a26222d9134aafc6"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202407_SA1.csv",
+"bytes": 403751,
+"sha256": "18741badb34eade22f07dcfc38839bf54e6683c5aa54c87dd26af29b168a4eb5"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202407_TAS1.csv",
+"bytes": 415913,
+"sha256": "8feb101cf2f382de120b8f46e2cff611775f243464f1a6a5e5667a59fa571162"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202407_VIC1.csv",
+"bytes": 412875,
+"sha256": "81dcaf0aa8014060aac0a8567dc96525b133e2cf4839e47a362fbc0c22375adc"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202408_NSW1.csv",
+"bytes": 411872,
+"sha256": "4723dc699684da802ecdbaa6dda5cfeb6e7dd03710758cb142991873a551cdbb"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202408_QLD1.csv",
+"bytes": 414404,
+"sha256": "6920997cae5fb3ef0aa70ca4281392e0f566c58e92dc8db299c4cc8b04d221bd"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202408_SA1.csv",
+"bytes": 402125,
+"sha256": "076a4c14dfd17cb02a4df6059aad5433012ed285e244f13467508d61d6994d37"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202408_TAS1.csv",
+"bytes": 412338,
+"sha256": "a419711f7d92cefeeeeace14820f3a1f5e4d1a65197ced27f1a4680c6570ba42"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202408_VIC1.csv",
+"bytes": 411335,
+"sha256": "2f966c94ccbe1e6a0ad5a4add4681c807c78e2701d8e56179cfb8361dfe9f5c6"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202409_NSW1.csv",
+"bytes": 394419,
+"sha256": "60c4c36d12c0ca6e72ecfd7d8a6508a6703abde24e2ef11d35cd4ae1e0435ee1"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202409_QLD1.csv",
+"bytes": 399526,
+"sha256": "69b381e028c34bccca011fc98090f8eeb858be417156b8dcc2225ed1d4e1c815"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202409_SA1.csv",
+"bytes": 385808,
+"sha256": "64932e72cd5107cf1c0052c91aa0dfed1dcedcd0f7260f111633cc311572dd53"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202409_TAS1.csv",
+"bytes": 392912,
+"sha256": "771ab310aca4338299b7135d97547f6e618b236f6183a38d8fa338b20059ed3b"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202409_VIC1.csv",
+"bytes": 394286,
+"sha256": "0e0d969b41f5d40af2aa4858ea42dfdc649d0d5ee4059d7a3ece2ede060c201f"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202410_NSW1.csv",
+"bytes": 406230,
+"sha256": "49902457386583ab759cf2a799be032a55902675d73d71b5e1e0b6be91b2dd27"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202410_QLD1.csv",
+"bytes": 413662,
+"sha256": "8a8f5da75bfc76717be16e9769c884ffa8240c193913891e85983a329c7d510e"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202410_SA1.csv",
+"bytes": 398346,
+"sha256": "0c4ffb0f4b549fe0682115762b2a8ed5df816d4054a4d77e53d2ce03b501405b"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202410_TAS1.csv",
+"bytes": 406600,
+"sha256": "8bc6d56709d81ef0fe32e6d83974359c0562375829a50fbe582cccbb246daf46"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202410_VIC1.csv",
+"bytes": 407457,
+"sha256": "df97ea8bf777fbb813d1ea23ff16b5051d8f2b527bcfd17b54a9287c4a8deeb5"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202411_NSW1.csv",
+"bytes": 398253,
+"sha256": "8e612744398bef2a3f57b190c6be66c00462c757e02d0cdb0472cf4e49048715"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202411_QLD1.csv",
+"bytes": 400110,
+"sha256": "a9a33fe8e38127d40655d7bdd163fcf77fab7b4a48b11250a4021a49a195fd67"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202411_SA1.csv",
+"bytes": 387606,
+"sha256": "dee6297a132b25697079a009b594654b4df7d0c922a7cf8330fc406f03b638b0"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202411_TAS1.csv",
+"bytes": 400033,
+"sha256": "73fa08133bf2279c6ce7114e16c963b9ac88bf30317a2e72d2a05bc5703b872e"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202411_VIC1.csv",
+"bytes": 398611,
+"sha256": "879dd6baa2b70ac4c18008867ad853444961ab4e9198947b397127cc1104f54a"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202412_NSW1.csv",
+"bytes": 412737,
+"sha256": "071b3aed47e626902171a0c8394d5c841345b9877a8666197f2334eda40ab7aa"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202412_QLD1.csv",
+"bytes": 413690,
+"sha256": "512f3ec7f180d20e392c7a0535165119a4b2ba0c7014afc31addd40789ccbe28"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202412_SA1.csv",
+"bytes": 400897,
+"sha256": "391e549d2179d743de47e296e349a48b654a4f706cb1cb5321b4d798ce615773"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202412_TAS1.csv",
+"bytes": 406425,
+"sha256": "4f981361e7090919fd596036014ef3afaa2d05a2193a802b59d64f493e45d7d9"
+},
+{
+"path": "demand/nem/PRICE_AND_DEMAND_202412_VIC1.csv",
+"bytes": 411461,
+"sha256": "c23ee4770e76f11fad97e5db02c2fc5983d5d7cec469039d38918cf73974119d"
+},
+{
+"path": "demand/wem/load-summary-2015.csv",
+"bytes": 1948174,
+"sha256": "fc3c7d33a242d1b7ac5e4ce1214c091cac2b650dac063152630de96079b86a54"
+},
+{
+"path": "demand/wem/load-summary-2016.csv",
+"bytes": 1854149,
+"sha256": "c69133f78873a7b3efee143e3bfbc10c197c356d52917120f87b89e669f8940a"
+},
+{
+"path": "demand/wem/load-summary-2017.csv",
+"bytes": 1736791,
+"sha256": "afbd798b395e33c4acbd636ef8740c56465502da8812802131166d679f27ff18"
+},
+{
+"path": "demand/wem/load-summary-2018.csv",
+"bytes": 1845727,
+"sha256": "39ab074c12101395bbdad65e42369ebe6baefb2574104942a58781cc2ca8f6c6"
+},
+{
+"path": "demand/wem/load-summary-2019.csv",
+"bytes": 1786450,
+"sha256": "2277c813ebf5a1ca9ae6b0267502dc40b42c1e01b031bfd8ec6942ee9993a404"
+},
+{
+"path": "demand/wem/load-summary-2020.csv",
+"bytes": 1730998,
+"sha256": "1418033cda0b93254ac6ec3902c440ab64e6c4052d88d56a16dd9b42ac313cdd"
+},
+{
+"path": "demand/wem/load-summary-2021.csv",
+"bytes": 2070730,
+"sha256": "34cec05cd330086859072c98d6c2436a2b9eb5dcb5cb69c3bb6ccf6cc85c7ea0"
+},
+{
+"path": "demand/wem/load-summary-2022.csv",
+"bytes": 2080607,
+"sha256": "98c3438cfca4003629914b344531681e26f6349a422707b6ca003e6e64e12681"
+},
+{
+"path": "demand/wem/load-summary-2023.csv",
+"bytes": 1209760,
+"sha256": "7d6c1e08aad27b6d7afc19e021660decfd70fb715d106511bff3a04981c411d4"
+},
+{
+"path": "econ/aps/FLD_Data%20submission%20upload%20template.xlsx",
+"bytes": 24974,
+"sha256": "e270b5dedab6fe38c6b7ed980ff740a06575bb80aa2d139a666a7d2bb6643daa"
+},
+{
+"path": "econ/aps/PLT_Data%20submission%20upload%20template.xlsx",
+"bytes": 24777,
+"sha256": "29578512c86178bd918267725d89bbd61dabc85d2e9755f5b89fc1519a18b886"
+},
+{
+"path": "econ/aps/REF_Data%20submission%20upload%20template.xlsx",
+"bytes": 23763,
+"sha256": "7b3a1ccc83031f3407e48b8df453af34dafe23aa84ea858d9a7b22b8d09d25be"
+},
+{
+"path": "econ/eia_brent_daily.xls",
+"bytes": 453120,
+"sha256": "e37f0a6f81a10627d90ad22943d6945a11ce4e08fb28eea84479037f53e31405"
+},
+{
+"path": "econ/eia_brent_monthly.xls",
+"bytes": 55296,
+"sha256": "818f1d5e568fef07fead7d46666f3b42fb49a8ed5e64abfca8d0d2b71c9589c9"
+},
+{
+"path": "econ/eia_brent_monthly.xlsx",
+"bytes": 21207,
+"sha256": "187723bb79391abe204409edfd855f22a704490f7384d63d97b9018b63adbf77"
+},
+{
+"path": "econ/rba_f11_1_exchange_rates.csv",
+"bytes": 144621,
+"sha256": "0f25c5e9c236208ee464cdcd714752be638fa5194883050119a1ab8ffb85a2ac"
+},
+{
+"path": "manifest.json",
+"bytes": 251168,
+"sha256": "d7bb216b770775cb47bddd6b4370d90037c0564409bbd178279405df1f5cc392"
+},
+{
+"path": "manual/Draft_2026_ISP_Inputs_and_Assumptions_workbook.xlsx",
+"bytes": 18968263,
+"sha256": "19ccc69cdcfd032c65c508f50650a76a67c2036c4d0e152cce22821957a5c049"
+},
+{
+"path": "manual/australian_petroleum_statistics_data_extract_december_2025.xlsx",
+"bytes": 2703935,
+"sha256": "9e10ac0e8812ad494e9cbc0f15526f590f190d4d35a574190f7799ae02dc9be1"
+},
+{
+"path": "ocean/etopo_southern_australia.nc",
+"bytes": 5332096,
+"sha256": "84061f845fb4151f7eb864109fa9fe59b948c8570f1c4b770a7c0c5699bdad05"
+},
+{
+"path": "ocean/sst/oisst_bass.csv",
+"bytes": 6406306,
+"sha256": "bd8e0d5982150642f1dc30a922f9bc126be70d382b002ee149571e2fb9caaa9e"
+},
+{
+"path": "ocean/sst/oisst_bonney.csv",
+"bytes": 6406436,
+"sha256": "6fdec008787867cd6e255802769dc009d5ceab46a82360ce51f0fbd6e1e03273"
+},
+{
+"path": "ocean/sst/oisst_nsw_south.csv",
+"bytes": 6406261,
+"sha256": "38d12c4528e0e63871638fe2a2357fd2d81086116a0da11c5aef8bcef669d6da"
+},
+{
+"path": "ocean/sst/oisst_sa_gulfs.csv",
+"bytes": 6348563,
+"sha256": "dd1d9b5ac6ed83616052072b101947c80304a7865586d6fac6cb742bb22bce04"
+},
+{
+"path": "ocean/sst/oisst_sa_shelf.csv",
+"bytes": 6406490,
+"sha256": "0ebd0a2038a0a850ce2291dd39cbe6c56e4f20667de5f0b4fe87557101018991"
+},
+{
+"path": "ocean/sst/oisst_tas_e.csv",
+"bytes": 6406283,
+"sha256": "01e9d021718e12da90285a75a7cb2e10e9db4ceff87e3ab4299704b0abb37016"
+},
+{
+"path": "ocean/sst/oisst_tas_se.csv",
+"bytes": 6406336,
+"sha256": "27e3f0f106df0cd8060c0de7f5f4132baacb77d607ab9c4fd593d61030295c3a"
+},
+{
+"path": "ocean/sst/oisst_wa_south.csv",
+"bytes": 6406230,
+"sha256": "0f55e4cd5bb9efd2fcadb28df484abbe4f0797b9c6595c784fedc4fa1bf13cf9"
+},
+{
+"path": "ocean/sst/oisst_wa_west.csv",
+"bytes": 6406445,
+"sha256": "625e47f25ae25d50c7ac03093fe50ef242ac31b3556290e410e07a5ed7a7631c"
+},
+{
+"path": "ocean/woa23/woa23_all_n01_01.nc",
+"bytes": 20164004,
+"sha256": "2cc88d353db4fc795b747200ceb4a476531b578fb7223685838f9392b5dac792"
+},
+{
+"path": "ocean/woa23/woa23_all_n02_01.nc",
+"bytes": 20663789,
+"sha256": "2ef12135514fd99cd350e217d940ac906305141078eb8ad9caf205934c1c8161"
+},
+{
+"path": "ocean/woa23/woa23_all_n03_01.nc",
+"bytes": 20698128,
+"sha256": "522b0cbe4ceb572ab1b5a7eb882fe2c9027c7d7cf52ab22aacdbe8e9360c2b1a"
+},
+{
+"path": "ocean/woa23/woa23_all_n04_01.nc",
+"bytes": 20543258,
+"sha256": "2ed581c105b2a5be25f861243266494adca4871d64aa38c987242f8b9603be2f"
+},
+{
+"path": "ocean/woa23/woa23_all_n05_01.nc",
+"bytes": 19765559,
+"sha256": "d7ea0b2fb091bdff04f1b8f4a48498377e8667f11e0e9f900b2ce7f17cd9ace7"
+},
+{
+"path": "ocean/woa23/woa23_all_n06_01.nc",
+"bytes": 19028189,
+"sha256": "e200b0b35c7da865930283ba563b665face171fd8b001c15d2d60c9efc9c068e"
+},
+{
+"path": "ocean/woa23/woa23_all_n07_01.nc",
+"bytes": 19232492,
+"sha256": "ea6cf83e2be009c121aab3165f26e00aa5159511046fb9b84de8fb7ba9179220"
+},
+{
+"path": "ocean/woa23/woa23_all_n08_01.nc",
+"bytes": 19832745,
+"sha256": "76cc43f74588408219ea0532be759fd754f7800c0ca6b9f31ed3d428406ecd4a"
+},
+{
+"path": "ocean/woa23/woa23_all_n09_01.nc",
+"bytes": 19460619,
+"sha256": "8bdf5c62eb4659ca892dd9d806186513036f2265c77891d68fdef4e15d3909ca"
+},
+{
+"path": "ocean/woa23/woa23_all_n10_01.nc",
+"bytes": 19163255,
+"sha256": "80508c6a3f33565dab03026b0fc91260611ee43ac7a5549b3f77e034d1c3ab34"
+},
+{
+"path": "ocean/woa23/woa23_all_n11_01.nc",
+"bytes": 19023762,
+"sha256": "50cdcc1d137e21cc5c4aedff74c18027955dcd27317e512a6686edf782e9e253"
+},
+{
+"path": "ocean/woa23/woa23_all_n12_01.nc",
+"bytes": 19097195,
+"sha256": "a0836332be8fa7363e423af06f66b5633f8950a69d93b27cd193ce7b2dfcba5a"
+},
+{
+"path": "part2/econ/aip/AIP_Annual_TGP_Data.xlsx",
+"bytes": 62083,
+"sha256": "c36b9e7e443a07eb11909e8a2615e8529e212a98db98648d93ae0b3862511a51"
+},
+{
+"path": "part2/econ/aip/AIP_TGP_Data_13-Nov-2026.xlsx",
+"bytes": 638744,
+"sha256": "ab4c3cdf2cb7b9e51c3c8e6bcd139f511a3bb568593e030da3808362ffbaabc9"
+},
+{
+"path": "part2/econ/aps/taxstats2012charities4privateandpublicancillaryfunds.xls",
+"bytes": 32768,
+"sha256": "5bbedbd7b63be3975d189b85bb3a04a742f5367673ef90c11d9d6c898326faf7"
+},
+{
+"path": "part2/econ/aps/taxstats2014summary1historical-rates-of-personal-income-tax.xlsx",
+"bytes": 701424,
+"sha256": "d981900d2a315c5123afacd4ca33415353c5b16ae2ab4356b1b606f6509b3af2"
+},
+{
+"path": "part2/econ/aps/taxstats2014summary2historical-rates-of-company-income-tax.xlsx",
+"bytes": 40796,
+"sha256": "b9118b850c7a66c359035cadd47c9618df253835a892c23302a1efa1c600ee15"
+},
+{
+"path": "part2/manifest_part2.json",
+"bytes": 300,
+"sha256": "417e22ba68a06fdbae6889181cc1b50ec1d64855824e485075a10ad69aeb0448"
+},
+{
+"path": "part2/ocean/woa23_nitrate_aus_0-200m.csv",
+"bytes": 9024196,
+"sha256": "0275d649df7c1e23e5229f21cdc2d7a01609074af71db76f05021a678afeb5d1"
+},
+{
+"path": "weather/NSW_Central_West_Orana.csv.gz",
+"bytes": 988638,
+"sha256": "53c67f47354f6cdd63d280c4eb0d14b8ecbb68d8cfec9751247b4287a163b967"
+},
+{
+"path": "weather/NSW_Hunter.csv.gz",
+"bytes": 985587,
+"sha256": "50c2a6d6311ea08fc7cbb7225c7e63f97ca0cd137a383ce426ca5259726222f8"
+},
+{
+"path": "weather/NSW_New_England.csv.gz",
+"bytes": 988451,
+"sha256": "1e825d12df7884c3685aa2876ead518e718fc358fee266e56fed9bf90e0551d4"
+},
+{
+"path": "weather/NSW_South_West.csv.gz",
+"bytes": 1002419,
+"sha256": "ce3c871b2364b26a8193cc6799ac649a4ec5afc5c09fe16f480948199bb5d03d"
+},
+{
+"path": "weather/NT_Alice_Springs.csv.gz",
+"bytes": 1000100,
+"sha256": "54eef0ff6eba6d839cb74a2920345a8e8494a2e2fafe4e0e34a0fd267a696915"
+},
+{
+"path": "weather/NT_Darwin.csv.gz",
+"bytes": 958131,
+"sha256": "252336d417223db01b9ffc876b6ce63d21dccf41b2c5a6ef0f40fc909e907fab"
+},
+{
+"path": "weather/QLD_Darling_Downs.csv.gz",
+"bytes": 983866,
+"sha256": "0a8bebc42e5fffd451c9a80d3b118d023743143247bc0df868bea41cece9791b"
+},
+{
+"path": "weather/QLD_Far_North.csv.gz",
+"bytes": 960696,
+"sha256": "cbb4d0d18e9f1548151608528fe63e025181752609d64850d9f67714cc6534ae"
+},
+{
+"path": "weather/QLD_Fitzroy.csv.gz",
+"bytes": 979244,
+"sha256": "0bfa7a570a544aeb6fb34fed988dfd6f83242f33f661d402ab576cd78346181a"
+},
+{
+"path": "weather/QLD_Isaac.csv.gz",
+"bytes": 977889,
+"sha256": "3a60cab3782a9b3cbde4496701a0dc0317193622f9c3f00b2502b684088e0bb3"
+},
+{
+"path": "weather/QLD_North_West_Mt_Isa.csv.gz",
+"bytes": 1004381,
+"sha256": "afcc8397c7957d4b7e50424950fc1c92fd6d93b1a655151f0f7da541c48b60e1"
+},
+{
+"path": "weather/SA_Eyre_Peninsula.csv.gz",
+"bytes": 993272,
+"sha256": "639b2fc52d73acc760ade9e7378423675eaa3245a839a81df4861e53372afb4c"
+},
+{
+"path": "weather/SA_Mid_North.csv.gz",
+"bytes": 1001034,
+"sha256": "89d0d5229a2da58b8dede21a110e0c63e0ff038a1a6fc2d6b86929a78cac2deb"
+},
+{
+"path": "weather/SA_Northern_Port_Augusta.csv.gz",
+"bytes": 993430,
+"sha256": "d8fe914e2517e684334cf63e470ea4ecf06fb459356e834505ad4143bac3e8e0"
+},
+{
+"path": "weather/TAS_Central_Highlands.csv.gz",
+"bytes": 979493,
+"sha256": "7a5ed8275336472c7743a0b4a9ddda95a8e7d0be45cc90ca4c189372e7c84941"
+},
+{
+"path": "weather/TAS_North_West.csv.gz",
+"bytes": 978628,
+"sha256": "0a8825fe69052220e4ab55d86b6bb50a8f75d553db9975307f7dc7c79c915ce3"
+},
+{
+"path": "weather/VIC_Gippsland.csv.gz",
+"bytes": 980410,
+"sha256": "1e7304b22d66ef34076f0db3fdcb5fdbd1dd8aad0232505fe124cd3d52da310e"
+},
+{
+"path": "weather/VIC_Murray_River.csv.gz",
+"bytes": 999514,
+"sha256": "e7251643b6c04a46d470b0824fd18229926165d330d4775e8ef4e13e90dc36d4"
+},
+{
+"path": "weather/VIC_Western.csv.gz",
+"bytes": 984627,
+"sha256": "20e89d7b8b24539c57d4ae5e799f52c1c9eafc8909b6aeebe549cf1c6507d1b6"
+},
+{
+"path": "weather/WA_Goldfields.csv.gz",
+"bytes": 1010840,
+"sha256": "068c3778069573e64a38b31009296794876fb669282656ce1c52cd4301d5ee34"
+},
+{
+"path": "weather/WA_Kimberley.csv.gz",
+"bytes": 975227,
+"sha256": "570893f0e3530ad19b0b2996049ea569069e56a6ec41289a67c53cf31d7c437a"
+},
+{
+"path": "weather/WA_Mid_West.csv.gz",
+"bytes": 1004544,
+"sha256": "e959ecd106d85c243e3b8ffa286d606a02067afdeba5b04609944d11e8bf8ee3"
+},
+{
+"path": "weather/WA_Pilbara.csv.gz",
+"bytes": 999990,
+"sha256": "23c88723f624a948218895dbbb17260e4511158146d09f0c2b2c202217cab75a"
+},
+{
+"path": "weather/WA_South_Wheatbelt.csv.gz",
+"bytes": 998366,
+"sha256": "d52b503772d7f6c478193b57f7cd8cfa60b9552f82d701186d786c8194e96f69"
+},
+{
+"path": "weather/sites.json",
+"bytes": 1933,
+"sha256": "9204c2ecb4621a6366710cd8fac9d4423a8d3ed4206bdec19a4a2bb739d61976"
+},
+{
+"path": "weather/waves_bass.csv.gz",
+"bytes": 25998,
+"sha256": "9e428aa779a2a824618f2dc0826ed0da2797024af8a080064248c1e8dc06974d"
+},
+{
+"path": "weather/waves_bonney.csv.gz",
+"bytes": 25950,
+"sha256": "116e3014f4808b798d34b3bae875f31c7cbc3aa1300b30f368f4d6301b7a3fcb"
+},
+{
+"path": "weather/waves_nsw_south.csv.gz",
+"bytes": 25858,
+"sha256": "a47d29a3da0b94e6a9ae1f7b236b30d34f9b6a192b0b9f88d9b2f80bdf38d6bf"
+},
+{
+"path": "weather/waves_sa_gulfs.csv.gz",
+"bytes": 25680,
+"sha256": "948a435efe98304b6a10e5b528c19471c59c5270d3f375fe3798a70c7d1a3ad6"
+},
+{
+"path": "weather/waves_sa_shelf.csv.gz",
+"bytes": 25778,
+"sha256": "dccd80955d4dc2e74bebbe911605012a8b6848bcd0e6c586dd4ece4bd0aed1dd"
+},
+{
+"path": "weather/waves_tas_e.csv.gz",
+"bytes": 26489,
+"sha256": "bc40c1bfe0fb1a1f6d69cb1d8963b24957d9c1dc18b81b03e9c0aa18c50b8e1b"
+},
+{
+"path": "weather/waves_tas_se.csv.gz",
+"bytes": 26188,
+"sha256": "80fbaff4db78faa0a61c8f8d0440d10d068eb0ba691f17a758253b311c0c1fd4"
+},
+{
+"path": "weather/waves_wa_south.csv.gz",
+"bytes": 25881,
+"sha256": "e4901679355aeb488fb175b3ada864f9ed525cecfd9cd7d61ba932dce7f7c71f"
+},
+{
+"path": "weather/waves_wa_west.csv.gz",
+"bytes": 25506,
+"sha256": "098e2d0f18cb58f449f1130b20e067583622e83e90f34763dec6f11c92f2b1d7"
+}
+]
+}

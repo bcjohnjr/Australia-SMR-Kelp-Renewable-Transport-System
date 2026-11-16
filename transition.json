@@ -1,0 +1,241 @@
+{
+ "rows": [
+  {
+   "year": 2025,
+   "electric_twh": 0.0,
+   "liquid_fossil_twh": 617.033688888889,
+   "liquid_renewable_twh": 0.0,
+   "wtw_mt": 194.87026979784002,
+   "wtw_el_only_mt": 194.87026979784002,
+   "imports_gl": 59.81429951705231
+  },
+  {
+   "year": 2026,
+   "electric_twh": 4.324194754662824,
+   "liquid_fossil_twh": 611.9588892630732,
+   "liquid_renewable_twh": 0.7506048711529227,
+   "wtw_mt": 193.33865901128596,
+   "wtw_el_only_mt": 193.5490747207832,
+   "imports_gl": 59.30814154057248
+  },
+  {
+   "year": 2027,
+   "electric_twh": 9.995161410209436,
+   "liquid_fossil_twh": 605.2837819837694,
+   "liquid_renewable_twh": 1.7547454949101189,
+   "wtw_mt": 191.3240781842663,
+   "wtw_el_only_mt": 191.81604669636405,
+   "imports_gl": 58.64284763711143
+  },
+  {
+   "year": 2028,
+   "electric_twh": 17.364659018831286,
+   "liquid_fossil_twh": 596.5751020312108,
+   "liquid_renewable_twh": 3.0939278388468177,
+   "wtw_mt": 188.6957876869843,
+   "wtw_el_only_mt": 189.56336199766903,
+   "imports_gl": 57.77568908301918
+  },
+  {
+   "year": 2029,
+   "electric_twh": 26.83040939073561,
+   "liquid_fossil_twh": 585.3306570227568,
+   "liquid_renewable_twh": 4.872622475396535,
+   "wtw_mt": 185.302273906037,
+   "wtw_el_only_mt": 186.66891203071762,
+   "imports_gl": 56.657403363747505
+  },
+  {
+   "year": 2030,
+   "electric_twh": 38.81225245122853,
+   "liquid_fossil_twh": 570.9992036579521,
+   "liquid_renewable_twh": 7.222232779708311,
+   "wtw_mt": 180.9772791990587,
+   "wtw_el_only_mt": 183.00347611719542,
+   "imports_gl": 55.23434233633614
+  },
+  {
+   "year": 2031,
+   "electric_twh": 53.70914514408091,
+   "liquid_fossil_twh": 553.0207841801953,
+   "liquid_renewable_twh": 10.303759564612735,
+   "wtw_mt": 175.55203351308484,
+   "wtw_el_only_mt": 178.44374122306505,
+   "imports_gl": 53.452679137844186
+  },
+  {
+   "year": 2032,
+   "electric_twh": 71.8361208979832,
+   "liquid_fossil_twh": 530.8902787825238,
+   "liquid_renewable_twh": 14.307289208381876,
+   "wtw_mt": 168.87453222626243,
+   "wtw_el_only_mt": 172.89148501014546,
+   "imports_gl": 51.2648890074484
+  },
+  {
+   "year": 2033,
+   "electric_twh": 93.34750667102199,
+   "liquid_fossil_twh": 504.24070535152305,
+   "liquid_renewable_twh": 19.44547686634391,
+   "wtw_mt": 160.83481863537898,
+   "wtw_el_only_mt": 166.29707705390646,
+   "imports_gl": 48.638050462447126
+  },
+  {
+   "year": 2034,
+   "electric_twh": 118.16170216981477,
+   "liquid_fossil_twh": 472.9345857207924,
+   "liquid_renewable_twh": 25.937400998281667,
+   "wtw_mt": 151.39272355810513,
+   "wtw_el_only_mt": 158.68271395390929,
+   "imports_gl": 45.562665171373965
+  },
+  {
+   "year": 2035,
+   "electric_twh": 145.90902796749484,
+   "liquid_fossil_twh": 437.1453612523725,
+   "liquid_renewable_twh": 33.9792996690216,
+   "wtw_mt": 140.60254883919114,
+   "wtw_el_only_mt": 150.15886757908302,
+   "imports_gl": 42.06010067712486
+  },
+  {
+   "year": 2036,
+   "electric_twh": 175.92250784559238,
+   "liquid_fossil_twh": 397.41018282011225,
+   "liquid_renewable_twh": 43.70099822318427,
+   "wtw_mt": 128.62892230711682,
+   "wtw_el_only_mt": 140.92781217639006,
+   "imports_gl": 38.18683438842532
+  },
+  {
+   "year": 2037,
+   "electric_twh": 207.28125449340016,
+   "liquid_fossil_twh": 354.6399574437184,
+   "liquid_renewable_twh": 55.11247695177035,
+   "wtw_mt": 115.74941799059978,
+   "wtw_el_only_mt": 131.27106118409816,
+   "imports_gl": 34.034342849663126
+  },
+  {
+   "year": 2038,
+   "electric_twh": 238.90245870436124,
+   "liquid_fossil_twh": 310.0775758642722,
+   "liquid_renewable_twh": 68.05365432025548,
+   "wtw_mt": 102.34117390624372,
+   "wtw_el_only_mt": 121.5216361303126,
+   "imports_gl": 29.72414842726914
+  },
+  {
+   "year": 2039,
+   "electric_twh": 269.66661543837176,
+   "liquid_fossil_twh": 265.1987742558462,
+   "liquid_renewable_twh": 82.16829919467092,
+   "wtw_mt": 88.85005013548212,
+   "wtw_el_only_mt": 112.02563727731984,
+   "imports_gl": 25.397869089999027
+  },
+  {
+   "year": 2040,
+   "electric_twh": 298.55288110681585,
+   "liquid_fossil_twh": 221.55792668692416,
+   "liquid_renewable_twh": 96.92288109514888,
+   "wtw_mt": 75.7434630647293,
+   "wtw_el_only_mt": 103.10017502686136,
+   "imports_gl": 21.202652895265317
+  },
+  {
+   "year": 2041,
+   "electric_twh": 324.7569076753083,
+   "liquid_fossil_twh": 180.5993182179538,
+   "liquid_renewable_twh": 111.67746299562687,
+   "wtw_mt": 63.453516684919556,
+   "wtw_el_only_mt": 94.9963575135401,
+   "imports_gl": 17.273831652956
+  },
+  {
+   "year": 2042,
+   "electric_twh": 347.765164573573,
+   "liquid_fossil_twh": 143.4764164452736,
+   "liquid_renewable_twh": 125.7921078700423,
+   "wtw_mt": 52.32332890311998,
+   "wtw_el_only_mt": 87.87563583887601,
+   "imports_gl": 13.718531382152122
+  },
+  {
+   "year": 2043,
+   "electric_twh": 367.37132728993316,
+   "liquid_fossil_twh": 110.92907636042831,
+   "liquid_renewable_twh": 138.7332852385274,
+   "wtw_mt": 42.571236231862216,
+   "wtw_el_only_mt": 81.80419931304128,
+   "imports_gl": 10.604675207462432
+  },
+  {
+   "year": 2044,
+   "electric_twh": 383.6387114013859,
+   "liquid_fossil_twh": 83.25021352038952,
+   "liquid_renewable_twh": 150.1447639671135,
+   "wtw_mt": 34.281813578900575,
+   "wtw_el_only_mt": 76.7642990187186,
+   "imports_gl": 7.958199342893293
+  },
+  {
+   "year": 2045,
+   "electric_twh": 396.8283358506063,
+   "liquid_fossil_twh": 60.33889051700637,
+   "liquid_renewable_twh": 159.8664625212762,
+   "wtw_mt": 27.422401063787767,
+   "wtw_el_only_mt": 72.67642890835873,
+   "imports_gl": 5.768186038170979
+  },
+  {
+   "year": 2046,
+   "electric_twh": 407.31732722027846,
+   "liquid_fossil_twh": 41.80800047659431,
+   "liquid_renewable_twh": 167.90836119201614,
+   "wtw_mt": 21.875521491051714,
+   "wtw_el_only_mt": 69.42464160321379,
+   "imports_gl": 3.996996411056806
+  },
+  {
+   "year": 2047,
+   "electric_twh": 415.52718963417567,
+   "liquid_fossil_twh": 27.106213930759356,
+   "liquid_renewable_twh": 174.40028532395388,
+   "wtw_mt": 17.47525749850352,
+   "wtw_el_only_mt": 66.87887373406052,
+   "imports_gl": 2.591697174365531
+  },
+  {
+   "year": 2048,
+   "electric_twh": 421.871707372786,
+   "liquid_fossil_twh": 15.623508534186973,
+   "liquid_renewable_twh": 179.53847298191593,
+   "wtw_mt": 14.038603322532145,
+   "wtw_el_only_mt": 64.91119951234597,
+   "imports_gl": 1.4939500662863134
+  },
+  {
+   "year": 2049,
+   "electric_twh": 426.72560988790457,
+   "liquid_fossil_twh": 6.766076375299272,
+   "liquid_renewable_twh": 183.54200262568506,
+   "wtw_mt": 11.387672630450576,
+   "wtw_el_only_mt": 63.40563403251936,
+   "imports_gl": 0.6470432118333047
+  },
+  {
+   "year": 2050,
+   "electric_twh": 430.4101594782994,
+   "liquid_fossil_twh": 0.0,
+   "liquid_renewable_twh": 186.6235294105895,
+   "wtw_mt": 9.362627994176119,
+   "wtw_el_only_mt": 62.26266740391649,
+   "imports_gl": 0.0
+  }
+ ],
+ "cumulative_mt": 2737.2700113609703,
+ "cumulative_el_only_mt": 3315.791284854252,
+ "avoided_vs_el_only_mt": 578.5212734932816
+}

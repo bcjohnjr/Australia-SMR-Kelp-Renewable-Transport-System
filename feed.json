@@ -1,0 +1,3531 @@
+{
+ "2025": {
+  "no swap": {
+   "case": "no swap",
+   "year": "2025",
+   "feasible": true,
+   "amino_acids": {
+    "salmon": {
+     "lys": 0.024,
+     "met": 0.007
+    },
+    "prawn": {
+     "lys": 0.021000000000000005,
+     "met": 0.007
+    },
+    "barramundi": {
+     "lys": 0.024509626810288614,
+     "met": 0.008
+    },
+    "kingfish": {
+     "lys": 0.025,
+     "met": 0.008
+    }
+   },
+   "feed_t": {
+    "salmon": 104000.0,
+    "prawn": 16800.0,
+    "barramundi": 15000.0,
+    "kingfish": 6400.0
+   },
+   "feed_total_t": 142200.0,
+   "cost_aud_m": 215.98885697028368,
+   "cost_aud_t": 1518.908980100448,
+   "cost_by_species_aud_t": {
+    "salmon": 1640.0055712035053,
+    "prawn": 961.3624013662857,
+    "barramundi": 1272.8766111711682,
+    "kingfish": 1591.287508530954
+   },
+   "use_t": {
+    "wild fishmeal": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "wild fish oil": {
+     "salmon": 5234.96923510278,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "salmon meal": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "salmon oil": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "prawn meal": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "barramundi meal": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "barramundi oil": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "kingfish meal": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "kingfish oil": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "tuna hydrolysate": {
+     "salmon": 2000.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "poultry meal": {
+     "salmon": 26000.0,
+     "prawn": 4200.0,
+     "barramundi": 3750.0,
+     "kingfish": 1600.0
+    },
+    "lupin kernel meal": {
+     "salmon": 15689.529438427067,
+     "prawn": 4200.0,
+     "barramundi": 3750.0,
+     "kingfish": 1580.0506785630416
+    },
+    "canola meal": {
+     "salmon": 0.0,
+     "prawn": 2520.0,
+     "barramundi": 2250.0,
+     "kingfish": 0.0
+    },
+    "canola oil": {
+     "salmon": 20800.0,
+     "prawn": 0.0,
+     "barramundi": 878.4148284944575,
+     "kingfish": 641.2431638099712
+    },
+    "DHA canola oil": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "faba protein concentrate": {
+     "salmon": 20800.0,
+     "prawn": 33.163639357851494,
+     "barramundi": 2447.5927880160607,
+     "kingfish": 1280.0
+    },
+    "wheat gluten": {
+     "salmon": 2502.447041048623,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 464.7128809579722
+    },
+    "wheat": {
+     "salmon": 8320.0,
+     "prawn": 5040.0,
+     "barramundi": 1324.5360599196954,
+     "kingfish": 512.0
+    },
+    "solar single-cell protein": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "Novacq": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "insect meal (BSF)": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "algal DHA oil": {
+     "salmon": 128.23452818111028,
+     "prawn": 186.42109092905233,
+     "barramundi": 266.6666666666667,
+     "kingfish": 170.66666666666666
+    },
+    "kelp meal": {
+     "salmon": 0.0,
+     "prawn": 221.01816385289104,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "L-lysine HCl": {
+     "salmon": 264.70376185469115,
+     "prawn": 38.8524226510027,
+     "barramundi": 0.0,
+     "kingfish": 9.544231040150288
+    },
+    "DL-methionine": {
+     "salmon": 180.11599538573046,
+     "prawn": 24.544683209202372,
+     "barramundi": 32.789656903119536,
+     "kingfish": 13.782378962197695
+    }
+   },
+   "total_t": {
+    "wild fishmeal": 0.0,
+    "wild fish oil": 5234.96923510278,
+    "salmon meal": 0.0,
+    "salmon oil": 0.0,
+    "prawn meal": 0.0,
+    "barramundi meal": 0.0,
+    "barramundi oil": 0.0,
+    "kingfish meal": 0.0,
+    "kingfish oil": 0.0,
+    "tuna hydrolysate": 2000.0,
+    "poultry meal": 35550.0,
+    "lupin kernel meal": 25219.58011699011,
+    "canola meal": 4770.0,
+    "canola oil": 22319.65799230443,
+    "DHA canola oil": 0.0,
+    "faba protein concentrate": 24560.75642737391,
+    "wheat gluten": 2967.159922006595,
+    "wheat": 15196.536059919696,
+    "solar single-cell protein": 0.0,
+    "Novacq": 0.0,
+    "insect meal (BSF)": 0.0,
+    "algal DHA oil": 751.9889524434959,
+    "kelp meal": 221.01816385289104,
+    "L-lysine HCl": 313.10041554584416,
+    "DL-methionine": 251.23271446025007
+   },
+   "cropland_ha": {
+    "DHA canola oil": 0.0,
+    "faba protein concentrate": 37785.779119036786,
+    "wheat gluten": 11868.63968802638,
+    "wheat": 6078.614423967878,
+    "canola (meal and oil)": 33312.92237657378,
+    "lupin": 25734.26542550011
+   },
+   "cropland_total_ha": 114780.22103310493,
+   "wild_fish_t": 19036.251764010107,
+   "fifo": 0.18216508865081443,
+   "swaps_t": {},
+   "scp_twh": 0.0,
+   "byproduct_available_t": {
+    "salmon": {
+     "meal": 6800.000000000001,
+     "oil": 4000.0
+    },
+    "prawn": {
+     "meal": 472.5,
+     "oil": 0.0
+    },
+    "barramundi": {
+     "meal": 1000.0,
+     "oil": 200.0
+    },
+    "kingfish": {
+     "meal": 400.0,
+     "oil": 100.0
+    }
+   }
+  },
+  "cross-species swap": {
+   "case": "cross-species swap",
+   "year": "2025",
+   "feasible": true,
+   "amino_acids": {
+    "salmon": {
+     "lys": 0.024,
+     "met": 0.007
+    },
+    "prawn": {
+     "lys": 0.021000000000000005,
+     "met": 0.007
+    },
+    "barramundi": {
+     "lys": 0.024509626810288614,
+     "met": 0.008
+    },
+    "kingfish": {
+     "lys": 0.027661545353189453,
+     "met": 0.008
+    }
+   },
+   "feed_t": {
+    "salmon": 104000.0,
+    "prawn": 16800.0,
+    "barramundi": 15000.0,
+    "kingfish": 6400.0
+   },
+   "feed_total_t": 142200.0,
+   "cost_aud_m": 214.58566945892858,
+   "cost_aud_t": 1509.0412760824795,
+   "cost_by_species_aud_t": {
+    "salmon": 1634.2110391914034,
+    "prawn": 961.3624013662857,
+    "barramundi": 1249.293942802578,
+    "kingfish": 1521.472484067248
+   },
+   "use_t": {
+    "wild fishmeal": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "wild fish oil": {
+     "salmon": 4651.703555793002,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "salmon meal": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 1463.939475989488
+    },
+    "salmon oil": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 1068.3423589797455,
+     "kingfish": 640.6576885079713
+    },
+    "prawn meal": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "barramundi meal": {
+     "salmon": 1000.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "barramundi oil": {
+     "salmon": 200.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "kingfish meal": {
+     "salmon": 400.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "kingfish oil": {
+     "salmon": 100.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "tuna hydrolysate": {
+     "salmon": 2000.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "poultry meal": {
+     "salmon": 26000.0,
+     "prawn": 4200.0,
+     "barramundi": 3750.0,
+     "kingfish": 1600.0
+    },
+    "lupin kernel meal": {
+     "salmon": 15195.10166399541,
+     "prawn": 4200.0,
+     "barramundi": 3750.0,
+     "kingfish": 1600.0
+    },
+    "canola meal": {
+     "salmon": 0.0,
+     "prawn": 2520.0,
+     "barramundi": 2250.0,
+     "kingfish": 5.0942104005737106
+    },
+    "canola oil": {
+     "salmon": 20800.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "DHA canola oil": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "faba protein concentrate": {
+     "salmon": 20800.0,
+     "prawn": 33.163639357851494,
+     "barramundi": 2447.5927880160607,
+     "kingfish": 426.0686469698174
+    },
+    "wheat gluten": {
+     "salmon": 1776.0655573363933,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "wheat": {
+     "salmon": 8320.0,
+     "prawn": 5040.0,
+     "barramundi": 1324.5360599196954,
+     "kingfish": 512.0
+    },
+    "solar single-cell protein": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "Novacq": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "insect meal (BSF)": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "algal DHA oil": {
+     "salmon": 290.4296887939104,
+     "prawn": 186.42109092905233,
+     "barramundi": 76.73913618137854,
+     "kingfish": 24.239978132149783
+    },
+    "kelp meal": {
+     "salmon": 0.0,
+     "prawn": 221.01816385289104,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "L-lysine HCl": {
+     "salmon": 216.9133806159846,
+     "prawn": 38.8524226510027,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "DL-methionine": {
+     "salmon": 169.7861534652959,
+     "prawn": 24.544683209202372,
+     "barramundi": 32.789656903119536,
+     "kingfish": 0.0
+    }
+   },
+   "total_t": {
+    "wild fishmeal": 0.0,
+    "wild fish oil": 4651.703555793002,
+    "salmon meal": 1463.939475989488,
+    "salmon oil": 1709.000047487717,
+    "prawn meal": 0.0,
+    "barramundi meal": 1000.0,
+    "barramundi oil": 200.0,
+    "kingfish meal": 400.0,
+    "kingfish oil": 100.0,
+    "tuna hydrolysate": 2000.0,
+    "poultry meal": 35550.0,
+    "lupin kernel meal": 24745.10166399541,
+    "canola meal": 4775.0942104005735,
+    "canola oil": 20800.0,
+    "DHA canola oil": 0.0,
+    "faba protein concentrate": 23706.82507434373,
+    "wheat gluten": 1776.0655573363933,
+    "wheat": 15196.536059919696,
+    "solar single-cell protein": 0.0,
+    "Novacq": 0.0,
+    "insect meal (BSF)": 0.0,
+    "algal DHA oil": 577.829894036491,
+    "kelp meal": 221.01816385289104,
+    "L-lysine HCl": 255.7658032669873,
+    "DL-methionine": 227.12049357761782
+   },
+   "cropland_ha": {
+    "DHA canola oil": 0.0,
+    "faba protein concentrate": 36472.03857591343,
+    "wheat gluten": 7104.262229345573,
+    "wheat": 6078.614423967878,
+    "canola (meal and oil)": 31044.776119402984,
+    "lupin": 25250.103738770827
+   },
+   "cropland_total_ha": 105949.7950874007,
+   "wild_fish_t": 16915.285657429096,
+   "fifo": 0.16186876227204877,
+   "swaps_t": {
+    "salmon->kingfish": 2104.5971644974593,
+    "salmon->barramundi": 1068.3423589797455,
+    "barramundi->salmon": 1200.0,
+    "kingfish->salmon": 500.0
+   },
+   "scp_twh": 0.0,
+   "byproduct_available_t": {
+    "salmon": {
+     "meal": 6800.000000000001,
+     "oil": 4000.0
+    },
+    "prawn": {
+     "meal": 472.5,
+     "oil": 0.0
+    },
+    "barramundi": {
+     "meal": 1000.0,
+     "oil": 200.0
+    },
+    "kingfish": {
+     "meal": 400.0,
+     "oil": 100.0
+    }
+   }
+  },
+  "swap, own species allowed": {
+   "case": "swap, own species allowed",
+   "year": "2025",
+   "feasible": true,
+   "amino_acids": {
+    "salmon": {
+     "lys": 0.024,
+     "met": 0.007
+    },
+    "prawn": {
+     "lys": 0.021000000000000005,
+     "met": 0.007
+    },
+    "barramundi": {
+     "lys": 0.024509626810288614,
+     "met": 0.008
+    },
+    "kingfish": {
+     "lys": 0.025,
+     "met": 0.008
+    }
+   },
+   "feed_t": {
+    "salmon": 104000.0,
+    "prawn": 16800.0,
+    "barramundi": 15000.0,
+    "kingfish": 6400.0
+   },
+   "feed_total_t": 142200.0,
+   "cost_aud_m": 209.37498419708032,
+   "cost_aud_t": 1472.3979198106913,
+   "cost_by_species_aud_t": {
+    "salmon": 1580.0273867003186,
+    "prawn": 961.3624013662857,
+    "barramundi": 1270.6692037637606,
+    "kingfish": 1537.6889970058082
+   },
+   "use_t": {
+    "wild fishmeal": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "wild fish oil": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "salmon meal": {
+     "salmon": 6800.000000000001,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "salmon oil": {
+     "salmon": 3235.709209900541,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 764.2907900994592
+    },
+    "prawn meal": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "barramundi meal": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "barramundi oil": {
+     "salmon": 200.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "kingfish meal": {
+     "salmon": 296.4936570210438,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 103.50634297895617
+    },
+    "kingfish oil": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 100.0,
+     "kingfish": 0.0
+    },
+    "tuna hydrolysate": {
+     "salmon": 1904.4373351571448,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 95.56266484285523
+    },
+    "poultry meal": {
+     "salmon": 26000.0,
+     "prawn": 4200.0,
+     "barramundi": 3750.0,
+     "kingfish": 1600.0
+    },
+    "lupin kernel meal": {
+     "salmon": 16038.51556908929,
+     "prawn": 4200.0,
+     "barramundi": 3750.0,
+     "kingfish": 1600.0
+    },
+    "canola meal": {
+     "salmon": 0.0,
+     "prawn": 2520.0,
+     "barramundi": 2250.0,
+     "kingfish": 0.0
+    },
+    "canola oil": {
+     "salmon": 20537.87750246023,
+     "prawn": 0.0,
+     "barramundi": 796.1926062722354,
+     "kingfish": 0.0
+    },
+    "DHA canola oil": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "faba protein concentrate": {
+     "salmon": 16896.746488358815,
+     "prawn": 33.163639357851494,
+     "barramundi": 2447.5927880160607,
+     "kingfish": 1280.0
+    },
+    "wheat gluten": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 275.80576325341866
+    },
+    "wheat": {
+     "salmon": 8320.0,
+     "prawn": 5040.0,
+     "barramundi": 1324.5360599196954,
+     "kingfish": 512.0
+    },
+    "solar single-cell protein": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "Novacq": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "insect meal (BSF)": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "algal DHA oil": {
+     "salmon": 1466.8657331880077,
+     "prawn": 186.42109092905233,
+     "barramundi": 248.88888888888889,
+     "kingfish": 28.245377923103568
+    },
+    "kelp meal": {
+     "salmon": 0.0,
+     "prawn": 221.01816385289104,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "L-lysine HCl": {
+     "salmon": 106.63006937533437,
+     "prawn": 38.8524226510027,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "DL-methionine": {
+     "salmon": 116.72443544958912,
+     "prawn": 24.544683209202372,
+     "barramundi": 32.789656903119536,
+     "kingfish": 12.589060902207226
+    }
+   },
+   "total_t": {
+    "wild fishmeal": 0.0,
+    "wild fish oil": 0.0,
+    "salmon meal": 6800.000000000001,
+    "salmon oil": 4000.0,
+    "prawn meal": 0.0,
+    "barramundi meal": 0.0,
+    "barramundi oil": 200.0,
+    "kingfish meal": 400.0,
+    "kingfish oil": 100.0,
+    "tuna hydrolysate": 2000.0,
+    "poultry meal": 35550.0,
+    "lupin kernel meal": 25588.51556908929,
+    "canola meal": 4770.0,
+    "canola oil": 21334.070108732463,
+    "DHA canola oil": 0.0,
+    "faba protein concentrate": 20657.502915732726,
+    "wheat gluten": 275.80576325341866,
+    "wheat": 15196.536059919696,
+    "solar single-cell protein": 0.0,
+    "Novacq": 0.0,
+    "insect meal (BSF)": 0.0,
+    "algal DHA oil": 1930.4210909290525,
+    "kelp meal": 221.01816385289104,
+    "L-lysine HCl": 145.48249202633707,
+    "DL-methionine": 186.64783646411826
+   },
+   "cropland_ha": {
+    "DHA canola oil": 0.0,
+    "faba protein concentrate": 31780.773716511885,
+    "wheat gluten": 1103.2230530136746,
+    "wheat": 6078.614423967878,
+    "canola (meal and oil)": 31841.895684675317,
+    "lupin": 26110.73017254009
+   },
+   "cropland_total_ha": 96915.23705070885,
+   "wild_fish_t": 0.0,
+   "fifo": 0.0,
+   "swaps_t": {
+    "salmon->salmon": 10035.709209900542,
+    "salmon->kingfish": 764.2907900994592,
+    "barramundi->salmon": 200.0,
+    "kingfish->salmon": 296.4936570210438,
+    "kingfish->kingfish": 103.50634297895617,
+    "kingfish->barramundi": 100.0
+   },
+   "scp_twh": 0.0,
+   "byproduct_available_t": {
+    "salmon": {
+     "meal": 6800.000000000001,
+     "oil": 4000.0
+    },
+    "prawn": {
+     "meal": 472.5,
+     "oil": 0.0
+    },
+    "barramundi": {
+     "meal": 1000.0,
+     "oil": 200.0
+    },
+    "kingfish": {
+     "meal": 400.0,
+     "oil": 100.0
+    }
+   }
+  },
+  "fish-free, no swap": {
+   "case": "fish-free, no swap",
+   "year": "2025",
+   "feasible": true,
+   "amino_acids": {
+    "salmon": {
+     "lys": 0.024,
+     "met": 0.007
+    },
+    "prawn": {
+     "lys": 0.021000000000000005,
+     "met": 0.007
+    },
+    "barramundi": {
+     "lys": 0.024509626810288614,
+     "met": 0.008
+    },
+    "kingfish": {
+     "lys": 0.025,
+     "met": 0.008
+    }
+   },
+   "feed_t": {
+    "salmon": 104000.0,
+    "prawn": 16800.0,
+    "barramundi": 15000.0,
+    "kingfish": 6400.0
+   },
+   "feed_total_t": 142200.0,
+   "cost_aud_m": 216.51235389379394,
+   "cost_aud_t": 1522.590393064655,
+   "cost_by_species_aud_t": {
+    "salmon": 1645.0391954680272,
+    "prawn": 961.3624013662857,
+    "barramundi": 1272.8766111711682,
+    "kingfish": 1591.287508530954
+   },
+   "use_t": {
+    "wild fishmeal": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "wild fish oil": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "salmon meal": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "salmon oil": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "prawn meal": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "barramundi meal": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "barramundi oil": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "kingfish meal": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "kingfish oil": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "tuna hydrolysate": {
+     "salmon": 2000.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "poultry meal": {
+     "salmon": 26000.0,
+     "prawn": 4200.0,
+     "barramundi": 3750.0,
+     "kingfish": 1600.0
+    },
+    "lupin kernel meal": {
+     "salmon": 15689.529438427064,
+     "prawn": 4200.0,
+     "barramundi": 3750.0,
+     "kingfish": 1580.0506785630416
+    },
+    "canola meal": {
+     "salmon": 0.0,
+     "prawn": 2520.0,
+     "barramundi": 2250.0,
+     "kingfish": 0.0
+    },
+    "canola oil": {
+     "salmon": 20800.0,
+     "prawn": 0.0,
+     "barramundi": 878.4148284944575,
+     "kingfish": 641.2431638099712
+    },
+    "DHA canola oil": {
+     "salmon": 4038.4048385078586,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "faba protein concentrate": {
+     "salmon": 20800.0,
+     "prawn": 33.163639357851494,
+     "barramundi": 2447.5927880160607,
+     "kingfish": 1280.0
+    },
+    "wheat gluten": {
+     "salmon": 2502.4470410486247,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 464.7128809579722
+    },
+    "wheat": {
+     "salmon": 8320.0,
+     "prawn": 5040.0,
+     "barramundi": 1324.5360599196954,
+     "kingfish": 512.0
+    },
+    "solar single-cell protein": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "Novacq": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "insect meal (BSF)": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "algal DHA oil": {
+     "salmon": 1324.7989247760313,
+     "prawn": 186.42109092905233,
+     "barramundi": 266.6666666666667,
+     "kingfish": 170.66666666666666
+    },
+    "kelp meal": {
+     "salmon": 0.0,
+     "prawn": 221.01816385289104,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "L-lysine HCl": {
+     "salmon": 264.7037618546912,
+     "prawn": 38.8524226510027,
+     "barramundi": 0.0,
+     "kingfish": 9.544231040150288
+    },
+    "DL-methionine": {
+     "salmon": 180.11599538573046,
+     "prawn": 24.544683209202372,
+     "barramundi": 32.789656903119536,
+     "kingfish": 13.782378962197695
+    }
+   },
+   "total_t": {
+    "wild fishmeal": 0.0,
+    "wild fish oil": 0.0,
+    "salmon meal": 0.0,
+    "salmon oil": 0.0,
+    "prawn meal": 0.0,
+    "barramundi meal": 0.0,
+    "barramundi oil": 0.0,
+    "kingfish meal": 0.0,
+    "kingfish oil": 0.0,
+    "tuna hydrolysate": 2000.0,
+    "poultry meal": 35550.0,
+    "lupin kernel meal": 25219.580116990106,
+    "canola meal": 4770.0,
+    "canola oil": 22319.65799230443,
+    "DHA canola oil": 4038.4048385078586,
+    "faba protein concentrate": 24560.75642737391,
+    "wheat gluten": 2967.159922006597,
+    "wheat": 15196.536059919696,
+    "solar single-cell protein": 0.0,
+    "Novacq": 0.0,
+    "insect meal (BSF)": 0.0,
+    "algal DHA oil": 1948.5533490384169,
+    "kelp meal": 221.01816385289104,
+    "L-lysine HCl": 313.1004155458442,
+    "DL-methionine": 251.23271446025007
+   },
+   "cropland_ha": {
+    "DHA canola oil": 6730.674730846431,
+    "faba protein concentrate": 37785.779119036786,
+    "wheat gluten": 11868.639688026387,
+    "wheat": 6078.614423967878,
+    "canola (meal and oil)": 33312.92237657378,
+    "lupin": 25734.265425500107
+   },
+   "cropland_total_ha": 121510.89576395137,
+   "wild_fish_t": 0.0,
+   "fifo": 0.0,
+   "swaps_t": {},
+   "scp_twh": 0.0,
+   "byproduct_available_t": {
+    "salmon": {
+     "meal": 6800.000000000001,
+     "oil": 4000.0
+    },
+    "prawn": {
+     "meal": 472.5,
+     "oil": 0.0
+    },
+    "barramundi": {
+     "meal": 1000.0,
+     "oil": 200.0
+    },
+    "kingfish": {
+     "meal": 400.0,
+     "oil": 100.0
+    }
+   }
+  },
+  "fish-free, cross-species swap": {
+   "case": "fish-free, cross-species swap",
+   "year": "2025",
+   "feasible": true,
+   "amino_acids": {
+    "salmon": {
+     "lys": 0.024,
+     "met": 0.007
+    },
+    "prawn": {
+     "lys": 0.021000000000000005,
+     "met": 0.007
+    },
+    "barramundi": {
+     "lys": 0.024509626810288614,
+     "met": 0.008
+    },
+    "kingfish": {
+     "lys": 0.027661545353189453,
+     "met": 0.008
+    }
+   },
+   "feed_t": {
+    "salmon": 104000.0,
+    "prawn": 16800.0,
+    "barramundi": 15000.0,
+    "kingfish": 6400.0
+   },
+   "feed_total_t": 142200.0,
+   "cost_aud_m": 215.05083981450787,
+   "cost_aud_t": 1512.3125162764268,
+   "cost_by_species_aud_t": {
+    "salmon": 1638.6838310719736,
+    "prawn": 961.3624013662857,
+    "barramundi": 1249.293942802578,
+    "kingfish": 1521.472484067248
+   },
+   "use_t": {
+    "wild fishmeal": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "wild fish oil": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "salmon meal": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 1463.939475989488
+    },
+    "salmon oil": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 1068.3423589797455,
+     "kingfish": 640.6576885079713
+    },
+    "prawn meal": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "barramundi meal": {
+     "salmon": 1000.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "barramundi oil": {
+     "salmon": 200.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "kingfish meal": {
+     "salmon": 400.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "kingfish oil": {
+     "salmon": 100.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "tuna hydrolysate": {
+     "salmon": 2000.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "poultry meal": {
+     "salmon": 26000.0,
+     "prawn": 4200.0,
+     "barramundi": 3750.0,
+     "kingfish": 1600.0
+    },
+    "lupin kernel meal": {
+     "salmon": 15195.101663995412,
+     "prawn": 4200.0,
+     "barramundi": 3750.0,
+     "kingfish": 1600.0
+    },
+    "canola meal": {
+     "salmon": 0.0,
+     "prawn": 2520.0,
+     "barramundi": 2250.0,
+     "kingfish": 5.0942104005737106
+    },
+    "canola oil": {
+     "salmon": 20800.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "DHA canola oil": {
+     "salmon": 3588.457028754601,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "faba protein concentrate": {
+     "salmon": 20800.0,
+     "prawn": 33.163639357851494,
+     "barramundi": 2447.5927880160607,
+     "kingfish": 426.0686469698174
+    },
+    "wheat gluten": {
+     "salmon": 1776.0655573363922,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "wheat": {
+     "salmon": 8320.0,
+     "prawn": 5040.0,
+     "barramundi": 1324.5360599196954,
+     "kingfish": 512.0
+    },
+    "solar single-cell protein": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "Novacq": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "insect meal (BSF)": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "algal DHA oil": {
+     "salmon": 1353.6762158323108,
+     "prawn": 186.42109092905233,
+     "barramundi": 76.73913618137854,
+     "kingfish": 24.239978132149783
+    },
+    "kelp meal": {
+     "salmon": 0.0,
+     "prawn": 221.01816385289104,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "L-lysine HCl": {
+     "salmon": 216.9133806159846,
+     "prawn": 38.8524226510027,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "DL-methionine": {
+     "salmon": 169.78615346529594,
+     "prawn": 24.544683209202372,
+     "barramundi": 32.789656903119536,
+     "kingfish": 0.0
+    }
+   },
+   "total_t": {
+    "wild fishmeal": 0.0,
+    "wild fish oil": 0.0,
+    "salmon meal": 1463.939475989488,
+    "salmon oil": 1709.000047487717,
+    "prawn meal": 0.0,
+    "barramundi meal": 1000.0,
+    "barramundi oil": 200.0,
+    "kingfish meal": 400.0,
+    "kingfish oil": 100.0,
+    "tuna hydrolysate": 2000.0,
+    "poultry meal": 35550.0,
+    "lupin kernel meal": 24745.10166399541,
+    "canola meal": 4775.0942104005735,
+    "canola oil": 20800.0,
+    "DHA canola oil": 3588.457028754601,
+    "faba protein concentrate": 23706.82507434373,
+    "wheat gluten": 1776.0655573363922,
+    "wheat": 15196.536059919696,
+    "solar single-cell protein": 0.0,
+    "Novacq": 0.0,
+    "insect meal (BSF)": 0.0,
+    "algal DHA oil": 1641.0764210748914,
+    "kelp meal": 221.01816385289104,
+    "L-lysine HCl": 255.7658032669873,
+    "DL-methionine": 227.12049357761785
+   },
+   "cropland_ha": {
+    "DHA canola oil": 5980.761714591003,
+    "faba protein concentrate": 36472.03857591343,
+    "wheat gluten": 7104.262229345569,
+    "wheat": 6078.614423967878,
+    "canola (meal and oil)": 31044.776119402984,
+    "lupin": 25250.103738770827
+   },
+   "cropland_total_ha": 111930.5568019917,
+   "wild_fish_t": 0.0,
+   "fifo": 0.0,
+   "swaps_t": {
+    "salmon->kingfish": 2104.5971644974593,
+    "salmon->barramundi": 1068.3423589797455,
+    "barramundi->salmon": 1200.0,
+    "kingfish->salmon": 500.0
+   },
+   "scp_twh": 0.0,
+   "byproduct_available_t": {
+    "salmon": {
+     "meal": 6800.000000000001,
+     "oil": 4000.0
+    },
+    "prawn": {
+     "meal": 472.5,
+     "oil": 0.0
+    },
+    "barramundi": {
+     "meal": 1000.0,
+     "oil": 200.0
+    },
+    "kingfish": {
+     "meal": 400.0,
+     "oil": 100.0
+    }
+   }
+  }
+ },
+ "2050": {
+  "no swap": {
+   "case": "no swap",
+   "year": "2050",
+   "feasible": true,
+   "amino_acids": {
+    "salmon": {
+     "lys": 0.024,
+     "met": 0.007
+    },
+    "prawn": {
+     "lys": 0.021,
+     "met": 0.007000000000000001
+    },
+    "barramundi": {
+     "lys": 0.024509626810288617,
+     "met": 0.008
+    },
+    "kingfish": {
+     "lys": 0.025,
+     "met": 0.008
+    }
+   },
+   "feed_t": {
+    "salmon": 117000.0,
+    "prawn": 64000.0,
+    "barramundi": 45000.0,
+    "kingfish": 19200.0
+   },
+   "feed_total_t": 245200.0,
+   "cost_aud_m": 341.4166112932495,
+   "cost_aud_t": 1392.4005354537092,
+   "cost_by_species_aud_t": {
+    "salmon": 1641.514956746242,
+    "prawn": 961.3624013662858,
+    "barramundi": 1272.8766111711682,
+    "kingfish": 1591.2875085309543
+   },
+   "use_t": {
+    "wild fishmeal": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "wild fish oil": {
+     "salmon": 5910.698423949438,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "salmon meal": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "salmon oil": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "prawn meal": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "barramundi meal": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "barramundi oil": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "kingfish meal": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "kingfish oil": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "tuna hydrolysate": {
+     "salmon": 2000.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "poultry meal": {
+     "salmon": 29250.0,
+     "prawn": 16000.0,
+     "barramundi": 11250.0,
+     "kingfish": 4800.0
+    },
+    "lupin kernel meal": {
+     "salmon": 17530.234397235516,
+     "prawn": 16000.0,
+     "barramundi": 11250.0,
+     "kingfish": 4740.152035689126
+    },
+    "canola meal": {
+     "salmon": 0.0,
+     "prawn": 9600.0,
+     "barramundi": 6750.0,
+     "kingfish": 0.0
+    },
+    "canola oil": {
+     "salmon": 23400.0,
+     "prawn": 0.0,
+     "barramundi": 2635.2444854833734,
+     "kingfish": 1923.7294914299137
+    },
+    "DHA canola oil": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "faba protein concentrate": {
+     "salmon": 23400.0,
+     "prawn": 126.33767374419602,
+     "barramundi": 7342.778364048183,
+     "kingfish": 3840.0
+    },
+    "wheat gluten": {
+     "salmon": 3145.5770685096563,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 1394.1386428739158
+    },
+    "wheat": {
+     "salmon": 9360.0,
+     "prawn": 19200.0,
+     "barramundi": 3973.6081797590846,
+     "kingfish": 1536.0
+    },
+    "solar single-cell protein": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "Novacq": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "insect meal (BSF)": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "algal DHA oil": {
+     "salmon": 146.8317415313364,
+     "prawn": 710.175584491628,
+     "barramundi": 800.0,
+     "kingfish": 512.0
+    },
+    "kelp meal": {
+     "salmon": 0.0,
+     "prawn": 841.9739575348237,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "L-lysine HCl": {
+     "salmon": 312.88899734067024,
+     "prawn": 148.00922914667666,
+     "barramundi": 0.0,
+     "kingfish": 28.632693120450877
+    },
+    "DL-methionine": {
+     "salmon": 203.76937143338404,
+     "prawn": 93.50355508267567,
+     "barramundi": 98.36897070935859,
+     "kingfish": 41.347136886593084
+    }
+   },
+   "total_t": {
+    "wild fishmeal": 0.0,
+    "wild fish oil": 5910.698423949438,
+    "salmon meal": 0.0,
+    "salmon oil": 0.0,
+    "prawn meal": 0.0,
+    "barramundi meal": 0.0,
+    "barramundi oil": 0.0,
+    "kingfish meal": 0.0,
+    "kingfish oil": 0.0,
+    "tuna hydrolysate": 2000.0,
+    "poultry meal": 61300.0,
+    "lupin kernel meal": 49520.38643292464,
+    "canola meal": 16350.0,
+    "canola oil": 27958.973976913287,
+    "DHA canola oil": 0.0,
+    "faba protein concentrate": 34709.11603779238,
+    "wheat gluten": 4539.715711383572,
+    "wheat": 34069.60817975908,
+    "solar single-cell protein": 0.0,
+    "Novacq": 0.0,
+    "insect meal (BSF)": 0.0,
+    "algal DHA oil": 2169.007326022964,
+    "kelp meal": 841.9739575348237,
+    "L-lysine HCl": 489.5309196077978,
+    "DL-methionine": 436.9890341120114
+   },
+   "cropland_ha": {
+    "DHA canola oil": 0.0,
+    "faba protein concentrate": 53398.640058142126,
+    "wheat gluten": 18158.862845534288,
+    "wheat": 13627.843271903632,
+    "canola (meal and oil)": 41729.811905840725,
+    "lupin": 50531.00656420882
+   },
+   "cropland_total_ha": 177446.1646456296,
+   "wild_fish_t": 21493.44881436159,
+   "fifo": 0.12496191171140458,
+   "swaps_t": {},
+   "scp_twh": 0.0,
+   "byproduct_available_t": {
+    "salmon": {
+     "meal": 7650.000000000001,
+     "oil": 4500.0
+    },
+    "prawn": {
+     "meal": 1800.0,
+     "oil": 0.0
+    },
+    "barramundi": {
+     "meal": 3000.0,
+     "oil": 600.0
+    },
+    "kingfish": {
+     "meal": 1200.0,
+     "oil": 300.0
+    }
+   }
+  },
+  "cross-species swap": {
+   "case": "cross-species swap",
+   "year": "2050",
+   "feasible": true,
+   "amino_acids": {
+    "salmon": {
+     "lys": 0.024,
+     "met": 0.007
+    },
+    "prawn": {
+     "lys": 0.021,
+     "met": 0.007000000000000001
+    },
+    "barramundi": {
+     "lys": 0.024509626810288617,
+     "met": 0.008
+    },
+    "kingfish": {
+     "lys": 0.027784615384615387,
+     "met": 0.00826326923076923
+    }
+   },
+   "feed_t": {
+    "salmon": 117000.0,
+    "prawn": 64000.0,
+    "barramundi": 45000.0,
+    "kingfish": 19200.0
+   },
+   "feed_total_t": 245200.0,
+   "cost_aud_m": 337.40590278270497,
+   "cost_aud_t": 1376.043649195371,
+   "cost_by_species_aud_t": {
+    "salmon": 1626.0628713806366,
+    "prawn": 961.3624013662858,
+    "barramundi": 1253.6175551921121,
+    "kingfish": 1521.6959979209978
+   },
+   "use_t": {
+    "wild fishmeal": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "wild fish oil": {
+     "salmon": 4160.901386020096,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "salmon meal": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 4800.0
+    },
+    "salmon oil": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 2617.422037422037,
+     "kingfish": 1882.5779625779628
+    },
+    "prawn meal": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "barramundi meal": {
+     "salmon": 3000.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "barramundi oil": {
+     "salmon": 600.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "kingfish meal": {
+     "salmon": 1200.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "kingfish oil": {
+     "salmon": 300.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "tuna hydrolysate": {
+     "salmon": 2000.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "poultry meal": {
+     "salmon": 29250.0,
+     "prawn": 16000.0,
+     "barramundi": 11250.0,
+     "kingfish": 4800.0
+    },
+    "lupin kernel meal": {
+     "salmon": 16046.951073940601,
+     "prawn": 16000.0,
+     "barramundi": 11250.0,
+     "kingfish": 4800.0
+    },
+    "canola meal": {
+     "salmon": 0.0,
+     "prawn": 9600.0,
+     "barramundi": 6750.0,
+     "kingfish": 84.92307692307546
+    },
+    "canola oil": {
+     "salmon": 23400.0,
+     "prawn": 0.0,
+     "barramundi": 483.1419213808098,
+     "kingfish": 0.0
+    },
+    "DHA canola oil": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "faba protein concentrate": {
+     "salmon": 23400.0,
+     "prawn": 126.33767374419602,
+     "barramundi": 7342.778364048183,
+     "kingfish": 841.8461538461548
+    },
+    "wheat gluten": {
+     "salmon": 966.4326173729312,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "wheat": {
+     "salmon": 9360.0,
+     "prawn": 19200.0,
+     "barramundi": 3973.6081797590846,
+     "kingfish": 1536.0
+    },
+    "solar single-cell protein": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "Novacq": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "insect meal (BSF)": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "algal DHA oil": {
+     "salmon": 633.4172233697396,
+     "prawn": 710.175584491628,
+     "barramundi": 334.6805266805267,
+     "kingfish": 70.65280665280663
+    },
+    "kelp meal": {
+     "salmon": 0.0,
+     "prawn": 841.9739575348237,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "L-lysine HCl": {
+     "salmon": 169.5178536245499,
+     "prawn": 148.00922914667666,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "DL-methionine": {
+     "salmon": 172.7798456720806,
+     "prawn": 93.50355508267567,
+     "barramundi": 98.36897070935859,
+     "kingfish": 0.0
+    }
+   },
+   "total_t": {
+    "wild fishmeal": 0.0,
+    "wild fish oil": 4160.901386020096,
+    "salmon meal": 4800.0,
+    "salmon oil": 4500.0,
+    "prawn meal": 0.0,
+    "barramundi meal": 3000.0,
+    "barramundi oil": 600.0,
+    "kingfish meal": 1200.0,
+    "kingfish oil": 300.0,
+    "tuna hydrolysate": 2000.0,
+    "poultry meal": 61300.0,
+    "lupin kernel meal": 48096.9510739406,
+    "canola meal": 16434.923076923074,
+    "canola oil": 23883.14192138081,
+    "DHA canola oil": 0.0,
+    "faba protein concentrate": 31710.962191638533,
+    "wheat gluten": 966.4326173729312,
+    "wheat": 34069.60817975908,
+    "solar single-cell protein": 0.0,
+    "Novacq": 0.0,
+    "insect meal (BSF)": 0.0,
+    "algal DHA oil": 1748.926141194701,
+    "kelp meal": 841.9739575348237,
+    "L-lysine HCl": 317.52708277122656,
+    "DL-methionine": 364.6523714641149
+   },
+   "cropland_ha": {
+    "DHA canola oil": 0.0,
+    "faba protein concentrate": 48786.0956794439,
+    "wheat gluten": 3865.7304694917248,
+    "wheat": 13627.843271903632,
+    "canola (meal and oil)": 35646.48047967285,
+    "lupin": 49078.521504021024
+   },
+   "cropland_total_ha": 151004.67140453312,
+   "wild_fish_t": 15130.550494618528,
+   "fifo": 0.0879683168291775,
+   "swaps_t": {
+    "salmon->kingfish": 6682.577962577963,
+    "salmon->barramundi": 2617.422037422037,
+    "barramundi->salmon": 3600.0,
+    "kingfish->salmon": 1500.0
+   },
+   "scp_twh": 0.0,
+   "byproduct_available_t": {
+    "salmon": {
+     "meal": 7650.000000000001,
+     "oil": 4500.0
+    },
+    "prawn": {
+     "meal": 1800.0,
+     "oil": 0.0
+    },
+    "barramundi": {
+     "meal": 3000.0,
+     "oil": 600.0
+    },
+    "kingfish": {
+     "meal": 1200.0,
+     "oil": 300.0
+    }
+   }
+  },
+  "swap, own species allowed": {
+   "case": "swap, own species allowed",
+   "year": "2050",
+   "feasible": true,
+   "amino_acids": {
+    "salmon": {
+     "lys": 0.024,
+     "met": 0.007
+    },
+    "prawn": {
+     "lys": 0.021,
+     "met": 0.007000000000000001
+    },
+    "barramundi": {
+     "lys": 0.024509626810288617,
+     "met": 0.008
+    },
+    "kingfish": {
+     "lys": 0.025,
+     "met": 0.008
+    }
+   },
+   "feed_t": {
+    "salmon": 117000.0,
+    "prawn": 64000.0,
+    "barramundi": 45000.0,
+    "kingfish": 19200.0
+   },
+   "feed_total_t": 245200.0,
+   "cost_aud_m": 333.6320043470887,
+   "cost_aud_t": 1360.6525462768707,
+   "cost_by_species_aud_t": {
+    "salmon": 1577.662725609119,
+    "prawn": 961.3624013662858,
+    "barramundi": 1271.8988333933903,
+    "kingfish": 1577.2304302435928
+   },
+   "use_t": {
+    "wild fishmeal": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "wild fish oil": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "salmon meal": {
+     "salmon": 7650.000000000001,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "salmon oil": {
+     "salmon": 4500.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "prawn meal": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "barramundi meal": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "barramundi oil": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 600.0,
+     "kingfish": 0.0
+    },
+    "kingfish meal": {
+     "salmon": 889.4809710631326,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 310.51902893686736
+    },
+    "kingfish oil": {
+     "salmon": 300.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "tuna hydrolysate": {
+     "salmon": 1713.3120054714336,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 286.6879945285664
+    },
+    "poultry meal": {
+     "salmon": 29250.0,
+     "prawn": 16000.0,
+     "barramundi": 11250.0,
+     "kingfish": 4800.0
+    },
+    "lupin kernel meal": {
+     "salmon": 17393.791867493474,
+     "prawn": 16000.0,
+     "barramundi": 11250.0,
+     "kingfish": 4800.0
+    },
+    "canola meal": {
+     "salmon": 0.0,
+     "prawn": 9600.0,
+     "barramundi": 6750.0,
+     "kingfish": 0.0
+    },
+    "canola oil": {
+     "salmon": 22330.140533416357,
+     "prawn": 0.0,
+     "barramundi": 2115.2444854833734,
+     "kingfish": 1885.2506155786664
+    },
+    "DHA canola oil": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "faba protein concentrate": {
+     "salmon": 19549.20183155512,
+     "prawn": 126.33767374419602,
+     "barramundi": 7342.778364048183,
+     "kingfish": 3840.0
+    },
+    "wheat gluten": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 827.4172897602563
+    },
+    "wheat": {
+     "salmon": 9360.0,
+     "prawn": 19200.0,
+     "barramundi": 3973.6081797590846,
+     "kingfish": 1536.0
+    },
+    "solar single-cell protein": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "Novacq": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "insect meal (BSF)": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "algal DHA oil": {
+     "salmon": 1480.753222622089,
+     "prawn": 710.175584491628,
+     "barramundi": 720.0,
+     "kingfish": 492.35788848902223
+    },
+    "kelp meal": {
+     "salmon": 0.0,
+     "prawn": 841.9739575348237,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "L-lysine HCl": {
+     "salmon": 112.47877587806103,
+     "prawn": 148.00922914667666,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "DL-methionine": {
+     "salmon": 130.8407925003394,
+     "prawn": 93.50355508267567,
+     "barramundi": 98.36897070935859,
+     "kingfish": 37.76718270662167
+    }
+   },
+   "total_t": {
+    "wild fishmeal": 0.0,
+    "wild fish oil": 0.0,
+    "salmon meal": 7650.000000000001,
+    "salmon oil": 4500.0,
+    "prawn meal": 0.0,
+    "barramundi meal": 0.0,
+    "barramundi oil": 600.0,
+    "kingfish meal": 1200.0,
+    "kingfish oil": 300.0,
+    "tuna hydrolysate": 2000.0,
+    "poultry meal": 61300.0,
+    "lupin kernel meal": 49443.79186749348,
+    "canola meal": 16350.0,
+    "canola oil": 26330.635634478396,
+    "DHA canola oil": 0.0,
+    "faba protein concentrate": 30858.317869347502,
+    "wheat gluten": 827.4172897602563,
+    "wheat": 34069.60817975908,
+    "solar single-cell protein": 0.0,
+    "Novacq": 0.0,
+    "insect meal (BSF)": 0.0,
+    "algal DHA oil": 3403.286695602739,
+    "kelp meal": 841.9739575348237,
+    "L-lysine HCl": 260.4880050247377,
+    "DL-methionine": 360.48050099899535
+   },
+   "cropland_ha": {
+    "DHA canola oil": 0.0,
+    "faba protein concentrate": 47474.33518361154,
+    "wheat gluten": 3309.669159041025,
+    "wheat": 13627.843271903632,
+    "canola (meal and oil)": 39299.456170863275,
+    "lupin": 50452.8488443811
+   },
+   "cropland_total_ha": 154164.15262980058,
+   "wild_fish_t": 0.0,
+   "fifo": 0.0,
+   "swaps_t": {
+    "salmon->salmon": 12150.0,
+    "barramundi->barramundi": 600.0,
+    "kingfish->salmon": 1189.4809710631325,
+    "kingfish->kingfish": 310.51902893686736
+   },
+   "scp_twh": 0.0,
+   "byproduct_available_t": {
+    "salmon": {
+     "meal": 7650.000000000001,
+     "oil": 4500.0
+    },
+    "prawn": {
+     "meal": 1800.0,
+     "oil": 0.0
+    },
+    "barramundi": {
+     "meal": 3000.0,
+     "oil": 600.0
+    },
+    "kingfish": {
+     "meal": 1200.0,
+     "oil": 300.0
+    }
+   }
+  },
+  "fish-free, no swap": {
+   "case": "fish-free, no swap",
+   "year": "2050",
+   "feasible": true,
+   "amino_acids": {
+    "salmon": {
+     "lys": 0.024,
+     "met": 0.007
+    },
+    "prawn": {
+     "lys": 0.021,
+     "met": 0.007000000000000001
+    },
+    "barramundi": {
+     "lys": 0.024509626810288617,
+     "met": 0.008
+    },
+    "kingfish": {
+     "lys": 0.025,
+     "met": 0.008
+    }
+   },
+   "feed_t": {
+    "salmon": 117000.0,
+    "prawn": 64000.0,
+    "barramundi": 45000.0,
+    "kingfish": 19200.0
+   },
+   "feed_total_t": 245200.0,
+   "cost_aud_m": 342.0076811356444,
+   "cost_aud_t": 1394.8110976168207,
+   "cost_by_species_aud_t": {
+    "salmon": 1646.5668357410702,
+    "prawn": 961.3624013662858,
+    "barramundi": 1272.8766111711682,
+    "kingfish": 1591.2875085309543
+   },
+   "use_t": {
+    "wild fishmeal": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "wild fish oil": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "salmon meal": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "salmon oil": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "prawn meal": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "barramundi meal": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "barramundi oil": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "kingfish meal": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "kingfish oil": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "tuna hydrolysate": {
+     "salmon": 2000.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "poultry meal": {
+     "salmon": 29250.0,
+     "prawn": 16000.0,
+     "barramundi": 11250.0,
+     "kingfish": 4800.0
+    },
+    "lupin kernel meal": {
+     "salmon": 17530.234397235512,
+     "prawn": 16000.0,
+     "barramundi": 11250.0,
+     "kingfish": 4740.152035689126
+    },
+    "canola meal": {
+     "salmon": 0.0,
+     "prawn": 9600.0,
+     "barramundi": 6750.0,
+     "kingfish": 0.0
+    },
+    "canola oil": {
+     "salmon": 23400.0,
+     "prawn": 0.0,
+     "barramundi": 2635.2444854833734,
+     "kingfish": 1923.7294914299137
+    },
+    "DHA canola oil": {
+     "salmon": 4559.681641332422,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "faba protein concentrate": {
+     "salmon": 23400.0,
+     "prawn": 126.33767374419602,
+     "barramundi": 7342.778364048183,
+     "kingfish": 3840.0
+    },
+    "wheat gluten": {
+     "salmon": 3145.5770685096577,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 1394.1386428739158
+    },
+    "wheat": {
+     "salmon": 9360.0,
+     "prawn": 19200.0,
+     "barramundi": 3973.6081797590846,
+     "kingfish": 1536.0
+    },
+    "solar single-cell protein": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "Novacq": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "insect meal (BSF)": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "algal DHA oil": {
+     "salmon": 1497.8485241483506,
+     "prawn": 710.175584491628,
+     "barramundi": 800.0,
+     "kingfish": 512.0
+    },
+    "kelp meal": {
+     "salmon": 0.0,
+     "prawn": 841.9739575348237,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "L-lysine HCl": {
+     "salmon": 312.8889973406703,
+     "prawn": 148.00922914667666,
+     "barramundi": 0.0,
+     "kingfish": 28.632693120450877
+    },
+    "DL-methionine": {
+     "salmon": 203.76937143338404,
+     "prawn": 93.50355508267567,
+     "barramundi": 98.36897070935859,
+     "kingfish": 41.347136886593084
+    }
+   },
+   "total_t": {
+    "wild fishmeal": 0.0,
+    "wild fish oil": 0.0,
+    "salmon meal": 0.0,
+    "salmon oil": 0.0,
+    "prawn meal": 0.0,
+    "barramundi meal": 0.0,
+    "barramundi oil": 0.0,
+    "kingfish meal": 0.0,
+    "kingfish oil": 0.0,
+    "tuna hydrolysate": 2000.0,
+    "poultry meal": 61300.0,
+    "lupin kernel meal": 49520.386432924635,
+    "canola meal": 16350.0,
+    "canola oil": 27958.973976913287,
+    "DHA canola oil": 4559.681641332422,
+    "faba protein concentrate": 34709.11603779238,
+    "wheat gluten": 4539.715711383574,
+    "wheat": 34069.60817975908,
+    "solar single-cell protein": 0.0,
+    "Novacq": 0.0,
+    "insect meal (BSF)": 0.0,
+    "algal DHA oil": 3520.0241086399787,
+    "kelp meal": 841.9739575348237,
+    "L-lysine HCl": 489.53091960779784,
+    "DL-methionine": 436.9890341120114
+   },
+   "cropland_ha": {
+    "DHA canola oil": 7599.469402220704,
+    "faba protein concentrate": 53398.640058142126,
+    "wheat gluten": 18158.862845534295,
+    "wheat": 13627.843271903632,
+    "canola (meal and oil)": 41729.811905840725,
+    "lupin": 50531.006564208816
+   },
+   "cropland_total_ha": 185045.6340478503,
+   "wild_fish_t": 0.0,
+   "fifo": 0.0,
+   "swaps_t": {},
+   "scp_twh": 0.0,
+   "byproduct_available_t": {
+    "salmon": {
+     "meal": 7650.000000000001,
+     "oil": 4500.0
+    },
+    "prawn": {
+     "meal": 1800.0,
+     "oil": 0.0
+    },
+    "barramundi": {
+     "meal": 3000.0,
+     "oil": 600.0
+    },
+    "kingfish": {
+     "meal": 1200.0,
+     "oil": 300.0
+    }
+   }
+  },
+  "fish-free, cross-species swap": {
+   "case": "fish-free, cross-species swap",
+   "year": "2050",
+   "feasible": true,
+   "amino_acids": {
+    "salmon": {
+     "lys": 0.024,
+     "met": 0.007
+    },
+    "prawn": {
+     "lys": 0.021,
+     "met": 0.007000000000000001
+    },
+    "barramundi": {
+     "lys": 0.024509626810288617,
+     "met": 0.008
+    },
+    "kingfish": {
+     "lys": 0.027784615384615387,
+     "met": 0.00826326923076923
+    }
+   },
+   "feed_t": {
+    "salmon": 117000.0,
+    "prawn": 64000.0,
+    "barramundi": 45000.0,
+    "kingfish": 19200.0
+   },
+   "feed_total_t": 245200.0,
+   "cost_aud_m": 337.821992921307,
+   "cost_aud_t": 1377.7405910330629,
+   "cost_by_species_aud_t": {
+    "salmon": 1629.619197351594,
+    "prawn": 961.3624013662858,
+    "barramundi": 1249.2939428025782,
+    "kingfish": 1531.8294644589682
+   },
+   "use_t": {
+    "wild fishmeal": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "wild fish oil": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "salmon meal": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 4800.0
+    },
+    "salmon oil": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 3205.027076939238,
+     "kingfish": 1294.9729230607618
+    },
+    "prawn meal": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "barramundi meal": {
+     "salmon": 3000.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "barramundi oil": {
+     "salmon": 600.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "kingfish meal": {
+     "salmon": 1200.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "kingfish oil": {
+     "salmon": 300.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "tuna hydrolysate": {
+     "salmon": 2000.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "poultry meal": {
+     "salmon": 29250.0,
+     "prawn": 16000.0,
+     "barramundi": 11250.0,
+     "kingfish": 4800.0
+    },
+    "lupin kernel meal": {
+     "salmon": 16046.951073940603,
+     "prawn": 16000.0,
+     "barramundi": 11250.0,
+     "kingfish": 4800.0
+    },
+    "canola meal": {
+     "salmon": 0.0,
+     "prawn": 9600.0,
+     "barramundi": 6750.0,
+     "kingfish": 84.92307692307546
+    },
+    "canola oil": {
+     "salmon": 23400.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 483.1419213808097
+    },
+    "DHA canola oil": {
+     "salmon": 3209.8382120726455,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "faba protein concentrate": {
+     "salmon": 23400.0,
+     "prawn": 126.33767374419602,
+     "barramundi": 7342.778364048183,
+     "kingfish": 841.8461538461548
+    },
+    "wheat gluten": {
+     "salmon": 966.4326173729302,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "wheat": {
+     "salmon": 9360.0,
+     "prawn": 19200.0,
+     "barramundi": 3973.6081797590846,
+     "kingfish": 1536.0
+    },
+    "solar single-cell protein": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "Novacq": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "insect meal (BSF)": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "algal DHA oil": {
+     "salmon": 1584.48039731719,
+     "prawn": 710.175584491628,
+     "barramundi": 230.21740854413537,
+     "kingfish": 175.11592478919792
+    },
+    "kelp meal": {
+     "salmon": 0.0,
+     "prawn": 841.9739575348237,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "L-lysine HCl": {
+     "salmon": 169.51785362454984,
+     "prawn": 148.00922914667666,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "DL-methionine": {
+     "salmon": 172.77984567208063,
+     "prawn": 93.50355508267567,
+     "barramundi": 98.36897070935859,
+     "kingfish": 0.0
+    }
+   },
+   "total_t": {
+    "wild fishmeal": 0.0,
+    "wild fish oil": 0.0,
+    "salmon meal": 4800.0,
+    "salmon oil": 4500.0,
+    "prawn meal": 0.0,
+    "barramundi meal": 3000.0,
+    "barramundi oil": 600.0,
+    "kingfish meal": 1200.0,
+    "kingfish oil": 300.0,
+    "tuna hydrolysate": 2000.0,
+    "poultry meal": 61300.0,
+    "lupin kernel meal": 48096.9510739406,
+    "canola meal": 16434.923076923074,
+    "canola oil": 23883.14192138081,
+    "DHA canola oil": 3209.8382120726455,
+    "faba protein concentrate": 31710.962191638533,
+    "wheat gluten": 966.4326173729302,
+    "wheat": 34069.60817975908,
+    "solar single-cell protein": 0.0,
+    "Novacq": 0.0,
+    "insect meal (BSF)": 0.0,
+    "algal DHA oil": 2699.989315142151,
+    "kelp meal": 841.9739575348237,
+    "L-lysine HCl": 317.5270827712265,
+    "DL-methionine": 364.6523714641149
+   },
+   "cropland_ha": {
+    "DHA canola oil": 5349.73035345441,
+    "faba protein concentrate": 48786.0956794439,
+    "wheat gluten": 3865.7304694917207,
+    "wheat": 13627.843271903632,
+    "canola (meal and oil)": 35646.48047967285,
+    "lupin": 49078.521504021024
+   },
+   "cropland_total_ha": 156354.40175798754,
+   "wild_fish_t": 0.0,
+   "fifo": 0.0,
+   "swaps_t": {
+    "salmon->kingfish": 6094.972923060762,
+    "salmon->barramundi": 3205.027076939238,
+    "barramundi->salmon": 3600.0,
+    "kingfish->salmon": 1500.0
+   },
+   "scp_twh": 0.0,
+   "byproduct_available_t": {
+    "salmon": {
+     "meal": 7650.000000000001,
+     "oil": 4500.0
+    },
+    "prawn": {
+     "meal": 1800.0,
+     "oil": 0.0
+    },
+    "barramundi": {
+     "meal": 3000.0,
+     "oil": 600.0
+    },
+    "kingfish": {
+     "meal": 1200.0,
+     "oil": 300.0
+    }
+   }
+  }
+ },
+ "sensitivity": {
+  "wild +50%": {
+   "case": "cross-species swap",
+   "year": "2050",
+   "feasible": true,
+   "amino_acids": {
+    "salmon": {
+     "lys": 0.024,
+     "met": 0.007
+    },
+    "prawn": {
+     "lys": 0.021,
+     "met": 0.007000000000000001
+    },
+    "barramundi": {
+     "lys": 0.024509626810288617,
+     "met": 0.008
+    },
+    "kingfish": {
+     "lys": 0.027784615384615387,
+     "met": 0.00826326923076923
+    }
+   },
+   "feed_t": {
+    "salmon": 117000.0,
+    "prawn": 64000.0,
+    "barramundi": 45000.0,
+    "kingfish": 19200.0
+   },
+   "feed_total_t": 245200.0,
+   "cost_aud_m": 337.821992921307,
+   "cost_aud_t": 1377.7405910330629,
+   "cost_by_species_aud_t": {
+    "salmon": 1629.619197351594,
+    "prawn": 961.3624013662858,
+    "barramundi": 1253.6175551921121,
+    "kingfish": 1521.6959979209978
+   },
+   "use_t": {
+    "wild fishmeal": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "wild fish oil": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "salmon meal": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 4800.0
+    },
+    "salmon oil": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 2617.422037422037,
+     "kingfish": 1882.5779625779628
+    },
+    "prawn meal": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "barramundi meal": {
+     "salmon": 3000.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "barramundi oil": {
+     "salmon": 600.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "kingfish meal": {
+     "salmon": 1200.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "kingfish oil": {
+     "salmon": 300.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "tuna hydrolysate": {
+     "salmon": 2000.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "poultry meal": {
+     "salmon": 29250.0,
+     "prawn": 16000.0,
+     "barramundi": 11250.0,
+     "kingfish": 4800.0
+    },
+    "lupin kernel meal": {
+     "salmon": 16046.951073940603,
+     "prawn": 16000.0,
+     "barramundi": 11250.0,
+     "kingfish": 4800.0
+    },
+    "canola meal": {
+     "salmon": 0.0,
+     "prawn": 9600.0,
+     "barramundi": 6750.0,
+     "kingfish": 84.92307692307546
+    },
+    "canola oil": {
+     "salmon": 23400.0,
+     "prawn": 0.0,
+     "barramundi": 483.1419213808098,
+     "kingfish": 0.0
+    },
+    "DHA canola oil": {
+     "salmon": 3209.8382120726455,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "faba protein concentrate": {
+     "salmon": 23400.0,
+     "prawn": 126.33767374419602,
+     "barramundi": 7342.778364048183,
+     "kingfish": 841.8461538461548
+    },
+    "wheat gluten": {
+     "salmon": 966.4326173729302,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "wheat": {
+     "salmon": 9360.0,
+     "prawn": 19200.0,
+     "barramundi": 3973.6081797590846,
+     "kingfish": 1536.0
+    },
+    "solar single-cell protein": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "Novacq": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "insect meal (BSF)": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "algal DHA oil": {
+     "salmon": 1584.48039731719,
+     "prawn": 710.175584491628,
+     "barramundi": 334.6805266805267,
+     "kingfish": 70.65280665280663
+    },
+    "kelp meal": {
+     "salmon": 0.0,
+     "prawn": 841.9739575348237,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "L-lysine HCl": {
+     "salmon": 169.51785362454984,
+     "prawn": 148.00922914667666,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "DL-methionine": {
+     "salmon": 172.77984567208063,
+     "prawn": 93.50355508267567,
+     "barramundi": 98.36897070935859,
+     "kingfish": 0.0
+    }
+   },
+   "total_t": {
+    "wild fishmeal": 0.0,
+    "wild fish oil": 0.0,
+    "salmon meal": 4800.0,
+    "salmon oil": 4500.0,
+    "prawn meal": 0.0,
+    "barramundi meal": 3000.0,
+    "barramundi oil": 600.0,
+    "kingfish meal": 1200.0,
+    "kingfish oil": 300.0,
+    "tuna hydrolysate": 2000.0,
+    "poultry meal": 61300.0,
+    "lupin kernel meal": 48096.9510739406,
+    "canola meal": 16434.923076923074,
+    "canola oil": 23883.14192138081,
+    "DHA canola oil": 3209.8382120726455,
+    "faba protein concentrate": 31710.962191638533,
+    "wheat gluten": 966.4326173729302,
+    "wheat": 34069.60817975908,
+    "solar single-cell protein": 0.0,
+    "Novacq": 0.0,
+    "insect meal (BSF)": 0.0,
+    "algal DHA oil": 2699.989315142151,
+    "kelp meal": 841.9739575348237,
+    "L-lysine HCl": 317.5270827712265,
+    "DL-methionine": 364.6523714641149
+   },
+   "cropland_ha": {
+    "DHA canola oil": 5349.73035345441,
+    "faba protein concentrate": 48786.0956794439,
+    "wheat gluten": 3865.7304694917207,
+    "wheat": 13627.843271903632,
+    "canola (meal and oil)": 35646.48047967285,
+    "lupin": 49078.521504021024
+   },
+   "cropland_total_ha": 156354.40175798754,
+   "wild_fish_t": 0.0,
+   "fifo": 0.0,
+   "swaps_t": {
+    "salmon->kingfish": 6682.577962577963,
+    "salmon->barramundi": 2617.422037422037,
+    "barramundi->salmon": 3600.0,
+    "kingfish->salmon": 1500.0
+   },
+   "scp_twh": 0.0,
+   "byproduct_available_t": {
+    "salmon": {
+     "meal": 7650.000000000001,
+     "oil": 4500.0
+    },
+    "prawn": {
+     "meal": 1800.0,
+     "oil": 0.0
+    },
+    "barramundi": {
+     "meal": 3000.0,
+     "oil": 600.0
+    },
+    "kingfish": {
+     "meal": 1200.0,
+     "oil": 300.0
+    }
+   }
+  },
+  "DHA canola AUD 3,500/t": {
+   "case": "fish-free, cross-species swap",
+   "year": "2050",
+   "feasible": true,
+   "amino_acids": {
+    "salmon": {
+     "lys": 0.024,
+     "met": 0.007
+    },
+    "prawn": {
+     "lys": 0.021,
+     "met": 0.007000000000000001
+    },
+    "barramundi": {
+     "lys": 0.024509626810288617,
+     "met": 0.008
+    },
+    "kingfish": {
+     "lys": 0.027661545353189456,
+     "met": 0.008
+    }
+   },
+   "feed_t": {
+    "salmon": 117000.0,
+    "prawn": 64000.0,
+    "barramundi": 45000.0,
+    "kingfish": 19200.0
+   },
+   "feed_total_t": 245200.0,
+   "cost_aud_m": 328.3020031516869,
+   "cost_aud_t": 1338.9151841422795,
+   "cost_by_species_aud_t": {
+    "salmon": 1557.3917256233308,
+    "prawn": 961.3624013662858,
+    "barramundi": 1236.0668469294956,
+    "kingfish": 1507.1338257545594
+   },
+   "use_t": {
+    "wild fishmeal": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "wild fish oil": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "salmon meal": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 4391.818427968463
+    },
+    "salmon oil": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "prawn meal": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "barramundi meal": {
+     "salmon": 3000.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "barramundi oil": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "kingfish meal": {
+     "salmon": 1200.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "kingfish oil": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "tuna hydrolysate": {
+     "salmon": 2000.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "poultry meal": {
+     "salmon": 29250.0,
+     "prawn": 16000.0,
+     "barramundi": 11250.0,
+     "kingfish": 4800.0
+    },
+    "lupin kernel meal": {
+     "salmon": 16046.951073940589,
+     "prawn": 16000.0,
+     "barramundi": 11250.0,
+     "kingfish": 4800.0
+    },
+    "canola meal": {
+     "salmon": 0.0,
+     "prawn": 9600.0,
+     "barramundi": 6750.0,
+     "kingfish": 15.282631201718983
+    },
+    "canola oil": {
+     "salmon": 18154.318609389833,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 129.87484271720984
+    },
+    "DHA canola oil": {
+     "salmon": 10940.0,
+     "prawn": 0.0,
+     "barramundi": 3388.1714813357657,
+     "kingfish": 1864.8181572031538
+    },
+    "faba protein concentrate": {
+     "salmon": 23400.0,
+     "prawn": 126.33767374419602,
+     "barramundi": 7342.778364048183,
+     "kingfish": 1278.2059409094543
+    },
+    "wheat gluten": {
+     "salmon": 966.43261737294,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "wheat": {
+     "salmon": 9360.0,
+     "prawn": 19200.0,
+     "barramundi": 3973.6081797590846,
+     "kingfish": 1536.0
+    },
+    "solar single-cell protein": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "Novacq": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "insect meal (BSF)": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "algal DHA oil": {
+     "salmon": 0.0,
+     "prawn": 710.175584491628,
+     "barramundi": 47.0730041476075,
+     "kingfish": 0.0
+    },
+    "kelp meal": {
+     "salmon": 0.0,
+     "prawn": 841.9739575348237,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "L-lysine HCl": {
+     "salmon": 169.51785362455007,
+     "prawn": 148.00922914667666,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "DL-methionine": {
+     "salmon": 172.77984567208054,
+     "prawn": 93.50355508267567,
+     "barramundi": 98.36897070935859,
+     "kingfish": 0.0
+    }
+   },
+   "total_t": {
+    "wild fishmeal": 0.0,
+    "wild fish oil": 0.0,
+    "salmon meal": 4391.818427968463,
+    "salmon oil": 0.0,
+    "prawn meal": 0.0,
+    "barramundi meal": 3000.0,
+    "barramundi oil": 0.0,
+    "kingfish meal": 1200.0,
+    "kingfish oil": 0.0,
+    "tuna hydrolysate": 2000.0,
+    "poultry meal": 61300.0,
+    "lupin kernel meal": 48096.95107394059,
+    "canola meal": 16365.282631201719,
+    "canola oil": 18284.193452107043,
+    "DHA canola oil": 16192.98963853892,
+    "faba protein concentrate": 32147.32197870183,
+    "wheat gluten": 966.43261737294,
+    "wheat": 34069.60817975908,
+    "solar single-cell protein": 0.0,
+    "Novacq": 0.0,
+    "insect meal (BSF)": 0.0,
+    "algal DHA oil": 757.2485886392355,
+    "kelp meal": 841.9739575348237,
+    "L-lysine HCl": 317.52708277122673,
+    "DL-methionine": 364.6523714641148
+   },
+   "cropland_ha": {
+    "DHA canola oil": 26988.316064231534,
+    "faba protein concentrate": 49457.41842877205,
+    "wheat gluten": 3865.73046949176,
+    "wheat": 13627.843271903632,
+    "canola (meal and oil)": 27289.840973294093,
+    "lupin": 49078.52150402101
+   },
+   "cropland_total_ha": 170307.67071171408,
+   "wild_fish_t": 0.0,
+   "fifo": 0.0,
+   "swaps_t": {
+    "salmon->kingfish": 4391.818427968463,
+    "barramundi->salmon": 3000.0,
+    "kingfish->salmon": 1200.0
+   },
+   "scp_twh": 0.0,
+   "byproduct_available_t": {
+    "salmon": {
+     "meal": 7650.000000000001,
+     "oil": 4500.0
+    },
+    "prawn": {
+     "meal": 1800.0,
+     "oil": 0.0
+    },
+    "barramundi": {
+     "meal": 3000.0,
+     "oil": 600.0
+    },
+    "kingfish": {
+     "meal": 1200.0,
+     "oil": 300.0
+    }
+   }
+  },
+  "fish-free swap without amino-acid constraints": {
+   "case": "fish-free, cross-species swap",
+   "year": "2050",
+   "feasible": true,
+   "amino_acids": {
+    "salmon": {
+     "lys": 0.019856989532315378,
+     "met": 0.0056414295592048394
+    },
+    "prawn": {
+     "lys": 0.019167056074766355,
+     "met": 0.005557017690253671
+    },
+    "barramundi": {
+     "lys": 0.024498224130619164,
+     "met": 0.005838941899915182
+    },
+    "kingfish": {
+     "lys": 0.027784615384615387,
+     "met": 0.00826326923076923
+    }
+   },
+   "feed_t": {
+    "salmon": 117000.0,
+    "prawn": 64000.0,
+    "barramundi": 45000.0,
+    "kingfish": 19200.0
+   },
+   "feed_total_t": 245200.0,
+   "cost_aud_m": 333.8544310616826,
+   "cost_aud_t": 1361.5596699089829,
+   "cost_by_species_aud_t": {
+    "salmon": 1604.6611735330835,
+    "prawn": 952.2242990654205,
+    "barramundi": 1243.3367879564826,
+    "kingfish": 1521.6959979209978
+   },
+   "use_t": {
+    "wild fishmeal": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "wild fish oil": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "salmon meal": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 4800.0
+    },
+    "salmon oil": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 2617.422037422037,
+     "kingfish": 1882.5779625779628
+    },
+    "prawn meal": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "barramundi meal": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "barramundi oil": {
+     "salmon": 600.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "kingfish meal": {
+     "salmon": 1200.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "kingfish oil": {
+     "salmon": 300.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "tuna hydrolysate": {
+     "salmon": 2000.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "poultry meal": {
+     "salmon": 29250.0,
+     "prawn": 16000.0,
+     "barramundi": 11250.0,
+     "kingfish": 4800.0
+    },
+    "lupin kernel meal": {
+     "salmon": 29250.0,
+     "prawn": 16000.0,
+     "barramundi": 11250.0,
+     "kingfish": 4800.0
+    },
+    "canola meal": {
+     "salmon": 0.0,
+     "prawn": 9600.0,
+     "barramundi": 6750.0,
+     "kingfish": 84.92307692307546
+    },
+    "canola oil": {
+     "salmon": 23400.0,
+     "prawn": 0.0,
+     "barramundi": 481.38980230965075,
+     "kingfish": 0.0
+    },
+    "DHA canola oil": {
+     "salmon": 3092.577849117175,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "faba protein concentrate": {
+     "salmon": 7095.752808988768,
+     "prawn": 77.97062750333777,
+     "barramundi": 7317.748091603053,
+     "kingfish": 841.8461538461548
+    },
+    "wheat gluten": {
+     "salmon": 7447.797752808984,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "wheat": {
+     "salmon": 9360.0,
+     "prawn": 19200.0,
+     "barramundi": 4098.759541984733,
+     "kingfish": 1536.0
+    },
+    "solar single-cell protein": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "Novacq": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "insect meal (BSF)": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "algal DHA oil": {
+     "salmon": 1663.8715890850722,
+     "prawn": 709.8531375166889,
+     "barramundi": 334.6805266805267,
+     "kingfish": 70.65280665280663
+    },
+    "kelp meal": {
+     "salmon": 0.0,
+     "prawn": 1132.1762349799735,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "L-lysine HCl": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "DL-methionine": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    }
+   },
+   "total_t": {
+    "wild fishmeal": 0.0,
+    "wild fish oil": 0.0,
+    "salmon meal": 4800.0,
+    "salmon oil": 4500.0,
+    "prawn meal": 0.0,
+    "barramundi meal": 0.0,
+    "barramundi oil": 600.0,
+    "kingfish meal": 1200.0,
+    "kingfish oil": 300.0,
+    "tuna hydrolysate": 2000.0,
+    "poultry meal": 61300.0,
+    "lupin kernel meal": 61300.0,
+    "canola meal": 16434.923076923074,
+    "canola oil": 23881.38980230965,
+    "DHA canola oil": 3092.577849117175,
+    "faba protein concentrate": 15333.317681941313,
+    "wheat gluten": 7447.797752808984,
+    "wheat": 34194.759541984735,
+    "solar single-cell protein": 0.0,
+    "Novacq": 0.0,
+    "insect meal (BSF)": 0.0,
+    "algal DHA oil": 2779.058059935094,
+    "kelp meal": 1132.1762349799735,
+    "L-lysine HCl": 0.0,
+    "DL-methionine": 0.0
+   },
+   "cropland_ha": {
+    "DHA canola oil": 5154.296415195292,
+    "faba protein concentrate": 23589.71951067894,
+    "wheat gluten": 29791.191011235936,
+    "wheat": 13677.903816793894,
+    "canola (meal and oil)": 35643.86537658157,
+    "lupin": 62551.02040816327
+   },
+   "cropland_total_ha": 170407.9965386489,
+   "wild_fish_t": 0.0,
+   "fifo": 0.0,
+   "swaps_t": {
+    "salmon->kingfish": 6682.577962577963,
+    "salmon->barramundi": 2617.422037422037,
+    "barramundi->salmon": 600.0,
+    "kingfish->salmon": 1500.0
+   },
+   "scp_twh": 0.0,
+   "byproduct_available_t": {
+    "salmon": {
+     "meal": 7650.000000000001,
+     "oil": 4500.0
+    },
+    "prawn": {
+     "meal": 1800.0,
+     "oil": 0.0
+    },
+    "barramundi": {
+     "meal": 3000.0,
+     "oil": 600.0
+    },
+    "kingfish": {
+     "meal": 1200.0,
+     "oil": 300.0
+    }
+   }
+  },
+  "SCP at AUD 25/MWh solar": {
+   "case": "fish-free, cross-species swap",
+   "year": "2050",
+   "feasible": true,
+   "amino_acids": {
+    "salmon": {
+     "lys": 0.024,
+     "met": 0.007
+    },
+    "prawn": {
+     "lys": 0.021,
+     "met": 0.007000000000000001
+    },
+    "barramundi": {
+     "lys": 0.024509626810288617,
+     "met": 0.008
+    },
+    "kingfish": {
+     "lys": 0.027784615384615387,
+     "met": 0.00826326923076923
+    }
+   },
+   "feed_t": {
+    "salmon": 117000.0,
+    "prawn": 64000.0,
+    "barramundi": 45000.0,
+    "kingfish": 19200.0
+   },
+   "feed_total_t": 245200.0,
+   "cost_aud_m": 337.821992921307,
+   "cost_aud_t": 1377.7405910330629,
+   "cost_by_species_aud_t": {
+    "salmon": 1629.619197351594,
+    "prawn": 961.3624013662858,
+    "barramundi": 1249.2939428025782,
+    "kingfish": 1531.8294644589682
+   },
+   "use_t": {
+    "wild fishmeal": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "wild fish oil": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "salmon meal": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 4800.0
+    },
+    "salmon oil": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 3205.027076939238,
+     "kingfish": 1294.9729230607618
+    },
+    "prawn meal": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "barramundi meal": {
+     "salmon": 3000.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "barramundi oil": {
+     "salmon": 600.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "kingfish meal": {
+     "salmon": 1200.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "kingfish oil": {
+     "salmon": 300.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "tuna hydrolysate": {
+     "salmon": 2000.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "poultry meal": {
+     "salmon": 29250.0,
+     "prawn": 16000.0,
+     "barramundi": 11250.0,
+     "kingfish": 4800.0
+    },
+    "lupin kernel meal": {
+     "salmon": 16046.951073940603,
+     "prawn": 16000.0,
+     "barramundi": 11250.0,
+     "kingfish": 4800.0
+    },
+    "canola meal": {
+     "salmon": 0.0,
+     "prawn": 9600.0,
+     "barramundi": 6750.0,
+     "kingfish": 84.92307692307546
+    },
+    "canola oil": {
+     "salmon": 23400.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 483.1419213808097
+    },
+    "DHA canola oil": {
+     "salmon": 3209.8382120726455,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "faba protein concentrate": {
+     "salmon": 23400.0,
+     "prawn": 126.33767374419602,
+     "barramundi": 7342.778364048183,
+     "kingfish": 841.8461538461548
+    },
+    "wheat gluten": {
+     "salmon": 966.4326173729302,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "wheat": {
+     "salmon": 9360.0,
+     "prawn": 19200.0,
+     "barramundi": 3973.6081797590846,
+     "kingfish": 1536.0
+    },
+    "solar single-cell protein": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "Novacq": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "insect meal (BSF)": {
+     "salmon": 0.0,
+     "prawn": 0.0,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "algal DHA oil": {
+     "salmon": 1584.48039731719,
+     "prawn": 710.175584491628,
+     "barramundi": 230.21740854413537,
+     "kingfish": 175.11592478919792
+    },
+    "kelp meal": {
+     "salmon": 0.0,
+     "prawn": 841.9739575348237,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "L-lysine HCl": {
+     "salmon": 169.51785362454984,
+     "prawn": 148.00922914667666,
+     "barramundi": 0.0,
+     "kingfish": 0.0
+    },
+    "DL-methionine": {
+     "salmon": 172.77984567208063,
+     "prawn": 93.50355508267567,
+     "barramundi": 98.36897070935859,
+     "kingfish": 0.0
+    }
+   },
+   "total_t": {
+    "wild fishmeal": 0.0,
+    "wild fish oil": 0.0,
+    "salmon meal": 4800.0,
+    "salmon oil": 4500.0,
+    "prawn meal": 0.0,
+    "barramundi meal": 3000.0,
+    "barramundi oil": 600.0,
+    "kingfish meal": 1200.0,
+    "kingfish oil": 300.0,
+    "tuna hydrolysate": 2000.0,
+    "poultry meal": 61300.0,
+    "lupin kernel meal": 48096.9510739406,
+    "canola meal": 16434.923076923074,
+    "canola oil": 23883.14192138081,
+    "DHA canola oil": 3209.8382120726455,
+    "faba protein concentrate": 31710.962191638533,
+    "wheat gluten": 966.4326173729302,
+    "wheat": 34069.60817975908,
+    "solar single-cell protein": 0.0,
+    "Novacq": 0.0,
+    "insect meal (BSF)": 0.0,
+    "algal DHA oil": 2699.989315142151,
+    "kelp meal": 841.9739575348237,
+    "L-lysine HCl": 317.5270827712265,
+    "DL-methionine": 364.6523714641149
+   },
+   "cropland_ha": {
+    "DHA canola oil": 5349.73035345441,
+    "faba protein concentrate": 48786.0956794439,
+    "wheat gluten": 3865.7304694917207,
+    "wheat": 13627.843271903632,
+    "canola (meal and oil)": 35646.48047967285,
+    "lupin": 49078.521504021024
+   },
+   "cropland_total_ha": 156354.40175798754,
+   "wild_fish_t": 0.0,
+   "fifo": 0.0,
+   "swaps_t": {
+    "salmon->kingfish": 6094.972923060762,
+    "salmon->barramundi": 3205.027076939238,
+    "barramundi->salmon": 3600.0,
+    "kingfish->salmon": 1500.0
+   },
+   "scp_twh": 0.0,
+   "byproduct_available_t": {
+    "salmon": {
+     "meal": 7650.000000000001,
+     "oil": 4500.0
+    },
+    "prawn": {
+     "meal": 1800.0,
+     "oil": 0.0
+    },
+    "barramundi": {
+     "meal": 3000.0,
+     "oil": 600.0
+    },
+    "kingfish": {
+     "meal": 1200.0,
+     "oil": 300.0
+    }
+   }
+  }
+ }
+}

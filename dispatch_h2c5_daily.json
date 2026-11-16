@@ -1,0 +1,360 @@
+{
+ "params": {
+  "r": 0.04,
+  "wind_capex": 2207,
+  "wind_fom": 28.0,
+  "pv_capex": 1029,
+  "pv_fom": 14.0,
+  "gen_life": 30,
+  "connection_default": 200.0,
+  "rez_aud_kw": 768.4552029219875,
+  "net_life": 50,
+  "batt_power_kw": 276.97759999999994,
+  "batt_energy_kwh": 147.6535,
+  "batt_fom_kw": 6.0,
+  "batt_fom_kwh": 4.0,
+  "batt_life": 20,
+  "eta_c": 0.925,
+  "eta_d": 0.925,
+  "turb_capex": 980.2167672239402,
+  "turb_fom": 14.3234078,
+  "turb_life": 30,
+  "turb_eff": 0.38,
+  "methane_aud_mwh": 119.0846751367202,
+  "turb_vom": 8.0,
+  "elz_capex": 1856,
+  "elz_om": 0.02,
+  "elz_life": 25,
+  "h2_store_aud_kwh_h2": 5.0,
+  "h2_eff": 0.7,
+  "h2_life": 40,
+  "loss_direct": 0.05,
+  "loss_flex": 0.02,
+  "ldv_managed": 0.5,
+  "ldv_flex_max": 3.0,
+  "site_wind_max_gw": 25.0,
+  "site_pv_max_gw": 50.0,
+  "voll": 20000.0,
+  "voll_adequacy": 300000.0,
+  "link_life": 50,
+  "wheel_aud_mwh": 1.0,
+  "h2_buffer_h": 24.0
+ },
+ "loads": {
+  "segments": {
+   "ldv_petrol": 41.046828000000005,
+   "ldv_diesel": 19.479001066666672,
+   "hdv": 58.63990946111112,
+   "rail": 2.895,
+   "mining": 22.388,
+   "farm": 3.1073,
+   "construction": 2.8950000000000005
+  },
+  "ers": 7.577218282420429,
+  "heat": 2.283213571428571,
+  "heat_storage": 1.6982315789473683,
+  "efuels": 246.18629755958682,
+  "dac": 20.932649999999967,
+  "vehicles_rail": 158.02825681019823
+ },
+ "resource_index": {
+  "2015": 0.6608518362045288,
+  "2016": 0.6697083711624146,
+  "2017": 0.6589162945747375,
+  "2018": 0.6849746704101562,
+  "2019": 0.7059698104858398,
+  "2020": 0.6686872839927673,
+  "2021": 0.6731833815574646,
+  "2022": 0.6499156355857849,
+  "2023": 0.6635246276855469,
+  "2024": 0.6573554277420044
+ },
+ "design_years": [
+  2022,
+  2020
+ ],
+ "design": {
+  "years": [
+   2022,
+   2020
+  ],
+  "systems": {
+   "QLD": {
+    "wind_gw": 48.741288735822636,
+    "pv_gw": 36.88009217607969,
+    "wind_by_site_gw": {
+     "QLD": 48.741288735822636
+    },
+    "pv_by_site_gw": {
+     "QLD": 36.88009217607969
+    },
+    "battery_gw": -0.0,
+    "battery_gwh": -0.0,
+    "turbine_gw": 4.303427385847522,
+    "electrolyser_gw": 24.473555623770437,
+    "h2_store_gwh_el": 447.73753497439844,
+    "synth_gw_el": 18.65573062393327,
+    "direct_twh": 42.272489539115206,
+    "flexible_twh": 177.56268485946612,
+    "generation_twh": 260.2238988816849,
+    "wind_twh": 168.67284480301427,
+    "pv_twh": 91.55105407867062,
+    "curtail_twh": 35.96846805618642,
+    "net_export_twh": 6.4602501858762,
+    "turbine_twh": 2.039993758958989,
+    "unserved_mwh": 0.0,
+    "battery_twh_out": 0.0,
+    "price_direct_aud_mwh": 77.85966170454682,
+    "price_flex_aud_mwh": 66.12319554893978,
+    "electrolyser_cf": 0.7628029233927262,
+    "peak_direct_gw": 7.975109157977064
+   },
+   "NSW_VIC": {
+    "wind_gw": 16.37582785239677,
+    "pv_gw": 7.81726561863799,
+    "wind_by_site_gw": {
+     "NSW": 15.836676993143428,
+     "VIC": 0.5391508592533434
+    },
+    "pv_by_site_gw": {
+     "NSW": 7.81726561863799,
+     "VIC": 0.0
+    },
+    "battery_gw": -0.0,
+    "battery_gwh": -0.0,
+    "turbine_gw": 4.036876209044616,
+    "electrolyser_gw": -0.0,
+    "h2_store_gwh_el": -0.0,
+    "synth_gw_el": -0.0,
+    "direct_twh": 76.47164979774851,
+    "flexible_twh": 0.0,
+    "generation_twh": 72.01863007841041,
+    "wind_twh": 54.90572590921515,
+    "pv_twh": 17.11290416919528,
+    "curtail_twh": 7.697337638953772,
+    "net_export_twh": -9.942421378099308,
+    "turbine_twh": 2.2079359801925516,
+    "unserved_mwh": 0.0,
+    "battery_twh_out": 0.0,
+    "price_direct_aud_mwh": 84.58761537897105,
+    "price_flex_aud_mwh": 0.0,
+    "electrolyser_cf": 0.0,
+    "peak_direct_gw": 14.891131997952781
+   },
+   "SA_TAS": {
+    "wind_gw": 24.824850829942804,
+    "pv_gw": 7.6249594588658205,
+    "wind_by_site_gw": {
+     "TAS": 11.603198351047583,
+     "SA": 13.221652478895221
+    },
+    "pv_by_site_gw": {
+     "TAS": 0.0,
+     "SA": 7.6249594588658205
+    },
+    "battery_gw": -0.0,
+    "battery_gwh": -0.0,
+    "turbine_gw": 0.7806389329094187,
+    "electrolyser_gw": 10.910754293376218,
+    "h2_store_gwh_el": 206.23756540094874,
+    "synth_gw_el": 8.593231891706198,
+    "direct_twh": 12.890308333134357,
+    "flexible_twh": 81.78920231373078,
+    "generation_twh": 117.2545748358762,
+    "wind_twh": 100.21815859958659,
+    "pv_twh": 17.03641623628963,
+    "curtail_twh": 19.683777339011744,
+    "net_export_twh": 3.4821711922231064,
+    "turbine_twh": 0.590884342223786,
+    "unserved_mwh": 0.0,
+    "battery_twh_out": 0.0,
+    "price_direct_aud_mwh": 78.48089928488896,
+    "price_flex_aud_mwh": 66.81388591693296,
+    "electrolyser_cf": 0.7881319116132317,
+    "peak_direct_gw": 2.469739064750811
+   },
+   "WA": {
+    "wind_gw": 7.145893652870323,
+    "pv_gw": 12.017489697164859,
+    "wind_by_site_gw": {
+     "WA_SWIS": 5.625326302586928,
+     "WA_NW": 1.5205673502833952
+    },
+    "pv_by_site_gw": {
+     "WA_SWIS": 0.0,
+     "WA_NW": 12.017489697164859
+    },
+    "battery_gw": 3.40448578865466,
+    "battery_gwh": 27.500865405856068,
+    "turbine_gw": 1.527977610442713,
+    "electrolyser_gw": 2.027619013879854,
+    "h2_store_gwh_el": 33.52667515039841,
+    "synth_gw_el": 1.3969447979332672,
+    "direct_twh": 35.14196584615236,
+    "flexible_twh": 13.295928951894291,
+    "generation_twh": 56.83770325057419,
+    "wind_twh": 24.23297634000833,
+    "pv_twh": 32.60472691056586,
+    "curtail_twh": 8.69698545918415,
+    "net_export_twh": 0.0,
+    "turbine_twh": 1.2604240539123506,
+    "unserved_mwh": 0.0,
+    "battery_twh_out": 5.7085939726974235,
+    "price_direct_aud_mwh": 87.32921879764199,
+    "price_flex_aud_mwh": 63.835956908818446,
+    "electrolyser_cf": 0.6894297917743581,
+    "peak_direct_gw": 4.931548046995534
+   },
+   "NT": {
+    "wind_gw": 0.08389746056829568,
+    "pv_gw": 1.5573758513035534,
+    "wind_by_site_gw": {
+     "NT": 0.08389746056829568
+    },
+    "pv_by_site_gw": {
+     "NT": 1.5573758513035534
+    },
+    "battery_gw": 0.6421317372053316,
+    "battery_gwh": 4.903728590718424,
+    "turbine_gw": 0.19417246975800123,
+    "electrolyser_gw": -0.0,
+    "h2_store_gwh_el": -0.0,
+    "synth_gw_el": -0.0,
+    "direct_twh": 3.45020761983685,
+    "flexible_twh": 0.0,
+    "generation_twh": 4.203465308864466,
+    "wind_twh": 0.1640335145929964,
+    "pv_twh": 4.0394317942714695,
+    "curtail_twh": 0.6273065545151518,
+    "net_export_twh": 0.0,
+    "turbine_twh": 0.11873098975404404,
+    "unserved_mwh": 0.0,
+    "battery_twh_out": 1.4500858360209936,
+    "price_direct_aud_mwh": 100.78589305542722,
+    "price_flex_aud_mwh": 0.0,
+    "electrolyser_cf": 0.0,
+    "peak_direct_gw": 0.471637818379606
+   }
+  },
+  "links_gw": {
+   "QLD-NSW_VIC": 5.293637524305153,
+   "NSW_VIC-SA_TAS": 4.052467575157173
+  },
+  "link_flow_twh": {
+   "QLD-NSW_VIC": 12.562238954856511,
+   "NSW_VIC-SA_TAS": 8.85919437864589
+  },
+  "total_cost_bn": 38.19766930214275,
+  "cost_direct_bn": 14.188171906005502,
+  "cost_flex_bn": 18.054424913419634,
+  "direct_twh": 170.22662113598724,
+  "flexible_twh": 272.6478161250912,
+  "price_direct_aud_mwh": 83.34872543038459,
+  "price_flex_aud_mwh": 66.21885027363007
+ },
+ "solve_s": 1098.1481702327728,
+ "step_h": 3,
+ "capacities": {
+  "QLD": {
+   "wind": [
+    48741.288735822636
+   ],
+   "pv": [
+    36880.09217607969
+   ],
+   "batt_p": -0.0,
+   "batt_e": -0.0,
+   "turb": 4303.427385847522,
+   "elz": 24473.555623770437,
+   "h2s": 447737.53497439844,
+   "synth": 18655.73062393327
+  },
+  "NSW_VIC": {
+   "wind": [
+    15836.676993143428,
+    539.1508592533434
+   ],
+   "pv": [
+    7817.26561863799,
+    0.0
+   ],
+   "batt_p": -0.0,
+   "batt_e": -0.0,
+   "turb": 4036.876209044616,
+   "elz": -0.0,
+   "h2s": -0.0,
+   "synth": -0.0
+  },
+  "SA_TAS": {
+   "wind": [
+    11603.198351047582,
+    13221.652478895221
+   ],
+   "pv": [
+    0.0,
+    7624.95945886582
+   ],
+   "batt_p": -0.0,
+   "batt_e": -0.0,
+   "turb": 780.6389329094187,
+   "elz": 10910.754293376218,
+   "h2s": 206237.56540094875,
+   "synth": 8593.231891706198
+  },
+  "WA": {
+   "wind": [
+    5625.326302586928,
+    1520.5673502833952
+   ],
+   "pv": [
+    0.0,
+    12017.489697164858
+   ],
+   "batt_p": 3404.48578865466,
+   "batt_e": 27500.865405856068,
+   "turb": 1527.977610442713,
+   "elz": 2027.6190138798543,
+   "h2s": 33526.67515039841,
+   "synth": 1396.9447979332672
+  },
+  "NT": {
+   "wind": [
+    83.89746056829568
+   ],
+   "pv": [
+    1557.3758513035534
+   ],
+   "batt_p": 642.1317372053315,
+   "batt_e": 4903.728590718423,
+   "turb": 194.17246975800123,
+   "elz": -0.0,
+   "h2s": -0.0,
+   "synth": -0.0
+  },
+  "links": {
+   "QLD-NSW_VIC": 5293.637524305153,
+   "NSW_VIC-SA_TAS": 4052.467575157172
+  }
+ },
+ "groups": [
+  "NSW",
+  "VIC",
+  "TAS",
+  "SA",
+  "QLD",
+  "WA_SWIS",
+  "WA_NW",
+  "NT"
+ ],
+ "annual_model": {
+  "direct_aud_mwh": 93.33320179424892,
+  "flex_net_adder": 16.990807801792414,
+  "adders": {
+   "wind_dir": 20.67712764009298,
+   "pv_dir": 11.487293133384988,
+   "pv_shift": 36.75933802683196,
+   "net_dir": 30.0,
+   "net_flex": 16.990807801792414
+  }
+ }
+}

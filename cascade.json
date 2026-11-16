@@ -1,0 +1,581 @@
+{
+ "central_params": {
+  "r": 0.04,
+  "life": 40,
+  "module_bn": 4.8054,
+  "site_bn": 1.75,
+  "capacity": 110.0,
+  "carbon_scale": 1.0,
+  "fossil_free_from": null,
+  "idc_years": 4.4,
+  "avail": 0.89,
+  "fom": 200.0,
+  "var": 19.3,
+  "power_ff": 96.0,
+  "heat_ff": 31.75
+ },
+ "sites": {
+  "Port Augusta": {
+   "npv_bn": -6.556149725434895,
+   "capital_bn": 12.414804146165674,
+   "pipes_bn": 0.027700000000000002,
+   "first_year": {
+    "year": 2042,
+    "modules": 2,
+    "el_twh": 4.39341,
+    "steam_twh": 0.1173,
+    "low_twh": 2.9127,
+    "reject_twh": 0.096,
+    "water_ml_day": 113.99999999999999,
+    "power_value": 95.0,
+    "revenue_el_m": 483.37395,
+    "revenue_heat_water_m": 22.327462032812726,
+    "opex_m": 210.282312,
+    "net_m": 295.4191000328127,
+    "users": [
+     {
+      "user": "Kelp refinery (Spencer Gulf kelp, 0.3 Mt dry/yr)",
+      "stage": "steam",
+      "mwh_th": 117300.0,
+      "value_aud_m": 8.6224608,
+      "pipe_km": 2
+     },
+     {
+      "user": "MED, 120 ML/day for Upper Spencer Gulf towns and mines",
+      "stage": "med",
+      "mwh_th": 2912700.0,
+      "value_aud_m": 7.040297232812725,
+      "pipe_km": 3
+     },
+     {
+      "user": "Greenhouses beside Sundrop Farms (80 ha)",
+      "stage": "reject",
+      "mwh_th": 64000.0,
+      "value_aud_m": 4.443136,
+      "pipe_km": 2
+     },
+     {
+      "user": "Barramundi and prawn RAS hub (4,000 t/yr)",
+      "stage": "reject",
+      "mwh_th": 32000.0,
+      "value_aud_m": 2.221568,
+      "pipe_km": 2
+     }
+    ],
+    "co2_price": 104.0
+   }
+  },
+  "Muja": {
+   "npv_bn": -3.135393870885772,
+   "capital_bn": 12.52774032823906,
+   "pipes_bn": 0.1313,
+   "first_year": {
+    "year": 2043,
+    "modules": 2,
+    "el_twh": 3.9279456,
+    "steam_twh": 3.11856,
+    "low_twh": 0.016,
+    "reject_twh": 0.0,
+    "water_ml_day": 0.0,
+    "power_value": 105.0,
+    "revenue_el_m": 478.434288,
+    "revenue_heat_water_m": 198.5361295811765,
+    "opex_m": 210.282312,
+    "net_m": 466.6881055811765,
+    "users": [
+     {
+      "user": "Worsley alumina digestion steam (4.6 Mt/yr)",
+      "stage": "alumina",
+      "mwh_th": 3118560.0,
+      "value_aud_m": 197.57875358117653,
+      "pipe_km": 28
+     },
+     {
+      "user": "Greenhouses, Collie (20 ha)",
+      "stage": "lowgrade",
+      "mwh_th": 16000.0,
+      "value_aud_m": 0.957376,
+      "pipe_km": 3
+     }
+    ],
+    "co2_price": 106.0
+   }
+  },
+  "Loy Yang": {
+   "npv_bn": -4.803880610319613,
+   "capital_bn": 12.546926397780485,
+   "pipes_bn": 0.1489,
+   "first_year": {
+    "year": 2044,
+    "modules": 2,
+    "el_twh": 4.396173,
+    "steam_twh": 1.4673,
+    "low_twh": 0.032,
+    "reject_twh": 0.0,
+    "water_ml_day": 0.0,
+    "power_value": 95.0,
+    "revenue_el_m": 483.636435,
+    "revenue_heat_water_m": 114.5572787764706,
+    "opex_m": 210.282312,
+    "net_m": 387.91140177647065,
+    "users": [
+     {
+      "user": "Maryvale mill process steam",
+      "stage": "steam",
+      "mwh_th": 1350000.0,
+      "value_aud_m": 103.27214117647061,
+      "pipe_km": 30
+     },
+     {
+      "user": "Kelp refinery (Bass Strait kelp, 0.3 Mt dry/yr)",
+      "stage": "steam",
+      "mwh_th": 117300.0,
+      "value_aud_m": 8.973201600000001,
+      "pipe_km": 2
+     },
+     {
+      "user": "Greenhouses, Latrobe Valley (40 ha)",
+      "stage": "lowgrade",
+      "mwh_th": 32000.0,
+      "value_aud_m": 2.311936,
+      "pipe_km": 3
+     }
+    ],
+    "co2_price": 108.0
+   }
+  },
+  "Liddell": {
+   "npv_bn": -6.411316184421657,
+   "capital_bn": 12.408154428881431,
+   "pipes_bn": 0.0216,
+   "first_year": {
+    "year": 2044,
+    "modules": 2,
+    "el_twh": 4.6341495,
+    "steam_twh": 0.0,
+    "low_twh": 0.48545,
+    "reject_twh": 0.032,
+    "water_ml_day": 18.999999999999996,
+    "power_value": 95.0,
+    "revenue_el_m": 506.2442025,
+    "revenue_heat_water_m": 6.952818872135454,
+    "opex_m": 210.282312,
+    "net_m": 302.91470937213546,
+    "users": [
+     {
+      "user": "MED of saline mine water (20 ML/day)",
+      "stage": "med",
+      "mwh_th": 485450.0,
+      "value_aud_m": 4.640882872135454,
+      "pipe_km": 5
+     },
+     {
+      "user": "Greenhouses, Hunter (40 ha)",
+      "stage": "reject",
+      "mwh_th": 32000.0,
+      "value_aud_m": 2.311936,
+      "pipe_km": 3
+     }
+    ],
+    "co2_price": 108.0
+   }
+  },
+  "Mount Piper": {
+   "npv_bn": -6.448501395656518,
+   "capital_bn": 12.416984381340837,
+   "pipes_bn": 0.029700000000000004,
+   "first_year": {
+    "year": 2045,
+    "modules": 2,
+    "el_twh": 4.65599475,
+    "steam_twh": 0.0,
+    "low_twh": 0.242725,
+    "reject_twh": 0.016,
+    "water_ml_day": 9.499999999999998,
+    "power_value": 95.0,
+    "revenue_el_m": 508.31950125,
+    "revenue_heat_water_m": 3.483001436067727,
+    "opex_m": 210.282312,
+    "net_m": 301.5201906860677,
+    "users": [
+     {
+      "user": "MED of saline mine water (10 ML/day)",
+      "stage": "med",
+      "mwh_th": 242725.0,
+      "value_aud_m": 2.320441436067727,
+      "pipe_km": 8
+     },
+     {
+      "user": "Greenhouses, Lithgow (20 ha)",
+      "stage": "reject",
+      "mwh_th": 16000.0,
+      "value_aud_m": 1.16256,
+      "pipe_km": 3
+     }
+    ],
+    "co2_price": 110.0
+   }
+  },
+  "Tarong": {
+   "npv_bn": -6.021965795111057,
+   "capital_bn": 12.4030308762198,
+   "pipes_bn": 0.016900000000000002,
+   "first_year": {
+    "year": 2045,
+    "modules": 2,
+    "el_twh": 4.607525,
+    "steam_twh": 0.3625,
+    "low_twh": 0.016,
+    "reject_twh": 0.0,
+    "water_ml_day": 0.0,
+    "power_value": 95.0,
+    "revenue_el_m": 503.714875,
+    "revenue_heat_water_m": 28.251530588235298,
+    "opex_m": 210.282312,
+    "net_m": 321.6840935882353,
+    "users": [
+     {
+      "user": "Sorghum ethanol distillery, 200 ML/yr (E85, ED95)",
+      "stage": "steam",
+      "mwh_th": 362500.0,
+      "value_aud_m": 27.120970588235295,
+      "pipe_km": 2
+     },
+     {
+      "user": "Greenhouses, South Burnett (20 ha)",
+      "stage": "lowgrade",
+      "mwh_th": 16000.0,
+      "value_aud_m": 1.13056,
+      "pipe_km": 3
+     }
+    ],
+    "co2_price": 110.0
+   }
+  },
+  "Callide": {
+   "npv_bn": -5.995800247364107,
+   "capital_bn": 12.427013463146581,
+   "pipes_bn": 0.038900000000000004,
+   "first_year": {
+    "year": 2046,
+    "modules": 2,
+    "el_twh": 4.59945,
+    "steam_twh": 0.405,
+    "low_twh": 0.016,
+    "reject_twh": 0.0,
+    "water_ml_day": 0.0,
+    "power_value": 95.0,
+    "revenue_el_m": 502.94775,
+    "revenue_heat_water_m": 31.61449788235295,
+    "opex_m": 210.282312,
+    "net_m": 324.27993588235296,
+    "users": [
+     {
+      "user": "Sorghum and cane ethanol distillery, 200 ML/yr",
+      "stage": "steam",
+      "mwh_th": 362500.0,
+      "value_aud_m": 27.279105882352948,
+      "pipe_km": 2
+     },
+     {
+      "user": "Biloela meat works process steam",
+      "stage": "steam",
+      "mwh_th": 42500.0,
+      "value_aud_m": 3.1982400000000006,
+      "pipe_km": 5
+     },
+     {
+      "user": "Greenhouses, Biloela (20 ha)",
+      "stage": "lowgrade",
+      "mwh_th": 16000.0,
+      "value_aud_m": 1.137152,
+      "pipe_km": 3
+     }
+    ],
+    "co2_price": 112.0
+   }
+  },
+  "Gladstone (test)": {
+   "npv_bn": -2.9284764277895605,
+   "capital_bn": 7.241651134300266,
+   "pipes_bn": 0.0876,
+   "first_year": {
+    "year": 2046,
+    "modules": 1,
+    "el_twh": 1.76190975,
+    "steam_twh": 1.55928,
+    "low_twh": 1.213625,
+    "reject_twh": 0.0,
+    "water_ml_day": 47.5,
+    "power_value": 95.0,
+    "revenue_el_m": 200.38142625,
+    "revenue_heat_water_m": 120.27349640857396,
+    "opex_m": 105.141156,
+    "net_m": 215.51376665857399,
+    "users": [
+     {
+      "user": "QAL and Yarwun alumina digestion steam (boehmitic bauxite)",
+      "stage": "alumina_hot",
+      "mwh_th": 1559280.0,
+      "value_aud_m": 117.34003922823531,
+      "pipe_km": 15
+     },
+     {
+      "user": "MED for the Gladstone industrial area (50 ML/day)",
+      "stage": "med",
+      "mwh_th": 1213625.0,
+      "value_aud_m": 2.9334571803386362,
+      "pipe_km": 8
+     }
+    ],
+    "co2_price": 112.0
+   }
+  }
+ },
+ "variants": {
+  "central": {
+   "Port Augusta": -6.556149725434895,
+   "Muja": -3.135393870885772,
+   "Loy Yang": -4.803880610319613,
+   "Liddell": -6.411316184421657,
+   "Mount Piper": -6.448501395656518,
+   "Tarong": -6.021965795111057,
+   "Callide": -5.995800247364107,
+   "Gladstone (test)": -2.9284764277895605,
+   "fleet_coalition": -39.37300782919362
+  },
+  "no site infrastructure": {
+   "Port Augusta": -4.648443947168232,
+   "Muja": -1.2276880926191072,
+   "Loy Yang": -2.896174832052946,
+   "Liddell": -4.50361040615499,
+   "Mount Piper": -4.540795617389852,
+   "Tarong": -4.114260016844389,
+   "Callide": -4.088094469097445,
+   "Gladstone (test)": -1.0207706495228923,
+   "fleet_coalition": -26.019067381326963
+  },
+  "brownfield site AUD 0.9 bn": {
+   "Port Augusta": -5.6295497759910855,
+   "Muja": -2.2087939214419645,
+   "Loy Yang": -3.8772806608758037,
+   "Liddell": -5.4847162349778475,
+   "Mount Piper": -5.521901446212707,
+   "Tarong": -5.0953658456672475,
+   "Callide": -5.0692002979203,
+   "Gladstone (test)": -2.0018764783457508,
+   "fleet_coalition": -32.886808183086956
+  },
+  "modules AUD 3.0 bn, site 0.9 bn": {
+   "Port Augusta": -1.6933531907537873,
+   "Muja": 1.727402663795337,
+   "Loy Yang": 0.058915924361495495,
+   "Liddell": -1.5485196497405438,
+   "Mount Piper": -1.5857048609754112,
+   "Tarong": -1.1591692604299444,
+   "Callide": -1.1330037126830015,
+   "Gladstone (test)": -0.03377818572709817,
+   "fleet_coalition": -5.333432086425856
+  },
+  "modules AUD 2.0 bn, site 0.9 bn": {
+   "Port Augusta": 0.48688198440811786,
+   "Muja": 3.9076378389572417,
+   "Loy Yang": 2.239151099523399,
+   "Liddell": 0.6317155254213602,
+   "Mount Piper": 0.5945303141864939,
+   "Tarong": 1.021065914731962,
+   "Callide": 1.0472314624789048,
+   "Gladstone (test)": 1.0563394018538539,
+   "fleet_coalition": 9.92821413970748
+  },
+  "capacity value AUD 60/kW-yr": {
+   "Port Augusta": -7.149932941937687,
+   "Muja": -3.7291770873885626,
+   "Loy Yang": -5.397663826822403,
+   "Liddell": -7.005099400924446,
+   "Mount Piper": -7.042284612159311,
+   "Tarong": -6.615749011613845,
+   "Callide": -6.589583463866909,
+   "Gladstone (test)": -3.2253680360409582,
+   "fleet_coalition": -43.52949034471316
+  },
+  "no capacity value": {
+   "Port Augusta": -7.8624728017410375,
+   "Muja": -4.441716947191913,
+   "Loy Yang": -6.110203686625764,
+   "Liddell": -7.717639260727804,
+   "Mount Piper": -7.754824471962666,
+   "Tarong": -7.328288871417203,
+   "Callide": -7.302123323670259,
+   "Gladstone (test)": -3.581637965942629,
+   "fleet_coalition": -48.517269363336645
+  },
+  "75% of carbon value": {
+   "Port Augusta": -6.582365892010592,
+   "Muja": -3.532723717950689,
+   "Loy Yang": -4.9947372814529425,
+   "Liddell": -6.4151679554618415,
+   "Mount Piper": -6.450435920218155,
+   "Tarong": -6.070307572483872,
+   "Callide": -6.049786843424643,
+   "Gladstone (test)": -3.1288525123035407,
+   "fleet_coalition": -40.095525183002735
+  },
+  "fossil-free grid from 2045": {
+   "Port Augusta": -6.610978360605149,
+   "Muja": -4.986254913801931,
+   "Loy Yang": -5.6962197790392555,
+   "Liddell": -6.34954738515788,
+   "Mount Piper": -6.369747259133987,
+   "Tarong": -6.175012637426107,
+   "Callide": -6.176947558704798,
+   "Gladstone (test)": -3.8912272187352395,
+   "fleet_coalition": -42.36470789386911
+  },
+  "7% finance": {
+   "Port Augusta": -9.288277553810941,
+   "Muja": -7.018688992400841,
+   "Loy Yang": -8.144715158379578,
+   "Liddell": -9.172962969283347,
+   "Mount Piper": -9.199968859049223,
+   "Tarong": -8.906333798593396,
+   "Callide": -8.897952039747707,
+   "Gladstone (test)": -4.812966272765375,
+   "fleet_coalition": -60.628899371265035
+  },
+  "GenCost today (AUD 8.4 bn per module)": {
+   "Port Augusta": -14.399109721044812,
+   "Muja": -10.978353866495684,
+   "Loy Yang": -12.646840605929532,
+   "Liddell": -14.254276180031574,
+   "Mount Piper": -14.29146139126645,
+   "Tarong": -13.864925790720969,
+   "Callide": -13.838760242974042,
+   "Gladstone (test)": -6.849956425594519,
+   "fleet_coalition": -94.27372779846306
+  },
+  "consistent national pathway, no capacity payment": {
+   "Port Augusta": -8.042826621516989,
+   "Muja": -4.238972544340003,
+   "Loy Yang": -6.12177352308755,
+   "Liddell": -7.889274224859019,
+   "Mount Piper": -7.917838790779658,
+   "Tarong": -7.4370026250884225,
+   "Callide": -7.405304810081982,
+   "Gladstone (test)": -3.4206322265073776
+  },
+  "consistent national pathway, capacity AUD 78/kW-yr": {
+   "Port Augusta": -7.116798205832748,
+   "Muja": -3.312944128655758,
+   "Loy Yang": -5.195745107403305,
+   "Liddell": -6.963245809174782,
+   "Mount Piper": -6.991810375095418,
+   "Tarong": -6.510974209404186,
+   "Callide": -6.479276394397743,
+   "Gladstone (test)": -2.9576180186652623
+  }
+ },
+ "breakeven_module_bn": {
+  "Port Augusta": 1.7983162687914955,
+  "Muja": 3.3673010707616413,
+  "Loy Yang": 2.60202273820596,
+  "Liddell": 1.8647465065305369,
+  "Mount Piper": 1.8476909101218553,
+  "Tarong": 2.0433283373995437,
+  "Callide": 2.0553295875606636,
+  "Gladstone (test)": 2.1190141814849994
+ },
+ "breakeven_module_bn_brownfield": {
+  "Port Augusta": 2.223316268796225,
+  "Muja": 3.7923010707663707,
+  "Loy Yang": 3.0270227382015946,
+  "Liddell": 2.2897465065352662,
+  "Mount Piper": 2.2726909101174897,
+  "Tarong": 2.468328337404273,
+  "Callide": 2.480329587565393,
+  "Gladstone (test)": 2.9690141814853632
+ },
+ "water": {
+  "cases": {
+   "SWRO (grid electricity)": {
+    "energy": 0.3325,
+    "capital": 0.46151379081798555,
+    "om": 0.3,
+    "intake": 0.6,
+    "heat": 0.0,
+    "reject_credit": 0.0,
+    "total": 1.6940137908179858
+   },
+   "MED, SMR 75 C heat": {
+    "energy": 0.171,
+    "capital": 0.5538165489815826,
+    "om": 0.2,
+    "intake": 0.6,
+    "heat": 0.5984999999999999,
+    "reject_credit": -0.0,
+    "total": 2.1233165489815824
+   },
+   "MED, SMR heat + reject heat sold (Port Augusta hub)": {
+    "energy": 0.171,
+    "capital": 0.5538165489815826,
+    "om": 0.2,
+    "intake": 0.6,
+    "heat": 0.5984999999999999,
+    "reject_credit": -0.15487123287671234,
+    "total": 1.96844531610487
+   },
+   "MED, solar-thermal heat (Sundrop-type)": {
+    "energy": 0.171,
+    "capital": 0.5538165489815826,
+    "om": 0.2,
+    "intake": 0.6,
+    "heat": 2.8,
+    "reject_credit": -0.0,
+    "total": 4.324816548981582
+   },
+   "MED, gas boiler heat": {
+    "energy": 0.171,
+    "capital": 0.5538165489815826,
+    "om": 0.2,
+    "intake": 0.6,
+    "heat": 4.9462,
+    "reject_credit": -0.0,
+    "total": 6.4710165489815825
+   }
+  },
+  "port_augusta_reject_share": 0.03131115459882583,
+  "breakeven_reject_share_vs_heat_pump": 0.19316209591162953,
+  "breakeven_reject_share_vs_gas": 0.0867944600225621,
+  "smr_heat_aud_mwh": 8.549999999999999,
+  "gas_heat_aud_mwh": 70.66,
+  "hp_heat_aud_mwh": 31.75,
+  "power_aud_mwh": 95.0
+ },
+ "national_values": {
+  "power": 93.33320179424892,
+  "steam": 83.92550110920608,
+  "low": 45.3332863550889
+ },
+ "consistent": {
+  "consistent national pathway, no capacity payment": {
+   "Port Augusta": 1.1164279509512198,
+   "Muja": 2.86112692678671,
+   "Loy Yang": 1.9975499144538844,
+   "Liddell": 1.1868572323464832,
+   "Mount Piper": 1.173755633840301,
+   "Tarong": 1.3942988904409503,
+   "Callide": 1.4088376041445372,
+   "Gladstone (test)": 1.6675438040465451
+  },
+  "consistent national pathway, capacity AUD 78/kW-yr": {
+   "Port Augusta": 1.5411658077891843,
+   "Muja": 3.2858647836155797,
+   "Loy Yang": 2.422287771282754,
+   "Liddell": 1.6115950891844477,
+   "Mount Piper": 1.5984934906691706,
+   "Tarong": 1.81903674726982,
+   "Callide": 1.8335754609734067,
+   "Gladstone (test)": 2.0922816608754147
+  }
+ }
+}

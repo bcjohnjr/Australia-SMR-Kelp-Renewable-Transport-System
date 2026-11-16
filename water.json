@@ -1,0 +1,56 @@
+{
+ "cases": {
+  "SWRO (grid electricity)": {
+   "energy": 0.3325,
+   "capital": 0.46151379081798555,
+   "om": 0.3,
+   "intake": 0.6,
+   "heat": 0.0,
+   "reject_credit": 0.0,
+   "total": 1.6940137908179858
+  },
+  "MED, SMR 75 C heat": {
+   "energy": 0.171,
+   "capital": 0.5538165489815826,
+   "om": 0.2,
+   "intake": 0.6,
+   "heat": 0.5984999999999999,
+   "reject_credit": -0.0,
+   "total": 2.1233165489815824
+  },
+  "MED, SMR heat + reject heat sold (Port Augusta hub)": {
+   "energy": 0.171,
+   "capital": 0.5538165489815826,
+   "om": 0.2,
+   "intake": 0.6,
+   "heat": 0.5984999999999999,
+   "reject_credit": -0.15487123287671234,
+   "total": 1.96844531610487
+  },
+  "MED, solar-thermal heat (Sundrop-type)": {
+   "energy": 0.171,
+   "capital": 0.5538165489815826,
+   "om": 0.2,
+   "intake": 0.6,
+   "heat": 2.8,
+   "reject_credit": -0.0,
+   "total": 4.324816548981582
+  },
+  "MED, gas boiler heat": {
+   "energy": 0.171,
+   "capital": 0.5538165489815826,
+   "om": 0.2,
+   "intake": 0.6,
+   "heat": 4.9462,
+   "reject_credit": -0.0,
+   "total": 6.4710165489815825
+  }
+ },
+ "port_augusta_reject_share": 0.03131115459882583,
+ "breakeven_reject_share_vs_heat_pump": 0.19316209591162953,
+ "breakeven_reject_share_vs_gas": 0.0867944600225621,
+ "smr_heat_aud_mwh": 8.549999999999999,
+ "gas_heat_aud_mwh": 70.66,
+ "hp_heat_aud_mwh": 31.75,
+ "power_aud_mwh": 95.0
+}
