@@ -1,5 +1,6 @@
 """One Source Data workbook per main figure (outputs/source_data/Source_Data_FigN.xlsx), flattened from the JSON
 that figures.py writes for each figure."""
+import layout  # noqa: F401  (rebuilds the folder layout if the files arrived flat)
 import json
 from pathlib import Path
 

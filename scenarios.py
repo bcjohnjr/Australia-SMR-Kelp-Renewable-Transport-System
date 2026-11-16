@@ -1,6 +1,7 @@
 """National scenarios: central learning case, today's costs, learning levers, electric-or-biofuel, kelp yields and
 forced kelp, highway corridors, and SMR fleets (continuous capital sweep, break-even capital and whole-module
 enumeration with common site infrastructure)."""
+import layout  # noqa: F401  (rebuilds the folder layout if the files arrived flat)
 import copy
 import itertools
 import json
@@ -105,7 +106,12 @@ def capex_sweep():
 
 def run():
     R = {}
-    C = O.solve(O.base_params())
+    C = O.solve(O.central_params())     # reported central case: loads as verified by the hourly model
+    C0 = O.solve(O.base_params())       # same case with loads free: reference for scenario differences
+    C["shadow_fixed_loads_aud_mwh"] = C["shadow_aud_mwh"]
+    C["shadow_aud_mwh"] = C0["shadow_aud_mwh"]      # marginal prices from the unconstrained solve
+    C["dual_note"] = (C.get("dual_note", "") + " Shadow prices are from the same case solved with electricity loads free; "
+                      "the reported solution holds them at the hourly-verified values.").strip()
     json.dump(C, open(OUT / "central.json", "w"), indent=1, default=float)
     R["central"] = brief(C)
     import reconcile
@@ -135,7 +141,7 @@ def run():
         p = O.base_params()
         p["kelp"]["forced"] = {z: a}
         S = O.solve(p)
-        R["kelp_forced"][z] = dict(area_km2=a, extra_bn=S["objective_bn"] - C["objective_bn"], name=zz.name)
+        R["kelp_forced"][z] = dict(area_km2=a, extra_bn=S["objective_bn"] - C0["objective_bn"], name=zz.name)
     # kelp physical and environmental sensitivities
     R["kelp_sens"] = {}
     for name, f in (("area cap 300 km2 per zone", lambda p: p["kelp"].update(area_cap_km2=300.0)),
@@ -148,7 +154,7 @@ def run():
         p = O.base_params()
         f(p)
         S = O.solve(p)
-        R["kelp_sens"][name] = dict(**brief(S), extra_bn=S["objective_bn"] - C["objective_bn"], n_kt=S["kelp_n_kt"])
+        R["kelp_sens"][name] = dict(**brief(S), extra_bn=S["objective_bn"] - C0["objective_bn"], n_kt=S["kelp_n_kt"])
     # firming and network costs (referee: test higher firming and network charges)
     R["firming_sens"] = {}
     for mult in (1.5, 2.0):
@@ -156,7 +162,7 @@ def run():
         for k in ("wind_dir", "pv_dir", "pv_shift", "net_dir", "net_flex"):
             p["adder"][k] *= mult
         S = O.solve(p)
-        R["firming_sens"][f"firming and network adders x{mult}"] = dict(**brief(S), extra_bn=S["objective_bn"] - C["objective_bn"],
+        R["firming_sens"][f"firming and network adders x{mult}"] = dict(**brief(S), extra_bn=S["objective_bn"] - C0["objective_bn"],
                                                                         breakeven_brent=I.breakeven_brent(S["objective_bn"], C["fossil_cost_bn"]["avg2025"], C["fossil_cost_bn"]["oct2026"]))
     # life-cycle emissions sensitivities (post-processing of the central solution)
     R["lca_sens"] = dict(central=C["residual_wtw_mt"], lo=C["residual_range_mt"]["lo"], hi=C["residual_range_mt"]["hi"],

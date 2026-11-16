@@ -2,6 +2,7 @@
 
 Each test raises AssertionError with a message; `python test_model.py` prints a summary and exits non-zero on failure.
 """
+import layout  # noqa: F401  (rebuilds the folder layout if the files arrived flat)
 import json
 import sys
 
@@ -191,8 +192,40 @@ def test_methane_balance(S):
     assert supply >= use - 1e-6, f"methane supply {supply:.3f} < use {use:.3f}"
     assert mb["waste_biomethane"] <= O._base_params()["wch4"]["cap"] + 1e-6, "waste biomethane above cap"
     m = L("reconciled.json")["methane"]
-    assert m["assigned_in_annual_model_twh"] >= 0.98 * m["turbine_need_twh"], \
-        f"turbine methane assigned {m['assigned_in_annual_model_twh']:.2f} < need {m['turbine_need_twh']:.2f}"
+    assert m["assigned_in_annual_model_twh"] >= m["turbine_need_twh"] - 1e-9, \
+        f"turbine methane assigned {m['assigned_in_annual_model_twh']:.4f} < need {m['turbine_need_twh']:.4f}"
+    assert abs(mb["turbines"] - m["assigned_in_annual_model_twh"]) < 1e-9
+
+
+def test_methane_inventory(S):
+    """Ten-year turbine-methane store: withdrawals equal the verified turbine fuel, the inventory never falls below
+    zero or exceeds capacity (conservative within-year ordering), and it ends no lower than it began."""
+    R, V = L("reconciled.json"), L("verify_hourly.json")
+    inv = R["methane"]["inventory"]
+    eff = L("dispatch.json")["params"]["turb_eff"]
+    assert len(inv["years"]) == len(V["years"]) == 10
+    s = inv["opening_twh"]
+    for r in inv["years"]:
+        assert close(r["use"], V["years"][str(r["year"])]["turbine_twh"] / eff, rel=1e-9), r["year"]
+        assert close(r["opening"], s, rel=1e-9, abs_=1e-9), f"inventory not continuous in {r['year']}"
+        assert r["lowest"] >= -1e-9, f"methane store empty in {r['year']}"
+        assert r["highest"] <= inv["capacity_twh"] + 1e-9, f"methane store over capacity in {r['year']}"
+        s = r["opening"] + r["production"] - r["use"]
+        assert close(r["closing"], s, rel=1e-9, abs_=1e-9)
+    assert inv["closing_twh"] >= inv["opening_twh"] - 1e-9, "store ends the decade lower than it began"
+    assert inv["production_twh"] * 10 >= sum(r["use"] for r in inv["years"]) - 1e-9
+
+
+def test_loads_consistent(S):
+    """The reported annual solution and the hourly model use identical electricity loads."""
+    import dispatch as D
+    a, h = D.loads_from_annual(S), L("dispatch.json")["loads"]
+    for k, v in a.items():
+        if isinstance(v, dict):
+            for s_, x in v.items():
+                assert close(x, h[k][s_], rel=1e-7, abs_=1e-6), f"{k}/{s_}"
+        else:
+            assert close(v, h[k], rel=1e-7, abs_=1e-6), f"{k}: annual {v:.5f} vs hourly {h[k]:.5f}"
 
 
 def test_regional_reliability(S):
@@ -210,11 +243,11 @@ def test_regional_reliability(S):
 
 def test_regression(S):
     """Headline values of the submitted results (calibrated); update deliberately when the model changes."""
-    ref = dict(objective_bn=80.168, ers_km_electrified=5626.5, kelp_total_km2=3000.0, wtw_reduction_pct=92.04)
+    ref = dict(objective_bn=80.168, ers_km_electrified=5626.5, kelp_total_km2=3008.7, wtw_reduction_pct=92.04)
     for k, v in ref.items():
         assert abs(S[k] - v) <= 0.002 * abs(v), f"regression: {k} = {S[k]:.4f}, reference {v}"
     R = L("reconciled.json")
-    for k, v in dict(reconciled_cost_bn=85.30, wtw_reduction_pct=91.81).items():
+    for k, v in dict(reconciled_cost_bn=85.49, wtw_reduction_pct=91.80).items():
         assert abs(R[k] - v) <= 0.002 * abs(v), f"regression (reconciled): {k} = {R[k]:.4f}, reference {v}"
 
 
